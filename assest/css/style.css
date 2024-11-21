@@ -1,7 +1,8 @@
-* {
-    font-family: Rethink Sans;
-}
 
+@font-face {
+    font-family: 'Rethink Sans'; /* Name your font family */
+    src: url('RethinkSans-VariableFont_wght.ttf'); /* Locate the .ttf file within your directory*/
+  }
 .text-green {
   color: #437454 !important;
 }
@@ -13,8 +14,13 @@
 
 .ff-rethink {
   font-family: Rethink Sans !important;
+  
 }
 
+.container{
+    font-family: Rethink Sans;
+
+}
 .fs-120{
     font-size: 87px !important;
 }
@@ -22,11 +28,12 @@
 .btn-group button {
   width: 140px;
   padding: 4%;
+  font-family: Rethink Sans;
 }
 
 .collapse {
   padding-top: 20px;
-  font-style: Rethink Sans;
+  font-family: Rethink Sans;
   font-weight: 600;
   size: 16px;
 }
@@ -103,51 +110,37 @@
   background-color: black;
 }
 
-/* 
-.top-left {
-  position: absolute;
-  left: 10%;
-  bottom: 250px;
-  line-height: 84px;
-  color: #fff;
-  font-style: Rethink Sans;
-  size: 70px;
-  font-weight: 800;
-} */
-
-/* resposive */
-
-/* *,
-*::after,
-*::before{
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+/* card hedar */
+.why p{
+    top: 20px;
+}
+.why h5{
+    padding: 85px;
+    font-size: 40px; 
 }
 
-.html{
-    font-size: 62.5%;
+
+/* card */
+.card-title{
+    font-size: 16px;
 }
 
-.navbar input[type="checkbox"],
-.navbar .hamburger-lines{
-    display: none;
+.card-body{
+    width: 400px;
+    font-weight: 600;
+    font-family: Rethink Sans;
 }
 
-.container{
-    max-width: 1200px;
-    width: 90%;
-    margin: auto;
-}
+.col-sm-8 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: left;
+    height: 100vh; 
+  }
 
-.navbar{
-    box-shadow: 0px 5px 10px 0px #48805b;
-    position: fixed;
-    width: 100%;
-    background: #fff;
-    color: #000;
-    opacity: 0.85;
-    z-index: 100;
+.digital h4{
+    font-size: 77px;
 }
 
 .navbar-container{
@@ -296,6 +289,4 @@
     .navbar-container input[type="checkbox"]:checked ~ .logo{
         display: none;
     }
-} */
-
-/* silder */
+} 
