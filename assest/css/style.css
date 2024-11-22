@@ -12,6 +12,11 @@
     /* background-color: #F4FBF9 !important; */
 }
 
+
+.bg-success{
+    background-color: #1F6861!important;
+
+}
 .ff-rethink {
   font-family: Rethink Sans !important;
   
@@ -29,6 +34,10 @@
     font-size: 87px !important;
 }
 
+.btn{
+ background-color:#00D4B7;
+
+}
 .btn-group button {
   width: 140px;
   padding: 4%;
@@ -114,6 +123,11 @@
   background-color: black;
 }
 
+.why h5{
+    /* padding: 85px; */
+    font-weight: 700;
+    font-size: 33px; 
+}
 /* card hedar */
 .why p{
     font-weight: 800;
@@ -129,10 +143,41 @@
     left: 158px;
     top: 10px;
 }
-.why h5{
-    /* padding: 85px; */
+
+/* REEWORK + REECOACH */
+.whyy p{
+    font-weight: 800;
+    color: #29C192;
+    position: relative;
+    font-size: 23px;
+}
+.whyy p::before {
+    content: '';
+    position: absolute;
+    width: 423px;
+    height: 8px;
+    background-color: #29C192;
+    left: 292px;
+    top: 12px;
+}
+
+.whyy h5 {
+    font-size: 35px;
     font-weight: 700;
-    font-size: 33px; 
+    font-style: Rethink Sans;
+}
+
+
+
+.Planner{
+    text-align: center;
+    display: flex;
+}
+
+.calories{
+    font-size: 20px;
+    font-weight: 600;
+  padding: 10px;
 }
 
 
@@ -156,8 +201,16 @@
   }
 
 .digital h4{
-    font-size: 77px;
+    font-size: 69px;
+    font-weight: 500;
+    font-family: Rethink Sans;
 }
+.digital h5{
+    font-size: 36px;
+    font-weight: 500;
+    font-family: Rethink Sans;
+}
+
 
 .navbar-container{
     display: flex;
@@ -198,7 +251,7 @@
 }
 
 .reework .reework-card h5 {
-    font-size: 18px;
+    font-size: 17px;
 }
 
 .reework-card {
@@ -209,9 +262,14 @@
     color: #117964;
 }
 
+.health h5{
+    font-family: Rethink Sans; 
+    font-weight: 800;
+    font-size: 35px;
+}
+
 .movement{
-    background-color:  #F4FBF9;
-    ;
+    background-color:  #F4FBF9;;
 }
 
 .reework-back-img {
@@ -230,6 +288,27 @@
     margin-bottom: 0px;
     /* margin-left: 15px; */
 }
+
+/*  */
+.btn {
+    /* background-color: ; */
+    border: none;
+    color: black;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    transition: 0.9s;
+    font-family: Rethink Sans;
+    font-weight: 700;
+  }
+
+  .btn:hover {opacity: 0.50}
+
+
+
+
 
 @media (max-width: 768px){
     .navbar{
