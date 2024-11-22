@@ -1,282 +1,348 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
-<head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
-  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
-    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assest/css/style.css" />
+  </head>
 
-  <link rel="stylesheet" href="./assest/css/style.css">
-
-</head>
-
-<body>
-  <!-- <header></header> -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid d-flex align-items-center">
-      <div>
-        <a class="navbar-brand d-flex align-items-center" href="#"> <img src="./assest/img/Group 349.png" alt="" width="200" height="70 "
-            class="d-inline-block align-text-top"></a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
-          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
+  <body>
+    <!-- <header></header> -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid d-flex align-items-center">
+        <div>
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img
+              src="./assest/img/Group 349.png"
+              alt=""
+              width="200"
+              height="70 "
+              class="d-inline-block align-text-top"
+          /></a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+        </div>
+        <div class="collapse pt-0 navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+            <li class="nav-item">
+              <a
+                class="nav-link active hey"
+                aria-current="page"
+                href="./about-us.html"
+                style="color: #1f6861"
+                >ABOUT US</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active hey" href="#" style="color: #1f6861"
+                >ABOUT REECOACH
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active hey" href="#" style="color: #1f6861"
+                >BECOME A REECOACH</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active hey" href="#" style="color: #1f6861"
+                >REEWORK</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active hey" href="#" style="color: #1f6861"
+                >CONTACT US</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="btn-group">
+          <button class="login-group text-white ff-rethink" type="button">
+            LOG IN
+          </button>
+          <button class="login-group1 text-green ff-rethink" type="button">
+            SIGN UP
+          </button>
+        </div>
       </div>
-      <div class="collapse pt-0 navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav  me-auto mb-2 mb-lg-0  mx-auto">
-          <li class="nav-item">
-            <a class="nav-link active hey  " aria-current="page" href="./about-us.html" style="color:#1F6861;">ABOUT US</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active hey" href="#" style="color:#1F6861;">ABOUT REECOACH </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active hey" href="#" style="color:#1F6861;">BECOME A REECOACH</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active hey" href="#" style="color:#1F6861;">REEWORK</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active hey" href="#" style="color:#1F6861;">CONTACT US</a>
-          </li>
-        </ul>
-
-      </div>
-      <div class="btn-group">
-        <button class="login-group text-white ff-rethink" type="button" >LOG IN</button></li>
-        <button class="login-group1 text-green ff-rethink" type="button">SIGN UP</button></li>
-      </div>
-      
+    </nav>
+    <div class="container-fluid px-0">
+      <div class="navbar-line"></div>
     </div>
-  </nav>
-  <div class="container-fluid px-0">
-    <div class="navbar-line"></div>
-  </div>
 
-  <!-- silder -->
-  <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="1000">
-        <img src="./assest/img/silder1 (1).png" class="d-block w-100" alt="...">
-        <div class="carousel-caption left-caption d-none d-md-block">
-          <h5 class="text-white">First slide label</h5>
-          <p class="text-white">Some representative placeholder content for the first slide.</p>
+    <!-- silder -->
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="1000">
+          <img
+            src="./assest/img/silder1 (1).png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption left-caption d-none d-md-block">
+            <h5 class="text-white">First slide label</h5>
+            <p class="text-white">
+              Some representative placeholder content for the first slide.
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="1000">
-        <img src="./assest/img/silder2(2).png" class="d-block w-100" alt="...">
-        <div class="carousel-caption left-caption d-none d-md-block">
-          <h5 class="text-white">Second slide label</h5>
-          <p class="text-white">Some representative placeholder content for the second slide.</p>
+        <div class="carousel-item" data-bs-interval="1000">
+          <img
+            src="./assest/img/silder2(2).png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption left-caption d-none d-md-block">
+            <h5 class="text-white">Second slide label</h5>
+            <p class="text-white">
+              Some representative placeholder content for the second slide.
+            </p>
+          </div>
         </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="1000">
-        <img src="./assest/img/silder3 (3).png" class="d-block w-100" alt="...">
-        <div class="carousel-caption left-caption d-none d-md-block">
-          <h5 class="text-white">Third slide label</h5>
-          <p class="text-white">Some representative placeholder content for the third slide.</p>
+        <div class="carousel-item" data-bs-interval="1000">
+          <img
+            src="./assest/img/silder3 (3).png"
+            class="d-block w-100"
+            alt="..."
+          />
+          <div class="carousel-caption left-caption d-none d-md-block">
+            <h5 class="text-white">Third slide label</h5>
+            <p class="text-white">
+              Some representative placeholder content for the third slide.
+            </p>
+          </div>
         </div>
       </div>
     </div>
-  </div>
-  
-  <div class="container-fluid bg-green py-5">
-    <div class="container">
-      <h5>BE A PARTNER IN</h5>
-      <h2 class="fs-120 text-uppercase">the health revolution movement</h2>
-    </div>
-  </div>
 
-
-  <!-- why reework -->
-
-   <container-fluid>
-    <container>
-      <div class="row g-0 text-green font-family">
-        <div class="col-12 why" > 
-          <p>WHY REEWORK ?</p>
-          <h5>TIME-SAVING ALL-IN-ONE NUTRITION SOFTWARE FOR YOU AND AN FOR YOUR CLIENTS</h5>
-        </div>
+    <div class="container-fluid movement py-5">
+      <div class="container health">
+        <h5>BE A PARTNER IN</h5>
+        <h2 class="fs-120 text-uppercase">the health revolution movement</h2>
       </div>
-    </container>
-  </container-fluid> 
-  
+    </div>
 
+    <!-- why reework -->
 
-
-  <!-- card -->
-
- *\ <!-- 1card -->
-  <container-fluid>
-    <container>
+    <div class="container-fluid section">
       <div class="container">
-        <div class="row g-3">
+        <div class="row g-0 text-green font-family reework">
+          <div class="col-12 why mb-4">
+            <p>WHY REEWORK ?</p>
+            <h5>
+              TIME-SAVING ALL-IN-ONE NUTRITION SOFTWARE FOR YOU AND AN FOR YOUR
+              CLIENTS
+            </h5>
+          </div>
+
+          <!-- 1card -->
           <div class="col-4">
-            <div class="card" style="width: 18rem; ">
-              <img src="../reecouch/assest/img/Ellipse 1832.png" class="card-img-top" alt="...">
-              
-              <div class="card-body">
-                <h5 class="card-title  text-uppercase text-green ">Efficient Client Management</h5>
-                <p class="card-text  text-uppercase ">Easily manage multiple clients, appointments, schedules, payments, counselling and follow-ups.</p>
+            <div class="" style="width: 18rem">
+              <div class="reework-back-img">
+                <img src="./assest/img/reework_1.png" width="100%" alt="..." />
+              </div>
+
+              <div class="reework-card">
+                <h5 class="text-uppercase text-green">
+                  Efficient Client Management
+                </h5>
+                <p class=" ">
+                  Easily manage multiple clients, appointments, schedules,
+                  payments, counselling and follow-ups.
+                </p>
               </div>
             </div>
-          </div>    
-          <div class="col-4">
-            <div class="card" style="width: 18rem;">
-              <img src="../reecouch/assest/img/Ellipse 1832.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-uppercase text-green ">Mental Health Counselling</h5>
-                <p class="card-tex text-uppercase">Collaboration with mental health coaches to help you provide integrated care to your clien.</p>
+          </div>
+          <div class="col-4 reework-card">
+            <div class="" style="width: 18rem">
+              <img src="./assest/img/reework_2.png" class="" alt="..." />
+              <div class="">
+                <h5 class="text-uppercase text-green">
+                  Mental Health Counselling
+                </h5>
+                <p class="">
+                  Collaboration with mental health coaches to help you provide
+                  integrated care to your clien.
+                </p>
               </div>
             </div>
           </div>
           <div class="col-4">
-            <div class="card" style="width: 18rem;">
-              <img src="../reecouch/assest/img/Ellipse 1832.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-uppercase text-green ">Precision diet planningin minutes</h5>
-                <p class="card-text text-uppercase">Easily access and analyze client’s records without manual input or via messaging apps for diet recall and analysis.</p>
+            <div class="" style="width: 18rem">
+              <div class="reework-back-img">
+                <img src="./assest/img/reework_3.png" class="" alt="..." />
+              </div>
+              <div class="reework-card">
+                <h5 class="text-uppercase text-green">
+                  Precision diet planningin minutes
+                </h5>
+                <p class="">
+                  Easily access and analyze client’s records without manual
+                  input or via messaging apps for diet recall and analysis.
+                </p>
               </div>
             </div>
           </div>
 
+          <!-- 2card -->
+          <div class="col-4 reework-card">
+            <div class="" style="width: 18rem">
+              <img src="./assest/img/reework_4.png" class="" alt="..." />
+              <div class="">
+                <h5 class="text-uppercase text-green">Brand Development</h5>
+                <p class="">
+                  Get adequate recognition and due credits as a qualified
+                  professional.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 reework-card">
+            <div class="" style="width: 18rem">
+              <img src="./assest/img/reework_5.png" class="" alt="..." />
+              <div class="">
+                <h5 class="text-uppercase text-green">
+                  Integrated Health Assessment
+                </h5>
+                <p class="">
+                  Simplify diet plan creation, profiling, and research with
+                  ease.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="" style="width: 18rem">
+              <div class="reework-back-img">
+                <img src="./assest/img/reework_6.png" class="" alt="..." />
+              </div>
+              <div class="reework-card">
+                <h5 class="text-uppercase text-green">
+                  Diverse Revenue Streams
+                </h5>
+                <p class="">
+                  Constant customer engagement and client retention.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- 3card -->
+          <div class="col-4 reework-card">
+            <div class="" style="width: 18rem">
+              <img src="./assest/img/reework_7.png " class="" alt="..." />
+
+              <div class="">
+                <h5 class="text-uppercase text-green">
+                  Real-time Client Support
+                </h5>
+                <p class="">Get accurate nutrition analysis of food data</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="" style="width: 18rem">
+              <div class="reework-back-img">
+                <img src="./assest/img/reework_8.png" class="" alt="..." />
+              </div>
+              <div class="reework-card">
+                <h5 class="text-uppercase text-green">Time Efficiency</h5>
+                <p class="">
+                  Get access to a centralised knowledge bank from reliable
+                  scientific sources.
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="col-4 reework-card">
+            <div class="" style="width: 18rem">
+              <img src="./assest/img/reework_9.png" class="" alt="..." />
+              <div class="">
+                <h5 class="text-uppercase text-green">
+                  Mental Health Counselling
+                </h5>
+                <p class="">
+                  Collaboration with mental health coaches to help you provide
+                  integrated care to your clients.
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
-      </div> 
       </div>
     </div>
-  </container-fluid>
-  
-  <!-- 2card -->
-  <container-fluid>
-    <container>
-      <div class="container">
-        <div class="row g-3">
-          <div class="col-4">
-            <div class="card" style="width: 18rem;">
-              <img src="../reecouch/assest/img/Ellipse 1832.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title  text-uppercase text-green ">Brand Development</h5>
-                <p class="card-text  text-uppercase style=">Get adequate recognition and due credits as a qualified professional.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card" style="width: 18rem;">
-              <img src="../reecouch/assest/img/Ellipse 1832.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-uppercase text-green ">Integrated Health Assessment</h5>
-                <p class="card-tex text-uppercase">Simplify diet plan creation, profiling, and research with ease.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card" style="width: 18rem;">
-              <img src="../reecouch/assest/img/Ellipse 1832.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-uppercase text-green ">Diverse Revenue Streams</h5>
-                <p class="card-text text-uppercase">Constant customer engagement and client retention.</p>
-              </div>
-            </div>
-          </div>
 
-        </div>
-      </div> 
-       
-      </div>
-    </div>
-      
-    </container>
-  </container-fluid> 
+    <!-- 2section -->
 
-  <!-- 3card -->
-  <container-fluid>
-    <container>
-      <div class="container">
-        <div class="row g-3">
-          <div class="col-4">
-            <div class="card" style="width: 18rem;">
-              <img src="../reecouch/assest/img/Ellipse 1832.png " class="card-img-top" alt="...">
-   
-              <div class="card-body">
-                <h5 class="card-title  text-uppercase text-green ">Real-time Client Support</h5>
-                <p class="card-text  text-uppercase style=">Get accurate nutrition analysis of food data</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card" style="width: 18rem;">
-              <img src="../reecouch/assest/img/Ellipse 1832.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-uppercase text-green ">Time Efficiency</h5>
-                <p class="card-tex text-uppercase">Get access to a centralised knowledge bank from reliable scientific sources.</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-4">
-            <div class="card" style="width: 18rem;">
-              <img src="../reecouch/assest/img/Ellipse 1832.png" class="card-img-top" alt="...">
-              <div class="card-body">
-                <h5 class="card-title text-uppercase text-green ">Mental Health Counselling</h5>
-                <p class="card-text text-uppercase">Collaboration with mental health coaches to help you provide integrated care to your clients.</p>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div> 
-       
-      </div>
-    </div>
-      
-    </container>
-  </container-fluid> 
-  
-  <!-- 2section -->
-
-
-  <container-fluid>
-    <container>
+    <div class="container-fluid">
       <div class="row">
-        <div class="col-sm-8 p-5 digital text-green">
-          <h4>Go digital at no cost and earn more</h4>
-        <h5>Start your journey as a ReeCoach for free with us</h5>
-        <input class="btn btn-success" type="submit" value="Submit">
+        <div
+          class="col-8 bg-success d-flex align-items-end p-5 digital text-green"
+        >
+          <div>
+            <h4 class="text-white">Go digital at no cost and earn more</h4>
+            <h5 class="text-white mb-5">
+              Start your journey as a ReeCoach for free with us
+            </h5>
+            <button class="btn btn-light">SIGN UP FOR FREE</button>
+          </div>
         </div>
-        <div class="col-sm-4 p-3  text-green">
-          <img src="../reecouch/assest/img/happy-professional-indian-business-woman-standing-2023-11-27-04-58-55-utc 1.png" alt="" width="100%">
+        <div class="col-4 p-0 text-green">
+          <img
+            src="./assest/img/happy-professional-indian-business-woman-standing-2023-11-27-04-58-55-utc 1.png"
+            alt=""
+            width="100%"
+          />
         </div>
       </div>
-    </container>
-  </container-fluid>
+    </div>
 
+    <!-- Script -->
 
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
 
-  <!-- Script -->
+    <script>
+      var myIndex = 0;
+      carousel();
 
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-    integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-    crossorigin="anonymous"></script>
-
-  <script>
-    var myIndex = 0;
-    carousel();
-
-    function carousel() {
-      var i;
-      var x = document.getElementsByClassName("mySlides");
-      for (i = 0; i < x.length; i++) {
-        x[i].style.display = "none";
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+          myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 2500); // Change image every 2 seconds
       }
-      myIndex++;
-      if (myIndex > x.length) { myIndex = 1 }
-      x[myIndex - 1].style.display = "block";
-      setTimeout(carousel, 2500); // Change image every 2 seconds
-    }
-  </script>
-
-</body>
-
+    </script>
+  </body>
 </html>

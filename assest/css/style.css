@@ -17,6 +17,10 @@
   
 }
 
+.section {
+    padding: 80px 0px;
+}
+
 .container{
     font-family: Rethink Sans;
 
@@ -112,11 +116,23 @@
 
 /* card hedar */
 .why p{
-    top: 20px;
+    font-weight: 800;
+    color: #29C192;
+    position: relative;
+}
+.why p::before {
+    content: '';
+    position: absolute;
+    width: 250px;
+    height: 5px;
+    background-color: #29C192;
+    left: 158px;
+    top: 10px;
 }
 .why h5{
-    padding: 85px;
-    font-size: 40px; 
+    /* padding: 85px; */
+    font-weight: 700;
+    font-size: 33px; 
 }
 
 
@@ -174,6 +190,45 @@
 
 .navbar a:hover{
     color: #117964;
+}
+
+.reework img {
+    width: 40%;
+    margin-bottom: 30px;
+}
+
+.reework .reework-card h5 {
+    font-size: 18px;
+}
+
+.reework-card {
+    padding: 10px;
+}
+
+.health h2{
+    color: #117964;
+}
+
+.movement{
+    background-color:  #F4FBF9;
+    ;
+}
+
+.reework-back-img {
+    background-image: url('../img/Ellipse\ 1832.png');
+    width: 40%;
+    height: 115px;
+    /* margin-bottom: 30px; */
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.reework-back-img img {
+    width: 55%;
+    margin-bottom: 0px;
+    /* margin-left: 15px; */
 }
 
 @media (max-width: 768px){
