@@ -3,6 +3,7 @@
     font-family: 'Rethink Sans'; /* Name your font family */
     src: url('RethinkSans-VariableFont_wght.ttf'); /* Locate the .ttf file within your directory*/
   }
+
 .text-green {
   color: #437454 !important;
 }
@@ -308,8 +309,79 @@
 
 
 
+/* accordion-wrapper-start */
+.accordion-button:focus {
+    box-shadow: unset;
+}
 
 
+
+
+
+/* hero */
+.hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    padding: 20px;
+    background-color: #ffffff;
+  }
+  
+  .content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    max-width: 1200px;
+    width: 100%;
+  }
+  
+  .text-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  
+  .text-container h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+  }
+  
+  .text-container p {
+    font-size: 1.2rem;
+    margin-bottom: 1.5rem;
+    color: #666;
+  }
+  
+  .cta-button {
+    display: inline-block;
+    padding: 12px 20px;
+    background-color: #00c1a4;
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .cta-button:hover {
+    background-color: #008b7d;
+  }
+  
+  .image-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .image-container img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
 @media (max-width: 768px){
     .navbar{
         opacity: 0.95;
