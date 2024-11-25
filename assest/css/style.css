@@ -28,6 +28,8 @@
 
 .container {
   font-family: Rethink Sans;
+
+  /* margin-left: 95px; */
 }
 .fs-120 {
   font-size: 87px !important;
@@ -221,6 +223,11 @@
   padding-left: 5px;
   top: 10px;
 }
+.black-text {
+  color: black;
+  font-size: 23px;
+  font-weight: 500;
+}
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
@@ -241,7 +248,7 @@
 .why p::before {
   content: "";
   position: absolute;
-  width: 250px;
+  width: 200px;
   height: 5px;
   background-color: #29c192;
   left: 158px;
@@ -388,11 +395,14 @@ body {
 }
 
 .reework .reework-card h5 {
-  font-size: 17px;
+  font-size: 23px;
+  font-weight:800 ;
 }
 
-.reework-card {
-  padding: 10px;
+.reework-card img{
+  /* padding: 10px; */
+width: 142px;
+height: 142px;
 }
 
 .health h2 {
@@ -411,9 +421,9 @@ body {
 
 .reework-back-img {
   background-image: url("../img/Ellipse\ 1832.png");
-  width: 40%;
+  width: 28%;
   height: 115px;
-  /* margin-bottom: 30px; */
+  margin-bottom: 30px;
   background-size: cover;
   display: flex;
   justify-content: center;
@@ -423,7 +433,7 @@ body {
 .reework-back-img img {
   width: 55%;
   margin-bottom: 0px;
-  /* margin-left: 15px; */
+
 }
 
 /*  */
@@ -728,5 +738,8 @@ body {
   .btn {
     padding: 12px 15px;
     font-size: 14px;
+  }
+  .health h2{
+    font-size: 20px;
   }
 }
