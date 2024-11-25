@@ -5,24 +5,19 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
-      rel="stylesheet"
-      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
-      crossorigin="anonymous"
-    />
-
-    <link rel="stylesheet" href="./assest/css/style.css" />
-    <link
+    <link rel="stylesheet" href="assest/css/bootstrap.min.css">
+ <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"/>
+    <link rel="stylesheet" href="./assest/css/style.css" />
+   
   </head>
 
   <body>
     <!-- <header></header> -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
       <div class="container-fluid d-flex align-items-center">
-        <div>
+        <div class="d-flex justify-content-between desktop-wrapper ">
           <a class="navbar-brand d-flex align-items-center" href="#">
             <img
               src="./assest/img/Group 349.png"
@@ -31,20 +26,22 @@
               height="70 "
               class="d-inline-block align-text-top"
           /></a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
+          <div class="d-flex align-items-center gap-2">
+            <button
+              class="navbar-toggler"
+              type="button"
+              data-bs-toggle="collapse"
+              data-bs-target="#navbarSupportedContent"
+              aria-controls="navbarSupportedContent"
+              aria-expanded="false"
+              aria-label="Toggle navigation"
+            >
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          </div>
         </div>
         <div class="collapse pt-0 navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto align-items-center d-flex">
             <li class="nav-item">
               <a
                 class="nav-link active hey"
@@ -74,16 +71,17 @@
                 >CONTACT US</a
               >
             </li>
-          </ul>
-        </div>
-        <div class="btn-group">
-          <button class="login-group text-white ff-rethink" type="button">
-            LOG IN
-          </button>
-          <button class="login-group1 text-green ff-rethink" type="button">
-            SIGN UP
-          </button>
-        </div>
+            <div class="btn-group d-flex ">
+              <button class="login-group text-white ff-rethink" type="button">
+                LOG IN
+              </button>
+              <button class="login-group1 text-green ff-rethink" type="button">
+                SIGN UP
+              </button>
+            </div>
+            </ul>
+          </div>
+        
       </div>
     </nav>
     <div class="container-fluid px-0">
@@ -91,7 +89,7 @@
     </div>
 
     <!-- silder -->
-    <!-- <div
+    <div
       id="carouselExampleDark"
       class="carousel carousel-dark slide carousel-fade"
       data-bs-ride="carousel"
@@ -100,65 +98,80 @@
         <div class="carousel-item active" data-bs-interval="1000">
           <img
             src="./assest/img/silder1 (1).png"
-            class="d-block w-100"
+            class="d-md-block d-none"
             alt="..."
           />
-          <div class="carousel-caption left-caption d-none d-md-block">
-            <h5 class="text-white">First slide label</h5>
+          <img
+            src="./assest/img/silder1-mobile.png"
+            class="d-md-none d-block"
+            alt="..."
+          />
+          <div class="carousel-caption left-caption d-md-block">
+            <h5 class="text-white">Earn 4x the revenue per day on diet plans.</h5>
             <p class="text-white">
-              Some representative placeholder content for the first slide.
+              Standout. Elevate your practice. Reach more clients.
             </p>
+             <button class="btn">
+                SIGN UP FOR FREE  <i class="fa-solid fa-greater-than ms-1"></i>
+              </button>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="1000">
           <img
             src="./assest/img/silder2(2).png"
-            class="d-block w-100"
+            class="d-md-block d-none"
             alt="..."
           />
-          <div class="carousel-caption left-caption d-none d-md-block">
-            <h5 class="text-white">Second slide label</h5>
+          <img
+            src="./assest/img/silder2-mobile.png"
+            class="d-md-none d-block"
+            alt="..."
+          />
+          <div class="carousel-caption left-caption  d-md-block">
+            <h5 class="text-white">Earn 4x the revenue per day on diet plans.</h5>
             <p class="text-white">
-              Some representative placeholder content for the second slide.
+              Standout. Elevate your practice. Reach more clients.
             </p>
+            <button class="btn">
+              SIGN UP FOR FREE  <i class="fa-solid fa-greater-than ms-1"></i>
+            </button>
           </div>
         </div>
         <div class="carousel-item" data-bs-interval="1000">
           <img
             src="./assest/img/silder3 (3).png"
-            class="d-block w-100"
+            class="d-md-block d-none"
             alt="..."
           />
-          <div class="carousel-caption left-caption d-none d-md-block">
-            <h5 class="text-white">Third slide label</h5>
+          <img
+            src="./assest/img/silder3-mobile.png"
+            class="d-md-none d-block"
+            alt="..."
+          />
+          <div class="carousel-caption left-caption  d-md-block">
+            <h5 class="text-white">Earn 4x the revenue per day on diet plans.</h5>
             <p class="text-white">
-              Some representative placeholder content for the third slide.
+              Standout. Elevate your practice. Reach more clients.
             </p>
+            <button class="btn">
+              SIGN UP FOR FREE  <i class="fa-solid fa-greater-than ms-1"></i>
+            </button>
           </div>
         </div>
       </div>
-    </div> -->
-    <swiper-container class="mySwiper" pagination="true" pagination-clickable="true" navigation="true" space-between="30"
-    centered-slides="true" autoplay-delay="2500" autoplay-disable-on-interaction="false">
-
-    <swiper-slide><img src="./assest/img/silder1 (1).png" alt="">
-    </swiper-slide>
-    <swiper-slide><img src="./assest/img/silder2(2).png" alt="">
-    </swiper-slide>
-    <swiper-slide><img src="./assest/img/silder3 (3).png" alt="">
-    </swiper-slide>
-  </swiper-container>
-
+    </div>
+    
+        <!--PARTNER -->
+    
     <div class="container-fluid movement py-5">
       <div class="container health">
         <h5>BE A PARTNER IN</h5>
         <h2 class="fs-120 text-uppercase">the health revolution movement</h2>
       </div>
     </div>
-
     <!-- why reework -->
 
-    <div class="container-fluid section">
+    <!-- <div class="container-fluid section">
       <div class="container">
         <div class="row g-0 text-green font-family reework">
           <div class="col-12 why mb-4">
@@ -169,7 +182,6 @@
             </h5>
           </div>
 
-          <!-- 1card -->
           <div class="col-4">
             <div class="" style="width: 18rem">
               <div class="reework-back-img">
@@ -218,7 +230,6 @@
             </div>
           </div>
 
-          <!-- 2card -->
           <div class="col-4 reework-card">
             <div class="" style="width: 18rem">
               <img src="./assest/img/reework_4.png" class="" alt="..." />
@@ -261,7 +272,6 @@
             </div>
           </div>
 
-          <!-- 3card -->
           <div class="col-4 reework-card">
             <div class="" style="width: 18rem">
               <img src="./assest/img/reework_7.png " class="" alt="..." />
@@ -304,14 +314,17 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
+
+
+
 
     <!-- 2section -->
 
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
       <div class="container">
         <div class="row">
-          <div
+          <div  
             class="col-8 bg-success d-flex align-items-end p-5 digital text-green"
           >
             <div class="digital">
@@ -322,7 +335,7 @@
                 Start your journey as a ReeCoach for free with us
               </h5>
               <button class="btn">
-                SIGN UP FOR FREE  <i class="fa-solid fa-greater-than ms-5"></i>
+                SIGN UP FOR FREE  <i class="fa-solid fa-greater-than ms-1"></i>
               </button>
             </div>
           </div>
@@ -337,11 +350,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!--REEWORK + REECOACH  -->
     
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
       <div class="container">
         <div class="row g-0 text-green font-family">
           <div class="col-12 whyy mb-4">
@@ -353,11 +366,11 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!--REEWORK + REECOACH in  -->
 
-    <div class="container-fluid">
+    <!-- <div class="container-fluid">
       <div class="container">
         <div class="row">
           <div class="col-6">
@@ -423,7 +436,7 @@
           </div>
         </div>
       </div>
-    </div>
+    </div> -->
 
     <!-- <div class="container-fluid section">
       <div class="container">
@@ -450,7 +463,7 @@
       </div>
     </section> -->
     
-
+<!-- 
 <div class="section dion text-center">
   <h1>FREQUENTLY ASKED QUESTIONS</h1>
 </div>
@@ -554,7 +567,7 @@
           </div>
         </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- <section>
       <div class="container">
@@ -565,19 +578,19 @@
 
 
     
-    <section class="footernear section bg-img">
+    <!-- <section class="footernear section bg-img">
       <div class="container ">
         <div class="empower pl-3 text-uppercase text-light">
           
-          <!-- <img src="./assest/img/footerbnear.png" alt="" width="100%"> -->
+          <img src="./assest/img/footerbnear.png" alt="" width="100%">
         <h1>
           Empower your clients to prioritize their health permanently
         </h1>
-          <button class="btn2" style="background-color:#1f6861;">CLICK HERE TO SIGN UP <i class="fa-solid fa-greater-than ms-5"></i>
+          <button class="btn2" style="background-color:#1f6861;">CLICK HERE TO SIGN UP <i class="fa-solid fa-greater-than ms-1"></i>
           </button>
     </div>
   </div>
-</section>
+</section> -->
     
 
 <!-- <section>
@@ -614,7 +627,7 @@
 
 
   <!-- footer -->
-  <footer class="footer-section">
+  <!-- <footer class="footer-section">
     <div class="container">
        
         <div class="footer-content pt-5 pb-5">
@@ -677,14 +690,10 @@
         </div>
     </div>
   
-</footer>
+</footer> -->
 
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
-      crossorigin="anonymous"
-    ></script>
+   <script src="assest/js/bootstrap.bundle.min.js"></script>
 
     <script>
       var myIndex = 0;
