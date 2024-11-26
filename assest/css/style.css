@@ -58,7 +58,21 @@
 }
 
 .btn {
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.9s;
+  font-family: Rethink Sans;
+  font-weight: 700;
   background-color: #00d4b7;
+}
+
+.btn:hover {
+  opacity: 0.5;
 }
 .btn2 {
   padding: 10px;
@@ -178,7 +192,8 @@
 }
 
 .carousel-item {
-  height: calc(100vh - 96px);
+  /* height: calc(100vh - 96px); */
+  height: 100vh;
 }
 
 .carousel-item img {
@@ -189,7 +204,7 @@
 }
 
 .carousel-item img::before {
-  content: '';
+  content: "";
   position: absolute;
   background-color: #cd1e1e95;
   top: 0;
@@ -388,21 +403,26 @@ body {
 .navbar a:hover {
   color: #117964;
 }
-
+.section {
+  padding: 25px;
+}
+.reework-card {
+  padding: 10px;
+}
 .reework img {
   width: 40%;
   margin-bottom: 30px;
 }
 
 .reework .reework-card h5 {
-  font-size: 23px;
-  font-weight:800 ;
+  font-size: 21px;
+  font-weight: 800;
 }
 
-.reework-card img{
+.reework-card img {
   /* padding: 10px; */
-width: 142px;
-height: 142px;
+  width: 142px;
+  height: 142px;
 }
 
 .health h2 {
@@ -420,7 +440,7 @@ height: 142px;
 }
 
 .reework-back-img {
-  background-image: url("../img/Ellipse\ 1832.png");
+  background-image: url("../img/Ellipse\ 1832.webp");
   width: 28%;
   height: 115px;
   margin-bottom: 30px;
@@ -433,27 +453,9 @@ height: 142px;
 .reework-back-img img {
   width: 55%;
   margin-bottom: 0px;
-
 }
 
 /*  */
-.btn {
-  /* background-color: ; */
-  border: none;
-  color: black;
-  padding: 16px 32px;
-  text-align: center;
-  font-size: 16px;
-  margin: 4px 2px;
-  opacity: 1;
-  transition: 0.9s;
-  font-family: Rethink Sans;
-  font-weight: 700;
-}
-
-.btn:hover {
-  opacity: 0.5;
-}
 
 /* accordion-wrapper-start */
 .accordion-button:focus {
@@ -467,8 +469,8 @@ height: 142px;
 .carousel-caption h5 {
   font-size: 70px;
   font-weight: 800;
-  line-height: 84px;
-  letter-spacing: 0.14em;
+  line-height: 74px;
+  letter-spacing: 0.1em;
   text-align: left;
   max-width: 940px;
 }
@@ -481,7 +483,7 @@ height: 142px;
 }
 
 .footernear {
-  background-image: url("../img/footerbnear.png");
+  background-image: url("../img/footerbnear.webp");
   height: 80%;
   background-size: cover;
   display: flex;
@@ -739,7 +741,51 @@ height: 142px;
     padding: 12px 15px;
     font-size: 14px;
   }
-  .health h2{
+  .health h2 {
     font-size: 20px;
+  }
+  .digital h4 {
+    font-size: 29px;
+  }
+  .digital h5 {
+    font-size: 20px;
+  }
+  .carousel-item {
+    height: calc(100vh - 96px);
+  }
+  .why p::before {
+    width: 130px;
+    height: 3px;
+    left: 178px;
+    top: 13px;
+  }
+  .why p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  .why h5 {
+    font-size: 21px;
+  }
+  .reework-card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .reework-card-border {
+    border-bottom: 1px solid #437454;
+  }
+  .reework-card-border-top {
+    border-top: 1px solid #437454;
+    padding-top: 28px;
+  }
+  .reework-card h5 {
+    display: block;
+    width: 100%;
+    text-align: start;
+  }
+  .black-text {
+    /* text-align: center; */
+    /* text-align: justify; */
   }
 }
