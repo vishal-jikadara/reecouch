@@ -26,11 +26,6 @@
   padding: 80px 0px;
 }
 
-.container {
-  font-family: Rethink Sans;
-
-  /* margin-left: 95px; */
-}
 .fs-120 {
   font-size: 87px !important;
 }
@@ -85,30 +80,126 @@
   padding: 4%;
   font-family: Rethink Sans;
 }
+.clients{
+  position: relative;
+}
+.clients img {
+  width: 100%; /* Makes the image fill the container */
+  height: 100%; /* Ensures the image fills the container height */
+  object-fit: cover; /* Ensures the image scales without distortion */
+}
 
-.collapse {
-  padding-top: 20px;
-  font-family: Rethink Sans;
+.plans h5{
+  position: absolute;
+  top: 20%;
+  left: 48%;
+  font-weight: 800;
+  font-size: 60px !important;
+  letter-spacing: 10px;
+}
+.plans p{
+  position: absolute;
+  top: 58%;
+  left: 58%;
   font-weight: 600;
-  size: 16px;
+  font-size: 35px !important;
+  letter-spacing: 1px;
+}
+.btn5 {
+  position: absolute; 
+  bottom:130px;
+  left: 58%;  
+  background-color: #00d4b7;
+  color: white;
+  border: none;
+  padding: 10px 35px; 
+  font-size: 19px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  display: flex; 
+  align-items: center; 
+  font-weight: 500;
+}
+.zero{
+  position: relative;
+}
+.zero img {
+  width: 100%; /* Makes the image fill the container */
+  height: 100%; /* Ensures the image fills the container height */
+  object-fit: cover; /* Ensures the image scales without distortion */
+}
+.btn3 {
+  position: absolute; /* Positions the button on top of the image */
+  /* top: 30%; */
+  top: 721px;
+  left: 18%; /* Centers the button horizontally */
+  transform: translate(-50%, -50%); /* Offsets the button to perfectly center it */
+  background-color: #00d4b7;
+  color: white; /* Text color */
+  border: none; /* Removes the border */
+  padding: 10px 53px; /* Adds padding inside the button */
+  font-size: 19px; /* Font size */
+  cursor: pointer; /* Makes the button clickable */
+  border-radius: 5px; /* Optional: adds rounded corners */
+  display: flex; /* Allows the icon and text to align properly */
+  align-items: center; /* Vertically aligns the text and icon */
+  font-weight: 500;
+}
+.btn4 {
+  position: absolute; 
+  bottom: 5px;
+  left: 43%;  
+  background-color: #00d4b7;
+  color: white;
+  border: none;
+  padding: 10px 35px; 
+  font-size: 19px; 
+  cursor: pointer; 
+  border-radius: 5px; 
+  display: flex; 
+  align-items: center; 
+  font-weight: 500;
 }
 
-.hey {
-  padding: 0px 15px !important;
-}
-
-/* footer */
-.footer-logo {
-  margin-bottom: 30px;
-}
-.footer-logo img {
-  max-width: 200px;
-}
-.footer-text p {
-  margin-bottom: 14px;
-  font-size: 14px;
-  color: #1f6861;
-  line-height: 28px;
+/* .btn3 {
+  border: none;
+  color: black;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.9s;
+  font-family: Rethink Sans;
+  font-weight: 700;
+  background-color: #00d4b7;
+  
+  } */
+  
+  
+  .collapse {
+    padding-top: 20px;
+    font-family: Rethink Sans;
+    font-weight: 600;
+    size: 16px;
+  }
+  
+  .hey {
+    padding: 0px 15px !important;
+  }
+  
+  /* footer */
+  .footer-logo {
+    margin-bottom: 30px;
+  }
+  .footer-logo img {
+    max-width: 200px;
+  }
+  .footer-text p {
+    margin-bottom: 14px;
+    font-size: 14px;
+    color: #1f6861;
+    line-height: 28px;
 }
 .footer-social-icon span {
   color: #231f1f;
@@ -220,6 +311,15 @@
   transform: translateY(-100%);
   text-align: left;
   padding-left: 15px;
+}
+
+.clients img::before{
+  content: "";
+  position: relative;
+}
+
+.left-caption2 {
+  position: absolute;
 }
 
 .navbar-toggler {
@@ -377,6 +477,17 @@ body {
   height: 64px;
   align-items: center;
 }
+.navbar-toggler {
+  border: none !important;
+  background: transparent; /* Make sure it’s clear if you want no background */
+  box-shadow: none; /* Remove any shadow if present */
+}
+
+/* If you want to adjust the appearance when it's active or focused */
+.navbar-toggler:focus {
+  outline: none;
+  box-shadow: none;
+}
 
 .menu-items {
   order: 2;
@@ -425,6 +536,10 @@ body {
   height: 142px;
 }
 
+.container {
+  font-family: Rethink Sans;
+  margin-left: 95px;
+}
 .health h2 {
   color: #117964;
 }
@@ -483,7 +598,7 @@ body {
 }
 
 .footernear {
-  background-image: url("../img/footerbnear.webp");
+  background-image: url("../img/footer.webp");
   height: 80%;
   background-size: cover;
   display: flex;
@@ -494,9 +609,12 @@ body {
 
 .empower h1 {
   font-weight: 800;
-  letter-spacing: 23px;
+  /* letter-spacing: 23px; */
   font-size: 78px;
   font-family: Rethink Sans;
+  line-height: 100px;
+  left: 50px!important;
+
 }
 
 /* hero */
@@ -784,8 +902,5 @@ body {
     width: 100%;
     text-align: start;
   }
-  .black-text {
-    /* text-align: center; */
-    /* text-align: justify; */
-  }
+  
 }
