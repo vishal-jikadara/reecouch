@@ -190,16 +190,35 @@
 
   .gift{
     /* margin: 100px; */
-    margin-top: 32%;
+    margin-top: 28%;
+    color: #1f6861;
   }
 
   .gift span{
     font-weight: 600;
+    font-size: 30px;
   }
   .gift h3{
-    font-size: 35px;
+    font-weight: 400;
+    font-size: 26px;
+  } 
+  .software img {
+    margin-top: 50px; 
+    left: 100px!important;
+    float: left;
   }
-  
+.software{
+  color: #1f6861;
+  float: left;
+}
+.software h3{
+  font-weight: 500;
+  font-size: 42px;
+  color: 1f6861;
+}
+.friendly{
+  color: #1f6861;
+}
   /* footer */
   .footer-logo {
     margin-bottom: 30px;
@@ -550,7 +569,7 @@ body {
 
 .container {
   font-family: Rethink Sans;
-  margin-left: 95px;
+  
 }
 .health h2 {
   color: #117964;
@@ -693,6 +712,27 @@ body {
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
+/* General Styles */
+.bg-img {
+  background: url('../img/footer.webp') no-repeat center center/cover;
+}
+
+.footernear h1 {
+  font-size: 2rem; /* Responsive heading size */
+}
+
+.btn2 {
+  background-color: #1f6861;
+  color: white;
+  border: none;
+  font-size: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.btn2:hover {
+  background-color: #15564a;
+  transform: scale(1.05);
+}
 /* responsive */
 @media (max-width: 1200px) {
   .desktop-wrapper {
@@ -740,8 +780,19 @@ body {
   }
 }
 @media (max-width: 768px) {
+ 
+    .footernear h1 {
+      font-size: 2.5rem; /* Larger heading for tablets and above */
+    }
+    .btn2 {
+      font-size: 1.2rem;
+      padding: 0.8rem 2rem;
+    }
   .navbar {
     opacity: 0.95;
+  }
+  .empower{
+    font-size: 10px;
   }
 
   .navbar-container input[type="checkbox"],
@@ -858,11 +909,29 @@ body {
     margin-top: 250px;
   }
 }
+/* Smallest for mobile screens */
 @media (max-width: 576px) {
   .carousel-caption h5 {
-    font-size: 30px; /* Smallest for mobile screens */
+    font-size: 30px; 
     line-height: 40px;
   }
+  /* .empower h1{
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 200px;
+    ;
+  } */
+  /* .footernear h1 {
+    font-size: 8px; 
+    line-height: 1.4;  
+  } */
+  /* .btn2 {
+    font-size: 0.9rem; 
+    padding: 0.6rem 1.5rem; 
+  } */
+  /* .empower {
+    padding: 0 1rem; 
+  } */
   .carousel-caption p {
     font-size: 20px;
     line-height: 28px;
