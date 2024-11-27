@@ -187,6 +187,18 @@
   .hey {
     padding: 0px 15px !important;
   }
+
+  .gift{
+    /* margin: 100px; */
+    margin-top: 32%;
+  }
+
+  .gift span{
+    font-weight: 600;
+  }
+  .gift h3{
+    font-size: 35px;
+  }
   
   /* footer */
   .footer-logo {
