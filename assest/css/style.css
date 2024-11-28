@@ -1,3 +1,306 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.img-wrapper {
+  line-height: 0;
+}
+
+.title-bar-wrapper {
+  margin-bottom: 70px;
+  
+  span {
+    position: relative;
+    color: #29C192;
+    font-size: 23px;
+    font-weight: 600;
+    text-transform: uppercase;
+  }
+  
+  h4 {
+    color: #29613E;
+    font-size: 40px;
+      font-weight: 600;
+      line-height: 1.2;
+      text-transform: uppercase;
+    }
+  }
+  
+  .title-bar-wrapper span::after {
+    background-color: #00D4B7;
+    position: absolute;
+    content: "";
+    width: 400px;
+    height: 6px;
+    left: calc(100% + 40px);
+    top: 50%;
+    transform: translateY(-50%);
+  }
+  
+  .text-content-wrapper {
+    padding-bottom: 60px;
+}
+
+.text-content-wrapper p {
+  font-size: 20px;
+  color: #232323;
+  font-weight: 500;
+  margin-bottom: 25px;
+}
+
+.text-content-wrapper span {
+  font-weight: 700;
+}
+
+.text-content-wrapper h5 {
+  color: #1F6861;
+  font-size: 23px;
+  font-weight: 500;
+}
+
+.main-key-features-wrapper h3 {
+  
+  font-size: 20px;
+  font-weight: 600;
+}
+.main-key-features-wrapper .features-box-wrapper{
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 55px;
+  column-gap: 100px;
+}
+
+.main-key-features-wrapper .feature-box {
+  max-width: 160px;
+  text-align: start;
+  span {
+    color: #D6D6D6;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    margin-bottom: 4px;
+  }
+  
+  h4 {
+    font-size: 18px;
+    font-weight: 500;
+    
+  }
+}
+
+.feature-box {
+  text-align: center;
+  max-width: 400px;
+}
+
+.number-circle {
+  background-color: #E2FDF6;
+  color: #0C6157;
+  border: 2px solid #0C6157;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+  margin: 0 auto 10px;
+}
+
+.feature-title {
+  color: #0C6157;
+  font-size: 1rem;
+  font-weight: 500;
+}
+
+.view-more-btn {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+
+}
+
+
+/* practice-img */
+.practice-img {
+  background-image: url("../img/reework.webp");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.reework img {
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+.practice-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+      to right,
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./img/image 12.png");
+  background-size: cover;
+  z-index: 1;
+}
+
+.practice {
+  z-index: 2;
+  color: white;
+  position: relative;
+}
+
+.practice h2 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.practice p {
+  font-weight: 500;
+}
+
+.practice button {
+  background-color: #00d4b7;
+  color: black;
+  border: none;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+.empower-img {
+  background-image: url("../img/footer.webp");
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.empower-img::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(
+      to left,
+      rgba(255, 255, 255, 0),
+      rgba(0, 0, 0, 0.5)
+    ),
+    url("./img/Rectangle-93.png");
+  background-size: cover;
+  z-index: 1;
+}
+
+.empower {
+  z-index: 2;
+  color: white;
+  position: relative;
+}
+
+.empower h2 {
+  font-size: 40px;
+  font-weight: bold;
+  color: white;
+  text-transform: uppercase;
+}
+
+.empower button {
+  background-color: #1f6861;
+  color: white;
+  border: none;
+  padding: 7px 20px;
+  cursor: pointer;
+}
+
+
+/*  media query */
+@media (max-width:1199px) {
+  .feature-box{
+      max-width: 100px;
+  }
+}
+
+@media (max-width:991px) {
+
+  .title-bar-wrapper{
+      margin-bottom: 60px;
+  }
+  .title-bar-wrapper span{
+      font-size: 20px;
+  }
+  .title-bar-wrapper span::after {
+      width: 100px;
+      left: calc(100% + 10px);
+  }
+
+  .title-bar-wrapper h4{
+      font-size: 30px;
+  }
+
+  .features-box-wrapper {
+      flex-direction: column;
+      gap: 20px;
+  }
+}
+@media (max-width:576px) {
+  .title-bar-wrapper{
+      margin-bottom: 40px;
+  }
+  .title-bar-wrapper span{
+      font-size: 18px;
+  }
+  .title-bar-wrapper h4{
+      font-size: 24px;
+  }
+ 
+      .practice-img,
+      .empower-img {
+        align-items: end;
+      }
+    
+      .empower h2 {
+        font-size: 30px;
+      }
+    
+      .practice h2 {
+        font-size: 21px;
+    }
+    
+      .practice-img::before {
+        background: linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("./img/image-12-mobile.png");
+        background-size: cover;
+      }
+      .empower-img::before {
+        background: linear-gradient(
+            to bottom,
+            rgba(255, 255, 255, 0),
+            rgba(0, 0, 0, 0.5)
+          ),
+          url("./img/Rectangle-93-mobile.png");
+          background-size: cover;
+      } 
+}
+
 @font-face {
   font-family: "Rethink Sans"; /* Name your font family */
   src: url("RethinkSans-VariableFont_wght.ttf"); /* Locate the .ttf file within your directory*/
@@ -550,10 +853,6 @@ body {
 }
 .reework-card {
   padding: 10px;
-}
-.reework img {
-  width: 40%;
-  margin-bottom: 30px;
 }
 
 .reework .reework-card h5 {
