@@ -7,6 +7,175 @@
   line-height: 0;
 }
 
+
+/* swiper silder   */
+ /* #container  {
+  position: relative;
+}
+#navi,
+#infoi {
+  position: absolute;
+
+}
+#infoi {
+  z-index: 10;
+}
+#navi{
+  color: #1F6861;
+  font-weight: 800;
+  align-content: center;
+}
+#navi h3{
+  font-size: 26px;
+}
+#navi p {
+  font-size: 14px;
+}
+#navi p span{
+  font-size: 14px;
+  font-weight: 400;
+}
+#infoi h5{
+
+
+} */
+/* body{
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  height:300px;
+  width:100%;
+} */
+.swiper-container {
+    position:relative;
+    width: 90vw;
+    height: 200px;
+}
+.swiper-container > .swiper-slide__content {
+  position:absolute;
+  top:0;
+}
+
+.swiper-slide {
+  height: 300px;
+  display:flex;
+  background: #eee;
+  align-items: center;
+  justify-content:center;
+  transition:all 200ms linear;
+  transform: scale(0.8);
+  
+ 
+}
+.swiper-slide__content {
+  height: 300px;
+}
+
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  height: 100%;
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+#container {
+ 
+  position: relative;
+}
+#navi,
+#infoi {
+  
+  position: absolute;
+ 
+}
+.infoitext {
+  
+  position: absolute;
+  
+ 
+}
+#infoi {
+  z-index: 10;
+}
+
+
+* { box-sizing: border-box; }
+
+.box {
+  
+   
+    position: relative;
+   
+}
+.foo h3{
+  font-size: 40px;
+  color: #1F6861;
+  font-family: Rethink Sans;
+  font-weight: 800;
+   top: 50px;
+   z-index: 2;
+   right: 150px;
+}
+
+.foo {
+  color: #1F6861;
+  font-size: 14px;
+  font-family: Rethink Sans;
+  font-weight: 600;
+   top: 50px;
+   z-index: 2;
+   right: 17px;
+}
+.bar {
+   top: 300px;
+   right:  150px;
+   
+}
+
+.foobar {
+    z-index: 1;
+    top: -350px;
+}
+
+.fake-foobar {
+
+    left: 47px;
+    top: -194px;
+    
+}
 .title-bar-wrapper {
   margin-bottom: 70px;
   
