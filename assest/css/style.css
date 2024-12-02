@@ -38,7 +38,7 @@ body {
 body {
   background: #eee;
   font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-size: 16px;
   color: #000;
   margin: 0;
   padding: 0;
@@ -63,11 +63,11 @@ body {
   object-fit: cover;
 }
 /* REMOVE THIS, USE YOUR OWN  */
-html,body {
+html,
+body {
   margin: 0;
   padding: 0;
   font-family: Arial, Helvetica, Sans-serif;
-  
 }
 .dummy_page {
   height: 200px;
@@ -79,106 +79,47 @@ html,body {
 }
 /* STYLES SPECIFIC TO FOOTER  */
 .footer {
+  background-color: #f0faf7;
+  padding: 33px 0px;
+  border-top: 10px solid #1f6861;
+}
+footer .download-wrapper p {
+  text-align: center;
+  font-family: Rethink Sans;
+  font-size: 18px;
+  font-weight: 800;
+  margin-bottom: 15px;
+}
+footer .play-store img {
+  line-height: 0;
+  max-width: 200px;
   width: 100%;
-  position: relative;
-  height: auto;
-  background-color: #070617;
 }
-.footer .col {
-  width: 190px;
-  height: auto;
-  float: left;
-  box-sizing: border-box;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  padding: 0px 20px 20px 20px;
+footer .footer-menus {
+  padding: 30px 0px 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 20px;
 }
-.footer .col h1 {
-  margin: 0;
-  padding: 0;
-  font-family: inherit;
-  font-size: 12px;
-  line-height: 17px;
-  padding: 20px 0px 5px 0px;
-  color: rgba(230, 234, 240, 0.2);
-  font-weight: normal;
-  text-transform: uppercase;
-  letter-spacing: 0.250em;
+footer .footer-menus li {
+  list-style: none;
 }
-.footer .col ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-.footer .col ul li {
-  color: #999999;
+footer .footer-menus li a {
+  color: #1F6861;
+  font-family: Rethink Sans;
   font-size: 14px;
-  font-family: inherit;
-  font-weight: bold;
-  padding: 5px 0px 5px 0px;
-  cursor: pointer;
-  transition: .2s;
-  -webkit-transition: .2s;
-  -moz-transition: .2s;
+  font-weight: 800;
+  text-decoration: unset;
+  text-transform: uppercase;
 }
-.social ul li {
-  display: inline-block;
-  padding-right: 5px !important;
+.accordion-item {
+  border-color: white;
 }
-
-.footer .col ul li:hover {
-  color: #ffffff;
-  transition: .1s;
-  -webkit-transition: .1s;
-  -moz-transition: .1s;
-}
-.contain{
-  width: 100%;
-  height: 100%;
-}
-.clearfix {
-  clear: both;
-}
-@media only screen and (min-width: 1280px) {
-  .contain {
-    width: 1200px;
-    margin: 0 auto;
-  }
-}
-@media only screen and (max-width: 1139px) {
-  .contain .social {
-    width: 1000px;
-    display: block;
-  }
-  .social h1 {
-    margin: 0px;
-  }
-}
-@media only screen and (max-width: 950px) {
-  .footer .col {
-    width: 33%;
-  }
-  .footer .col h1 {
-    font-size: 14px;
-  }
-  .footer .col ul li {
-    font-size: 13px;
-  }
-}
-@media only screen and (max-width: 500px) {
-    .footer .col {
-      width: 50%;
-    }
-    .footer .col h1 {
-      font-size: 14px;
-    }
-    .footer .col ul li {
-      font-size: 13px;
-    }
-}
-@media only screen and (max-width: 340px) {
-  .footer .col {
-    width: 100%;
+@media (max-width:767px) {
+  .footer .footer-menus{
+    flex-direction: column;
+    column-count: 2;
   }
 }
 
@@ -196,14 +137,12 @@ html,body {
   z-index: 10;
 }
 
-
-
 * {
   box-sizing: border-box;
 }
 .box-foo-wrapper {
   padding: 50px;
-  background-color: #E8F7F3;
+  background-color: #e8f7f3;
   font-size: 18px;
   display: flex;
   flex-direction: column;
@@ -377,6 +316,18 @@ html,body {
   margin-top: 2rem;
   display: flex;
   justify-content: center;
+}
+
+.footer-btn{
+  border: 2px solid #1F6861 !important;
+  padding: 8px 12px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}
+
+.footer-btn span{
+  font-size: 16px;
 }
 
 /* practice-img */
@@ -996,13 +947,16 @@ body {
 .accordion-button:focus {
   box-shadow: unset;
 }
+.accordion-button {
+  border-bottom: 1px solid black;
+}
 .dion {
   font-weight: 800;
   /* font-size: larger; */
 }
-.dion2 h1{
+.dion2 h1 {
   font-weight: 800;
-  letter-spacing: 9px; 
+  letter-spacing: 9px;
 }
 
 .carousel-caption h5 {
@@ -1447,4 +1401,3 @@ body {
     background-size: cover;
   }
 }
-
