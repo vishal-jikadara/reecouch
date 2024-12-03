@@ -30,6 +30,44 @@
 .swiper-slide__content {
   height: 300px;
 }
+/* accordion-wrapper-start */
+.accordion-button:focus{
+  box-shadow: none;
+  border-color: #000000;
+}
+.accordion-button{
+  border-bottom: 1px solid black;
+  font-size: 30px;
+  font-family: Rethink sans !important;
+  font-weight: 400;
+}
+.accordion-button:not(.collapsed) {
+  color: black;
+  background-color: white;
+  background: none;
+  box-shadow: inset 0 -1px rgba( 0, 0 , 0 , .125);
+}
+.accordion-button:not(.collapsed)::after{
+  background-image: url(/assest/img/down.png);
+}
+.accordion-button::after{
+  background-image: url(/assest/img/down.png);
+}
+
+.accordion-body{
+  font-size: 20px;
+  font-weight: 400;
+  margin-right: 140px;
+}
+.dion {
+  font-weight: 800;
+}
+.dion2 h1 {
+  font-weight: 800;
+  letter-spacing: 9px;
+}
+/* accordion end */
+
 html,
 body {
   position: relative;
@@ -940,25 +978,6 @@ body {
   width: 55%;
   margin-bottom: 0px;
 }
-
-/*  */
-
-/* accordion-wrapper-start */
-.accordion-button:focus {
-  box-shadow: unset;
-}
-.accordion-button {
-  border-bottom: 1px solid black;
-}
-.dion {
-  font-weight: 800;
-  /* font-size: larger; */
-}
-.dion2 h1 {
-  font-weight: 800;
-  letter-spacing: 9px;
-}
-
 .carousel-caption h5 {
   font-size: 70px;
   font-weight: 800;
