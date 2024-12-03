@@ -552,6 +552,10 @@ footer .footer-menus li a {
   padding: 4%;
   font-family: Rethink Sans;
 }
+/* .nav-item{
+  margin-right: 100px;
+  font-weight: 800;
+} */
 .clients {
   position: relative;
 }
@@ -641,7 +645,8 @@ footer .footer-menus li a {
   size: 16px;
 }
 .hey {
-  padding: 0px 15px !important;
+  padding: 0px 20px !important;
+  font-weight: 700;
 }
 .gift {
   margin-top: 28%;
@@ -949,14 +954,22 @@ body {
 .container {
   font-family: Rethink Sans;
 }
-.health h2 {
+.health{
+  margin-left: 100px;
+}
+.health h1 {
   color: #117964;
+  font-size: 70px;
+  font-weight: 800;
+  letter-spacing: 8px;
 }
 
 .health h5 {
   font-family: Rethink Sans;
   font-weight: 800;
   font-size: 35px;
+  letter-spacing: 5px;
+  color: #232323;
 }
 
 .movement {
@@ -1063,6 +1076,14 @@ body {
 
 .cta-button:hover {
   background-color: #008b7d;
+}
+.left-caption {
+  position: absolute;
+  top: 65%;
+  left: 0%;
+  text-align: left;
+  padding-left: 15px;
+  margin-left: 100px;
 }
 
 .image-container {
