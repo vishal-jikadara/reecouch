@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html,
 body {
   margin: 0;
@@ -16,16 +17,27 @@ html,
 body {
   overflow-x: hidden;
   background: #FFFFFF;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+
   font-size: 16px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+  position: relative;
+  height: 100%;
+}
+
+body {
+  background: #eee;
+  font-family: "Rethink Sans";
+  font-size: 14px;
   color: #000;
   margin: 0;
   padding: 0;
 }
 
 @font-face {
-  font-family: "Rethink Sans"; 
-  src: url("RethinkSans-VariableFont_wght.ttf"); 
+  font-family: "Rethink Sans";
+  src: url("RethinkSans-VariableFont_wght.ttf");
 }
 
 .text-green {
@@ -35,6 +47,7 @@ body {
 .bg-green {
   background-color: #21e0aa !important;
 }
+
 .div {
   background-color: #ffffff 0%, rgba(20, 20, 20, 0.93);
 }
@@ -42,6 +55,7 @@ body {
 .bg-success {
   background-color: #1f6861 !important;
 }
+
 .ff-rethink {
   font-family: Rethink Sans !important;
 }
@@ -57,21 +71,26 @@ body {
 .custome-container {
   width: 100%;
 }
+
 .img-wrapper {
   line-height: 0;
 }
+
 .swiper-wrapper {
   height: unset !important;
 }
+
 .swiper-container {
   position: relative;
   width: 90vw;
   height: 200px;
 }
-.swiper-container > .swiper-slide__content {
+
+.swiper-container>.swiper-slide__content {
   position: absolute;
   top: 0;
 }
+
 .swiper-slide {
   height: 300px;
   display: flex;
@@ -81,58 +100,67 @@ body {
   transition: all 200ms linear;
   transform: scale(0.8);
 }
+
 .swiper-slide__content {
   height: 300px;
 }
-/* accordion-wrapper-start */
-.accordion-button:focus{
+
+.accordion-button:focus {
   box-shadow: none;
   border-color: #000000;
 }
-.accordion-button{
+
+.accordion-button {
   border-bottom: 1px solid black;
   font-size: 30px;
   font-family: Rethink sans !important;
   font-weight: 400;
 }
+
 .accordion-button:not(.collapsed) {
   color: black;
   background-color: white;
   background: none;
-  box-shadow: inset 0 -1px rgba( 0, 0 , 0 , .125);
+  box-shadow: inset 0 -1px rgba(0, 0, 0, .125);
 }
-.accordion-button:not(.collapsed)::after{
-  background-image: url(/assest/img/down.png);
-}
-.accordion-button::after{
+
+.accordion-button:not(.collapsed)::after {
   background-image: url(/assest/img/down.png);
 }
 
-.accordion-body{
+.accordion-button::after {
+  background-image: url(/assest/img/down.png);
+}
+
+.accordion-body {
   font-size: 20px;
   font-weight: 400;
   margin-right: 140px;
 }
+
 .dion {
   font-weight: 800;
 }
+
 .dion2 h1 {
   font-weight: 800;
   letter-spacing: 9px;
 }
-/* accordion end */
+
 
 .swiper {
   width: 100%;
   height: 100%;
 }
+
 .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-.gift{
+
+.gift {
   margin-left: 95px;
 }
 
@@ -144,12 +172,14 @@ body {
   box-sizing: border-box;
   padding: 60px 0px;
 }
-/* STYLES SPECIFIC TO FOOTER  */
+
+
 .footer {
   background-color: #f0faf7;
   padding: 33px 0px;
   border-top: 10px solid #1f6861;
 }
+
 footer .download-wrapper p {
   text-align: center;
   font-family: Rethink Sans;
@@ -157,11 +187,13 @@ footer .download-wrapper p {
   font-weight: 800;
   margin-bottom: 15px;
 }
+
 footer .play-store img {
   line-height: 0;
   max-width: 200px;
   width: 100%;
 }
+
 footer .footer-menus {
   padding: 30px 0px 60px;
   display: flex;
@@ -169,9 +201,11 @@ footer .footer-menus {
   justify-content: space-between;
   gap: 20px;
 }
+
 footer .footer-menus li {
   list-style: none;
 }
+
 footer .footer-menus li a {
   color: #1F6861;
   font-family: Rethink Sans;
@@ -180,6 +214,7 @@ footer .footer-menus li a {
   text-decoration: unset;
   text-transform: uppercase;
 }
+
 .accordion-item {
   border-color: white;
 }
@@ -188,13 +223,16 @@ footer .footer-menus li a {
 #container {
   position: relative;
 }
+
 #navi,
 #infoi {
   position: absolute;
 }
+
 .infoitext {
   position: absolute;
 }
+
 #infoi {
   z-index: 10;
 }
@@ -202,6 +240,7 @@ footer .footer-menus li a {
 * {
   box-sizing: border-box;
 }
+
 .box-foo-wrapper {
   padding: 50px;
   background-color: #e8f7f3;
@@ -210,6 +249,7 @@ footer .footer-menus li a {
   flex-direction: column;
   position: relative;
 }
+
 .box-foo-wrapper::after {
   position: absolute;
   content: "";
@@ -220,6 +260,7 @@ footer .footer-menus li a {
   bottom: 0;
   top: 26px;
 }
+
 .box-foo-wrapper::before {
   position: absolute;
   content: "";
@@ -239,6 +280,7 @@ footer .footer-menus li a {
   max-width: 335px;
   margin-bottom: 74px;
 }
+
 .foo h3 {
   font-size: 40px;
   color: #1f6861;
@@ -246,10 +288,12 @@ footer .footer-menus li a {
   font-weight: 800;
   initial-letter: 10%;
 }
+
 .foo p {
   font-size: 14px;
   line-height: 18.23px;
 }
+
 .foo p span {
   font-weight: 800;
 }
@@ -269,6 +313,7 @@ footer .footer-menus li a {
 .mon {
   align-items: center;
 }
+
 .title-bar-wrapper {
   margin-bottom: 70px;
 
@@ -325,6 +370,7 @@ footer .footer-menus li a {
   font-size: 20px;
   font-weight: 600;
 }
+
 .main-key-features-wrapper .features-box-wrapper {
   display: flex;
   flex-wrap: wrap;
@@ -335,6 +381,7 @@ footer .footer-menus li a {
 .main-key-features-wrapper .feature-box {
   max-width: 160px;
   text-align: start;
+
   span {
     color: #d6d6d6;
     font-size: 20px;
@@ -380,7 +427,7 @@ footer .footer-menus li a {
   justify-content: center;
 }
 
-.footer-btn{
+.footer-btn {
   border: 2px solid #1F6861 !important;
   padding: 8px 12px;
   font-size: 16px;
@@ -388,7 +435,7 @@ footer .footer-menus li a {
   align-items: center;
 }
 
-.footer-btn span{
+.footer-btn span {
   font-size: 16px;
 }
 
@@ -401,7 +448,8 @@ footer .footer-menus li a {
   align-items: center;
   position: relative;
 }
-.reework{
+
+.reework {
   margin-left: 95px;
   margin-right: 95px;
 }
@@ -418,11 +466,9 @@ footer .footer-menus li a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-      to right,
+  background: linear-gradient(to right,
       rgba(255, 255, 255, 0),
-      rgba(0, 0, 0, 0.5)
-    ),
+      rgba(0, 0, 0, 0.5)),
     url("./img/image 12.png");
   background-size: cover;
   z-index: 1;
@@ -453,6 +499,7 @@ footer .footer-menus li a {
   padding: 7px 20px;
   cursor: pointer;
 }
+
 .empower-img {
   background-image: url("../img/footer.webp");
   width: 100%;
@@ -470,11 +517,9 @@ footer .footer-menus li a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-      to left,
+  background: linear-gradient(to left,
       rgba(255, 255, 255, 0),
-      rgba(0, 0, 0, 0.5)
-    ),
+      rgba(0, 0, 0, 0.5)),
     url("./img/Rectangle-93.png");
   background-size: cover;
   z-index: 1;
@@ -501,12 +546,13 @@ footer .footer-menus li a {
   cursor: pointer;
 }
 
-/* slider */
+
 
 .swiper-container {
   width: 100%;
   height: 100%;
 }
+
 .swiper-slide {
   text-align: start;
   font-size: 18px;
@@ -515,12 +561,14 @@ footer .footer-menus li a {
   justify-content: center;
   align-items: center;
 }
+
 .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
+
 .btn {
   border: none;
   color: black;
@@ -534,14 +582,17 @@ footer .footer-menus li a {
   font-weight: 700;
   background-color: #00d4b7;
 }
+
 .btn:hover {
   opacity: 0.5;
 }
+
 .btn2 {
   padding: 10px;
   border: none;
   font-family: Rethink Sans;
 }
+
 .btn-group button {
   width: 140px;
   padding: 4%;
@@ -551,11 +602,16 @@ footer .footer-menus li a {
 .clients {
   position: relative;
 }
+
 .clients img {
-  width: 100%; /* Makes the image fill the container */
-  height: 100%; /* Ensures the image fills the container height */
-  object-fit: cover; /* Ensures the image scales without distortion */
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
 }
+
 .plans h5 {
   position: absolute;
   top: 20%;
@@ -564,6 +620,7 @@ footer .footer-menus li a {
   font-size: 60px !important;
   letter-spacing: 10px;
 }
+
 .plans p {
   position: absolute;
   top: 58%;
@@ -572,6 +629,7 @@ footer .footer-menus li a {
   font-size: 35px !important;
   letter-spacing: 1px;
 }
+
 .btn5 {
   position: absolute;
   bottom: 130px;
@@ -587,34 +645,47 @@ footer .footer-menus li a {
   align-items: center;
   font-weight: 500;
 }
+
 .zero {
   position: relative;
 }
+
 .zero img {
-  width: 100%; /* Makes the image fill the container */
-  height: 100%; /* Ensures the image fills the container height */
-  object-fit: cover; /* Ensures the image scales without distortion */
+  width: 100%;
+
+  height: 100%;
+
+  object-fit: cover;
+
 }
+
 .btn3 {
-  position: absolute; /* Positions the button on top of the image */
- 
+  position: absolute;
+
   top: 721px;
-  left: 18%; /* Centers the button horizontally */
-  transform: translate(
-    -50%,
-    -50%
-  ); 
+  left: 18%;
+
+  transform: translate(-50%,
+      -50%);
   background-color: #00d4b7;
   color: white;
-  border: none; /* Removes the border */
-  padding: 10px 53px; /* Adds padding inside the button */
-  font-size: 19px; /* Font size */
-  cursor: pointer; /* Makes the button clickable */
-  border-radius: 5px; /* Optional: adds rounded corners */
-  display: flex; /* Allows the icon and text to align properly */
-  align-items: center; /* Vertically aligns the text and icon */
+  border: none;
+
+  padding: 10px 53px;
+
+  font-size: 19px;
+
+  cursor: pointer;
+
+  border-radius: 5px;
+
+  display: flex;
+
+  align-items: center;
+
   font-weight: 500;
 }
+
 .btn4 {
   position: absolute;
   bottom: 5px;
@@ -630,50 +701,62 @@ footer .footer-menus li a {
   align-items: center;
   font-weight: 500;
 }
+
 .collapse {
   padding-top: 20px;
   font-family: Rethink Sans;
   font-weight: 600;
   size: 16px;
 }
+
 .hey {
   padding: 0px 20px !important;
   font-weight: 700;
 }
+
 .gift {
   margin-top: 28%;
   color: #1f6861;
 }
-.movement{
-   margin-left: 95px;
-}
-/* .title-bar-wrapper{
+
+.movement {
   margin-left: 95px;
-} */
+}
+
 .gift span {
   font-weight: 600;
   font-size: 30px;
 }
+
 .gift h3 {
   font-weight: 400;
   font-size: 26px;
 }
+
 .software img {
   margin-top: 50px;
   left: 100px !important;
   float: left;
 }
+
 .software {
   color: #1f6861;
   float: left;
 }
+
 .software h3 {
+  font-weight: 500;
+  font-size: px;
+  color: #1f6861;
+}
+
+.friendly {
+  color: #1f6861;
   font-weight: 500;
   font-size: 42px;
   color: 1f6861;
-}
-.friendly {
-  color: #1f6861;
+  font-family: Rethink Sans;
+
 }
 
 .login-group {
@@ -703,8 +786,7 @@ footer .footer-menus li a {
 }
 
 .navbar {
-  /* box-shadow: 0px 5px 10px 0px #48805b; */
-  /* position: fixed; */
+
   width: 100%;
   background: #fff;
   color: #000;
@@ -721,14 +803,14 @@ footer .footer-menus li a {
 }
 
 .carousel-item {
-  /* height: calc(100vh - 96px); */
+
   height: 100vh;
 }
 
 .carousel-item img {
   background-size: cover;
   width: 100%;
-  /* height: 100vh; */
+
   position: relative;
 }
 
@@ -768,6 +850,7 @@ footer .footer-menus li a {
   width: 40px;
   height: 40px;
 }
+
 .caption h1 {
   font-size: 50px;
   font-weight: 600;
@@ -776,6 +859,7 @@ footer .footer-menus li a {
   padding-left: 5px;
   top: 10px;
 }
+
 .black-text {
   color: black;
   font-size: 23px;
@@ -788,16 +872,18 @@ footer .footer-menus li a {
 }
 
 .why h5 {
-  /* padding: 85px; */
+
   font-weight: 700;
   font-size: 33px;
 }
-/* card hedar */
+
+
 .why p {
   font-weight: 800;
   color: #29c192;
   position: relative;
 }
+
 .why p::before {
   content: "";
   position: absolute;
@@ -808,13 +894,14 @@ footer .footer-menus li a {
   top: 10px;
 }
 
-/* REEWORK + REECOACH */
+
 .whyy p {
   font-weight: 800;
   color: #29c192;
   position: relative;
   font-size: 23px;
 }
+
 .whyy p::before {
   content: "";
   position: absolute;
@@ -842,7 +929,7 @@ footer .footer-menus li a {
   padding: 10px;
 }
 
-/* card */
+
 .card-title {
   font-size: 16px;
 }
@@ -861,39 +948,30 @@ footer .footer-menus li a {
   height: 100vh;
 }
 
-.digital{
+.digital {
   margin-left: 95px;
-  /* margin-right: 95px; */
+
 }
+
 .digital h3 {
   font-size: 69px;
   font-weight: 800;
   font-family: Rethink Sans;
   letter-spacing: 2px;
 }
+
 .digital h6 {
   font-size: 36px;
   font-weight: 500;
   font-family: Rethink Sans;
 }
-.digital button{
+
+.digital button {
   margin-bottom: 60px;
 }
-/* swiper silder */
-html,
-body {
-  position: relative;
-  height: 100%;
-}
 
-body {
-  background: #eee;
-  font-family: "Rethink Sans";
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
+
+
 
 .navbar-container {
   display: flex;
@@ -901,13 +979,16 @@ body {
   height: 64px;
   align-items: center;
 }
+
 .navbar-toggler {
   border: none !important;
-  background: transparent; /* Make sure it’s clear if you want no background */
-  box-shadow: none; /* Remove any shadow if present */
+  background: transparent;
+
+  box-shadow: none;
+
 }
 
-/* If you want to adjust the appearance when it's active or focused */
+
 .navbar-toggler:focus {
   outline: none;
   box-shadow: none;
@@ -917,6 +998,7 @@ body {
   order: 2;
   display: flex;
 }
+
 .logo {
   order: 1;
   font-size: 2.3rem;
@@ -939,7 +1021,7 @@ body {
   color: #117964;
 }
 
-.section{
+.section {
   padding: 25px;
 }
 
@@ -949,7 +1031,7 @@ body {
 }
 
 .reework-card img {
-  /* padding: 10px; */
+
   width: 142px;
   height: 142px;
 }
@@ -957,10 +1039,12 @@ body {
 .container {
   font-family: Rethink Sans;
 }
-.health{
-    margin-left: 95px;
-    margin-right: 95px;
+
+.health {
+  margin-left: 95px;
+  margin-right: 95px;
 }
+
 .health h1 {
   color: #117964;
   font-size: 70px;
@@ -996,10 +1080,10 @@ body {
   margin-bottom: 0px;
 }
 
-.carousel-caption h5{
+.carousel-caption h5 {
   font-size: 70px;
   font-weight: 700;
-  text-align: left; 
+  text-align: left;
 }
 
 .carousel-caption p {
@@ -1022,14 +1106,13 @@ body {
 
 .empower h1 {
   font-weight: 800;
-  /* letter-spacing: 23px; */
   font-size: 78px;
   font-family: Rethink Sans;
   line-height: 100px;
   left: 50px !important;
 }
 
-/* hero */
+
 .hero {
   display: flex;
   align-items: center;
@@ -1080,6 +1163,7 @@ body {
 .cta-button:hover {
   background-color: #008b7d;
 }
+
 .left-caption {
   position: absolute;
   top: 65%;
@@ -1101,13 +1185,15 @@ body {
   border-radius: 8px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
 }
-/* General Styles */
+
+
 .bg-img {
   background: url("../img/footer.webp") no-repeat center center/cover;
 }
 
 .footernear h1 {
-  font-size: 2rem; /* Responsive heading size */
+  font-size: 2rem;
+ 
 }
 
 .btn2 {
@@ -1123,43 +1209,55 @@ body {
   transform: scale(1.05);
 }
 
-/* responsive */
+
 @media (max-width: 1200px) {
   .desktop-wrapper {
     width: 100% !important;
   }
+
   .hey {
     padding: 15px 15px !important;
   }
+
   .carousel-caption h5 {
-    font-size: 60px; /* Reduce font size for medium screens */
+    font-size: 60px;
+  
     line-height: 72px;
   }
+
   .carousel-caption p {
     font-size: 32px;
     line-height: 42px;
   }
+
   .health h2 {
     font-size: 29px !important;
     letter-spacing: -0.5px;
   }
+
   .health h5 {
     font-size: 24px !important;
   }
 }
+
 @media (max-width: 1199px) {
   .feature-box {
     max-width: 100px;
   }
 }
+
 @media (max-width: 992px) {
   .custome-container {
-    max-width: 960px; /* Breakpoint for medium screens */
+    max-width: 960px;
+ 
   }
+
   .carousel-caption h5 {
-    font-size: 50px; /* Further reduce for smaller screens */
+    font-size: 50px;
+
     line-height: 60px;
   }
+
   .carousel-caption p {
     font-size: 28px;
     line-height: 38px;
@@ -1167,7 +1265,7 @@ body {
 
   .carousel-item img {
     height: 100%;
-    /* height: 450px; */
+
     object-fit: cover;
     position: relative;
   }
@@ -1177,13 +1275,16 @@ body {
     transform: unset;
   }
 }
+
 @media (max-width: 991px) {
   .title-bar-wrapper {
     margin-bottom: 60px;
   }
+
   .title-bar-wrapper span {
     font-size: 20px;
   }
+
   .title-bar-wrapper span::after {
     width: 100px;
     left: calc(100% + 10px);
@@ -1198,24 +1299,32 @@ body {
     gap: 20px;
   }
 }
+
 @media (max-width: 768px) {
-  .footer .footer-menus{
+  .footer .footer-menus {
     flex-direction: column;
     column-count: 2;
   }
+
   .custome-container {
-    max-width: 720px; /* Breakpoint for small screens */
+    max-width: 720px;
+ 
   }
+
   .footernear h1 {
-    font-size: 2.5rem; /* Larger heading for tablets and above */
+    font-size: 2.5rem;
+
   }
+
   .btn2 {
     font-size: 1.2rem;
     padding: 0.8rem 2rem;
   }
+
   .navbar {
     opacity: 0.95;
   }
+
   .empower {
     font-size: 10px;
   }
@@ -1306,25 +1415,28 @@ body {
     font-size: 2.5rem;
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
+  .navbar-container input[type="checkbox"]:checked~.menu-items {
     transform: translateX(0);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
     transform: rotate(45deg);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
     transform: scaleY(0);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
     transform: rotate(-45deg);
   }
+
   .carousel-caption h5 {
-    font-size: 40px; /* Even smaller for tablets */
+    font-size: 40px;
+
     line-height: 50px;
   }
+
   .carousel-caption p {
     font-size: 24px;
     line-height: 34px;
@@ -1334,17 +1446,23 @@ body {
     margin-top: 250px;
   }
 }
+
 @media (max-width: 576px) {
   .custome-container {
-    max-width: 100%; /* Full width for extra small screens */
-    padding: 0 10px; /* Reduce padding for smaller screens */
+    max-width: 100%;
+
+    padding: 0 10px;
+
   }
+
   .title-bar-wrapper {
     margin-bottom: 40px;
   }
+
   .title-bar-wrapper span {
     font-size: 18px;
   }
+
   .title-bar-wrapper h4 {
     font-size: 24px;
   }
@@ -1363,76 +1481,139 @@ body {
   }
 
   .practice-img::before {
-    background: linear-gradient(
-        to bottom,
+    background: linear-gradient(to bottom,
         rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5)
-      ),
+        rgba(0, 0, 0, 0.5)),
       url("./img/image-12-mobile.png");
     background-size: cover;
   }
+
   .empower-img::before {
-    background: linear-gradient(
-        to bottom,
+    background: linear-gradient(to bottom,
         rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5)
-      ),
+        rgba(0, 0, 0, 0.5)),
       url("./img/Rectangle-93-mobile.png");
     background-size: cover;
   }
+
   .carousel-caption h5 {
     font-size: 30px;
     line-height: 40px;
   }
+
   .carousel-caption p {
     font-size: 20px;
     line-height: 28px;
   }
+
   .btn {
     padding: 12px 15px;
     font-size: 14px;
   }
+
   .health h2 {
     font-size: 20px;
   }
+
   .digital h4 {
     font-size: 29px;
   }
+
   .digital h5 {
     font-size: 20px;
   }
+
   .carousel-item {
     height: calc(100vh - 96px);
   }
+
   .why p::before {
     width: 130px;
     height: 3px;
     left: 178px;
     top: 13px;
   }
+
   .why p {
     font-size: 18px;
     margin-bottom: 10px;
   }
+
   .why h5 {
     font-size: 21px;
   }
+
   .reework-card {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
   }
+
   .reework-card-border {
     border-bottom: 1px solid #437454;
   }
+
   .reework-card-border-top {
     border-top: 1px solid #437454;
     padding-top: 28px;
   }
+
   .reework-card h5 {
     display: block;
     width: 100%;
     text-align: start;
   }
 }
+
+.col-lg-5 {
+  flex: 1 1 calc(41.666% - 20px);
+}
+h3 {
+  font-size: 18px;
+  line-height: 1.5;
+}
+button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .col-lg-3,
+  .col-lg-5 {
+    flex: 1 1 100%;
+  }
+
+  .gift, .software, .friendly {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  button {
+    width: 100%;
+    max-width: 300px;
+    margin: 10px auto;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  h3 {
+    font-size: 16px;
+  }
+
+  button {
+    font-size: 14px;
+    padding: 8px 15px;
+  }
+
+  img {
+    margin-bottom: 15px;
+  }
+}
+
+
+
