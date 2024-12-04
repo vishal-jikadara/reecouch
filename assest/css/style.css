@@ -3,38 +3,60 @@
   padding: 0;
   box-sizing: border-box;
 }
+html,
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, Sans-serif;
+  position: relative;
+  height: 100%;
+}
 
-body{
+html,
+body {
   overflow-x: hidden;
+  background: #FFFFFF;
+  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: "Rethink Sans"; 
+  src: url("RethinkSans-VariableFont_wght.ttf"); 
+}
+
+.text-green {
+  color: #437454 !important;
+}
+
+.bg-green {
+  background-color: #21e0aa !important;
+}
+.div {
+  background-color: #ffffff 0%, rgba(20, 20, 20, 0.93);
+}
+
+.bg-success {
+  background-color: #1f6861 !important;
+}
+.ff-rethink {
+  font-family: Rethink Sans !important;
+}
+
+.section {
+  padding: 80px 0px;
+}
+
+.fs-120 {
+  font-size: 87px !important;
 }
 
 .custome-container {
   width: 100%;
-  max-width: 1200px; /* Adjust the max width as per your design */
-  margin: 0 auto; /* Center align */
-  padding: 0 15px; /* Add padding for better spacing */
 }
-
-/* Adjust container width for breakpoints */
-@media (max-width: 992px) {
-  .custome-container {
-    max-width: 960px; /* Breakpoint for medium screens */
-  }
-}
-
-@media (max-width: 768px) {
-  .custome-container {
-    max-width: 720px; /* Breakpoint for small screens */
-  }
-}
-
-@media (max-width: 576px) {
-  .custome-container {
-    max-width: 100%; /* Full width for extra small screens */
-    padding: 0 10px; /* Reduce padding for smaller screens */
-  }
-}
-
 .img-wrapper {
   line-height: 0;
 }
@@ -100,45 +122,20 @@ body{
 }
 /* accordion end */
 
-html,
-body {
-  position: relative;
-  height: 100%;
-}
-body {
-  background: #FFFFFF;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 16px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-}
 .swiper {
   width: 100%;
   height: 100%;
 }
-/* .swiper-slide {
-  text-align: center;
-  font-size: 18px;
-  background: #fff;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-} */
-
 .swiper-slide img {
   display: block;
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
-/* REMOVE THIS, USE YOUR OWN  */
-html,
-body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, Helvetica, Sans-serif;
+.gift{
+  margin-left: 95px;
 }
+
 .dummy_page {
   height: 200px;
   width: 100%;
@@ -186,12 +183,7 @@ footer .footer-menus li a {
 .accordion-item {
   border-color: white;
 }
-@media (max-width:767px) {
-  .footer .footer-menus{
-    flex-direction: column;
-    column-count: 2;
-  }
-}
+
 
 #container {
   position: relative;
@@ -400,7 +392,6 @@ footer .footer-menus li a {
   font-size: 16px;
 }
 
-/* practice-img */
 .practice-img {
   background-image: url("../img/reework.webp");
   width: 100%;
@@ -411,7 +402,8 @@ footer .footer-menus li a {
   position: relative;
 }
 .reework{
-  margin-left: 40px;
+  margin-left: 95px;
+  margin-right: 95px;
 }
 
 .reework img {
@@ -440,6 +432,7 @@ footer .footer-menus li a {
   z-index: 2;
   color: white;
   position: relative;
+  margin-right: 95px;
 }
 
 .practice h2 {
@@ -508,41 +501,8 @@ footer .footer-menus li a {
   cursor: pointer;
 }
 
-/*  media query */
-
-@font-face {
-  font-family: "Rethink Sans"; /* Name your font family */
-  src: url("RethinkSans-VariableFont_wght.ttf"); /* Locate the .ttf file within your directory*/
-}
-
-.text-green {
-  color: #437454 !important;
-}
-
-.bg-green {
-  background-color: #21e0aa !important;
-  /* background-color: #F4FBF9 !important; */
-}
-.div {
-  background-color: #ffffff 0%, rgba(20, 20, 20, 0.93);
-}
-
-.bg-success {
-  background-color: #1f6861 !important;
-}
-.ff-rethink {
-  font-family: Rethink Sans !important;
-}
-
-.section {
-  padding: 80px 0px;
-}
-
-.fs-120 {
-  font-size: 87px !important;
-}
-
 /* slider */
+
 .swiper-container {
   width: 100%;
   height: 100%;
@@ -587,10 +547,7 @@ footer .footer-menus li a {
   padding: 4%;
   font-family: Rethink Sans;
 }
-/* .nav-item{
-  margin-right: 100px;
-  font-weight: 800;
-} */
+
 .clients {
   position: relative;
 }
@@ -640,15 +597,15 @@ footer .footer-menus li a {
 }
 .btn3 {
   position: absolute; /* Positions the button on top of the image */
-  /* top: 30%; */
+ 
   top: 721px;
   left: 18%; /* Centers the button horizontally */
   transform: translate(
     -50%,
     -50%
-  ); /* Offsets the button to perfectly center it */
+  ); 
   background-color: #00d4b7;
-  color: white; /* Text color */
+  color: white;
   border: none; /* Removes the border */
   padding: 10px 53px; /* Adds padding inside the button */
   font-size: 19px; /* Font size */
@@ -687,6 +644,12 @@ footer .footer-menus li a {
   margin-top: 28%;
   color: #1f6861;
 }
+.movement{
+   margin-left: 95px;
+}
+/* .title-bar-wrapper{
+  margin-left: 95px;
+} */
 .gift span {
   font-weight: 600;
   font-size: 30px;
@@ -898,6 +861,10 @@ footer .footer-menus li a {
   height: 100vh;
 }
 
+.digital{
+  margin-left: 95px;
+  /* margin-right: 95px; */
+}
 .digital h3 {
   font-size: 69px;
   font-weight: 800;
@@ -909,7 +876,9 @@ footer .footer-menus li a {
   font-weight: 500;
   font-family: Rethink Sans;
 }
-
+.digital button{
+  margin-bottom: 60px;
+}
 /* swiper silder */
 html,
 body {
@@ -969,11 +938,9 @@ body {
 .navbar a:hover {
   color: #117964;
 }
-.section {
+
+.section{
   padding: 25px;
-}
-.reework-card {
-  padding: 10px;
 }
 
 .reework .reework-card h5 {
@@ -990,9 +957,10 @@ body {
 .container {
   font-family: Rethink Sans;
 }
-/* .health{
-  margin-left: 100px;
-} */
+.health{
+    margin-left: 95px;
+    margin-right: 95px;
+}
 .health h1 {
   color: #117964;
   font-size: 70px;
@@ -1027,14 +995,13 @@ body {
   width: 55%;
   margin-bottom: 0px;
 }
-.carousel-caption h5 {
+
+.carousel-caption h5{
   font-size: 70px;
-  font-weight: 800;
-  line-height: 74px;
-  letter-spacing: 0.1em;
-  text-align: left;
-  max-width: 940px;
+  font-weight: 700;
+  text-align: left; 
 }
+
 .carousel-caption p {
   font-size: 36px;
   font-weight: 500;
@@ -1180,7 +1147,15 @@ body {
     font-size: 24px !important;
   }
 }
+@media (max-width: 1199px) {
+  .feature-box {
+    max-width: 100px;
+  }
+}
 @media (max-width: 992px) {
+  .custome-container {
+    max-width: 960px; /* Breakpoint for medium screens */
+  }
   .carousel-caption h5 {
     font-size: 50px; /* Further reduce for smaller screens */
     line-height: 60px;
@@ -1202,7 +1177,35 @@ body {
     transform: unset;
   }
 }
+@media (max-width: 991px) {
+  .title-bar-wrapper {
+    margin-bottom: 60px;
+  }
+  .title-bar-wrapper span {
+    font-size: 20px;
+  }
+  .title-bar-wrapper span::after {
+    width: 100px;
+    left: calc(100% + 10px);
+  }
+
+  .title-bar-wrapper h4 {
+    font-size: 30px;
+  }
+
+  .features-box-wrapper {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
 @media (max-width: 768px) {
+  .footer .footer-menus{
+    flex-direction: column;
+    column-count: 2;
+  }
+  .custome-container {
+    max-width: 720px; /* Breakpoint for small screens */
+  }
   .footernear h1 {
     font-size: 2.5rem; /* Larger heading for tablets and above */
   }
@@ -1331,29 +1334,56 @@ body {
     margin-top: 250px;
   }
 }
-/* Smallest for mobile screens */
 @media (max-width: 576px) {
+  .custome-container {
+    max-width: 100%; /* Full width for extra small screens */
+    padding: 0 10px; /* Reduce padding for smaller screens */
+  }
+  .title-bar-wrapper {
+    margin-bottom: 40px;
+  }
+  .title-bar-wrapper span {
+    font-size: 18px;
+  }
+  .title-bar-wrapper h4 {
+    font-size: 24px;
+  }
+
+  .practice-img,
+  .empower-img {
+    align-items: end;
+  }
+
+  .empower h2 {
+    font-size: 30px;
+  }
+
+  .practice h2 {
+    font-size: 21px;
+  }
+
+  .practice-img::before {
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("./img/image-12-mobile.png");
+    background-size: cover;
+  }
+  .empower-img::before {
+    background: linear-gradient(
+        to bottom,
+        rgba(255, 255, 255, 0),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("./img/Rectangle-93-mobile.png");
+    background-size: cover;
+  }
   .carousel-caption h5 {
     font-size: 30px;
     line-height: 40px;
   }
-  /* .empower h1{
-    font-size: 16px;
-    font-weight: 600;
-    margin-right: 200px;
-    ;
-  } */
-  /* .footernear h1 {
-    font-size: 8px; 
-    line-height: 1.4;  
-  } */
-  /* .btn2 {
-    font-size: 0.9rem; 
-    padding: 0.6rem 1.5rem; 
-  } */
-  /* .empower {
-    padding: 0 1rem; 
-  } */
   .carousel-caption p {
     font-size: 20px;
     line-height: 28px;
@@ -1404,76 +1434,5 @@ body {
     display: block;
     width: 100%;
     text-align: start;
-  }
-}
-
-@media (max-width: 1199px) {
-  .feature-box {
-    max-width: 100px;
-  }
-}
-
-@media (max-width: 991px) {
-  .title-bar-wrapper {
-    margin-bottom: 60px;
-  }
-  .title-bar-wrapper span {
-    font-size: 20px;
-  }
-  .title-bar-wrapper span::after {
-    width: 100px;
-    left: calc(100% + 10px);
-  }
-
-  .title-bar-wrapper h4 {
-    font-size: 30px;
-  }
-
-  .features-box-wrapper {
-    flex-direction: column;
-    gap: 20px;
-  }
-}
-@media (max-width: 576px) {
-  .title-bar-wrapper {
-    margin-bottom: 40px;
-  }
-  .title-bar-wrapper span {
-    font-size: 18px;
-  }
-  .title-bar-wrapper h4 {
-    font-size: 24px;
-  }
-
-  .practice-img,
-  .empower-img {
-    align-items: end;
-  }
-
-  .empower h2 {
-    font-size: 30px;
-  }
-
-  .practice h2 {
-    font-size: 21px;
-  }
-
-  .practice-img::before {
-    background: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5)
-      ),
-      url("./img/image-12-mobile.png");
-    background-size: cover;
-  }
-  .empower-img::before {
-    background: linear-gradient(
-        to bottom,
-        rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5)
-      ),
-      url("./img/Rectangle-93-mobile.png");
-    background-size: cover;
   }
 }
