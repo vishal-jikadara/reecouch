@@ -17,7 +17,6 @@ html,
 body {
   overflow-x: hidden;
   background: #ffffff;
-
   font-size: 16px;
   color: #000;
   margin: 0;
@@ -63,6 +62,9 @@ body {
 .section {
   padding: 80px 0px;
 }
+.section {
+  padding: 25px;
+}
 
 .fs-120 {
   font-size: 87px !important;
@@ -80,6 +82,7 @@ body {
   /* height: unset !important; */
   margin-left: 95px;
 }
+
 @media (max-width:991px) {
   .swiper-wrapper {
     margin-left: 0px;
@@ -92,7 +95,7 @@ body {
   height: 200px;
 }
 
-.swiper-container > .swiper-slide__content {
+.swiper-container>.swiper-slide__content {
   position: absolute;
   top: 0;
 }
@@ -110,7 +113,9 @@ body {
 .swiper-slide__content {
   height: 300px;
 }
-.accordion{
+
+
+.accordion {
   margin-left: 95px;
   margin-right: 95px;
 }
@@ -122,7 +127,7 @@ body {
 
 .accordion-button {
   border-bottom: 1px solid black;
-  font-size: 30px;
+  font-size: 36px;
   font-family: Rethink sans !important;
   font-weight: 400;
 }
@@ -148,6 +153,8 @@ body {
   margin-right: 140px;
 }
 
+
+
 .dion {
   font-family: Mont Blanc Var;
 }
@@ -172,11 +179,11 @@ body {
 }
 
 
-.testimonials{
+.testimonials {
   position: relative;
 }
 
-.testimonials .abso{
+.testimonials .abso {
   position: absolute;
   top: 50%;
   left: 0;
@@ -322,6 +329,7 @@ footer .footer-menus li a {
   align-items: center;
 
 }
+
 .mon {
   align-items: center;
 }
@@ -465,11 +473,41 @@ footer .footer-menus li a {
   margin-left: 95px;
   margin-right: 95px;
 }
+@media (min-width: 375px) {
+  .reework {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  .digital h3 {
+    font-size: 30px !important;
+    font-weight: 800;
+    font-family: Rethink Sans;
+    letter-spacing: 2px;
+    padding: 5xpx;
+  }
+  .digital h6 {
+    font-size: 16px !important;
+    font-weight: 500;
+    font-family: Rethink Sans;
+    padding: 5px;
+  }
+  .digital {
+    margin-left: 10px !important;
+  }
+  .accordion {
+    margin-left: 10px;
+    margin-right: 10px;
+    font-size: 8px !important;
+  }
+
+}
+
 
 .reework img {
   width: 100%;
   margin-bottom: 30px;
 }
+
 
 .practice-img::before {
   content: "";
@@ -478,11 +516,9 @@ footer .footer-menus li a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-      to right,
+  background: linear-gradient(to right,
       rgba(255, 255, 255, 0),
-      rgba(0, 0, 0, 0.5)
-    ),
+      rgba(0, 0, 0, 0.5)),
     url("./img/image 12.png");
   background-size: cover;
   z-index: 1;
@@ -516,13 +552,11 @@ footer .footer-menus li a {
 
 .empower-img {
   background-image: url("../img/footer.webp");
-  /* width: 100%; */
-  background-size: 100%,100%;
+  background-size: 100%, 100%;
   background-repeat: no-repeat;
   display: flex;
   align-items: center;
   position: relative;
-  
 }
 
 .empower-img::before {
@@ -532,7 +566,7 @@ footer .footer-menus li a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to left,rgba(255, 255, 255, 0),rgba(0, 0, 0, 0.5)),url("./img/Rectangle-93.png");
+  background: linear-gradient(to left, rgba(255, 255, 255, 0), rgba(0, 0, 0, 0.5)), url("./img/Rectmarginangle-93.png");
   background-size: cover;
   z-index: 1;
 }
@@ -543,6 +577,14 @@ footer .footer-menus li a {
   position: relative;
   margin-left: 95px;
   padding: 75px 0px;
+}
+
+.empower h1 {
+  font-weight: 800;
+  font-size: 78px;
+  font-family: Rethink Sans;
+  line-height: 100px;
+  left: 50px !important;
 }
 
 .empower h2 {
@@ -561,39 +603,52 @@ footer .footer-menus li a {
 }
 
 @media (max-width:1199px) {
-  .empower{
+  .empower {
     margin-left: 60px;
     padding: 50px 0px;
   }
-  .empower h2{
+
+  .empower h2 {
     font-size: 64px;
   }
 }
+
 @media (max-width:991px) {
-  .empower-img{
+  .empower-img {
     background-size: cover;
   }
-  .empower{
+
+  .empower {
     margin-left: 40px;
   }
-  .empower h2{
+
+  .empower h2 {
     font-size: 40px;
   }
 }
+
 @media (max-width:767px) {
 
-  .empower{
+  .empower {
     margin-left: 20px;
   }
-  .empower h2{
+
+  .empower h2 {
     font-size: 32px;
   }
 }
+
 @media (max-width:575px) {
-  
-  .empower h2{
+
+  .empower h2 {
     font-size: 18px;
   }
+
+  .empower button {
+    padding: 5px;
+  }
+
+
 }
 
 .btn {
@@ -739,7 +794,7 @@ footer .footer-menus li a {
 }
 
 .gift {
-  margin-top: 28%;
+  margin-top: 25%;
   color: #1f6861;
 }
 
@@ -1032,9 +1087,7 @@ footer .footer-menus li a {
   color: #117964;
 }
 
-.section {
-  padding: 25px;
-}
+
 
 .reework .reework-card h5 {
   font-size: 21px;
@@ -1055,11 +1108,11 @@ footer .footer-menus li a {
   margin-right: 95px;
 }
 
-.health h1 {
+.health h6 {
   color: #117964;
-  font-size: 70px;
+  font-size: 120px;
   font-weight: 800;
-  letter-spacing: 8px;
+  /* letter-spacing: 8px; */
 }
 
 .health h5 {
@@ -1112,14 +1165,6 @@ footer .footer-menus li a {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-}
-
-.empower h1 {
-  font-weight: 800;
-  font-size: 78px;
-  font-family: Rethink Sans;
-  line-height: 100px;
-  left: 50px !important;
 }
 
 .hero {
@@ -1416,19 +1461,19 @@ footer .footer-menus li a {
     font-size: 2.5rem;
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
+  .navbar-container input[type="checkbox"]:checked~.menu-items {
     transform: translateX(0);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
     transform: rotate(45deg);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
     transform: scaleY(0);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
     transform: rotate(-45deg);
   }
 
@@ -1478,21 +1523,17 @@ footer .footer-menus li a {
   }
 
   .practice-img::before {
-    background: linear-gradient(
-        to bottom,
+    background: linear-gradient(to bottom,
         rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5)
-      ),
+        rgba(0, 0, 0, 0.5)),
       url("./img/image-12-mobile.png");
     background-size: cover;
   }
 
   .empower-img::before {
-    background: linear-gradient(
-        to bottom,
+    background: linear-gradient(to bottom,
         rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5)
-      ),
+        rgba(0, 0, 0, 0.5)),
       url("./img/Rectangle-93-mobile.png");
     background-size: cover;
   }
@@ -1570,10 +1611,12 @@ footer .footer-menus li a {
 .col-lg-5 {
   flex: 1 1 calc(41.666% - 20px);
 }
+
 h3 {
   font-size: 18px;
   line-height: 1.5;
 }
+
 button {
   background-color: #007bff;
   color: #fff;
@@ -1584,6 +1627,7 @@ button {
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
+
   .col-lg-3,
   .col-lg-5 {
     flex: 1 1 100%;
@@ -1618,5 +1662,126 @@ button {
   }
 }
 
+/* footer css and resposive */
+.sign-up {
+  margin: 10px 0;
+}
+
+.sign-up a {
+  text-decoration: none;
+  color: #1e6351;
+  border: 2px solid #1e6351;
+  padding: 10px 20px;
+  border-radius: 5px;
+  display: inline-block;
+  /* transition: background-color 0.3s, color 0.3s; */
+}
+
+.sign-up a:hover {
+  background-color: #1e6351;
+  color: #fff;
+}
+
+/* Links Section */
+.links {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+  width: 100%;
+}
+
+.links a {
+  text-decoration: none;
+  color: #1e6351;
+  font-size: 1em;
+}
+
+/* Footer Section */
+.footer {
+  margin-top: 20px;
+  font-size: 0.9em;
+}
+
+.social-icons {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 10px 0;
+}
+
+.social-icons div {
+  width: 30px;
+  height: 30px;
+  background-color: #000;
+  border-radius: 50%;
+}
+
+.contact-info {
+  margin-top: 10px;
+}
+
+/* Responsive Design */
+@media (min-width: 375px) {
+  .links {
+    gap: 15px;
+  }
+
+  .sign-up a {
+    padding: 12px 24px;
+    font-size: 1em;
+  }
+}
+
+@media (min-width: 768px) {
+  .links {
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .footer {
+    font-size: 1em;
+  }
+}
+
+
+
+
+.headline {
+  font-size: 2rem; /* Default font size */
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: 7px;
+  color: #1F6861;
+}
+
+/* Responsive Design */
+@media (min-width: 480px) {
+  .headline {
+    font-size: 2.5rem;
+    letter-spacing: block;
+  }
+ 
+}
+
+@media (min-width: 768px) {
+  .headline {
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 1024px) {
+  .headline {
+    font-size: 4rem;
+  }
+}
+
 
 /*  */
+@media (min-width: 480px) {
+  .headline {
+    font-size: 2.5rem;
+    letter-spacing: block;
+  }
+}
+
+
+
