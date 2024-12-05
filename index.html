@@ -530,19 +530,22 @@
     </section>
 
     <!--  swiper slider class -->
-    <div style="background-color: white;">
+    <!-- <div style="background-color: white;">
       <section>
         <div class="custome-container">
           <div class="section dion2 text-center">
             <h1>TESTIMONIALS</h1>
           </div> 
         </div>
-        <img src="" alt="">
-      </section>
+      
+      </section> -->
     
 <!--swiper silder-->
-      <section>
-        <div class="custome-container">     
+      <section class="testimonials">
+        <div class="custome-container">
+          <div class="section dion2 text-center">
+            <h1>TESTIMONIALS</h1>
+          </div>      
           <div class="swiper mySwiper">
             <div class="swiper-wrapper">
                 <div class="swiper-slide">  
@@ -772,6 +775,8 @@
             </div>
           </div>
         </div>
+
+        <img src="/assest/img/dot-image.png" alt="" class="abso">
       </section>
     </div>
 
@@ -891,7 +896,19 @@
        
        <div class="section bg-white"></div>
        <!-- empower img -->
-    <section>
+    <section class="empower-img">
+      <div class="custome-container ">
+          <div class=" empower align-items-md-center align-items-end">
+              <h2 >
+                Empower your <br>clients to <br>prioritize their <br>health permanently
+              </h2>
+              <button>CLICK HERE TO SIGN UP <span class="material-symbols-outlined" style="float: right ; margin-left: 40px;">
+                arrow_forward_ios
+                </span></button>
+          </div>
+      </div>
+    </section>
+    <!-- <section>
       <div class="custome-container empower-img">
           <div class="row empower align-items-md-center align-items-end">
             <div class="col-md-5 pb-md-0 pb-4">
@@ -902,7 +919,7 @@
             </div>
           </div>
       </div>
-    </section>
+    </section> -->
 
     <!-- footer -->
     <footer class="footer">
@@ -1032,18 +1049,35 @@
     </script>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
     <script>
-      // import Swiper JS
+      // Initialize Swiper JS
       var swiper = new Swiper(".mySwiper", {
-        slidesPerView: 2.5,
-        spaceBetween: 42,
+        slidesPerView: 2.5, // Default view
+        spaceBetween: 42,   // Default spacing
         loop: false,
         autoplay: false,
         pagination: {
           el: ".swiper-pagination",
           clickable: true,
         },
+        breakpoints: {
+          1200: {
+            slidesPerView: 2.5, // For screens >= 1200px
+          },
+          992: {
+            slidesPerView: 2,   // For screens >= 992px but < 1200px
+          },
+          575: {               // For screens < 992px
+            slidesPerView: 2,   // Single card view
+            spaceBetween: 10,   // Reduced spacing
+          },
+          0: {
+            slidesPerView: 1,   // Fallback for very small screens
+            spaceBetween: 10,
+          }
+        },
       });
     </script>
+    
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
   </body>
 </html>
