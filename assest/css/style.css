@@ -477,8 +477,8 @@ footer .footer-menus li a {
   margin-right: 95px;
 }
 
-@media (min-width: 375px) {
-  /* .reework {
+@media (max-width: 375px) {
+  .reework {
     margin-left: 10px;
     margin-right: 10px;
   } 
@@ -502,7 +502,7 @@ footer .footer-menus li a {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 8px !important;
-  }  */
+  } 
 }
 
 
