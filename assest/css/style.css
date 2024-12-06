@@ -62,6 +62,7 @@ body {
 .section {
   padding: 80px 0px;
 }
+
 .section {
   padding: 25px;
 }
@@ -475,6 +476,7 @@ footer .footer-menus li a {
   margin-left: 95px;
   margin-right: 95px;
 }
+
 @media (min-width: 375px) {
   /* .reework {
     margin-left: 10px;
@@ -501,7 +503,6 @@ footer .footer-menus li a {
     margin-right: 10px;
     font-size: 8px !important;
   }  */
-
 }
 
 
@@ -649,9 +650,22 @@ footer .footer-menus li a {
   .empower button {
     padding: 5px;
   }
-
-
 }
+
+.digital-btn {
+  border: none;
+  color: black;
+  padding: 8px 15px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  transition: 0.9s;
+  font-family: Rethink Sans;
+  font-weight: 700;
+  background-color: #00d4b7;
+}
+
 
 .btn {
   border: none;
@@ -666,6 +680,7 @@ footer .footer-menus li a {
   font-weight: 700;
   background-color: #00d4b7;
 }
+
 
 .btn:hover {
   opacity: 0.5;
@@ -1030,11 +1045,11 @@ footer .footer-menus li a {
   font-size: 69px;
   font-weight: 800;
   font-family: Rethink Sans;
-  letter-spacing: 2px;
+
 }
 
-.digital h6 {
-  font-size: 36px;
+.digital p {
+  font-size: 31px;
   font-weight: 500;
   font-family: Rethink Sans;
 }
@@ -1111,10 +1126,11 @@ footer .footer-menus li a {
 }
 
 .health h6 {
-  color: #117964;
-  font-size: 120px;
-  font-weight: 800;
-  /* letter-spacing: 8px; */
+  color: #1F6861;
+  font-size: 85px;
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: 5px;
 }
 
 .health h5 {
@@ -1747,13 +1763,13 @@ button {
 
 
 
-.headline {
-  font-size: 2rem; /* Default font size */
+/* .headline {
+  font-size: 2rem;
   font-weight: bold;
   line-height: 1.4;
   letter-spacing: 7px;
   color: #1F6861;
-}
+} */
 
 /* Responsive Design */
 @media (min-width: 480px) {
@@ -1761,7 +1777,7 @@ button {
     font-size: 2.5rem;
     letter-spacing: block;
   }
- 
+
 }
 
 @media (min-width: 768px) {
@@ -1787,3 +1803,76 @@ button {
 
 
 
+/* stat */
+/* General Styles */
+.accordion-wrapper {
+  padding: 20px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 1200px) {
+  .accordion-header button {
+    font-size: 1.1rem;
+  }
+}
+
+@media (max-width: 992px) {
+  h1 {
+    font-size: 1.8rem;
+  }
+
+  .custome-container {
+    padding: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .accordion-header button {
+    font-size: 1rem;
+  }
+
+  .accordion-body p {
+    padding-left: 100px;
+    font-size: 15px;
+    text-align: justify;
+  }
+}
+
+@media (max-width: 576px) {
+  .accordion-item h2 {
+    font-size: 30px;
+  }
+
+  .accordion-header button {
+    font-size: 24px;
+    padding: 20px;
+  }
+
+  .accordion-body p {
+    padding-left: none;
+  }
+
+}
+
+@media (max-width: 319) {
+
+  .accordion-body p {
+    padding-left: 100px;
+
+  }
+}
+
+
+/* digital change */
+.abc {
+  position: absolute;
+  /* top: 17px;
+  right: 95px; */
+  background-image: url(../img/full-image.png);
+  
+}
+
+.earn{
+  position: relative;
+
+}
