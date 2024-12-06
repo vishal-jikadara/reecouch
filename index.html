@@ -1,433 +1,587 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="assest/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="./assest/css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios"
+    />
 
-<head>
-  <meta charset="UTF-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Document</title>
-  <link rel="stylesheet" href="assest/css/bootstrap.min.css" />
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css" />
-  <link rel="stylesheet" href="./assest/css/style.css" />
-  <link rel="stylesheet"
-    href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200&icon_names=arrow_forward_ios" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+  </head>
 
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
-  <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" /> -->
-</head>
+  <body>
+    <!-- nevegesion -->
 
-<body>
-  <!-- nevegesion -->
-
-  <nav class="navbar navbar-expand-xl navbar-light bg-light">
-    <div class="container-fluid d-flex align-items-center">
-      <div class="d-flex justify-content-between desktop-wrapper">
-        <a class="navbar-brand d-flex align-items-center" href="#">
-          <img src="./assest/img/logo.png" alt="" width="170" height="50 " class="d-inline-block align-text-top" /></a>
-        <div class="d-flex align-items-center gap-2">
+    <nav class="navbar navbar-expand-xl navbar-light bg-light">
+      <div class="container-fluid d-flex align-items-center">
+        <div class="d-flex justify-content-between desktop-wrapper">
+          <a class="navbar-brand d-flex align-items-center" href="#">
+            <img
+              src="./assest/img/logo.png"
+              alt=""
+              width="170"
+              height="50 "
+              class="d-inline-block align-text-top"
+          /></a>
           <div class="d-flex align-items-center gap-2">
-            <button class="navbar-toggler border-0" type="button" data-bs-toggle="collapse"
-              data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-              aria-label="Toggle navigation">
-              <img src="./assest/img/green-menu.png" alt="toggle" class="pt-2" width="130%" />
+            <div class="d-flex align-items-center gap-2">
+              <button
+                class="navbar-toggler border-0"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <img
+                  src="./assest/img/green-menu.png"
+                  alt="toggle"
+                  class="pt-2"
+                  width="130%"
+                />
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="collapse pt-0 navbar-collapse" id="navbarSupportedContent">
+          <ul
+            class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto align-items-center d-flex"
+          >
+            <li class="nav-item">
+              <a
+                class="nav-link active hey"
+                aria-current="page"
+                href="./about-us.html"
+                style="color: #1f6861"
+                >ABOUT US</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active hey" href="#" style="color: #1f6861"
+                >ABOUT REECOACH
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active hey" href="#" style="color: #1f6861"
+                >BECOME A REECOACH</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active hey" href="#" style="color: #1f6861"
+                >REEWORK</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active hey" href="#" style="color: #1f6861"
+                >CONTACT US</a
+              >
+            </li>
+          </ul>
+        </div>
+        <div class="btn-group d-flex">
+          <button class="login-group text-white ff-rethink" type="button">
+            LOG IN
+          </button>
+          <button class="login-group1 text-green ff-rethink" type="button">
+            SIGN UP
+          </button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- line -->
+    <div class="custome-container px-0">
+      <div class="navbar-line"></div>
+    </div>
+
+    <!-- silder -->
+    <div
+      id="carouselExampleDark"
+      class="carousel carousel-dark slide carousel-fade"
+      data-bs-ride="carousel"
+    >
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="3500">
+          <img
+            src="./assest/img/silder1.webp"
+            class="d-md-block d-none"
+            alt="..."
+          />
+          <img
+            src="./assest/img/silder1-mobile.webp"
+            class="d-md-none d-block"
+            alt="..."
+          />
+          <div class="carousel-caption left-caption d-md-block">
+            <h5 class="text-white">
+              Earn 4x the revenue per day on diet plans.
+            </h5>
+            <p class="text-white">
+              Standout Elevate your practice. Reach more clients.
+            </p>
+            <button class="btn">
+              SIGN UP FOR FREE <i class="fa-solid fa-greater-than ms-1"></i>
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3500">
+          <img
+            src="./assest/img/silder2.webp"
+            class="d-md-block d-none"
+            alt="..."
+          />
+          <img
+            src="./assest/img/silder2-mobile.webp"
+            class="d-md-none d-block"
+            alt="..."
+          />
+          <div class="carousel-caption left-caption d-md-block">
+            <h5 class="text-white">
+              Earn 4x the revenue per day on diet plans.
+            </h5>
+            <p class="text-white">
+              Standout. Elevate your practice. Reach more clients.
+            </p>
+            <button class="btn">
+              SIGN UP FOR FREE <i class="fa-solid fa-greater-than ms-1"></i>
+            </button>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="3500">
+          <img
+            src="./assest/img/slider3.webp"
+            class="d-md-block d-none"
+            alt="..."
+          />
+          <img
+            src="./assest/img/silder3-mobile.webp"
+            class="d-md-none d-block"
+            alt="..."
+          />
+          <div class="carousel-caption left-caption d-md-block">
+            <h5 class="text-white">
+              Earn 4x the revenue per day on diet plans.
+            </h5>
+            <p class="text-white">
+              Standout. Elevate your practice. Reach more clients.
+            </p>
+            <button class="btn">
+              SIGN UP FOR FREE <i class="fa-solid fa-greater-than ms-1"></i>
             </button>
           </div>
         </div>
       </div>
-      <div class="collapse pt-0 navbar-collapse" id="navbarSupportedContent">
-        <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-auto align-items-center d-flex">
-          <li class="nav-item">
-            <a class="nav-link active hey" aria-current="page" href="./about-us.html" style="color: #1f6861">ABOUT
-              US</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active hey" href="#" style="color: #1f6861">ABOUT REECOACH
-            </a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active hey" href="#" style="color: #1f6861">BECOME A REECOACH</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active hey" href="#" style="color: #1f6861">REEWORK</a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link active hey" href="#" style="color: #1f6861">CONTACT US</a>
-          </li>
-        </ul>
-      </div>
-      <div class="btn-group  d-flex">
-        <button class="login-group text-white ff-rethink" type="button">
-          LOG IN
-        </button>
-        <button class="login-group1 text-green ff-rethink" type="button">
-          SIGN UP
-        </button>
-      </div>
     </div>
-  </nav>
 
-  <!-- line -->
-  <div class="custome-container px-0">
-    <div class="navbar-line"></div>
-  </div>
+    <!--PARTNER  -->
 
-  <!-- silder -->
-  <div id="carouselExampleDark" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel">
-    <div class="carousel-inner">
-      <div class="carousel-item active" data-bs-interval="3500">
-        <img src="./assest/img/silder1.webp" class="d-md-block d-none" alt="..." />
-        <img src="./assest/img/silder1-mobile.webp" class="d-md-none d-block" alt="..." />
-        <div class="carousel-caption left-caption d-md-block">
-          <h5 class="text-white">
-            Earn 4x the revenue per day on diet plans.
-          </h5>
-          <p class="text-white">
-            Standout Elevate your practice. Reach more clients.
-          </p>
-          <button class="btn">
-            SIGN UP FOR FREE <i class="fa-solid fa-greater-than ms-1"></i>
-          </button>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="3500">
-        <img src="./assest/img/silder2.webp" class="d-md-block d-none" alt="..." />
-        <img src="./assest/img/silder2-mobile.webp" class="d-md-none d-block" alt="..." />
-        <div class="carousel-caption left-caption d-md-block">
-          <h5 class="text-white">
-            Earn 4x the revenue per day on diet plans.
-          </h5>
-          <p class="text-white">
-            Standout. Elevate your practice. Reach more clients.
-          </p>
-          <button class="btn">
-            SIGN UP FOR FREE <i class="fa-solid fa-greater-than ms-1"></i>
-          </button>
-        </div>
-      </div>
-      <div class="carousel-item" data-bs-interval="3500">
-        <img src="./assest/img/slider3.webp" class="d-md-block d-none" alt="..." />
-        <img src="./assest/img/silder3-mobile.webp" class="d-md-none d-block" alt="..." />
-        <div class="carousel-caption left-caption d-md-block">
-          <h5 class="text-white">
-            Earn 4x the revenue per day on diet plans.
-          </h5>
-          <p class="text-white">
-            Standout. Elevate your practice. Reach more clients.
-          </p>
-          <button class="btn">
-            SIGN UP FOR FREE <i class="fa-solid fa-greater-than ms-1"></i>
-          </button>
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!--PARTNER  -->
-
-  <div class="custome-container  ">
-    <div class="row">
-      <div class="col-12 health">
-        <h5>BE A PARTNER IN</h5>
-        <!-- <h6 class="text-uppercase">the health revolution movement</h6> -->
-        <div class="headline">THE HEALTH REVOLUTION MOVEMENT</div>
-      </div>
-      <img src="/assest/img/PARTNER1.png" alt="">
-    </div>
-  </div>
-
-  <div class="section"></div>
-
-  <!-- why reework -->
-  <div class="custome-container">
-    <div class="row g-0 text-green font-family reework">
-      <div class="col-12 why">
-        <p>WHY REEWORK ?</p>
-        <h5>
-          TIME-SAVING ALL-IN-ONE NUTRITION SOFTWARE FOR YOU AND YOUR CLIENTS
-        </h5>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-        <div class="reework-card reework-card-border reework-card-border-top">
-          <img src="./assest/img/Efficient Client Management.webp" class="img-fluid"
-            alt="Efficient Client Management" />
-
-          <h5 class="text-uppercase text-green">
-            Efficient Client Management
-          </h5>
-          <p class="black-text">
-            Easily manage multiple clients, appointments, schedules, payments,
-            counselling, and follow-ups.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-        <div class="reework-card reework-card-border">
-          <img src="./assest/img/Mental Health Counselling.webp" class="img-fluid" alt="Mental Health Counselling" />
-
-          <h5 class="text-uppercase text-green">Mental Health Counselling</h5>
-          <p class="black-text">
-            Collaboration with mental health coaches to help you provide
-            integrated care to your clients.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-        <div class="reework-card reework-card-border">
-          <img src="assest/img/Precision diet planning in minutes.webp" class="img-fluid"
-            alt="Precision diet planning in minutes" />
-
-          <h5 class="text-uppercase text-green">
-            Precision diet planning in minutes
-          </h5>
-          <p class="black-text">
-            Easily access and analyze client’s records without manual input or
-            via messaging apps for diet recall and analysis.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-        <div class="reework-card reework-card-border">
-          <img src="./assest/img/Brand Development.webp" class="img-fluid" alt="Brand Development" />
-
-          <h5 class="text-uppercase text-green">Brand Development</h5>
-          <p class="black-text">
-            Get adequate recognition and due credits as a qualified
-            professional.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-        <div class="reework-card reework-card-border">
-          <img src="./assest/img/Integrated Health Assessment.webp" class="img-fluid"
-            alt="Integrated Health Assessment" />
-
-          <h5 class="text-uppercase text-green">
-            Integrated Health Assessment
-          </h5>
-          <p class="black-text">
-            Simplify diet plan creation, profiling, and research with ease.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-        <div class="reework-card reework-card-border">
-          <img src="./assest/img/Diverse Revenue Streams.webp" class="img-fluid" alt="Diverse Revenue Streams" />
-
-          <h5 class="text-uppercase text-green">Diverse Revenue Streams</h5>
-          <p class="black-text">
-            Constant customer engagement and client retention.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-        <div class="reework-card reework-card-border">
-          <img src="./assest/img/Real-time Client Support.webp" class="img-fluid" alt="Real-time Client Support" />
-
-          <h5 class="text-uppercase text-green">Real-time Client Support</h5>
-          <p class="black-text">
-            Get accurate nutrition analysis of food data.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-        <div class="reework-card reework-card-border">
-          <img src="./assest/img/Time Efficiency.webp" class="img-fluid" alt="Time Efficiency" />
-
-          <h5 class="text-uppercase text-green">Time Efficiency</h5>
-          <p class="black-text">
-            Get access to a centralised knowledge bank from reliable
-            scientific sources.
-          </p>
-        </div>
-      </div>
-
-      <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
-        <div class="reework-card">
-          <img src="./assest/img/Mental Health_one .webp" class="img-fluid" alt="Mental Health Counselling" />
-
-          <h5 class="text-uppercase text-green">Mental Health Counselling</h5>
-          <p class="black-text">
-            Collaboration with mental health coaches to help you provide
-            integrated care to your clients.
-          </p>
-        </div>
-      </div>
-    </div>
-  </div>
-
-
-<!-- digital -->
- 
-  <div class="custome-container">
-    <div class="row">
-      <!-- <div class="col-md-8 bg-success d-flex align-items-end p-md-5 p-4  text-green order-md-0 order-1"> -->
-      <div class="col-md-8 bg-success d-flex align-items-end  text-green order-md-0 order-1">
-        <div class="digital">
-          <h3 class="text-white text-uppercase">
-            Go digital at no cost and earn more
-          </h3>
-          <h6 class="text-white mb-md-5 mb-2">
-            Start your journey as a ReeCoach for free with us
-          </h6>
-          <button class="btn">
-            SIGN UP FOR FREE <i class="fa-solid fa-greater-than ms-1"></i>
-          </button>
-        </div>
-      </div>
-
-      <div class="col-md-4 p-0 text-green order-md-1 oredr-0">
-        <img src="./assest/img/happy-professional-indian-business-woman-standing-2023-11-27-04-58-55-utc 1.webp" alt=""
-          width="100%" height="100%" />
-      </div>
-    </div>
-  </div>
-
-  <!-- reecouch app design -->
-  <section>
     <div class="custome-container">
       <div class="row">
-        <div class="col-lg-3 gift">
-          <h3>THE GIFT OF</br><span class="">Time x Intelligence</span></br>IS HERE</h3></br>
-          <button class="btn ">
-            CLICK HERE TO SIGN UP<i class="fa-solid fa-greater-than ms-4"></i>
-          </button>
+        <div class="col-12 health">
+          <h5>BE A PARTNER IN</h5>
+          <!-- <h6 class="text-uppercase">the health revolution movement</h6> -->
+          <div class="headline">THE HEALTH REVOLUTION MOVEMENT</div>
         </div>
-        <div class="col-lg-5 software ">
-          <img src="./assest/img/line-up.png" alt="Reecoach Image" width="100%">
-          <h2>REECOACH</h2>
-          <h3>Reecoach is a qualified dietitian </br> using Reework all-in-one nutrition </br> software to simplify
-            dietetic </br> practice</h3>
-          <img src="./assest/img/remove.png" alt="Remove Image" style="width:100%">
-        </div>
-        <div class="col-lg-3 friendly">
-          <img src="./assest/img/Group 1963.png" alt="" width="100%">
-          <h2>Reework</h2>
-          <h3>User friendly app for <br> your clients</h3>
-          <img src="./assest/img/line-down.png" alt="Reecoach Image">
-        </div>
+        <img src="/assest/img/PARTNER1.png" alt="" />
       </div>
     </div>
-  </section>
 
-  <div class="section"></div>
-  <!-- reework-reecouch-->
-  <section class="reework">
-    <div class="custome-container py-5">
-      <div class="title-bar-wrapper">
-        <span>reework + reecoach</span>
-        <h4>Understand the Holy Union of Human Wisdom and Data Driven Nutrition</h4>
-      </div>
-      <div class="row justify-content-md-evenly justify-content-between gy-4">
-        <div class="col-md-10">
-          <div class="img-wrapper">
-            <img src="./assest/img/reework-reecouch.png" alt="desktop image" class="d-md-block d-none">
-            <img src="./assest/img/up-dwon-moblie.png" alt="moblie image"class="d-md-none d-block">
-          </div>
+    <div class="section"></div>
+
+    <!-- why reework -->
+    <div class="custome-container">
+      <div class="row g-0 text-green font-family reework">
+        <div class="col-12 why">
+          <p>WHY REEWORK ?</p>
+          <h5>
+            TIME-SAVING ALL-IN-ONE NUTRITION SOFTWARE FOR YOU AND YOUR CLIENTS
+          </h5>
         </div>
 
-        <div class="col-md-5 col-8">
-          <div class="text-content-wrapper">
-            <p>A front end app for your clients</p>
-            <h5><span>Reework</span> is a user friendly application that is designed to enhance the efficiency and
-              effectiveness of your dietetics practice.</h5>
-          </div>
-          <div class="main-key-features-wrapper">
-            <h3 class="mb-md-4 mb-3">Key Features</h3>
-            <div class="features-box-wrapper">
-              <div class="feature-box">
-                <span>01</span>
-                <h4 class="feature-title">Calories & Weight Planner</h4>
-              </div>
-              <div class="feature-box">
-                <span>02</span>
-                <h4 class="feature-title">Prescription Planner</h4>
-              </div>
-              <div class="feature-box">
-                <span>03</span>
-                <h4 class="feature-title">Target Macro & Micro Nutritional Planner</h4>
-              </div>
-              <div class="feature-box">
-                <span>04</span>
-                <h4 class="feature-title">Nutritional Plans Based on Lifestyle Disorder</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-5 col-8">
-          <div class="text-content-wrapper">
-            <p>An expert dietitian who uses reework app to simplify their dietetic practice</p>
-            <h5><span>ReeCoach</span> is thoughtfully designed to optimise your time and enhance impact to
-              make a difference
-              in your clients’ lives.</h5>
-          </div>
-          <div class="main-key-features-wrapper">
-            <h3 class="mb-lg-4 mb-3">Key Features</h3>
-            <div class="features-box-wrapper">
-              <div class="feature-box">
-                <span>01</span>
-                <h4 class="feature-title">Calories & Weight Planner</h4>
-              </div>
-              <div class="feature-box">
-                <span>02</span>
-                <h4 class="feature-title">Prescription Planner</h4>
-              </div>
-              <div class="feature-box">
-                <span>03</span>
-                <h4 class="feature-title">Target Macro & Micro Nutritional Planner</h4>
-              </div>
-              <div class="feature-box">
-                <span>04</span>
-                <h4 class="feature-title">Nutritional Plans Based on Lifestyle Disorder</h4>
-              </div>
-              <div class="feature-box">
-                <span>05</span>
-                <h4 class="feature-title">Nutritional Plans Based on Lifestyle Disorder</h4>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="view-more-btn">
-          <button class="btn">
-            View More <span class="material-symbols-outlined" style="float: right ; margin-left: 50px;">
-              arrow_forward_ios
-            </span>
-          </button>
-        </div>
-      </div>
-    </div>
-  </section>
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="reework-card reework-card-border reework-card-border-top">
+            <img
+              src="./assest/img/Efficient Client Management.webp"
+              class="img-fluid"
+              alt="Efficient Client Management"
+            />
 
-  <!--Start Your Journey-->
-  <section>
-    <div class="custome-container practice-img">
-      <div class="row practice justify-content-end align-items-center">
-        <div class="col-md-6 pb-md-0 pb-4">
-          <h2 class="mb-md-5 pb-md-4">
-            Reework platform is the growth catalyst you need to scale your
-            practice
-          </h2>
-          <div class="ms-md-5">
-            <p>
-              Unlock your clients potential and transform their mindset with
-              our precise data-driven technology.
+            <h5 class="text-uppercase text-green">
+              Efficient Client Management
+            </h5>
+            <p class="black-text">
+              Easily manage multiple clients, appointments, schedules, payments,
+              counselling, and follow-ups.
             </p>
-            <button>Start Your Journey ></button>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="reework-card reework-card-border">
+            <img
+              src="./assest/img/Mental Health Counselling.webp"
+              class="img-fluid"
+              alt="Mental Health Counselling"
+            />
+
+            <h5 class="text-uppercase text-green">Mental Health Counselling</h5>
+            <p class="black-text">
+              Collaboration with mental health coaches to help you provide
+              integrated care to your clients.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="reework-card reework-card-border">
+            <img
+              src="assest/img/Precision diet planning in minutes.webp"
+              class="img-fluid"
+              alt="Precision diet planning in minutes"
+            />
+
+            <h5 class="text-uppercase text-green">
+              Precision diet planning in minutes
+            </h5>
+            <p class="black-text">
+              Easily access and analyze client’s records without manual input or
+              via messaging apps for diet recall and analysis.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="reework-card reework-card-border">
+            <img
+              src="./assest/img/Brand Development.webp"
+              class="img-fluid"
+              alt="Brand Development"
+            />
+
+            <h5 class="text-uppercase text-green">Brand Development</h5>
+            <p class="black-text">
+              Get adequate recognition and due credits as a qualified
+              professional.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="reework-card reework-card-border">
+            <img
+              src="./assest/img/Integrated Health Assessment.webp"
+              class="img-fluid"
+              alt="Integrated Health Assessment"
+            />
+
+            <h5 class="text-uppercase text-green">
+              Integrated Health Assessment
+            </h5>
+            <p class="black-text">
+              Simplify diet plan creation, profiling, and research with ease.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="reework-card reework-card-border">
+            <img
+              src="./assest/img/Diverse Revenue Streams.webp"
+              class="img-fluid"
+              alt="Diverse Revenue Streams"
+            />
+
+            <h5 class="text-uppercase text-green">Diverse Revenue Streams</h5>
+            <p class="black-text">
+              Constant customer engagement and client retention.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="reework-card reework-card-border">
+            <img
+              src="./assest/img/Real-time Client Support.webp"
+              class="img-fluid"
+              alt="Real-time Client Support"
+            />
+
+            <h5 class="text-uppercase text-green">Real-time Client Support</h5>
+            <p class="black-text">
+              Get accurate nutrition analysis of food data.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="reework-card reework-card-border">
+            <img
+              src="./assest/img/Time Efficiency.webp"
+              class="img-fluid"
+              alt="Time Efficiency"
+            />
+
+            <h5 class="text-uppercase text-green">Time Efficiency</h5>
+            <p class="black-text">
+              Get access to a centralised knowledge bank from reliable
+              scientific sources.
+            </p>
+          </div>
+        </div>
+
+        <div class="col-12 col-sm-6 col-md-4 col-lg-4 mb-4">
+          <div class="reework-card">
+            <img
+              src="./assest/img/Mental Health_one .webp"
+              class="img-fluid"
+              alt="Mental Health Counselling"
+            />
+
+            <h5 class="text-uppercase text-green">Mental Health Counselling</h5>
+            <p class="black-text">
+              Collaboration with mental health coaches to help you provide
+              integrated care to your clients.
+            </p>
           </div>
         </div>
       </div>
     </div>
-  </section>
+    
+    <!-- digital -->
 
-  <!--  swiper slider class -->
-  <!-- <div style="background-color: white;">
+    <div class="custome-container">
+      <div class="row">
+        <!-- <div class="col-md-8 bg-success d-flex align-items-end p-md-5 p-4  text-green order-md-0 order-1"> -->
+        <div
+          class="col-md-8 bg-success d-flex align-items-end text-green order-md-0 order-1"
+        >
+          <div class="digital">
+            <h3 class="text-white text-uppercase">
+              Go digital at no cost and earn more
+            </h3>
+            <h6 class="text-white mb-md-5 mb-2">
+              Start your journey as a ReeCoach for free with us
+            </h6>
+            <button class="btn">
+              SIGN UP FOR FREE <i class="fa-solid fa-greater-than ms-1"></i>
+            </button>
+          </div>
+        </div>
+
+        <div class="col-md-4 p-0 text-green order-md-1 oredr-0">
+          <img
+            src="./assest/img/happy-professional-indian-business-woman-standing-2023-11-27-04-58-55-utc 1.webp"
+            alt=""
+            width="100%"
+            height="100%"
+          />
+        </div>
+      </div>
+    </div>
+
+    <!-- reecouch app design -->
+    <section>
+      <div class="custome-container">
+        <div class="row">
+          <div class="col-lg-3 gift">
+            <h3>
+              THE GIFT OF<br /><span class="">Time x Intelligence</span><br />IS
+              HERE
+            </h3>
+            <br />
+            <button class="btn">
+              CLICK HERE TO SIGN UP<i class="fa-solid fa-greater-than ms-4"></i>
+            </button>
+          </div>
+          <div class="col-lg-5 software">
+            <img
+              src="./assest/img/line-up.png"
+              alt="Reecoach Image"
+              width="100%"
+            />
+            <h2>REECOACH</h2>
+            <h3>
+              Reecoach is a qualified dietitian <br />
+              using Reework all-in-one nutrition <br />
+              software to simplify dietetic <br />
+              practice
+            </h3>
+            <img
+              src="./assest/img/remove.png"
+              alt="Remove Image"
+              style="width: 100%"
+            />
+          </div>
+          <div class="col-lg-3 friendly">
+            <img src="./assest/img/Group 1963.png" alt="" width="100%" />
+            <h2>Reework</h2>
+            <h3>
+              User friendly app for <br />
+              your clients
+            </h3>
+            <img src="./assest/img/line-down.png" alt="Reecoach Image" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="section"></div>
+    <!-- reework-reecouch-->
+    <section class="reework">
+      <div class="custome-container py-5">
+        <div class="title-bar-wrapper">
+          <span>reework + reecoach</span>
+          <h4>
+            Understand the Holy Union of Human Wisdom and Data Driven Nutrition
+          </h4>
+        </div>
+        <div class="row justify-content-md-evenly justify-content-between gy-4">
+          <div class="col-md-10">
+            <div class="img-wrapper">
+              <img
+                src="./assest/img/reework-reecouch.png"
+                alt="desktop image"
+                class="d-md-block d-none"
+              />
+              <img
+                src="./assest/img/up-dwon-moblie.png"
+                alt="moblie image"
+                class="d-md-none d-block"
+              />
+            </div>
+          </div>
+
+          <div class="col-md-5 col-8">
+            <div class="text-content-wrapper">
+              <p>A front end app for your clients</p>
+              <h5>
+                <span>Reework</span> is a user friendly application that is
+                designed to enhance the efficiency and effectiveness of your
+                dietetics practice.
+              </h5>
+            </div>
+            <div class="main-key-features-wrapper">
+              <h3 class="mb-md-4 mb-3">Key Features</h3>
+              <div class="features-box-wrapper">
+                <div class="feature-box">
+                  <span>01</span>
+                  <h4 class="feature-title">Calories & Weight Planner</h4>
+                </div>
+                <div class="feature-box">
+                  <span>02</span>
+                  <h4 class="feature-title">Prescription Planner</h4>
+                </div>
+                <div class="feature-box">
+                  <span>03</span>
+                  <h4 class="feature-title">
+                    Target Macro & Micro Nutritional Planner
+                  </h4>
+                </div>
+                <div class="feature-box">
+                  <span>04</span>
+                  <h4 class="feature-title">
+                    Nutritional Plans Based on Lifestyle Disorder
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-5 col-8">
+            <div class="text-content-wrapper">
+              <p>
+                An expert dietitian who uses reework app to simplify their
+                dietetic practice
+              </p>
+              <h5>
+                <span>ReeCoach</span> is thoughtfully designed to optimise your
+                time and enhance impact to make a difference in your clients’
+                lives.
+              </h5>
+            </div>
+            <div class="main-key-features-wrapper">
+              <h3 class="mb-lg-4 mb-3">Key Features</h3>
+              <div class="features-box-wrapper">
+                <div class="feature-box">
+                  <span>01</span>
+                  <h4 class="feature-title">Calories & Weight Planner</h4>
+                </div>
+                <div class="feature-box">
+                  <span>02</span>
+                  <h4 class="feature-title">Prescription Planner</h4>
+                </div>
+                <div class="feature-box">
+                  <span>03</span>
+                  <h4 class="feature-title">
+                    Target Macro & Micro Nutritional Planner
+                  </h4>
+                </div>
+                <div class="feature-box">
+                  <span>04</span>
+                  <h4 class="feature-title">
+                    Nutritional Plans Based on Lifestyle Disorder
+                  </h4>
+                </div>
+                <div class="feature-box">
+                  <span>05</span>
+                  <h4 class="feature-title">
+                    Nutritional Plans Based on Lifestyle Disorder
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="view-more-btn">
+            <button class="btn">
+              View More
+              <span
+                class="material-symbols-outlined"
+                style="float: right; margin-left: 50px"
+              >
+                arrow_forward_ios
+              </span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--Start Your Journey-->
+    <section>
+      <div class="custome-container practice-img">
+        <div class="row practice justify-content-end align-items-center">
+          <div class="col-md-6 pb-md-0 pb-4">
+            <h2 class="mb-md-5 pb-md-4">
+              Reework platform is the growth catalyst you need to scale your
+              practice
+            </h2>
+            <div class="ms-md-5">
+              <p>
+                Unlock your clients potential and transform their mindset with
+                our precise data-driven technology.
+              </p>
+              <button>Start Your Journey ></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!--  swiper slider class -->
+    <!-- <div style="background-color: white;">
       <section>
         <div class="custome-container">
           <div class="section dion2 text-center">
@@ -437,336 +591,383 @@
       
       </section> -->
 
-  <!--swiper silder-->
-  <section class="testimonials">
-    <div class="custome-container">
-      <div class="section dion2 text-center">
-        <h1>TESTIMONIALS</h1>
-      </div>
-      <div class="swiper mySwiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <div class="box-foo-wrapper">
-              <div class="foo">
-                <h3 class="text-center">
-                  <div class="text-start">ZARNA</div>
-                  <div class="text-start">SHAH</div>
-                </h3>
-                <p>
-                  FOUNDER OF DIETWISE, PRACATICING DIETITIAN
-                  <span>(15 YEARS OF EXPERIENCE)</span>
-                </p>
-              </div>
-              <div class="bar">
-                <div class="box fake-foobar">
+    <!--swiper silder-->
+    <section class="testimonials">
+      <div class="custome-container">
+        <div class="section dion2 text-center">
+          <h1>TESTIMONIALS</h1>
+        </div>
+        <div class="swiper mySwiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="box-foo-wrapper">
+                <div class="foo">
+                  <h3 class="text-center">
+                    <div class="text-start">ZARNA</div>
+                    <div class="text-start">SHAH</div>
+                  </h3>
                   <p>
-                    “Since adopting Reecoach, managing my clients has become
-                    effortless. The user-friendly interface allows me to quickly
-                    create personalized meal plans that cater to each client’s
-                    health conditions, dietary needs, and preferences.
+                    FOUNDER OF DIETWISE, PRACATICING DIETITIAN
+                    <span>(15 YEARS OF EXPERIENCE)</span>
                   </p>
+                </div>
+                <div class="bar">
+                  <div class="box fake-foobar">
+                    <p>
+                      “Since adopting Reecoach, managing my clients has become
+                      effortless. The user-friendly interface allows me to
+                      quickly create personalized meal plans that cater to each
+                      client’s health conditions, dietary needs, and
+                      preferences.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-
-            <div class="box-foo-wrapper">
-              <div class="foo">
-                <h3 class="text-center">
-                  <div class="text-start">ZARNA</div>
-                  <div class="text-start">SHAH</div>
-                </h3>
-                <p>
-                  FOUNDER OF DIETWISE, PRACATICING DIETITIAN
-                  <span>(15 YEARS OF EXPERIENCE)</span>
-                </p>
-              </div>
-              <div class="bar">
-                <div class="box fake-foobar">
+            <div class="swiper-slide">
+              <div class="box-foo-wrapper">
+                <div class="foo">
+                  <h3 class="text-center">
+                    <div class="text-start">ZARNA</div>
+                    <div class="text-start">SHAH</div>
+                  </h3>
                   <p>
-                    “Since adopting Reecoach, managing my clients has become
-                    effortless. The user-friendly interface allows me to quickly
-                    create personalized meal plans that cater to each client’s
-                    health conditions, dietary needs, and preferences.
+                    FOUNDER OF DIETWISE, PRACATICING DIETITIAN
+                    <span>(15 YEARS OF EXPERIENCE)</span>
                   </p>
+                </div>
+                <div class="bar">
+                  <div class="box fake-foobar">
+                    <p>
+                      “Since adopting Reecoach, managing my clients has become
+                      effortless. The user-friendly interface allows me to
+                      quickly create personalized meal plans that cater to each
+                      client’s health conditions, dietary needs, and
+                      preferences.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-
-            <div class="box-foo-wrapper">
-              <div class="foo">
-                <h3 class="text-center">
-                  <div class="text-start">ZARNA</div>
-                  <div class="text-start">SHAH</div>
-                </h3>
-                <p>
-                  FOUNDER OF DIETWISE, PRACATICING DIETITIAN
-                  <span>(15 YEARS OF EXPERIENCE)</span>
-                </p>
-              </div>
-              <div class="bar">
-                <div class="box fake-foobar">
+            <div class="swiper-slide">
+              <div class="box-foo-wrapper">
+                <div class="foo">
+                  <h3 class="text-center">
+                    <div class="text-start">ZARNA</div>
+                    <div class="text-start">SHAH</div>
+                  </h3>
                   <p>
-                    “Since adopting Reecoach, managing my clients has become
-                    effortless. The user-friendly interface allows me to quickly
-                    create personalized meal plans that cater to each client’s
-                    health conditions, dietary needs, and preferences.
+                    FOUNDER OF DIETWISE, PRACATICING DIETITIAN
+                    <span>(15 YEARS OF EXPERIENCE)</span>
                   </p>
+                </div>
+                <div class="bar">
+                  <div class="box fake-foobar">
+                    <p>
+                      “Since adopting Reecoach, managing my clients has become
+                      effortless. The user-friendly interface allows me to
+                      quickly create personalized meal plans that cater to each
+                      client’s health conditions, dietary needs, and
+                      preferences.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-
-            <div class="box-foo-wrapper">
-              <div class="foo">
-                <h3 class="text-center">
-                  <div class="text-start">ZARNA</div>
-                  <div class="text-start">SHAH</div>
-                </h3>
-                <p>
-                  FOUNDER OF DIETWISE, PRACATICING DIETITIAN
-                  <span>(15 YEARS OF EXPERIENCE)</span>
-                </p>
-              </div>
-              <div class="bar">
-                <div class="box fake-foobar">
+            <div class="swiper-slide">
+              <div class="box-foo-wrapper">
+                <div class="foo">
+                  <h3 class="text-center">
+                    <div class="text-start">ZARNA</div>
+                    <div class="text-start">SHAH</div>
+                  </h3>
                   <p>
-                    “Since adopting Reecoach, managing my clients has become
-                    effortless. The user-friendly interface allows me to quickly
-                    create personalized meal plans that cater to each client’s
-                    health conditions, dietary needs, and preferences.
+                    FOUNDER OF DIETWISE, PRACATICING DIETITIAN
+                    <span>(15 YEARS OF EXPERIENCE)</span>
                   </p>
+                </div>
+                <div class="bar">
+                  <div class="box fake-foobar">
+                    <p>
+                      “Since adopting Reecoach, managing my clients has become
+                      effortless. The user-friendly interface allows me to
+                      quickly create personalized meal plans that cater to each
+                      client’s health conditions, dietary needs, and
+                      preferences.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-
-            <div class="box-foo-wrapper">
-              <div class="foo">
-                <h3 class="text-center">
-                  <div class="text-start">ZARNA</div>
-                  <div class="text-start">SHAH</div>
-                </h3>
-                <p>
-                  FOUNDER OF DIETWISE, PRACATICING DIETITIAN
-                  <span>(15 YEARS OF EXPERIENCE)</span>
-                </p>
-              </div>
-              <div class="bar">
-                <div class="box fake-foobar">
+            <div class="swiper-slide">
+              <div class="box-foo-wrapper">
+                <div class="foo">
+                  <h3 class="text-center">
+                    <div class="text-start">ZARNA</div>
+                    <div class="text-start">SHAH</div>
+                  </h3>
                   <p>
-                    “Since adopting Reecoach, managing my clients has become
-                    effortless. The user-friendly interface allows me to quickly
-                    create personalized meal plans that cater to each client’s
-                    health conditions, dietary needs, and preferences.
+                    FOUNDER OF DIETWISE, PRACATICING DIETITIAN
+                    <span>(15 YEARS OF EXPERIENCE)</span>
                   </p>
+                </div>
+                <div class="bar">
+                  <div class="box fake-foobar">
+                    <p>
+                      “Since adopting Reecoach, managing my clients has become
+                      effortless. The user-friendly interface allows me to
+                      quickly create personalized meal plans that cater to each
+                      client’s health conditions, dietary needs, and
+                      preferences.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-
-            <div class="box-foo-wrapper">
-              <div class="foo">
-                <h3 class="text-center">
-                  <div class="text-start">ZARNA</div>
-                  <div class="text-start">SHAH</div>
-                </h3>
-                <p>
-                  FOUNDER OF DIETWISE, PRACATICING DIETITIAN
-                  <span>(15 YEARS OF EXPERIENCE)</span>
-                </p>
-              </div>
-              <div class="bar">
-                <div class="box fake-foobar">
+            <div class="swiper-slide">
+              <div class="box-foo-wrapper">
+                <div class="foo">
+                  <h3 class="text-center">
+                    <div class="text-start">ZARNA</div>
+                    <div class="text-start">SHAH</div>
+                  </h3>
                   <p>
-                    “Since adopting Reecoach, managing my clients has become
-                    effortless. The user-friendly interface allows me to quickly
-                    create personalized meal plans that cater to each client’s
-                    health conditions, dietary needs, and preferences.
+                    FOUNDER OF DIETWISE, PRACATICING DIETITIAN
+                    <span>(15 YEARS OF EXPERIENCE)</span>
                   </p>
+                </div>
+                <div class="bar">
+                  <div class="box fake-foobar">
+                    <p>
+                      “Since adopting Reecoach, managing my clients has become
+                      effortless. The user-friendly interface allows me to
+                      quickly create personalized meal plans that cater to each
+                      client’s health conditions, dietary needs, and
+                      preferences.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-
-            <div class="box-foo-wrapper">
-              <div class="foo">
-                <h3 class="text-center">
-                  <div class="text-start">ZARNA</div>
-                  <div class="text-start">SHAH</div>
-                </h3>
-                <p>
-                  FOUNDER OF DIETWISE, PRACATICING DIETITIAN
-                  <span>(15 YEARS OF EXPERIENCE)</span>
-                </p>
-              </div>
-              <div class="bar">
-                <div class="box fake-foobar">
+            <div class="swiper-slide">
+              <div class="box-foo-wrapper">
+                <div class="foo">
+                  <h3 class="text-center">
+                    <div class="text-start">ZARNA</div>
+                    <div class="text-start">SHAH</div>
+                  </h3>
                   <p>
-                    “Since adopting Reecoach, managing my clients has become
-                    effortless. The user-friendly interface allows me to quickly
-                    create personalized meal plans that cater to each client’s
-                    health conditions, dietary needs, and preferences.
+                    FOUNDER OF DIETWISE, PRACATICING DIETITIAN
+                    <span>(15 YEARS OF EXPERIENCE)</span>
                   </p>
+                </div>
+                <div class="bar">
+                  <div class="box fake-foobar">
+                    <p>
+                      “Since adopting Reecoach, managing my clients has become
+                      effortless. The user-friendly interface allows me to
+                      quickly create personalized meal plans that cater to each
+                      client’s health conditions, dietary needs, and
+                      preferences.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-
-            <div class="box-foo-wrapper">
-              <div class="foo">
-                <h3 class="text-center">
-                  <div class="text-start">ZARNA</div>
-                  <div class="text-start">SHAH</div>
-                </h3>
-                <p>
-                  FOUNDER OF DIETWISE, PRACATICING DIETITIAN
-                  <span>(15 YEARS OF EXPERIENCE)</span>
-                </p>
-              </div>
-              <div class="bar">
-                <div class="box fake-foobar">
+            <div class="swiper-slide">
+              <div class="box-foo-wrapper">
+                <div class="foo">
+                  <h3 class="text-center">
+                    <div class="text-start">ZARNA</div>
+                    <div class="text-start">SHAH</div>
+                  </h3>
                   <p>
-                    “Since adopting Reecoach, managing my clients has become
-                    effortless. The user-friendly interface allows me to quickly
-                    create personalized meal plans that cater to each client’s
-                    health conditions, dietary needs, and preferences.
+                    FOUNDER OF DIETWISE, PRACATICING DIETITIAN
+                    <span>(15 YEARS OF EXPERIENCE)</span>
                   </p>
+                </div>
+                <div class="bar">
+                  <div class="box fake-foobar">
+                    <p>
+                      “Since adopting Reecoach, managing my clients has become
+                      effortless. The user-friendly interface allows me to
+                      quickly create personalized meal plans that cater to each
+                      client’s health conditions, dietary needs, and
+                      preferences.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
-          </div>
-          <div class="swiper-slide">
-
-            <div class="box-foo-wrapper">
-              <div class="foo">
-                <h3 class="text-center">
-                  <div class="text-start">ZARNA</div>
-                  <div class="text-start">SHAH</div>
-                </h3>
-                <p>
-                  FOUNDER OF DIETWISE, PRACATICING DIETITIAN
-                  <span>(15 YEARS OF EXPERIENCE)</span>
-                </p>
-              </div>
-              <div class="bar">
-                <div class="box fake-foobar">
+            <div class="swiper-slide">
+              <div class="box-foo-wrapper">
+                <div class="foo">
+                  <h3 class="text-center">
+                    <div class="text-start">ZARNA</div>
+                    <div class="text-start">SHAH</div>
+                  </h3>
                   <p>
-                    “Since adopting Reecoach, managing my clients has become
-                    effortless. The user-friendly interface allows me to quickly
-                    create personalized meal plans that cater to each client’s
-                    health conditions, dietary needs, and preferences.
+                    FOUNDER OF DIETWISE, PRACATICING DIETITIAN
+                    <span>(15 YEARS OF EXPERIENCE)</span>
                   </p>
+                </div>
+                <div class="bar">
+                  <div class="box fake-foobar">
+                    <p>
+                      “Since adopting Reecoach, managing my clients has become
+                      effortless. The user-friendly interface allows me to
+                      quickly create personalized meal plans that cater to each
+                      client’s health conditions, dietary needs, and
+                      preferences.
+                    </p>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
 
-    <img src="./assest/img/dot-image.png" alt="" class="abso">
-  </section>
-  
+      <img src="./assest/img/dot-image.png" alt="" class="abso" />
+    </section>
 
-  <div class="section bg-white"></div>
+    <div class="section bg-white"></div>
 
-  <!-- FREQUENTLY ASKED QUESTIONS -->
-  <section>
-    <div class="custome-container">
-      <div class="section dion text-center bg-white">
-        <h1>FREQUENTLY ASKED QUESTIONS</h1>
+    <!-- FREQUENTLY ASKED QUESTIONS -->
+    <section>
+      <div class="custome-container">
+        <div class="section dion text-center bg-white">
+          <h1>FREQUENTLY ASKED QUESTIONS</h1>
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- accordion-wrapper -->
-  <section class="accordion-wrapper bg-white">
-    <div class="custome-container">
-      <div class="accordion" id="accordionExample">
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingOne">
-            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne"
-              aria-expanded="true" aria-controls="collapseOne">
-              What is Reework?
-            </button>
-          </h2>
-          <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne"
-            data-bs-parent="#accordionExample">
-            <div class="accordion-body">
-              A front end app for your clients. Reework is the growth catalyst you need to scale your practice. An
-              integrated Mind and Body digital platform that helps your clients achieve their health goals with the
-              guidance of a qualified Dietitian.
+    </section>
+    <!-- accordion-wrapper -->
+    <section class="accordion-wrapper bg-white">
+      <div class="custome-container">
+        <div class="accordion" id="accordionExample">
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingOne">
+              <button
+                class="accordion-button"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseOne"
+                aria-expanded="true"
+                aria-controls="collapseOne"
+              >
+                What is Reework?
+              </button>
+            </h2>
+            <div
+              id="collapseOne"
+              class="accordion-collapse collapse show"
+              aria-labelledby="headingOne"
+              data-bs-parent="#accordionExample"
+            >
+              <div class="accordion-body">
+                A front end app for your clients. Reework is the growth catalyst
+                you need to scale your practice. An integrated Mind and Body
+                digital platform that helps your clients achieve their health
+                goals with the guidance of a qualified Dietitian.
+              </div>
             </div>
           </div>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo" aria-expanded="true" aria-controls="collapseTwo">
-              Who can become a Reecoach?
-            </button>
-          </h2>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingThree">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
-              How do I join Reework as a Reecoach?
-            </button>
-          </h2>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              What benefits do I get as a Reecoach?
-            </button>
-          </h2>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              How does the Reework app integrate with the Reework software?
-            </button>
-          </h2>
-        </div>
-        <div class="accordion-item">
-          <h2 class="accordion-header" id="headingTwo">
-            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
-              data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-              How can I manage my clients using the Reework platform?
-            </button>
-          </h2>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="true"
+                aria-controls="collapseTwo"
+              >
+                Who can become a Reecoach?
+              </button>
+            </h2>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingThree">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseThree"
+                aria-expanded="false"
+                aria-controls="collapseThree"
+              >
+                How do I join Reework as a Reecoach?
+              </button>
+            </h2>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                What benefits do I get as a Reecoach?
+              </button>
+            </h2>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                How does the Reework app integrate with the Reework software?
+              </button>
+            </h2>
+          </div>
+          <div class="accordion-item">
+            <h2 class="accordion-header" id="headingTwo">
+              <button
+                class="accordion-button collapsed"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#collapseTwo"
+                aria-expanded="false"
+                aria-controls="collapseTwo"
+              >
+                How can I manage my clients using the Reework platform?
+              </button>
+            </h2>
+          </div>
         </div>
       </div>
-    </div>
-  </section>
+    </section>
 
-
-  <div class="section bg-white"></div>
-  <!-- empower img -->
-  <section class="empower-img">
-    <div class="custome-container ">
-      <div class=" empower align-items-md-center align-items-end">
-        <h2>
-          Empower your <br>clients to <br>prioritize their <br>health permanently
-        </h2>
-        <button>CLICK HERE TO SIGN UP <span class="material-symbols-outlined" style="float: right ; margin-left: 40px;">
-            arrow_forward_ios
-          </span></button>
+    <div class="section bg-white"></div>
+    <!-- empower img -->
+    <section class="empower-img">
+      <div class="custome-container">
+        <div class="empower align-items-md-center align-items-end">
+          <h2>
+            Empower your <br />clients to <br />prioritize their <br />health
+            permanently
+          </h2>
+          <button>
+            CLICK HERE TO SIGN UP
+            <span
+              class="material-symbols-outlined"
+              style="float: right; margin-left: 40px"
+            >
+              arrow_forward_ios
+            </span>
+          </button>
+        </div>
       </div>
-    </div>
-  </section>
-  <!-- <section>
+    </section>
+    <!-- <section>
       <div class="custome-container empower-img">
           <div class="row empower align-items-md-center align-items-end">
             <div class="col-md-5 pb-md-0 pb-4">
@@ -779,8 +980,8 @@
       </div>
     </section> -->
 
-  <!-- footer -->
-  <!-- <footer class="footer">
+    <!-- footer -->
+    <!-- <footer class="footer">
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-lg-2">
@@ -882,103 +1083,100 @@
       </div>
     </footer> -->
 
+    <!-- new footer -->
+    <div class="container-fluid">
+      <div class="start-journey">START YOUR JOURNEY TODAY</div>
+      <div class="sign-up">
+        <a href="#">Click here to sign up</a>
+      </div>
 
-<!-- new footer -->
-  <div class="container">
-    <div class="start-journey">START YOUR JOURNEY TODAY</div>
-    <div class="sign-up">
-      <a href="#">Click here to sign up</a>
-    </div>
-
-    <!-- Links Section -->
-    <div class="links">
-      <a href="#">Company Profile</a>
-      <a href="#">Reework</a>
-      <a href="#">Community</a>
-      <a href="#">Become a Reecoach</a>
-      <a href="#">Academy</a>
-      <a href="#">Knowledge Bank</a>
-      <a href="#">Contact Us</a>
-    </div>
-
-    <!-- Footer Section -->
-    <div class="footer">
+      <!-- Links Section -->
       <div class="links">
-        <a href="#">FAQs</a>
-        <a href="#">Privacy Policy</a>
-        <a href="#">Enquiry</a>
-        <a href="#">Testimonials</a>
-        <a href="#">Feedback</a>
-        <a href="#">Careers</a>
+        <a href="#">Company Profile</a>
+        <a href="#">Reework</a>
+        <a href="#">Community</a>
+        <a href="#">Become a Reecoach</a>
+        <a href="#">Academy</a>
+        <a href="#">Knowledge Bank</a>
+        <a href="#">Contact Us</a>
       </div>
 
-      <div class="social-icons">
-        <div></div>
-        <div></div>
-        <div></div>
-        <div></div>
-      </div>
+      <!-- Footer Section -->
+      <div class="footer">
+        <div class="links">
+          <a href="#">FAQs</a>
+          <a href="#">Privacy Policy</a>
+          <a href="#">Enquiry</a>
+          <a href="#">Testimonials</a>
+          <a href="#">Feedback</a>
+          <a href="#">Careers</a>
+        </div>
 
-      <div class="contact-info">
-        <p>9981364524 | info@reework.in</p>
+        <div class="social-icons">
+          <div></div>
+          <div></div>
+          <div></div>
+          <div></div>
+        </div>
+
+        <div class="contact-info">
+          <p>9981364524 | info@reework.in</p>
+        </div>
       </div>
     </div>
-  </div>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="assest/js/bootstrap.bundle.min.js"></script>
+    <script>
+      var myIndex = 0;
+      carousel();
 
-
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
-<script src="assest/js/bootstrap.bundle.min.js"></script>
-<script>
-  var myIndex = 0;
-  carousel();
-
-  function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-      x[i].style.display = "none";
-    }
-    myIndex++;
-    if (myIndex > x.length) {
-      myIndex = 1;
-    }
-    x[myIndex - 1].style.display = "block";
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-  }
-</script>
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
-<script>
-  // Initialize Swiper JS
-  var swiper = new Swiper(".mySwiper", {
-    slidesPerView: 2.5, // Default view
-    spaceBetween: 42,   // Default spacing
-    loop: false,
-    autoplay: false,
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-    breakpoints: {
-      1200: {
-        slidesPerView: 2.5, // For screens >= 1200px
-      },
-      992: {
-        slidesPerView: 2,   // For screens >= 992px but < 1200px
-      },
-      575: {               // For screens < 992px
-        slidesPerView: 2,   // Single card view
-        spaceBetween: 10,   // Reduced spacing
-      },
-      0: {
-        slidesPerView: 1,   // Fallback for very small screens
-        spaceBetween: 10,
+      function carousel() {
+        var i;
+        var x = document.getElementsByClassName("mySlides");
+        for (i = 0; i < x.length; i++) {
+          x[i].style.display = "none";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+          myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(carousel, 2000); // Change image every 2 seconds
       }
-    },
-  });
-</script>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+      // Initialize Swiper JS
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 2.5, // Default view
+        spaceBetween: 42, // Default spacing
+        loop: false,
+        autoplay: false,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        breakpoints: {
+          1200: {
+            slidesPerView: 2.5, // For screens >= 1200px
+          },
+          992: {
+            slidesPerView: 2, // For screens >= 992px but < 1200px
+          },
+          575: {
+            // For screens < 992px
+            slidesPerView: 2, // Single card view
+            spaceBetween: 10, // Reduced spacing
+          },
+          0: {
+            slidesPerView: 1, // Fallback for very small screens
+            spaceBetween: 10,
+          },
+        },
+      });
+    </script>
 
-<script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
-</body>
-
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  </body>
 </html>

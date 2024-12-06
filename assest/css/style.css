@@ -189,6 +189,7 @@ body {
   left: 0;
 }
 
+
 .footer {
   background-color: #f0faf7;
   padding: 33px 0px;
@@ -469,15 +470,16 @@ footer .footer-menus li a {
   position: relative;
 }
 
+
 .reework {
   margin-left: 95px;
   margin-right: 95px;
 }
 @media (min-width: 375px) {
-  .reework {
+  /* .reework {
     margin-left: 10px;
     margin-right: 10px;
-  }
+  } 
   .digital h3 {
     font-size: 30px !important;
     font-weight: 800;
@@ -498,7 +500,7 @@ footer .footer-menus li a {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 8px !important;
-  }
+  }  */
 
 }
 
