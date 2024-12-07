@@ -512,6 +512,19 @@ footer .footer-menus li a {
     margin-right: 10px;
     font-size: 8px !important;
   }
+
+}
+
+@media (min-width : 375px) {
+  .health h6 {
+    font-size: 36px !important;
+    margin-left: -87px ; 
+  }
+  .health h5{
+    font-size: 16px ;
+    margin-left: -87px  ; 
+  }
+  
 }
 
 .reework img {
@@ -908,6 +921,7 @@ footer .footer-menus li a {
 
 .carousel-item {
   height: 100vh;
+  position: relative;
 }
 
 .carousel-item img {
@@ -927,13 +941,21 @@ footer .footer-menus li a {
   right: 0;
 }
 
-.left-caption {
+/* .left-caption {
   position: absolute;
   top: 65%;
-  left: 5%;
-  transform: translateY(-100%);
+  left: 0%;
   text-align: left;
   padding-left: 15px;
+  margin-left: 100px;
+}  */
+.left-caption {
+  position: absolute;
+  left: 5%;
+  text-align: left;
+  padding-left: 15px;
+  bottom: 45px;
+  
 }
 
 .clients img::before {
@@ -1123,16 +1145,16 @@ footer .footer-menus li a {
 }
 
 .health {
-  margin-left: 95px;
-  margin-right: 95px;
+  /* margin-left: 95px ;
+  margin-right: 95px; */
 }
 
 .health h6 {
   color: #1f6861;
-  font-size: 85px;
+  font-size: 85px !important;
   font-weight: bold;
   line-height: 1.4;
-  letter-spacing: 5px;
+  letter-spacing: 11px;
 }
 
 .health h5 {
@@ -1238,14 +1260,7 @@ footer .footer-menus li a {
   background-color: #008b7d;
 }
 
-.left-caption {
-  position: absolute;
-  top: 65%;
-  left: 0%;
-  text-align: left;
-  padding-left: 15px;
-  margin-left: 100px;
-}
+
 
 .image-container {
   display: flex;
@@ -1286,13 +1301,12 @@ footer .footer-menus li a {
     width: 100% !important;
   }
 
-  .hey {
-    padding: 15px 15px !important;
-  }
+    .hey {
+      padding: 15px 15px !important;
+    }
 
   .carousel-caption h5 {
     font-size: 60px;
-
     line-height: 72px;
   }
 
@@ -1318,13 +1332,8 @@ footer .footer-menus li a {
 }
 
 @media (max-width: 992px) {
-  .custome-container {
-    max-width: 960px;
-  }
-
   .carousel-caption h5 {
     font-size: 50px;
-
     line-height: 60px;
   }
 
@@ -1335,13 +1344,12 @@ footer .footer-menus li a {
 
   .carousel-item img {
     height: 100%;
-
     object-fit: cover;
     position: relative;
   }
 
   .left-caption {
-    top: 10%;
+ 
     transform: unset;
   }
 }
@@ -1375,11 +1383,6 @@ footer .footer-menus li a {
     flex-direction: column;
     column-count: 2;
   }
-
-  .custome-container {
-    max-width: 720px;
-  }
-
   .footernear h1 {
     font-size: 2.5rem;
   }
@@ -1497,7 +1500,6 @@ footer .footer-menus li a {
 
   .carousel-caption h5 {
     font-size: 40px;
-
     line-height: 50px;
   }
 
@@ -1506,18 +1508,10 @@ footer .footer-menus li a {
     line-height: 34px;
   }
 
-  .carousel-caption {
-    margin-top: 250px;
-  }
+
 }
 
 @media (max-width: 576px) {
-  .custome-container {
-    max-width: 100%;
-
-    padding: 0 10px;
-  }
-
   .title-bar-wrapper {
     margin-bottom: 40px;
   }
@@ -1628,6 +1622,8 @@ footer .footer-menus li a {
     text-align: start;
   }
 }
+
+
 
 .col-lg-5 {
   flex: 1 1 calc(41.666% - 20px);
@@ -1740,7 +1736,6 @@ button {
   margin-top: 10px;
 }
 
-/* Responsive Design */
 @media (min-width: 375px) {
   .links {
     gap: 15px;
@@ -1762,44 +1757,7 @@ button {
   }
 }
 
-/* .headline {
-  font-size: 2rem;
-  font-weight: bold;
-  line-height: 1.4;
-  letter-spacing: 7px;
-  color: #1F6861;
-} */
-
-/* Responsive Design */
-@media (min-width: 480px) {
-  .headline {
-    font-size: 2.5rem;
-    letter-spacing: block;
-  }
-}
-
-@media (min-width: 768px) {
-  .headline {
-    font-size: 3rem;
-  }
-}
-
-@media (min-width: 1024px) {
-  .headline {
-    font-size: 4rem;
-  }
-}
-
-/*  */
-@media (min-width: 480px) {
-  .headline {
-    font-size: 2.5rem;
-    letter-spacing: block;
-  }
-}
-
 /* stat */
-/* General Styles */
 .accordion-wrapper {
   padding: 20px 0;
 }
@@ -1814,10 +1772,6 @@ button {
 @media (max-width: 992px) {
   h1 {
     font-size: 1.8rem;
-  }
-
-  .custome-container {
-    padding: 15px;
   }
 }
 
@@ -1859,3 +1813,9 @@ button {
 .earn {
   position: relative;
 }
+
+/* new chage */
+.nav-item{
+  padding:20px;
+}
+
