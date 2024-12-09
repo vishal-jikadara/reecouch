@@ -150,7 +150,7 @@ body {
 .accordion-body {
   font-size: 20px;
   font-weight: 400;
-  margin-right: 140px;
+  /* margin-right: 140px; */
 }
 
 .dion {
@@ -181,8 +181,14 @@ body {
 
 .testimonials .abso {
   position: absolute;
-  top: 50%;
+  top: 70%;
+  transform: translateY(-70%);
   left: 0;
+}
+@media (max-width: 768px) {
+  .testimonials .abso {
+    display: none;
+  }
 }
 
 .footer {
@@ -259,6 +265,17 @@ footer .footer-menus li a {
   flex-direction: column;
   position: relative;
 }
+@media (max-width: 575px) {
+  .box-foo-wrapper {
+    padding: 0px 20px;
+    font-size: 16px;
+  }
+}
+@media (max-width: 480px) {
+  .box-foo-wrapper {
+    font-size: 14px;
+  }
+}
 
 .box-foo-wrapper::after {
   position: absolute;
@@ -269,6 +286,11 @@ footer .footer-menus li a {
   right: 26px;
   bottom: 0;
   top: 26px;
+}
+@media (max-width: 575px) {
+  .box-foo-wrapper::after {
+    right: 10px;
+  }
 }
 
 .box-foo-wrapper::before {
@@ -282,6 +304,20 @@ footer .footer-menus li a {
   bottom: 0;
 }
 
+@media (max-width: 767px) {
+  .box-foo-wrapper::before {
+    top: 40%;
+    width: 70%;
+  }
+}
+@media (max-width: 575px) {
+  .box-foo-wrapper::before {
+    top: 55%;
+    width: 60%;
+    right: 10px;
+  }
+}
+
 .foo {
   color: #1f6861;
   font-size: 14px;
@@ -289,6 +325,11 @@ footer .footer-menus li a {
   font-weight: 600;
   max-width: 335px;
   margin-bottom: 74px;
+}
+@media (max-width: 575px) {
+  .foo {
+    margin-bottom: 40px;
+  }
 }
 
 .foo h3 {
@@ -456,7 +497,6 @@ footer .footer-menus li a {
 .practice-img {
   background-image: url("../img/reework.webp");
   width: 100%;
-  height: 100vh;
   background-size: cover;
   display: flex;
   align-items: center;
@@ -468,9 +508,16 @@ footer .footer-menus li a {
   margin-right: 95px;
 }
 
-.digital-bg-color{
+@media (max-width:576px) {
+  .reework .circle img{
+    height: 126px;
+    width: 126px;
+  }
+  
+}
 
-  background-color: #1F6861;
+.digital-bg-color {
+  background-color: #1f6861;
 }
 .digital {
   position: relative;
@@ -478,7 +525,6 @@ footer .footer-menus li a {
   background-size: cover;
   background-repeat: no-repeat;
   padding: 260px 0px 140px 50px;
- 
 }
 .digital .four-side {
   position: absolute;
@@ -505,32 +551,21 @@ footer .footer-menus li a {
     padding: 5px;
   }
   .digital {
-    margin-left: 10px !important;
+    padding: 10px;
   }
   .accordion {
     margin-left: 10px;
     margin-right: 10px;
     font-size: 8px !important;
   }
-
 }
 
-@media (min-width : 375px) {
-  .health h6 {
-    font-size: 36px !important;
-    margin-left: -87px ; 
-  }
-  .health h5{
-    font-size: 16px ;
-    margin-left: -87px  ; 
-  }
-  
-}
 
-.reework img {
+
+/* .reework img {
   width: 100%;
   margin-bottom: 30px;
-}
+} */
 
 .practice-img::before {
   content: "";
@@ -554,6 +589,30 @@ footer .footer-menus li a {
   color: white;
   position: relative;
   margin-right: 95px;
+  padding: 200px 0px 150px;
+}
+@media (max-width: 1200px) {
+  .practice {
+    padding: 150px 0px 150px;
+  }
+}
+
+@media (max-width: 992px) {
+  .practice {
+    margin-right: 40px;
+    padding: 120px 0px 120px;
+  }
+}
+@media (max-width: 768px) {
+  .practice {
+    padding: 300px 0px 40px;
+  }
+}
+@media (max-width: 576px) {
+  .practice {
+    margin-right: 40px;
+    padding-left: 20px;
+  }
 }
 
 .practice h2 {
@@ -561,6 +620,17 @@ footer .footer-menus li a {
   font-weight: bold;
   color: white;
   text-transform: uppercase;
+}
+
+@media (max-width: 768px) {
+  .practice h2 {
+    font-size: 24px;
+  }
+}
+@media (max-width: 576px) {
+  .practice h2 {
+    font-size: 14px;
+  }
 }
 
 .practice p {
@@ -822,10 +892,14 @@ footer .footer-menus li a {
 }
 
 .collapse {
-  padding-top: 20px;
   font-family: Rethink Sans;
   font-weight: 600;
   size: 16px;
+}
+@media (max-width: 768px) {
+  .collapse {
+    padding-top: 0px;
+  }
 }
 
 .hey {
@@ -955,7 +1029,6 @@ footer .footer-menus li a {
   text-align: left;
   padding-left: 15px;
   bottom: 45px;
-  
 }
 
 .clients img::before {
@@ -985,12 +1058,10 @@ footer .footer-menus li a {
   top: 10px;
 }
 
-.black-text {
-  color: black;
-  font-size: 23px;
-  font-weight: 500;
-}
 
+
+
+  
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: black;
@@ -1069,8 +1140,6 @@ footer .footer-menus li a {
   height: 100vh;
 }
 
-
-
 .digital h3 {
   font-size: 69px;
   font-weight: 800;
@@ -1082,7 +1151,6 @@ footer .footer-menus li a {
   font-weight: 500;
   font-family: Rethink Sans;
 }
-
 
 .navbar-container {
   display: flex;
@@ -1144,10 +1212,10 @@ footer .footer-menus li a {
   font-family: Rethink Sans;
 }
 
-.health {
-  /* margin-left: 95px ;
-  margin-right: 95px; */
-}
+/* .health {
+  margin-left: 95px ;
+  margin-right: 95px;
+} */
 
 .health h6 {
   color: #1f6861;
@@ -1163,6 +1231,14 @@ footer .footer-menus li a {
   font-size: 35px;
   letter-spacing: 5px;
   color: #232323;
+}
+
+@media (max-width: 375px) {
+  .health h6 {
+    font-size: 8px !important;
+    margin-left:10px;
+    letter-spacing: none;
+  }
 }
 
 .movement {
@@ -1260,8 +1336,6 @@ footer .footer-menus li a {
   background-color: #008b7d;
 }
 
-
-
 .image-container {
   display: flex;
   align-items: center;
@@ -1296,14 +1370,20 @@ footer .footer-menus li a {
   transform: scale(1.05);
 }
 
+.black-text {
+  color: black;
+  font-size: 23px;
+  font-weight: 500;
+}
+
 @media (max-width: 1200px) {
   .desktop-wrapper {
     width: 100% !important;
   }
 
-    .hey {
-      padding: 15px 15px !important;
-    }
+  .hey {
+    padding: 15px 15px !important;
+  }
 
   .carousel-caption h5 {
     font-size: 60px;
@@ -1322,6 +1402,18 @@ footer .footer-menus li a {
 
   .health h5 {
     font-size: 24px !important;
+  }
+}
+@media (max-width: 375px) {
+  .health h5 {
+    font-size: 18px !important;
+    margin-left:10px;
+    letter-spacing: unset;
+  }
+  .health h6 {
+    font-size: 24px !important;
+    margin-left:10px;
+    letter-spacing: unset;
   }
 }
 
@@ -1349,7 +1441,6 @@ footer .footer-menus li a {
   }
 
   .left-caption {
- 
     transform: unset;
   }
 }
@@ -1507,8 +1598,6 @@ footer .footer-menus li a {
     font-size: 24px;
     line-height: 34px;
   }
-
-
 }
 
 @media (max-width: 576px) {
@@ -1605,14 +1694,10 @@ footer .footer-menus li a {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    padding-top: 28px;
   }
-
-  .reework-card-border {
-    border-bottom: 1px solid #437454;
-  }
-
   .reework-card-border-top {
-    border-top: 1px solid #437454;
+    /* border-top: 1px solid #437454; */
     padding-top: 28px;
   }
 
@@ -1620,10 +1705,15 @@ footer .footer-menus li a {
     display: block;
     width: 100%;
     text-align: start;
+    font-size: 13px !important;
+  }
+  .black-text{
+    display: block;
+    width: 100%;
+    text-align: start;
+    font-size: 11px !important;
   }
 }
-
-
 
 .col-lg-5 {
   flex: 1 1 calc(41.666% - 20px);
@@ -1655,12 +1745,6 @@ button {
     text-align: center;
     margin: 0 auto;
   }
-
-  button {
-    width: 100%;
-    max-width: 300px;
-    margin: 10px auto;
-  }
 }
 
 @media screen and (max-width: 480px) {
@@ -1675,6 +1759,12 @@ button {
 
   img {
     margin-bottom: 15px;
+  }
+  .gift,
+  .software,
+  .friendly {
+    text-align: start;
+    margin: 34px;
   }
 }
 
@@ -1757,21 +1847,10 @@ button {
   }
 }
 
-/* stat */
-.accordion-wrapper {
-  padding: 20px 0;
-}
-
 /* Responsive Styles */
 @media (max-width: 1200px) {
   .accordion-header button {
     font-size: 1.1rem;
-  }
-}
-
-@media (max-width: 992px) {
-  h1 {
-    font-size: 1.8rem;
   }
 }
 
@@ -1781,7 +1860,7 @@ button {
   }
 
   .accordion-body p {
-    padding-left: 100px;
+    /* padding-left: 100px; */
     font-size: 15px;
     text-align: justify;
   }
@@ -1798,7 +1877,11 @@ button {
   }
 
   .accordion-body p {
-    padding-left: none;
+    padding-left: 0px;
+  }
+  .accordion {
+    margin-left: 20px;
+    margin-right: 20pxsk;
   }
 }
 
@@ -1815,7 +1898,6 @@ button {
 }
 
 /* new chage */
-.nav-item{
-  padding:20px;
+.nav-item {
+  padding: 20px;
 }
-
