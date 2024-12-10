@@ -432,6 +432,13 @@ footer .footer-menus li a {
   row-gap: 55px;
   column-gap: 100px;
 }
+@media (max-width:576px) {
+  .main-key-features-wrapper .features-box-wrapper{
+    row-gap: 20px;
+    column-gap: 40px;
+  }
+  
+}
 
 .main-key-features-wrapper .feature-box {
   max-width: 160px;
@@ -508,12 +515,11 @@ footer .footer-menus li a {
   margin-right: 95px;
 }
 
-@media (max-width:576px) {
-  .reework .circle img{
+@media (max-width: 576px) {
+  .reework .circle img {
     height: 126px;
     width: 126px;
   }
-  
 }
 
 .digital-bg-color {
@@ -559,8 +565,6 @@ footer .footer-menus li a {
     font-size: 8px !important;
   }
 }
-
-
 
 /* .reework img {
   width: 100%;
@@ -901,7 +905,6 @@ footer .footer-menus li a {
     padding-top: 0px;
   }
 }
-
 .hey {
   padding: 0px 20px !important;
   font-weight: 700;
@@ -1001,7 +1004,6 @@ footer .footer-menus li a {
 .carousel-item img {
   background-size: cover;
   width: 100%;
-
   position: relative;
 }
 
@@ -1058,10 +1060,6 @@ footer .footer-menus li a {
   top: 10px;
 }
 
-
-
-
-  
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
   background-color: black;
@@ -1212,10 +1210,10 @@ footer .footer-menus li a {
   font-family: Rethink Sans;
 }
 
-/* .health {
-  margin-left: 95px ;
+.health {
+  margin-left: 95px;
   margin-right: 95px;
-} */
+}
 
 .health h6 {
   color: #1f6861;
@@ -1234,9 +1232,13 @@ footer .footer-menus li a {
 }
 
 @media (max-width: 375px) {
+  .health {
+    margin-left: unset;
+    margin-right: unset;
+  }
   .health h6 {
     font-size: 8px !important;
-    margin-left:10px;
+    margin-left: 10px;
     letter-spacing: none;
   }
 }
@@ -1407,12 +1409,12 @@ footer .footer-menus li a {
 @media (max-width: 375px) {
   .health h5 {
     font-size: 18px !important;
-    margin-left:10px;
+    margin-left: 10px;
     letter-spacing: unset;
   }
   .health h6 {
     font-size: 24px !important;
-    margin-left:10px;
+    margin-left: 10px;
     letter-spacing: unset;
   }
 }
@@ -1600,6 +1602,20 @@ footer .footer-menus li a {
   }
 }
 
+/* Responsive Styles */
+@media screen and (max-width: 768px) {
+  .col-lg-3,
+  .col-lg-5 {
+    flex: 1 1 100%;
+  }
+
+  .gift,
+  .software,
+  .friendly {
+    text-align: center;
+    margin: 0 auto;
+  }
+}
 @media (max-width: 576px) {
   .title-bar-wrapper {
     margin-bottom: 40px;
@@ -1707,11 +1723,33 @@ footer .footer-menus li a {
     text-align: start;
     font-size: 13px !important;
   }
-  .black-text{
+  .black-text {
     display: block;
     width: 100%;
     text-align: start;
     font-size: 11px !important;
+  }
+  .reework {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .health {
+    margin-left: 16px;
+    margin-right: 16px;
+  }
+  .text-content-wrapper p {
+    font-size: 16px;
+    margin-bottom: 15px;
+  }
+  .text-content-wrapper h5 {
+    font-size: 16px;
+  }
+  .text-content-wrapper {
+    padding-bottom: 30px;
+  }
+  .main-key-features-wrapper .feature-box{
+    display: flex;
+    gap: 20px;
   }
 }
 
@@ -1732,21 +1770,6 @@ button {
   cursor: pointer;
 }
 
-/* Responsive Styles */
-@media screen and (max-width: 768px) {
-  .col-lg-3,
-  .col-lg-5 {
-    flex: 1 1 100%;
-  }
-
-  .gift,
-  .software,
-  .friendly {
-    text-align: center;
-    margin: 0 auto;
-  }
-}
-
 @media screen and (max-width: 480px) {
   h3 {
     font-size: 16px;
@@ -1758,7 +1781,8 @@ button {
   }
 
   img {
-    margin-bottom: 15px;
+    /* margin-bottom: 15px; */
+    margin-bottom: -11px;
   }
   .gift,
   .software,
