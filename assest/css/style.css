@@ -96,7 +96,7 @@ body {
   height: 200px;
 }
 
-.swiper-container > .swiper-slide__content {
+.swiper-container>.swiper-slide__content {
   position: absolute;
   top: 0;
 }
@@ -185,6 +185,7 @@ body {
   transform: translateY(-70%);
   left: 0;
 }
+
 @media (max-width: 768px) {
   .testimonials .abso {
     display: none;
@@ -209,6 +210,7 @@ footer .play-store img {
   line-height: 0;
   max-width: 200px;
   width: 100%;
+
 }
 
 footer .footer-menus {
@@ -265,12 +267,14 @@ footer .footer-menus li a {
   flex-direction: column;
   position: relative;
 }
+
 @media (max-width: 575px) {
   .box-foo-wrapper {
     padding: 0px 20px;
     font-size: 16px;
   }
 }
+
 @media (max-width: 480px) {
   .box-foo-wrapper {
     font-size: 14px;
@@ -287,6 +291,7 @@ footer .footer-menus li a {
   bottom: 0;
   top: 26px;
 }
+
 @media (max-width: 575px) {
   .box-foo-wrapper::after {
     right: 10px;
@@ -310,6 +315,7 @@ footer .footer-menus li a {
     width: 70%;
   }
 }
+
 @media (max-width: 575px) {
   .box-foo-wrapper::before {
     top: 55%;
@@ -326,6 +332,7 @@ footer .footer-menus li a {
   max-width: 335px;
   margin-bottom: 74px;
 }
+
 @media (max-width: 575px) {
   .foo {
     margin-bottom: 40px;
@@ -432,12 +439,13 @@ footer .footer-menus li a {
   row-gap: 55px;
   column-gap: 100px;
 }
+
 @media (max-width:576px) {
-  .main-key-features-wrapper .features-box-wrapper{
-    row-gap: 20px;
+  .main-key-features-wrapper .features-box-wrapper {
+    row-gap: 5px;
     column-gap: 40px;
   }
-  
+
 }
 
 .main-key-features-wrapper .feature-box {
@@ -453,7 +461,7 @@ footer .footer-menus li a {
   }
 
   h4 {
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 500;
   }
 }
@@ -517,14 +525,15 @@ footer .footer-menus li a {
 
 @media (max-width: 576px) {
   .reework .circle img {
-    height: 126px;
-    width: 126px;
+    height: 125px;
+    width: 125px;
   }
 }
 
 .digital-bg-color {
   background-color: #1f6861;
 }
+
 .digital {
   position: relative;
   background-image: url("/assest/img/full-image.png");
@@ -532,6 +541,7 @@ footer .footer-menus li a {
   background-repeat: no-repeat;
   padding: 260px 0px 140px 50px;
 }
+
 .digital .four-side {
   position: absolute;
   bottom: 0;
@@ -543,6 +553,7 @@ footer .footer-menus li a {
     margin-left: 10px;
     margin-right: 10px;
   }
+
   .digital h3 {
     font-size: 30px !important;
     font-weight: 800;
@@ -550,15 +561,18 @@ footer .footer-menus li a {
     letter-spacing: 2px;
     padding: 5px;
   }
+
   .digital h6 {
     font-size: 16px !important;
     font-weight: 500;
     font-family: Rethink Sans;
     padding: 5px;
   }
+
   .digital {
     padding: 10px;
   }
+
   .accordion {
     margin-left: 10px;
     margin-right: 10px;
@@ -578,11 +592,9 @@ footer .footer-menus li a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-      to right,
+  background: linear-gradient(to right,
       rgba(255, 255, 255, 0),
-      rgba(0, 0, 0, 0.5)
-    ),
+      rgba(0, 0, 0, 0.5)),
     url("./img/image 12.png");
   background-size: cover;
   z-index: 1;
@@ -595,6 +607,7 @@ footer .footer-menus li a {
   margin-right: 95px;
   padding: 200px 0px 150px;
 }
+
 @media (max-width: 1200px) {
   .practice {
     padding: 150px 0px 150px;
@@ -607,11 +620,13 @@ footer .footer-menus li a {
     padding: 120px 0px 120px;
   }
 }
+
 @media (max-width: 768px) {
   .practice {
     padding: 300px 0px 40px;
   }
 }
+
 @media (max-width: 576px) {
   .practice {
     margin-right: 40px;
@@ -631,6 +646,7 @@ footer .footer-menus li a {
     font-size: 24px;
   }
 }
+
 @media (max-width: 576px) {
   .practice h2 {
     font-size: 14px;
@@ -665,11 +681,9 @@ footer .footer-menus li a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-      to left,
+  background: linear-gradient(to left,
       rgba(255, 255, 255, 0),
-      rgba(0, 0, 0, 0.5)
-    ),
+      rgba(0, 0, 0, 0.5)),
     url("./img/Rectmarginangle-93.png");
   background-size: cover;
   z-index: 1;
@@ -900,11 +914,13 @@ footer .footer-menus li a {
   font-weight: 600;
   size: 16px;
 }
+
 @media (max-width: 768px) {
   .collapse {
     padding-top: 0px;
   }
 }
+
 .hey {
   padding: 0px 20px !important;
   font-weight: 700;
@@ -1197,7 +1213,7 @@ footer .footer-menus li a {
 }
 
 .reework .reework-card h5 {
-  font-size: 21px;
+  font-size: 18px;
   font-weight: 800;
 }
 
@@ -1236,6 +1252,7 @@ footer .footer-menus li a {
     margin-left: unset;
     margin-right: unset;
   }
+
   .health h6 {
     font-size: 8px !important;
     margin-left: 10px;
@@ -1376,6 +1393,7 @@ footer .footer-menus li a {
   color: black;
   font-size: 23px;
   font-weight: 500;
+  padding: 5px;
 }
 
 @media (max-width: 1200px) {
@@ -1406,12 +1424,14 @@ footer .footer-menus li a {
     font-size: 24px !important;
   }
 }
+
 @media (max-width: 375px) {
   .health h5 {
     font-size: 18px !important;
     margin-left: 10px;
     letter-spacing: unset;
   }
+
   .health h6 {
     font-size: 24px !important;
     margin-left: 10px;
@@ -1476,6 +1496,7 @@ footer .footer-menus li a {
     flex-direction: column;
     column-count: 2;
   }
+
   .footernear h1 {
     font-size: 2.5rem;
   }
@@ -1575,19 +1596,19 @@ footer .footer-menus li a {
     font-size: 2.5rem;
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
+  .navbar-container input[type="checkbox"]:checked~.menu-items {
     transform: translateX(0);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
     transform: rotate(45deg);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
     transform: scaleY(0);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
     transform: rotate(-45deg);
   }
 
@@ -1604,6 +1625,7 @@ footer .footer-menus li a {
 
 /* Responsive Styles */
 @media screen and (max-width: 768px) {
+
   .col-lg-3,
   .col-lg-5 {
     flex: 1 1 100%;
@@ -1616,6 +1638,7 @@ footer .footer-menus li a {
     margin: 0 auto;
   }
 }
+
 @media (max-width: 576px) {
   .title-bar-wrapper {
     margin-bottom: 40px;
@@ -1639,21 +1662,17 @@ footer .footer-menus li a {
   }
 
   .practice-img::before {
-    background: linear-gradient(
-        to bottom,
+    background: linear-gradient(to bottom,
         rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5)
-      ),
+        rgba(0, 0, 0, 0.5)),
       url("./img/image-12-mobile.png");
     background-size: cover;
   }
 
   .empower-img::before {
-    background: linear-gradient(
-        to bottom,
+    background: linear-gradient(to bottom,
         rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5)
-      ),
+        rgba(0, 0, 0, 0.5)),
       url("./img/Rectangle-93-mobile.png");
     background-size: cover;
   }
@@ -1712,6 +1731,7 @@ footer .footer-menus li a {
     flex-direction: column;
     padding-top: 28px;
   }
+
   .reework-card-border-top {
     /* border-top: 1px solid #437454; */
     padding-top: 28px;
@@ -1721,35 +1741,50 @@ footer .footer-menus li a {
     display: block;
     width: 100%;
     text-align: start;
-    font-size: 13px !important;
+    font-size: 12px !important;
+    margin-top: 21px;
   }
+
   .black-text {
     display: block;
     width: 100%;
     text-align: start;
     font-size: 11px !important;
   }
+
   .reework {
     margin-left: 16px;
     margin-right: 16px;
   }
+
   .health {
     margin-left: 16px;
     margin-right: 16px;
   }
+
   .text-content-wrapper p {
     font-size: 16px;
-    margin-bottom: 15px;
+
+    font-weight: 500;
+    text-align: justify;
+
   }
+
   .text-content-wrapper h5 {
     font-size: 16px;
+    /* text-align: left; */
+    font-weight: 500;
+    text-align: justify;
+
   }
+
   .text-content-wrapper {
-    padding-bottom: 30px;
+    padding-bottom: 3px;
   }
-  .main-key-features-wrapper .feature-box{
+
+  .main-key-features-wrapper .feature-box {
     display: flex;
-    gap: 20px;
+    /* gap: 20px; */
   }
 }
 
@@ -1784,6 +1819,7 @@ button {
     /* margin-bottom: 15px; */
     margin-bottom: -11px;
   }
+
   .gift,
   .software,
   .friendly {
@@ -1792,86 +1828,7 @@ button {
   }
 }
 
-/* footer css and resposive */
-.sign-up {
-  margin: 10px 0;
-}
-
-.sign-up a {
-  text-decoration: none;
-  color: #1e6351;
-  border: 2px solid #1e6351;
-  padding: 10px 20px;
-  border-radius: 5px;
-  display: inline-block;
-  /* transition: background-color 0.3s, color 0.3s; */
-}
-
-.sign-up a:hover {
-  background-color: #1e6351;
-  color: #fff;
-}
-
-/* Links Section */
-.links {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 20px;
-  width: 100%;
-}
-
-.links a {
-  text-decoration: none;
-  color: #1e6351;
-  font-size: 1em;
-}
-
-/* Footer Section */
-.footer {
-  margin-top: 20px;
-  font-size: 0.9em;
-}
-
-.social-icons {
-  display: flex;
-  justify-content: center;
-  gap: 10px;
-  margin: 10px 0;
-}
-
-.social-icons div {
-  width: 30px;
-  height: 30px;
-  background-color: #000;
-  border-radius: 50%;
-}
-
-.contact-info {
-  margin-top: 10px;
-}
-
-@media (min-width: 375px) {
-  .links {
-    gap: 15px;
-  }
-
-  .sign-up a {
-    padding: 12px 24px;
-    font-size: 1em;
-  }
-}
-
-@media (min-width: 768px) {
-  .links {
-    grid-template-columns: repeat(3, 1fr);
-  }
-
-  .footer {
-    font-size: 1em;
-  }
-}
-
-/* Responsive Styles */
+/* Responsive accordion */
 @media (max-width: 1200px) {
   .accordion-header button {
     font-size: 1.1rem;
@@ -1903,6 +1860,7 @@ button {
   .accordion-body p {
     padding-left: 0px;
   }
+
   .accordion {
     margin-left: 20px;
     margin-right: 20pxsk;
@@ -1925,3 +1883,52 @@ button {
 .nav-item {
   padding: 20px;
 }
+
+
+
+
+/* new footer resposive today */
+/* Media Queries for Mobile Screens */
+ @media (max-width: 768px) {
+  .footer {
+    padding: 15px;
+  }
+
+  .footer-menus {
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer-menus li {
+    text-align: center;
+  }
+
+  .download-wrapper p {
+    text-align: center;
+    font-size: 14px;
+  }
+
+  .play-store img {
+    width: 100px;
+    margin: 0 10px;
+  }
+
+  .connect-icons {
+    text-align: center;
+  }
+
+  .footer-btn {
+    width: 100%;
+    font-size: 16px;
+    text-align: center;
+  }
+
+  .footer .col-lg-2, .footer .col-lg-4, .footer .col-lg-9 {
+    width: 100%;
+  }
+
+  .list-unstyled {
+    text-align: center;
+  }
+} 
