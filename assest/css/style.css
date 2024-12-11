@@ -39,7 +39,7 @@ body {
   src: url("RethinkSans-VariableFont_wght.ttf");
 }
 
-img{
+img {
   max-width: 100%;
 }
 
@@ -100,7 +100,7 @@ img{
   height: 200px;
 }
 
-.swiper-container > .swiper-slide__content {
+.swiper-container>.swiper-slide__content {
   position: absolute;
   top: 0;
 }
@@ -420,11 +420,12 @@ footer .footer-menus li a {
   font-weight: 500;
   margin-bottom: 25px;
 }
+
 @media (max-width:576px) {
   .text-content-wrapper p {
     margin-bottom: 16px;
   }
-  
+
 }
 
 .text-content-wrapper span {
@@ -473,8 +474,9 @@ footer .footer-menus li a {
     font-weight: 500;
   }
 }
+
 @media (max-width:576px) {
-  .main-key-features-wrapper .feature-box h4{
+  .main-key-features-wrapper .feature-box h4 {
     font-size: 14px;
   }
 }
@@ -598,11 +600,9 @@ footer .footer-menus li a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-      to right,
+  background: linear-gradient(to right,
       rgba(255, 255, 255, 0),
-      rgba(0, 0, 0, 0.5)
-    ),
+      rgba(0, 0, 0, 0.5)),
     url("./img/image 12.png");
   background-size: cover;
   z-index: 1;
@@ -689,11 +689,9 @@ footer .footer-menus li a {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-      to left,
+  background: linear-gradient(to left,
       rgba(255, 255, 255, 0),
-      rgba(0, 0, 0, 0.5)
-    ),
+      rgba(0, 0, 0, 0.5)),
     url("./img/Rectmarginangle-93.png");
   background-size: cover;
   z-index: 1;
@@ -955,10 +953,18 @@ footer .footer-menus li a {
   font-size: 26px;
 }
 
+.bg-theme {
+  background-color: #E8F7F3;
+}
+
 .software img {
   margin-top: 50px;
-  left: 100px !important;
-  float: left;
+}
+@media (max-width:768px) {
+  
+  .software img {
+    margin-top: 0px;
+  }
 }
 
 .software {
@@ -1606,19 +1612,19 @@ footer .footer-menus li a {
     font-size: 2.5rem;
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .menu-items {
+  .navbar-container input[type="checkbox"]:checked~.menu-items {
     transform: translateX(0);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line1 {
     transform: rotate(45deg);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line2 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line2 {
     transform: scaleY(0);
   }
 
-  .navbar-container input[type="checkbox"]:checked ~ .hamburger-lines .line3 {
+  .navbar-container input[type="checkbox"]:checked~.hamburger-lines .line3 {
     transform: rotate(-45deg);
   }
 
@@ -1667,21 +1673,17 @@ footer .footer-menus li a {
   }
 
   .practice-img::before {
-    background: linear-gradient(
-        to bottom,
+    background: linear-gradient(to bottom,
         rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5)
-      ),
+        rgba(0, 0, 0, 0.5)),
       url("./img/image-12-mobile.png");
     background-size: cover;
   }
 
   .empower-img::before {
-    background: linear-gradient(
-        to bottom,
+    background: linear-gradient(to bottom,
         rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5)
-      ),
+        rgba(0, 0, 0, 0.5)),
       url("./img/Rectangle-93-mobile.png");
     background-size: cover;
   }
@@ -1937,6 +1939,3 @@ button {
     text-align: center;
   }
 }
-
-
-
