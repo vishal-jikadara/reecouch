@@ -3,6 +3,7 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 html,
 body {
   margin: 0;
@@ -15,6 +16,7 @@ body {
   background: #ffffff;
   color: #000;
 }
+
 @font-face {
   font-family: "Rethink Sans";
   src: url("RethinkSans-VariableFont_wght.ttf");
@@ -184,7 +186,7 @@ button {
 }
 
 .carousel-item {
-  height: 100vh;
+  /* height: 100vh; */
   position: relative;
 }
 
@@ -291,11 +293,13 @@ button {
     font-size: 20px;
     line-height: 28px;
   }
+
   .left-caption .btn {
     padding: 12px 25px;
     font-size: 14px;
   }
-  .left-caption{
+
+  .left-caption {
     /* margin-top: 10px; */
     bottom: 6px;
   }
@@ -309,30 +313,63 @@ button {
   margin-right: 95px;
 }
 
-.health h6 {
-  color: #1f6861;
-  font-size: 74px !important;
-  font-weight: bold;
-  line-height: 1.4;
-  letter-spacing: 11px;
-}
-
 .health h5 {
   font-family: Rethink Sans;
   font-weight: 800;
   font-size: 35px;
   letter-spacing: 5px;
   color: #232323;
+  text-align: justify;
+  margin-top: 20px;
+}
+
+.health h6 {
+  color: #1f6861;
+  font-size: 120px !important;
+  font-weight: bold;
+  line-height: 1.4;
+  letter-spacing: 4px;
+}
+
+
+@media (max-width:1600px) {
+  .health h5 {
+    margin-top: 20px;
+    font-size: 30px !important;
+
+
+  }
+
+  .health h6 {
+    font-size: 80px !important;
+    /* letter-spacing: -0.5px; */
+  }
 }
 
 @media (max-width: 1200px) {
-  .health h2 {
-    font-size: 29px !important;
-    letter-spacing: -0.5px;
+  .health h5 {
+    margin-top: 20px;
+    font-size: 24px !important;
+    text-align: justify;
   }
 
+  .health h6 {
+    font-size: 65px !important;
+    letter-spacing: -0.5px;
+  }
+}
+
+@media (max-width: 992px) {
   .health h5 {
-    font-size: 24px !important;
+    margin-top: 20px;
+    font-size: 20px !important;
+
+  }
+
+  .health h6 {
+    font-size: 45px !important;
+
+    /* letter-spacing: -0.5px; */
   }
 }
 
@@ -342,6 +379,7 @@ button {
     margin-top: 10px;
     /* margin-left: 10px; */
     letter-spacing: unset;
+    text-align: justify;
   }
 
   .health h6 {
@@ -361,16 +399,41 @@ button {
 .reework {
   margin-left: 95px;
   margin-right: 95px;
+
+}
+
+.you {
+  margin-top: 20px;
+}
+
+.you h5 {
+  margin-top: 8px;
+}
+
+.you p {
+  margin-top: 8px;
 }
 
 .reework .reework-card h5 {
-  font-size: 18px;
+  font-size: 23px;
   font-weight: 800;
 }
 
+.black-text {
+  font-size: 23px;
+  font-weight: 600;
+  color: #232323;
+
+}
+
 .reework-card img {
+  align-items: start !important;
   width: 142px;
   height: 142px;
+}
+
+.why {
+  margin-top: 20px;
 }
 
 .why h5 {
@@ -382,6 +445,7 @@ button {
   font-weight: 800;
   color: #29c192;
   position: relative;
+
 }
 
 .why p::before {
@@ -417,11 +481,20 @@ button {
   font-style: Rethink Sans;
 }
 
+/* @media (max-width:1400) {
+}
+@media (max-width:1200) {
+
+}
+@media (max-width:992) {  
+} */
 @media (max-width:768px) {
-  .reework-card img{
+
+  .reework-card img {
     width: 100px;
     height: 100px;
   }
+  
 }
 
 @media (max-width: 576px) {
@@ -434,7 +507,6 @@ button {
   }
 
   .reework-card-border-top {
-    /* border-top: 1px solid #437454; */
     padding-top: 28px;
   }
 
@@ -473,6 +545,11 @@ button {
     text-align: start;
     font-size: 11px !important;
   }
+
+  .reework-card img {
+    margin-right: 72px;
+  }
+
 }
 
 @media (max-width: 375px) {
@@ -480,7 +557,39 @@ button {
     margin-left: 10px;
     margin-right: 10px;
   }
+  .reework-card img {
+    margin-right: 32px;
+  }
 }
+
+/* 786 to 1200 screen resposive */
+/* h5, .black-text {
+  font-size: 12px ; 
+}
+
+@media screen and (min-width: 576px) {
+  h5, .black-text {
+    font-size: 14px;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  h5, .black-text {
+    font-size: 16px !important;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  h5, .black-text {
+    font-size: 18px !important;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  h5, .black-text {
+    font-size: 20px !important;
+  }
+} */
 
 
 /* digital css and media query */
@@ -507,9 +616,10 @@ button {
 }
 
 .digital h3 {
-  font-size: 69px;
+  font-size: 70px;
   font-weight: 800;
   font-family: Rethink Sans;
+  margin-top: 357px;
 }
 
 .digital p {
@@ -633,12 +743,13 @@ button {
 }
 
 @media (max-width:1200px) {
-  .software h3{
+  .software h3 {
     font-size: 28px;
   }
 }
+
 @media (max-width:992px) {
-  .software h3{
+  .software h3 {
     font-size: 24px;
   }
 }
@@ -652,7 +763,8 @@ button {
     text-align: start;
     margin: 0px;
   }
-  .software h3{
+
+  .software h3 {
     font-size: 22px;
   }
 }
@@ -663,7 +775,8 @@ button {
     text-align: start;
     margin: 0px;
   }
-  .software h3{
+
+  .software h3 {
     font-size: 16px;
   }
 }
@@ -676,16 +789,19 @@ button {
   color: 1f6861;
   font-family: Rethink Sans;
 }
-.friendly h3{
-  font-size: 35px;
+
+.friendly h3 {
+  font-size: 16px;
 }
+
 @media (max-width:1200px) {
-  .friendly h3{
+  .friendly h3 {
     font-size: 28px;
   }
 }
+
 @media (max-width:992px) {
-  .friendly h3{
+  .friendly h3 {
     font-size: 24px;
   }
 }
@@ -696,7 +812,8 @@ button {
     text-align: center;
     margin: 0 auto;
   }
-  .friendly h3{
+
+  .friendly h3 {
     font-size: 22px;
   }
 }
@@ -706,7 +823,8 @@ button {
     text-align: start;
     margin: 0px;
   }
-  .friendly h3{
+
+  .friendly h3 {
     font-size: 16px;
   }
 }
@@ -714,6 +832,7 @@ button {
 /*  reework-reecouch css and media query */
 .title-bar-wrapper {
   margin-bottom: 70px;
+  margin-left: 10px;
 
   span {
     position: relative;
@@ -761,7 +880,7 @@ button {
 .text-content-wrapper h5 {
   color: #1f6861;
   font-size: 23px;
-  font-weight: 500;
+  font-weight: 800;
 }
 
 .main-key-features-wrapper h3 {
@@ -790,7 +909,7 @@ button {
 
   h4 {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
   }
 }
 
@@ -862,7 +981,8 @@ button {
   }
 
   .main-key-features-wrapper .feature-box h4 {
-    font-size: 14px;
+    font-size: 16px;
+    
   }
 
   .main-key-features-wrapper .features-box-wrapper {
@@ -884,14 +1004,14 @@ button {
 
   .text-content-wrapper p {
     font-size: 16px;
-    font-weight: 500;
+    font-weight: 700;
     text-align: justify;
   }
 
   .text-content-wrapper h5 {
     font-size: 16px;
     /* text-align: left; */
-    font-weight: 500;
+    font-weight: 600;
     text-align: justify;
   }
 
@@ -1400,6 +1520,7 @@ button {
   padding: 33px 0px;
   border-top: 10px solid #1f6861;
 }
+
 footer .download-wrapper p {
   text-align: center;
   font-family: Rethink Sans;
@@ -1407,11 +1528,13 @@ footer .download-wrapper p {
   font-weight: 800;
   margin-bottom: 15px;
 }
+
 footer .play-store img {
   line-height: 0;
   max-width: 200px;
   width: 100%;
 }
+
 footer .footer-menus {
   padding: 30px 0px 60px;
   display: flex;
@@ -1419,6 +1542,7 @@ footer .footer-menus {
   justify-content: space-between;
   gap: 20px;
 }
+
 footer .footer-menus li {
   list-style: none;
 
