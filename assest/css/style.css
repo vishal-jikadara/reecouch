@@ -214,7 +214,7 @@ button {
   left: 5%;
   text-align: left;
   padding-left: 15px;
-  bottom: 45px;
+  bottom: 88px;
 }
 
 .btn {
@@ -291,17 +291,13 @@ button {
     font-size: 20px;
     line-height: 28px;
   }
-
-  .carousel-item {
-    height: calc(100vh - 96px);
-  }
-
-  .btn {
-    padding: 12px 15px;
+  .left-caption .btn {
+    padding: 12px 25px;
     font-size: 14px;
   }
   .left-caption{
-    margin-top: 10px;
+    /* margin-top: 10px; */
+    bottom: 6px;
   }
 }
 
@@ -342,14 +338,14 @@ button {
 
 @media (max-width: 576px) {
   .health h5 {
-    font-size: 18px !important;
+    font-size: 16px !important;
     margin-top: 10px;
     /* margin-left: 10px; */
     letter-spacing: unset;
   }
 
   .health h6 {
-    font-size: 24px !important;
+    font-size: 36px !important;
     /* margin-left: 8px; */
     letter-spacing: unset;
   }
@@ -421,6 +417,12 @@ button {
   font-style: Rethink Sans;
 }
 
+@media (max-width:768px) {
+  .reework-card img{
+    width: 100px;
+    height: 100px;
+  }
+}
 
 @media (max-width: 576px) {
   .reework-card {
@@ -479,6 +481,7 @@ button {
     margin-right: 10px;
   }
 }
+
 
 /* digital css and media query */
 .earn {
@@ -625,8 +628,19 @@ button {
 
 .software h3 {
   font-weight: 500;
-  font-size: px;
+  font-size: 35px;
   color: #1f6861;
+}
+
+@media (max-width:1200px) {
+  .software h3{
+    font-size: 28px;
+  }
+}
+@media (max-width:992px) {
+  .software h3{
+    font-size: 24px;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -638,12 +652,19 @@ button {
     text-align: start;
     margin: 0px;
   }
+  .software h3{
+    font-size: 22px;
+  }
 }
+
 
 @media screen and (max-width: 576px) {
   .software {
     text-align: start;
     margin: 0px;
+  }
+  .software h3{
+    font-size: 16px;
   }
 }
 
@@ -655,11 +676,28 @@ button {
   color: 1f6861;
   font-family: Rethink Sans;
 }
+.friendly h3{
+  font-size: 35px;
+}
+@media (max-width:1200px) {
+  .friendly h3{
+    font-size: 28px;
+  }
+}
+@media (max-width:992px) {
+  .friendly h3{
+    font-size: 24px;
+  }
+}
+
 
 @media screen and (max-width: 768px) {
   .friendly {
     text-align: center;
     margin: 0 auto;
+  }
+  .friendly h3{
+    font-size: 22px;
   }
 }
 
@@ -667,6 +705,9 @@ button {
   .friendly {
     text-align: start;
     margin: 0px;
+  }
+  .friendly h3{
+    font-size: 16px;
   }
 }
 
