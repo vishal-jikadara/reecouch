@@ -844,6 +844,10 @@ button {
 }
 
 /*  reework-reecouch css and media query */
+.imgset{
+  margin-left: 20px;
+  margin-right: 200px;
+}
 .title-bar-wrapper {
   margin-bottom: 70px;
   margin-left: 10px;
@@ -1070,7 +1074,8 @@ button {
   background-color: #00d4b7;
   color: black;
   border: none;
-  padding: 7px 20px;
+  /* padding: 10px 20px; */
+  padding: 16px 32px;
   cursor: pointer;
 }
 
@@ -1306,13 +1311,16 @@ button {
 /* FREQUENTLY ASKED QUESTIONS css and media query */
 
 .dion {
-  font-family: Mont Blanc Var;
+  align-items: center;
 }
 
 /*  accordion-wrapper css and media query */
 .accordion {
   margin-left: 95px;
   margin-right: 95px;
+}
+.accordion p{
+  font-size: 30px;
 }
 
 .accordion-button:focus {
@@ -1406,9 +1414,6 @@ button {
     margin-right: 10px;
     font-size: 8px !important;
   }
-}
-
-@media (max-width: 375px) {
   .accordion-wrapper {
     padding: 5px;
     /* Reduce padding for smaller screens */
@@ -1422,9 +1427,10 @@ button {
   }
 
   .accordion-body p {
-    font-size: 11px;
+    font-size: 14px;
     /* Smaller font size for paragraph text */
     line-height: 1.4;
+    font-weight: 700;
     /* Adjust line height for readability */
   }
 
@@ -1433,14 +1439,6 @@ button {
     /* Add spacing between items for better touch usability */
   }
 }
-
-@media (max-width: 319) {
-  .accordion-body p {
-    padding-left: 100px;
-  }
-
-}
-
 /* empower img css and media query  */
 .empower-img {
   background-image: url("../img/footer.webp");
@@ -1474,13 +1472,13 @@ button {
   padding: 75px 0px;
 }
 
-.empower h1 {
+/* .empower h1 {
   font-weight: 800;
   font-size: 78px;
   font-family: Rethink Sans;
   line-height: 100px;
   left: 50px !important;
-}
+} */
 
 .empower h2 {
   font-size: 78px;
