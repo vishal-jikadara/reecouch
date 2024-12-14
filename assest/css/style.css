@@ -302,9 +302,11 @@ button {
     /* margin-top: 10px; */
     bottom: 6px;
   }
+
   .swiper-slide {
-    margin-left: 26px; /* Add 10px margin-left */
-    
+    margin-left: 26px;
+    /* Add 10px margin-left */
+
   }
 }
 
@@ -433,7 +435,7 @@ button {
 }
 
 .why h5 {
-  font-weight: 700;
+  font-weight: 800;
   font-size: 33px;
 }
 
@@ -488,8 +490,11 @@ button {
     width: 100px;
     height: 100px;
   }
+  .why h5 {
+    font-size: 24px;
+  }
   .black-text {
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 600;
     color: #232323;
   }
@@ -503,47 +508,41 @@ button {
     flex-direction: column;
     padding-top: 28px;
   }
-
-  .reework-card-border-top {
+  /* .reework-card-border-top {
     padding-top: 28px;
-  }
-
+  } */
   .reework-card h5 {
     display: block;
     width: 100%;
     text-align: start;
-    font-size: 12px !important;
+    font-size: 14px !important;
     margin-top: 21px;
   }
-
   .reework {
     margin-left: 16px;
     margin-right: 16px;
   }
-
   .why p::before {
-    width: 130px;
-    height: 3px;
+    width: 150x; 
+    height:8px;
     left: 178px;
-    top: 13px;
+    top: 9px;
   }
-
   .why p {
     font-size: 18px;
-    margin-bottom: 10px;
+    /* margin-bottom: 10px; */
+    letter-spacing: 2px;
   }
-
   .why h5 {
     font-size: 21px;
+    font-weight: 800;
   }
-
   .black-text {
     display: block;
     width: 100%;
     text-align: start;
-    font-size: 11px !important;
+    font-size: 14px !important;
   }
-
   .reework-card img {
     margin-right: 72px;
   }
@@ -639,20 +638,21 @@ button {
 }
 
 @media (max-width:1200px) {
-  .digital h3{
+  .digital h3 {
     font-size: 60px;
     margin-top: 80px;
   }
 }
 
 @media (max-width:992px) {
-  .digital h3{
+  .digital h3 {
     font-size: 50px;
     margin-top: 60px;
   }
 }
+
 @media (max-width:768px) {
-  .digital h3{
+  .digital h3 {
     font-size: 40px;
     margin-top: 40px;
   }
@@ -980,6 +980,7 @@ button {
 
   .title-bar-wrapper h4 {
     font-size: 30px;
+    margin-top: 36px;
   }
 
   .features-box-wrapper {
@@ -1053,11 +1054,9 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-      to right,
+  background: linear-gradient(to right,
       rgba(255, 255, 255, 0),
-      rgba(0, 0, 0, 0.5)
-    ),
+      rgba(0, 0, 0, 0.5)),
     url("./img/image 12.png");
   background-size: cover;
   z-index: 1;
@@ -1132,11 +1131,9 @@ button {
   }
 
   .practice-img::before {
-    background: linear-gradient(
-        to bottom,
+    background: linear-gradient(to bottom,
         rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5)
-      ),
+        rgba(0, 0, 0, 0.5)),
       url("./img/image-12-mobile.png");
     background-size: cover;
   }
@@ -1170,7 +1167,7 @@ button {
   height: 200px;
 }
 
-.swiper-container > .swiper-slide__content {
+.swiper-container>.swiper-slide__content {
   position: absolute;
   top: 0;
 }
@@ -1286,7 +1283,7 @@ button {
 
   .box-foo-wrapper {
     padding: 0px 20px;
-    font-size: 16px;
+    font-size: 12px;
   }
 
   .box-foo-wrapper::before {
@@ -1302,7 +1299,7 @@ button {
 
 @media (max-width: 480px) {
   .box-foo-wrapper {
-    font-size: 14px;
+    font-size: 11px;
   }
 }
 
@@ -1410,30 +1407,38 @@ button {
     font-size: 8px !important;
   }
 }
+
 @media (max-width: 375px) {
   .accordion-wrapper {
-    padding: 5px; /* Reduce padding for smaller screens */
+    padding: 5px;
+    /* Reduce padding for smaller screens */
   }
 
   .accordion-button {
-    font-size: 12px; /* Smaller font size for buttons */
-    padding: 8px; /* Reduce padding inside buttons */
+    font-size: 12px;
+    /* Smaller font size for buttons */
+    padding: 8px;
+    /* Reduce padding inside buttons */
   }
 
   .accordion-body p {
-    font-size: 11px; /* Smaller font size for paragraph text */
-    line-height: 1.4; /* Adjust line height for readability */
+    font-size: 11px;
+    /* Smaller font size for paragraph text */
+    line-height: 1.4;
+    /* Adjust line height for readability */
   }
 
   .accordion-item {
-    margin-bottom: 10px; /* Add spacing between items for better touch usability */
+    margin-bottom: 10px;
+    /* Add spacing between items for better touch usability */
   }
 }
+
 @media (max-width: 319) {
   .accordion-body p {
     padding-left: 100px;
   }
-  
+
 }
 
 /* empower img css and media query  */
@@ -1453,11 +1458,9 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-      to left,
+  background: linear-gradient(to left,
       rgba(255, 255, 255, 0),
-      rgba(0, 0, 0, 0.5)
-    ),
+      rgba(0, 0, 0, 0.5)),
     url("./img/Rectmarginangle-93.png");
   background-size: cover;
   z-index: 1;
@@ -1543,11 +1546,9 @@ button {
   }
 
   .empower-img::before {
-    background: linear-gradient(
-        to bottom,
+    background: linear-gradient(to bottom,
         rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5)
-      ),
+        rgba(0, 0, 0, 0.5)),
       url("./img/Rectangle-93-mobile.png");
     background-size: cover;
   }
