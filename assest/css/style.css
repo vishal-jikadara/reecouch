@@ -1666,6 +1666,10 @@ width: 200px;
   padding: 33px 0px;
   border-top: 10px solid #1f6861;
 }
+.resposiveimgfooter img{
+  height: 90px;
+  width: 200px;
+}
 
 footer .download-wrapper p {
   text-align: center;
@@ -1684,7 +1688,7 @@ footer .play-store img {
 
 footer .footer-menus {
   /* padding: 30px 0px 60px; */
-  padding: 86px 0px 30px;
+  padding: 30px 0px 60px;
   display: flex;
   align-items: center;
   justify-content: start;
@@ -1782,7 +1786,7 @@ footer .footer-menus li a {
 
 /* Dropdown button */
 .dropdown button {
-  background-color: white;
+  background-color: rgb(241, 230, 230);
   color: #1f6861;
   padding: 10px 20px;
   border: none;
