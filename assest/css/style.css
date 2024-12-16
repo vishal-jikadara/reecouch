@@ -79,6 +79,11 @@ button {
 }
 
 /* nevegesion css and media qevry */
+.navbar-wapper{
+  margin-right: 40px;
+  margin-left: 40px;
+}
+
 .navbar a {
   color: #444;
   text-decoration: none;
@@ -115,7 +120,7 @@ button {
 }
 
 .hey {
-  padding: 0px 20px !important;
+  padding: 0px 45px !important;
   font-weight: 700;
 }
 
@@ -306,10 +311,8 @@ button {
   .swiper-slide {
     margin-left: 26px;
     /* Add 10px margin-left */
-
   }
 }
-
 
 /* partner css and media query */
 
@@ -478,8 +481,12 @@ button {
   font-style: Rethink Sans;
 }
 
-/* @media (max-width:1400) {
+@media (max-width: 1440px) {
+  .nav-item {
+    padding: unset;
+  }
 }
+/*
 @media (max-width:1200) {
 
 }
@@ -523,8 +530,8 @@ button {
     margin-right: 16px;
   }
   .why p::before {
-    width: 150x; 
-    height:8px;
+    width: 150x;
+    height: 8px;
     left: 178px;
     top: 9px;
   }
@@ -593,15 +600,18 @@ button {
 }
 
 .digital-bg-color {
-  background-color: #1f6861;
+  /* background-color: #1f6861; */
 }
 
 .digital {
   position: relative;
-  background-image: url("/assest/img/full-image.png");
+  background-image: url("../img/full-image.png");
   background-size: cover;
   background-repeat: no-repeat;
-  padding: 260px 0px 140px 50px;
+  padding: 100px 0px 100px 50px;
+  width: 100%;
+  height: 100%;
+  background-position: bottom;
 }
 
 .digital .four-side {
@@ -637,21 +647,21 @@ button {
   background-color: #00d4b7;
 }
 
-@media (max-width:1200px) {
+@media (max-width: 1200px) {
   .digital h3 {
     font-size: 60px;
     margin-top: 80px;
   }
 }
 
-@media (max-width:992px) {
+@media (max-width: 992px) {
   .digital h3 {
     font-size: 50px;
     margin-top: 60px;
   }
 }
 
-@media (max-width:768px) {
+@media (max-width: 768px) {
   .digital h3 {
     font-size: 40px;
     margin-top: 40px;
@@ -738,7 +748,7 @@ button {
 @media screen and (max-width: 576px) {
   .gift {
     text-align: start;
-    margin: 0px;
+    margin-top: 40px !important;
   }
 }
 
@@ -801,7 +811,7 @@ button {
   color: #1f6861;
   font-weight: 500;
   font-size: 42px;
-  color: 1f6861;
+  color: #1f6861;
   font-family: Rethink Sans;
 }
 
@@ -836,15 +846,45 @@ button {
   .friendly {
     text-align: start;
     margin: 0px;
+    padding: 0;
   }
-
+  .software {
+    padding: 0;
+    padding-top: 20px;
+  }
   .friendly h3 {
     font-size: 16px;
+  }
+  .row.bg-theme {
+    padding: 0px 33px 34px;
+  }
+  .btn {
+    padding: 10px 10px !important;
+  }
+  .gift span {
+    margin-left: 20px !important;
+  }
+  .practice button {
+    padding: 10px 10px !important;
+  }
+  .practice {
+    margin: unset !important;
+  }
+  .reework-1 {
+    margin-top: 40px;
+  }
+  .reework-reecoach-wrapper .custome-container {
+    padding: 0px 20px;
+  }
+  .main-key-features-wrapper .feature-box {
+    span {
+      margin-right: 10px;
+    }
   }
 }
 
 /*  reework-reecouch css and media query */
-.imgset{
+.imgset {
   margin-left: 20px;
   margin-right: 200px;
 }
@@ -1003,7 +1043,7 @@ button {
   }
 
   .main-key-features-wrapper .features-box-wrapper {
-    row-gap: 5px;
+    row-gap: 10px;
     column-gap: 40px;
   }
 
@@ -1040,7 +1080,17 @@ button {
     display: flex;
   }
 }
-
+@media (max-width: 390px) {
+  .text-content-wrapper p {
+    font-size: 14px;
+  }
+  .text-content-wrapper h5 {
+    font-size: 14px;
+  }
+  .main-key-features-wrapper .feature-box h4 {
+    font-size: 14px;
+  }
+}
 /* Start Your Journey  css and media query*/
 .practice-img {
   background-image: url("../img/reework.webp");
@@ -1058,9 +1108,11 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to right,
+  background: linear-gradient(
+      to right,
       rgba(255, 255, 255, 0),
-      rgba(0, 0, 0, 0.5)),
+      rgba(0, 0, 0, 0.5)
+    ),
     url("./img/image 12.png");
   background-size: cover;
   z-index: 1;
@@ -1136,9 +1188,11 @@ button {
   }
 
   .practice-img::before {
-    background: linear-gradient(to bottom,
+    background: linear-gradient(
+        to bottom,
         rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5)),
+        rgba(0, 0, 0, 0.5)
+      ),
       url("./img/image-12-mobile.png");
     background-size: cover;
   }
@@ -1172,7 +1226,7 @@ button {
   height: 200px;
 }
 
-.swiper-container>.swiper-slide__content {
+.swiper-container > .swiper-slide__content {
   position: absolute;
   top: 0;
 }
@@ -1319,7 +1373,7 @@ button {
   margin-left: 95px;
   margin-right: 95px;
 }
-.accordion p{
+.accordion p {
   font-size: 30px;
 }
 
@@ -1333,6 +1387,7 @@ button {
   font-size: 36px;
   font-family: Rethink sans !important;
   font-weight: 400;
+  padding-left: 0px;
 }
 
 .accordion-button:not(.collapsed) {
@@ -1343,11 +1398,11 @@ button {
 }
 
 .accordion-button:not(.collapsed)::after {
-  background-image: url(/assest/img/down.png);
+  background-image: url(../img/down.png);
 }
 
 .accordion-button::after {
-  background-image: url(/assest/img/down.png);
+  background-image: url(../img/down.png);
 }
 
 .accordion-body {
@@ -1364,6 +1419,9 @@ button {
   font-family: Rethink Sans;
   font-weight: 600;
   size: 16px;
+}
+.custom-display{
+  display: none;
 }
 
 @media (max-width: 1200px) {
@@ -1396,6 +1454,7 @@ button {
   .accordion-header button {
     font-size: 24px;
     padding: 20px;
+    padding-left: 0px;
   }
 
   .accordion-body p {
@@ -1404,8 +1463,21 @@ button {
 
   .accordion {
     margin-left: 20px;
-    margin-right: 20pxsk;
+    margin-right: 20px;
   }
+  .footer .footer-menus{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 10px;
+  }
+  .custom-display{
+    display: block;
+  }
+}
+.list-unstyled{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 10px;
 }
 
 @media (max-width: 375px) {
@@ -1438,6 +1510,10 @@ button {
     margin-bottom: 10px;
     /* Add spacing between items for better touch usability */
   }
+
+  .accordion-header button {
+    font-size: 20px;
+  }
 }
 /* empower img css and media query  */
 .empower-img {
@@ -1456,9 +1532,11 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(to left,
+  background: linear-gradient(
+      to left,
       rgba(255, 255, 255, 0),
-      rgba(0, 0, 0, 0.5)),
+      rgba(0, 0, 0, 0.5)
+    ),
     url("./img/Rectmarginangle-93.png");
   background-size: cover;
   z-index: 1;
@@ -1544,11 +1622,19 @@ button {
   }
 
   .empower-img::before {
-    background: linear-gradient(to bottom,
+    background: linear-gradient(
+        to bottom,
         rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5)),
+        rgba(0, 0, 0, 0.5)
+      ),
       url("./img/Rectangle-93-mobile.png");
     background-size: cover;
+  }
+  .empower {
+    padding: 450px 0px 50px;
+  }
+  .empower-img {
+    background-position: 60% bottom;
   }
 }
 
@@ -1655,4 +1741,10 @@ footer .footer-menus li a {
   .list-unstyled {
     text-align: center;
   }
+}
+@media (max-width: 576px) {
+  .play-store{
+    display: flex;
+    justify-content: center;
+  } 
 }
