@@ -237,15 +237,16 @@ width: 200px;
   font-size: 16px;
   margin: 4px 2px;
   opacity: 1;
-  transition: 0.9s;
+  /* transition: 0.9s; */
   font-family: Rethink Sans;
   font-weight: 700;
   background-color: #00d4b7;
+  bottom:50px
 }
 
-.btn:hover {
+/* .btn:hover {
   opacity: 0.5;
-}
+} */
 
 @media (max-width: 1200px) {
   .carousel-caption h5 {
@@ -309,7 +310,7 @@ width: 200px;
   }
 
   .left-caption .btn {
-    padding: 12px 25px;
+    padding: 12px 25px !important;
     font-size: 14px;
   }
 
@@ -609,9 +610,9 @@ width: 200px;
   position: relative;
 }
 
-.digital-bg-color {
-  /* background-color: #1f6861; */
-}
+/* .digital-bg-color {
+  background-color: #1f6861;
+} */
 
 .digital {
   position: relative;
@@ -673,6 +674,7 @@ width: 200px;
 
 @media (max-width: 768px) {
   .digital h3 {
+    
     font-size: 40px;
     margin-top: 40px;
   }
@@ -747,7 +749,40 @@ width: 200px;
   font-weight: 400;
   font-size: 26px;
 }
+.btn2 {
+  border: none;
+  color: black;
+  padding: 16px 20px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 1;
+  /* transition: 0.9s; */
+  font-family: Rethink Sans;
+  font-weight: 700;
+  background-color: #00d4b7;
+  bottom:50px
+}
 
+@media (max-width:1200) {
+  
+    .btn2 {
+      border: none;
+      color: black;
+      padding: 10px 12px;
+      text-align: center;
+      font-size: 16px;
+      margin: 4px 2px;
+      opacity: 1;
+      /* transition: 0.9s; */
+      font-family: Rethink Sans;
+      font-weight: 700;
+      background-color: #00d4b7;
+      bottom:50px
+    }
+  
+  
+}
 @media screen and (max-width: 768px) {
   .gift {
     text-align: center;
@@ -1488,7 +1523,7 @@ width: 200px;
   .footer .footer-menus{
     display: grid;
     grid-template-columns: repeat(2,1fr);
-    gap: 10px;
+    /* gap: 70px; */
   }
   .custom-display{
     display: block;
@@ -1721,6 +1756,10 @@ footer .footer-menus li a {
 }
 
 @media (max-width: 768px) {
+  .today{
+    justify-content: center !important;
+    align-items: center !important;
+  }
   .footer .footer-menus {
     flex-direction: column;
     column-count: 2;
@@ -1745,7 +1784,7 @@ footer .footer-menus li a {
   }
 
   .footer-btn {
-    width: 100%;
+    /* width: 100%; */
     font-size: 16px;
     text-align: center;
   }
@@ -1786,7 +1825,7 @@ footer .footer-menus li a {
 
 /* Dropdown button */
 .dropdown button {
-  background-color: rgb(241, 230, 230);
+  background-color: #f8f9fa;
   color: #1f6861;
   padding: 10px 20px;
   border: none;
