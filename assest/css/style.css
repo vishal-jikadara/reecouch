@@ -79,7 +79,7 @@ button {
 }
 
 /* nevegesion css and media qevry */
-.navbar-wapper{
+.navbar-wapper {
   margin-right: 40px;
   margin-left: 40px;
 }
@@ -156,8 +156,8 @@ button {
   box-shadow: none;
 }
 @media (max-width: 1400px) {
-  .navbar-brand img{
-width: 200px;
+  .navbar-brand img {
+    width: 200px;
     height: 50px;
   }
 }
@@ -241,7 +241,7 @@ width: 200px;
   font-family: Rethink Sans;
   font-weight: 700;
   background-color: #00d4b7;
-  bottom:50px
+  bottom: 50px;
 }
 
 /* .btn:hover {
@@ -295,10 +295,10 @@ width: 200px;
 }
 
 @media (max-width: 576px) {
-  .navbar-wapper{
-  margin-right: 0px;
-  margin-left: 0px;
-}
+  .navbar-wapper {
+    margin-right: 0px;
+    margin-left: 0px;
+  }
   .carousel-caption h5 {
     font-size: 26px;
     line-height: 40px;
@@ -674,7 +674,6 @@ width: 200px;
 
 @media (max-width: 768px) {
   .digital h3 {
-    
     font-size: 40px;
     margin-top: 40px;
   }
@@ -731,12 +730,12 @@ width: 200px;
 }
 
 /* gift section */
-.gift {
+/* .gift {
   margin-left: 95px;
-}
+} */
+
 
 .gift {
-  margin-top: 25%;
   color: #1f6861;
 }
 
@@ -761,27 +760,29 @@ width: 200px;
   font-family: Rethink Sans;
   font-weight: 700;
   background-color: #00d4b7;
-  bottom:50px
+  bottom: 50px;
 }
 
-@media (max-width:1200) {
-  
-    .btn2 {
-      border: none;
-      color: black;
-      padding: 10px 12px;
-      text-align: center;
-      font-size: 16px;
-      margin: 4px 2px;
-      opacity: 1;
-      /* transition: 0.9s; */
-      font-family: Rethink Sans;
-      font-weight: 700;
-      background-color: #00d4b7;
-      bottom:50px
-    }
-  
-  
+@media (max-width: 1200px) {
+  .btn2 {
+    border: none;
+    color: black;
+    padding: 10px 12px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 1;
+    /* transition: 0.9s; */
+    font-family: Rethink Sans;
+    font-weight: 700;
+    background-color: #00d4b7;
+    bottom: 50px;
+  }
+}
+@media (max-width:1200px) {
+  .gift{
+    margin-left: 0px
+  }
 }
 @media screen and (max-width: 768px) {
   .gift {
@@ -811,6 +812,15 @@ width: 200px;
   font-weight: 500;
   font-size: 35px;
   color: #1f6861;
+}
+.software .line-up{
+  margin-left: auto;
+}
+
+@media (max-width:1800px) {
+  .software .line-up{
+    width: 70%;
+  }
 }
 
 @media (max-width: 1200px) {
@@ -879,7 +889,6 @@ width: 200px;
 @media screen and (max-width: 768px) {
   .friendly {
     text-align: center;
-    margin: 0 auto;
   }
 
   .friendly h3 {
@@ -1196,10 +1205,9 @@ width: 200px;
   .practice {
     padding: 150px 0px 150px;
   }
-  .practice h2{
+  .practice h2 {
     font-size: 32px;
   }
-
 }
 
 @media (max-width: 992px) {
@@ -1217,12 +1225,9 @@ width: 200px;
   .practice h2 {
     font-size: 32px;
   }
-
 }
 
 @media (max-width: 576px) {
- 
-
   .practice {
     margin-right: 40px;
     padding-left: 20px;
@@ -1245,10 +1250,10 @@ width: 200px;
       url("./img/image-12-mobile.png");
     background-size: cover;
   }
-  .practice p{
+  .practice p {
     margin-top: 34px;
   }
-  .practice button{
+  .practice button {
     margin-top: 47px !important;
   }
 }
@@ -1475,7 +1480,7 @@ width: 200px;
   font-weight: 600;
   size: 16px;
 }
-.custom-display{
+.custom-display {
   display: none;
 }
 
@@ -1520,18 +1525,18 @@ width: 200px;
     margin-left: 20px;
     margin-right: 20px;
   }
-  .footer .footer-menus{
+  .footer .footer-menus {
     display: grid;
-    grid-template-columns: repeat(2,1fr);
+    grid-template-columns: repeat(2, 1fr);
     /* gap: 70px; */
   }
-  .custom-display{
+  .custom-display {
     display: block;
   }
 }
-.list-unstyled{
+.list-unstyled {
   display: grid;
-  grid-template-columns: repeat(2,1fr);
+  grid-template-columns: repeat(2, 1fr);
   gap: 10px;
 }
 
@@ -1664,7 +1669,6 @@ width: 200px;
 }
 
 @media (max-width: 576px) {
-
   .empower h2 {
     font-size: 28px;
     /* margin-top: 106px !important; */
@@ -1701,7 +1705,7 @@ width: 200px;
   padding: 33px 0px;
   border-top: 10px solid #1f6861;
 }
-.resposiveimgfooter img{
+.resposiveimgfooter img {
   height: 90px;
   width: 200px;
 }
@@ -1718,16 +1722,16 @@ footer .play-store img {
   line-height: 0;
   max-width: 200px;
 
-  width: 80%; 
+  width: 80%;
 }
 
 footer .footer-menus {
   /* padding: 30px 0px 60px; */
-  padding: 30px 0px 60px;
+  padding: 30px 0px 0px;
   display: flex;
   align-items: center;
   justify-content: start;
-  gap: 86px;
+  gap: 20px;
 }
 
 footer .footer-menus li {
@@ -1756,10 +1760,43 @@ footer .footer-menus li a {
 }
 
 @media (max-width: 768px) {
-  .today{
+  .today {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+  }
+  .footer-btn {
+    width: auto;
+    margin-top: 10px;
+  }
+  .connect {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 12px auto;
+  }
+  footer .footer-menus {
+    /* padding: 30px 0px 60px; */
+    padding: 30px 0px 0px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    gap: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+  /* .today{
+    display: block;
     justify-content: center !important;
     align-items: center !important;
-  }
+    margin-left: 78px;
+  } */
+
   .footer .footer-menus {
     flex-direction: column;
     column-count: 2;
@@ -1810,12 +1847,28 @@ footer .footer-menus li a {
   }
 }
 @media (max-width: 576px) {
-  .play-store{
+  .play-store {
     display: flex;
     justify-content: center;
-  } 
+  }
+  .connect {
+    display: flex;
+  }
+  .number-footer{
+    margin-top: 20px;
+  }
+  /* .today p {
+    margin-top: 52px;
+  } */
+  .today {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: 50px auto;
+  }
 }
-
 
 /* navbar menu in box */
 .dropdown {
@@ -1839,7 +1892,7 @@ footer .footer-menus li a {
 .dropdown-menu {
   display: none; /* Hidden by default */
   position: absolute;
-  background-color: #B3E5D7;
+  background-color: #b3e5d7;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
   min-width: 160px;
   z-index: 1;
