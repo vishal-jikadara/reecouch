@@ -79,9 +79,11 @@ button {
 }
 
 /* nevegesion css and media qevry */
+
 .navbar-wapper {
   margin-right: 40px;
-  margin-left: 40px;
+  /* margin-left: 40px; */
+  margin-left: 0px;
 }
 
 .navbar a {
@@ -95,11 +97,22 @@ button {
   color: #117964;
 }
 
+.for-width{
+  width: 100%;
+}
+
+@media (min-width:1200px) {
+  .for-width{
+    width: unset;
+  }
+}
+
 .navbar-toggler {
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 5px;
+  width: 40px;
   width: 40px;
   height: 40px;
 }
@@ -115,13 +128,18 @@ button {
   box-shadow: none;
 }
 
-.nav-item {
+/* .nav-item {
   padding: 20px;
-}
+} */
 
 .hey {
-  padding: 0px 32px !important;
+  padding: 0px 12px !important;
   font-weight: 700;
+}
+@media (max-width:1399px) {
+  .hey{
+    font-size: 14px;
+  }
 }
 
 .btn-group button {
@@ -157,7 +175,7 @@ button {
 }
 @media (max-width: 1400px) {
   .navbar-brand img {
-    width: 200px;
+    /* width: 200px; */
     height: 50px;
   }
 }
@@ -171,6 +189,7 @@ button {
     padding: 15px 15px !important;
   }
 }
+
 
 /* line only css and media query(no) */
 .navbar-line {
@@ -310,7 +329,7 @@ button {
   }
 
   .left-caption .btn {
-    padding: 12px 25px !important;
+    padding: 10px 10px !important;
     font-size: 14px;
   }
 
@@ -734,7 +753,6 @@ button {
   margin-left: 95px;
 } */
 
-
 .gift {
   color: #1f6861;
 }
@@ -751,7 +769,7 @@ button {
 .btn2 {
   border: none;
   color: black;
-  padding: 16px 20px;
+  padding: 16px 14px;
   text-align: center;
   font-size: 16px;
   margin: 4px 2px;
@@ -779,9 +797,9 @@ button {
     bottom: 50px;
   }
 }
-@media (max-width:1200px) {
-  .gift{
-    margin-left: 0px
+@media (max-width: 1200px) {
+  .gift {
+    margin-left: 0px;
   }
 }
 @media screen and (max-width: 768px) {
@@ -795,6 +813,7 @@ button {
   .gift {
     text-align: start;
     margin-top: 40px !important;
+    margin-left: 20px;
   }
 }
 
@@ -813,12 +832,12 @@ button {
   font-size: 35px;
   color: #1f6861;
 }
-.software .line-up{
+.software .line-up {
   margin-left: auto;
 }
 
-@media (max-width:1800px) {
-  .software .line-up{
+@media (max-width: 1800px) {
+  .software .line-up {
     width: 70%;
   }
 }
@@ -837,7 +856,7 @@ button {
 
 @media screen and (max-width: 768px) {
   .software img {
-    margin-top: 0px;
+    margin-top: 13px;
   }
 
   .software {
@@ -908,16 +927,15 @@ button {
   }
   .friendly h3 {
     font-size: 16px;
+    margin-top: 30px;
   }
   .row.bg-theme {
-    padding: 0px 33px 34px;
+    padding: 0px 20px;
   }
   .btn {
     padding: 10px 10px !important;
   }
-  .gift span {
-    margin-left: 20px !important;
-  }
+
   .practice button {
     padding: 10px 10px !important;
   }
@@ -1489,6 +1507,13 @@ button {
     font-size: 1.1rem;
   }
 }
+@media (max-width: 992px) {
+  .footer .footer-menus {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    /* gap: 70px; */
+  }
+}
 
 @media (max-width: 768px) {
   .accordion-header button {
@@ -1726,12 +1751,11 @@ footer .play-store img {
 }
 
 footer .footer-menus {
-  /* padding: 30px 0px 60px; */
-  padding: 30px 0px 0px;
+  padding: 42px 0px 0px;
   display: flex;
   align-items: center;
-  justify-content: start;
-  gap: 20px;
+  justify-content: space-evenly;
+  /* gap: 20px; */
 }
 
 footer .footer-menus li {
@@ -1854,7 +1878,7 @@ footer .footer-menus li a {
   .connect {
     display: flex;
   }
-  .number-footer{
+  .number-footer {
     margin-top: 20px;
   }
   /* .today p {
