@@ -595,43 +595,12 @@ button {
   }
 }
 
-/* 786 to 1200 screen resposive */
-/* h5, .black-text {
-  font-size: 12px ; 
-}
 
-@media screen and (min-width: 576px) {
-  h5, .black-text {
-    font-size: 14px;
-  }
-}
-
-@media screen and (min-width: 768px) {
-  h5, .black-text {
-    font-size: 16px !important;
-  }
-}
-
-@media screen and (min-width: 992px) {
-  h5, .black-text {
-    font-size: 18px !important;
-  }
-}
-
-@media screen and (min-width: 1200px) {
-  h5, .black-text {
-    font-size: 20px !important;
-  }
-} */
 
 /* digital css and media query */
 .earn {
   position: relative;
 }
-
-/* .digital-bg-color {
-  background-color: #1f6861;
-} */
 
 .digital {
   position: relative;
@@ -818,18 +787,23 @@ button {
 }
 
 /* software section */
+.software .img-remove-section{
+  /* margin-top: 392px; */
+}
 .software img {
-  margin-top: 50px;
+  /* margin-top: 50px; */
 }
 
 .software {
   color: #1f6861;
   float: left;
+  margin-top: 70px;
 }
 
 .software h3 {
   font-weight: 500;
   font-size: 35px;
+  margin-top: 39px;
   color: #1f6861;
 }
 .software .line-up {
@@ -867,6 +841,10 @@ button {
   .software h3 {
     font-size: 22px;
   }
+
+  .software .img-remove-section{
+    margin-top: 100px;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -877,6 +855,9 @@ button {
 
   .software h3 {
     font-size: 16px;
+  }
+  .software .img-remove-section{
+    margin-top: 65px;
   }
 }
 
