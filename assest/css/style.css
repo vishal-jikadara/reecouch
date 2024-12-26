@@ -97,12 +97,12 @@ button {
   color: #117964;
 }
 
-.for-width{
+.for-width {
   width: 100%;
 }
 
 @media (min-width:1200px) {
-  .for-width{
+  .for-width {
     width: unset;
   }
 }
@@ -136,8 +136,9 @@ button {
   padding: 0px 12px !important;
   font-weight: 700;
 }
+
 @media (max-width:1399px) {
-  .hey{
+  .hey {
     font-size: 14px;
   }
 }
@@ -173,6 +174,7 @@ button {
   line-height: 20.83px;
   box-shadow: none;
 }
+
 @media (max-width: 1400px) {
   .navbar-brand img {
     /* width: 200px; */
@@ -318,6 +320,7 @@ button {
     margin-right: 0px;
     margin-left: 0px;
   }
+
   .carousel-caption h5 {
     font-size: 26px;
     line-height: 40px;
@@ -516,6 +519,7 @@ button {
     padding: unset;
   }
 }
+
 /*
 @media (max-width:1200) {
 
@@ -527,9 +531,11 @@ button {
     width: 100px;
     height: 100px;
   }
+
   .why h5 {
     font-size: 24px;
   }
+
   .black-text {
     font-size: 20px;
     font-weight: 600;
@@ -545,6 +551,7 @@ button {
     flex-direction: column;
     padding-top: 28px;
   }
+
   /* .reework-card-border-top {
     padding-top: 28px;
   } */
@@ -555,31 +562,37 @@ button {
     font-size: 14px !important;
     margin-top: 21px;
   }
+
   .reework {
     margin-left: 16px;
     margin-right: 16px;
   }
+
   .why p::before {
     width: 150x;
     height: 8px;
     left: 178px;
     top: 9px;
   }
+
   .why p {
     font-size: 18px;
     /* margin-bottom: 10px; */
     letter-spacing: 2px;
   }
+
   .why h5 {
     font-size: 21px;
     font-weight: 800;
   }
+
   .black-text {
     display: block;
     width: 100%;
     text-align: start;
     font-size: 14px !important;
   }
+
   .reework-card img {
     margin-right: 72px;
   }
@@ -590,6 +603,7 @@ button {
     margin-left: 10px;
     margin-right: 10px;
   }
+
   .reework-card img {
     margin-right: 32px;
   }
@@ -624,15 +638,18 @@ button {
   font-weight: 800;
   font-family: Rethink Sans;
   margin-top: 140px;
+  margin-left: 55px;
 }
 
 .digital p {
   font-size: 31px;
   font-weight: 500;
   font-family: Rethink Sans;
+  margin-left: 55px;
 }
 
 .digital-btn {
+  margin-left: 55px !important;
   border: none;
   color: black;
   padding: 8px 15px;
@@ -734,8 +751,9 @@ button {
 .gift h3 {
   font-weight: 400;
   font-size: 26px;
-  margin-left: 50px;
+  margin-left: 95px;
 }
+
 .btn2 {
   border: none;
   color: black;
@@ -749,13 +767,14 @@ button {
   font-weight: 700;
   background-color: #00d4b7;
   bottom: 50px;
-  margin-left: 50px !important;
+  margin-left: 95px !important;
 }
 
 @media (max-width: 1200px) {
   .gift {
     margin-left: 0px;
   }
+
   .btn2 {
     border: none;
     color: black;
@@ -771,6 +790,7 @@ button {
     bottom: 50px;
   }
 }
+
 @media screen and (max-width: 768px) {
   .gift {
     text-align: center;
@@ -806,10 +826,12 @@ button {
   margin-top: 39px;
   color: #1f6861;
 }
+
 .software .line-up {
   margin-left: auto;
 }
-.software .img-remove-section{
+
+.software .img-remove-section {
   margin-top: 250px;
 }
 
@@ -846,7 +868,7 @@ button {
     font-size: 22px;
   }
 
-  .software .img-remove-section{
+  .software .img-remove-section {
     margin-top: 100px;
   }
 }
@@ -861,7 +883,8 @@ button {
     font-size: 16px;
     /* margin-top: ; */
   }
-  .software .img-remove-section{
+
+  .software .img-remove-section {
     margin-top: 65px;
   }
 }
@@ -908,17 +931,21 @@ button {
     margin: 0px;
     padding: 0;
   }
+
   .software {
     padding: 0;
     padding-top: 20px;
   }
+
   .friendly h3 {
     font-size: 16px;
     margin-top: 30px;
   }
+
   .row.bg-theme {
     padding: 0px 20px;
   }
+
   .btn {
     padding: 10px 10px !important;
   }
@@ -926,15 +953,19 @@ button {
   .practice button {
     padding: 10px 10px !important;
   }
+
   .practice {
     margin: unset !important;
   }
+
   .reework-1 {
     margin-top: 40px;
   }
+
   .reework-reecoach-wrapper .custome-container {
     padding: 0px 20px;
   }
+
   .main-key-features-wrapper .feature-box {
     span {
       margin-right: 10px;
@@ -943,13 +974,14 @@ button {
 }
 
 /*  reework-reecouch css and media query */
-.imgset {
+/* .imgset {
   margin-left: 20px;
   margin-right: 200px;
-}
+} */
+
 .title-bar-wrapper {
   margin-bottom: 70px;
-  margin-left: 10px;
+  margin-left: 95px;
 
   span {
     position: relative;
@@ -1009,7 +1041,7 @@ button {
   display: flex;
   flex-wrap: wrap;
   row-gap: 55px;
-  column-gap: 100px;
+  column-gap: 145px;
 }
 
 .main-key-features-wrapper .feature-box {
@@ -1034,6 +1066,7 @@ button {
   text-align: center;
   max-width: 400px;
 }
+
 
 .number-circle {
   background-color: #e2fdf6;
@@ -1073,7 +1106,7 @@ button {
   }
 
   .title-bar-wrapper span {
-    font-size: 20px;
+    font-size: 18px;
   }
 
   .title-bar-wrapper span::after {
@@ -1139,17 +1172,21 @@ button {
     display: flex;
   }
 }
+
 @media (max-width: 390px) {
   .text-content-wrapper p {
     font-size: 14px;
   }
+
   .text-content-wrapper h5 {
     font-size: 14px;
   }
+
   .main-key-features-wrapper .feature-box h4 {
     font-size: 14px;
   }
 }
+
 /* Start Your Journey  css and media query*/
 .practice-img {
   background-image: url("../img/reework.webp");
@@ -1167,11 +1204,9 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-      to right,
+  background: linear-gradient(to right,
       rgba(255, 255, 255, 0),
-      rgba(0, 0, 0, 0.5)
-    ),
+      rgba(0, 0, 0, 0.5)),
     url("./img/image 12.png");
   background-size: cover;
   z-index: 1;
@@ -1210,6 +1245,7 @@ button {
   .practice {
     padding: 150px 0px 150px;
   }
+
   .practice h2 {
     font-size: 32px;
   }
@@ -1247,17 +1283,17 @@ button {
   }
 
   .practice-img::before {
-    background: linear-gradient(
-        to bottom,
+    background: linear-gradient(to bottom,
         rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5)
-      ),
+        rgba(0, 0, 0, 0.5)),
       url("./img/image-12-mobile.png");
     background-size: cover;
   }
+
   .practice p {
     margin-top: 34px;
   }
+
   .practice button {
     margin-top: 47px !important;
   }
@@ -1291,7 +1327,7 @@ button {
   height: 200px;
 }
 
-.swiper-container > .swiper-slide__content {
+.swiper-container>.swiper-slide__content {
   position: absolute;
   top: 0;
 }
@@ -1438,6 +1474,7 @@ button {
   margin-left: 95px;
   margin-right: 95px;
 }
+
 .accordion p {
   font-size: 30px;
 }
@@ -1485,6 +1522,7 @@ button {
   font-weight: 600;
   size: 16px;
 }
+
 .custom-display {
   display: none;
 }
@@ -1494,6 +1532,7 @@ button {
     font-size: 1.1rem;
   }
 }
+
 @media (max-width: 992px) {
   .footer .footer-menus {
     display: grid;
@@ -1537,15 +1576,18 @@ button {
     margin-left: 20px;
     margin-right: 20px;
   }
+
   .footer .footer-menus {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     /* gap: 70px; */
   }
+
   .custom-display {
     display: block;
   }
 }
+
 .list-unstyled {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
@@ -1558,6 +1600,7 @@ button {
     margin-right: 10px;
     font-size: 8px !important;
   }
+
   .accordion-wrapper {
     padding: 5px;
     /* Reduce padding for smaller screens */
@@ -1587,6 +1630,7 @@ button {
     font-size: 20px;
   }
 }
+
 /* empower img css and media query  */
 .empower-img {
   background-image: url("../img/footer.webp");
@@ -1604,11 +1648,9 @@ button {
   left: 0;
   right: 0;
   bottom: 0;
-  background: linear-gradient(
-      to left,
+  background: linear-gradient(to left,
       rgba(255, 255, 255, 0),
-      rgba(0, 0, 0, 0.5)
-    ),
+      rgba(0, 0, 0, 0.5)),
     url("./img/Rectmarginangle-93.png");
   background-size: cover;
   z-index: 1;
@@ -1695,17 +1737,17 @@ button {
   }
 
   .empower-img::before {
-    background: linear-gradient(
-        to bottom,
+    background: linear-gradient(to bottom,
         rgba(255, 255, 255, 0),
-        rgba(0, 0, 0, 0.5)
-      ),
+        rgba(0, 0, 0, 0.5)),
       url("./img/Rectangle-93-mobile.png");
     background-size: cover;
   }
+
   .empower {
     padding: 450px 0px 50px;
   }
+
   .empower-img {
     background-position: 60% bottom;
   }
@@ -1718,6 +1760,7 @@ button {
   padding: 33px 0px;
   border-top: 10px solid #1f6861;
 }
+
 footer-wappper::before {
   content: '';
   position: absolute;
@@ -1731,6 +1774,7 @@ footer-wappper::before {
   background-position: center;
   background-attachment: fixed;
 }
+
 .resposiveimgfooter img {
   height: 90px;
   width: 200px;
@@ -1755,8 +1799,8 @@ footer .footer-menus {
   padding: 42px 0px 0px;
   display: flex;
   align-items: center;
-  justify-content: space-evenly;
-  /* gap: 20px; */
+  justify-content: flex-start;
+  gap: 70px;
 }
 
 footer .footer-menus li {
@@ -1784,6 +1828,26 @@ footer .footer-menus li a {
   font-size: 16px;
 }
 
+@media (max-width:1600px) {
+  footer .footer-menus {
+    gap: 50px;
+  }
+}
+
+@media (max-width:1400px) {
+  footer .footer-menus {
+    gap: 30px;
+  }
+}
+
+
+@media (max-width:1200px) {
+  footer .footer-menus {
+    gap: 15px;
+  }
+}
+
+
 @media (max-width: 768px) {
   .today {
     display: flex;
@@ -1793,10 +1857,12 @@ footer .footer-menus li a {
     text-align: center;
     margin: 0 auto;
   }
+
   .footer-btn {
     width: auto;
     margin-top: 10px;
   }
+
   .connect {
     display: flex;
     flex-direction: column;
@@ -1805,6 +1871,7 @@ footer .footer-menus li a {
     text-align: center;
     margin: 12px auto;
   }
+
   footer .footer-menus {
     /* padding: 30px 0px 60px; */
     padding: 30px 0px 0px;
@@ -1815,6 +1882,7 @@ footer .footer-menus li a {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
   }
+
   /* .today{
     display: block;
     justify-content: center !important;
@@ -1871,17 +1939,21 @@ footer .footer-menus li a {
     text-align: center;
   }
 }
+
 @media (max-width: 576px) {
   .play-store {
     display: flex;
     justify-content: center;
   }
+
   .connect {
     display: flex;
   }
+
   .number-footer {
     margin-top: 20px;
   }
+
   /* .today p {
     margin-top: 52px;
   } */
@@ -1915,7 +1987,8 @@ footer .footer-menus li a {
 
 /* Dropdown menu */
 .dropdown-menu {
-  display: none; /* Hidden by default */
+  display: none;
+  /* Hidden by default */
   position: absolute;
   background-color: #b3e5d7;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
