@@ -1,0 +1,2671 @@
+@media (min-width: 1800px) {
+	html {
+		font-size: 82%;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:before,
+	.reeworkReeCoachWrap .rightItemWrap:before {
+		top: 38px;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:after,
+	.reeworkReeCoachWrap .rightItemWrap:after {
+		top: 360px;
+	}
+}
+@media (min-width: 1700px) {
+	.reeworkReeCoachWrap .leftItemWrap:before,
+	.reeworkReeCoachWrap .rightItemWrap:before {
+		top: 32px;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:after,
+	.reeworkReeCoachWrap .rightItemWrap:after {
+		top: 354px;
+	}
+	.knowledgeRepoWrap .itemWrap .dataWrap {
+		min-height: 190px;
+	}
+}
+@media (max-width: 2400px) {
+}
+@media (max-width: 1920px) {
+	.aboutBannerWrap .dataWrap h2 {
+		font-size: 5.9rem;
+	}
+	.nextStepWrap .dataWrap h3 {
+		font-size: 5.8rem;
+	}
+	.modal.homePopup.show .modal-dialog {
+		max-width: 760px;
+	}
+	.modal.homePopup .modal-content .modal-body .dataWrap:after {
+		right: 30px;
+	}
+}
+@media (max-width: 1800px) {
+	.aboutBannerWrap .dataWrap h2 {
+		font-size: 5.4rem;
+	}
+}
+@media (max-width: 1799px) {
+	html {
+		font-size: 76%;
+	}
+}
+@media (max-width: 1640px) {
+	html {
+		font-size: 72%;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:before,
+	.reeworkReeCoachWrap .rightItemWrap:before {
+		top: 28px;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:after,
+	.reeworkReeCoachWrap .rightItemWrap:after {
+		top: 350px;
+	}
+	.knowledgeRepoWrap .itemWrap .dataWrap {
+		min-height: 160px;
+	}
+	.modal.homePopup.show .modal-dialog {
+		max-width: 670px;
+	}
+	.modal.homePopup .modal-content .modal-body .dataWrap:after {
+		right: 26px;
+	}
+}
+@media (max-width: 1560px) {
+	html {
+		font-size: 70%;
+	}
+	.modal.homePopup .modal-content .modal-body .dataWrap:after {
+		right: 24px;
+	}
+}
+@media (max-width: 1522px) {
+	html {
+		font-size: 68%;
+	}
+}
+@media (max-width: 1500px) {
+	.reeworkReeCoachWrap .leftItemWrap:before,
+	.reeworkReeCoachWrap .rightItemWrap:before {
+		top: 24px;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:after,
+	.reeworkReeCoachWrap .rightItemWrap:after {
+		top: 348px;
+	}
+	.knowledgeRepoWrap .itemWrap .dataWrap {
+		min-height: 140px;
+	}
+}
+@media (max-width: 1499px) {
+	html {
+		font-size: 62%;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:before,
+	.reeworkReeCoachWrap .rightItemWrap:before {
+		top: 18px;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:after,
+	.reeworkReeCoachWrap .rightItemWrap:after {
+		top: 342px;
+	}
+	.modal.homePopup.show .modal-dialog {
+		max-width: 580px;
+	}
+	.modal.homePopup .modal-content .modal-body .dataWrap:after {
+		right: 20px;
+	}
+}
+@media (max-width: 1440px) {
+}
+@media (max-width: 1413px) {
+	html {
+		font-size: 58%;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:before,
+	.reeworkReeCoachWrap .rightItemWrap:before {
+		top: 14px;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:after,
+	.reeworkReeCoachWrap .rightItemWrap:after {
+		top: 338px;
+	}
+}
+@media (max-width: 1400px) {
+}
+@media (max-width: 1399px) {
+	.manyMoreWrap:before {
+		left: 156px;
+	}
+	.tetimonialsWrap:before {
+		width: 12rem;
+	}
+	.contactConnectWithWrap {
+		padding: 4rem 10rem 6rem;
+	}
+}
+@media (max-width: 1300px) {
+	html {
+		font-size: 54%;
+	}
+	.slick-prev {
+		right: 6rem;
+	}
+	ul.testimonialSlider li .itemWrap .botmSecWrap p {
+		font-size: 1.6rem;
+		min-height: 22rem;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:before,
+	.reeworkReeCoachWrap .rightItemWrap:before {
+		top: 10px;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:after,
+	.reeworkReeCoachWrap .rightItemWrap:after {
+		top: 334px;
+	}
+	.modal.homePopup .modal-content .modal-body .dataWrap:after {
+		right: 16px;
+	}
+	.SigUpWrap.loginWrap .loginFormWrap:after {
+		top: 28px;
+		left: 24px;
+	}
+	.SigUpWrap.loginWrap .logoWrap img {
+		width: 89%;
+	}
+}
+@media (max-width: 1280px) {
+	.theGiftTimeIntlWrap .leftWrap {
+		padding: 10rem 0 0;
+	}
+}
+@media (max-width: 1260px) {
+	html {
+		font-size: 52%;
+	}
+	.tetimonialsWrap:before {
+		width: 17rem;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:before,
+	.reeworkReeCoachWrap .rightItemWrap:before {
+		top: 8px;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:after,
+	.reeworkReeCoachWrap .rightItemWrap:after {
+		top: 332px;
+	}
+	.SigUpWrap.loginWrap .logoWrap img {
+		width: 95%;
+	}
+}
+@media (max-width: 1240px) {
+	html {
+		font-size: 50%;
+	}
+	.knowledgeRepoWrap .itemWrap .dataWrap {
+		min-height: 110px;
+	}
+}
+@media (max-width: 1199px) {
+	html {
+		font-size: 46%;
+	}
+	.contactPageWrap .leftDataWrap {
+		padding: 5rem 7rem;
+	}
+	.contactConnectWithWrap {
+		padding: 4rem 7rem 6rem;
+	}
+	.clientAppoachAbWrap .dataWrap a {
+		margin: 20rem 0 0;
+	}
+	.reeWorkCoachWrap .itemWrap h4 {
+		font-size: 10rem;
+	}
+	.reeworkReeCoachWrap .itemWrap {
+		padding: 12rem 6rem 0;
+	}
+	.reeworkReeCoachWrap .itemWrap .imgWrap {
+		margin: 0 auto 12rem;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:before,
+	.reeworkReeCoachWrap .rightItemWrap:before {
+		top: 48px;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:after,
+	.reeworkReeCoachWrap .rightItemWrap:after {
+		top: 370px;
+	}
+	.reeworkFramewrokWrap .dataWrap ul li {
+		font-size: 2.2rem;
+		line-height: 3.2rem;
+		padding: 0 0 0 2rem;
+	}
+	.makeDifferenceWrap .dataWrap ul li:before {
+		top: 6px;
+	}
+	.modal.homePopup.show .modal-dialog {
+		max-width: 500px;
+	}
+	.modal.homePopup .modal-content {
+		border-radius: 20px;
+	}
+	.modal.homePopup .modal-content .modal-body .dataWrap:after {
+		right: 12px;
+	}
+}
+@media (max-width: 1100px) {
+	.BecomeReecoachBannerWrap,
+	.reeworkBannerWrap {
+		height: calc(100vh - 40rem);
+	}
+	.bannerWrap {
+		height: calc(100vh - 20rem);
+	}
+	.reeworkFramewrokWrap .imgWrap.imgLeftWrap:after {
+		bottom: 14px;
+	}
+	.SigUpWrap.loginWrap .logoWrap img {
+		width: 100%;
+	}
+	.SigUpWrap.loginWrap .logoWrap:after {
+		top: 6rem;
+	}
+	.SigUpWrap.loginWrap .loginFormWrap:after {
+		top: 34px;
+		left: 20px;
+	}
+}
+@media (max-width: 1060px) {
+	.footerWrap .socialFtrLinkWrap ul li {
+		margin: 0 0.9rem 0 0;
+	}
+	header ul.navbar-nav {
+		width: calc(100% - 56px);
+	}
+}
+@media (max-width: 1023px) {
+	.manyMoreWrap .dataWrap h2 {
+		font-size: 4.8rem;
+	}
+	.footerWrap {
+		padding: 0 2rem;
+	}
+	.copyrightWrap {
+		padding: 0 2rem;
+	}
+	.copyrightWrap:after {
+		right: 2rem;
+	}
+	.nextStepWrap .dataWrap {
+		padding: 0;
+	}
+	.reeworkBannerWrap,
+	.reeworkBtmBannerWrap,
+	.bannerWrap,
+	.empowerClientWrap {
+		height: calc(100vh - 30rem);
+	}
+	.manyMoreWrap .dataWrap.clrTxt h2,
+	.investWrap .titleWrap h2 {
+		font-size: 8.6rem;
+	}
+}
+@media (max-width: 991px) {
+	html {
+		font-size: 42%;
+	}
+	ul.knowledgeBankSlider {
+		margin: 0 0 0 -124px;
+	}
+	.contactPageWrap .leftDataWrap {
+		padding: 3rem;
+	}
+	.contactPageWrap .formWrap {
+		padding: 3rem;
+	}
+	.contactConnectWithWrap {
+		padding: 1rem 3rem 5rem;
+	}
+	.becomeCurateWrap ul li .itemWrap .dataWrap {
+		max-width: 70%;
+	}
+	.effiManageWrap {
+		height: calc(100vh - 40rem);
+	}
+	.tetimonialsWrap:before {
+		width: 18rem;
+	}
+	ul.testimonialSlider li .itemWrap .botmSecWrap p {
+		font-size: 1.8rem;
+		min-height: 16rem;
+		line-height: 2.8rem;
+	}
+	.slick-prev {
+		right: 7rem;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:before,
+	.reeworkReeCoachWrap .rightItemWrap:before {
+		top: 40px;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:after,
+	.reeworkReeCoachWrap .rightItemWrap:after {
+		top: 362px;
+	}
+	.bannerWrap {
+		background-position: 70% 100%;
+	}
+	.SigUpWrap.loginWrap .loginFormWrap:after {
+		top: 30px;
+		left: 20px;
+	}
+}
+@media (max-width: 960px) {
+	.bannerWrap {
+		height: 480px;
+	}
+	.bannerWrap .dataWrap h2,
+	.giftWrap .dataWrap h2,
+	.reeWorkCoachWrap .titleWrap h2,
+	.reeworkBannerWrap .dataWrap h2 {
+		font-size: 6rem;
+	}
+	.manyMoreWrap .dataWrap h2 {
+		font-size: 4.4rem;
+	}
+	.reeWorkCoachWrap .BtmTxtWrap h2 {
+		font-size: 11rem;
+	}
+	.reeCoachGrowthWrap:after {
+		width: 144px;
+		height: 114px;
+	}
+	.reeCoachGrowthWrap .dataWrap h2 {
+		font-size: 4rem;
+	}
+	.superChargeWrap .dataWrap h2 {
+		font-size: 4.2rem;
+		margin: 0 0 4rem;
+	}
+	.investWrap .titleWrap h2,
+	.manyMoreWrap .dataWrap.clrTxt h2 {
+		font-size: 7rem;
+	}
+	.ecoSyswrap .titleWrap h2,
+	.tetimonialsWrap .titleWrap h2 {
+		font-size: 5rem;
+	}
+	.footerWrap .rightFooterBtm {
+		padding: 2rem 6rem;
+	}
+	.footerWrap .footerNavlist {
+		padding: 0 1rem 3rem 1rem;
+	}
+	.footerWrap .footerNavlist ul {
+		justify-content: flex-start;
+	}
+	.footerWrap .footerNavlist ul li {
+		margin: 0 1.2rem 0 0;
+	}
+}
+@media (max-width: 940px) {
+	.reeworkBannerWrap,
+	.reeworkBtmBannerWrap,
+	.bannerWrap,
+	.empowerClientWrap {
+		height: calc(100vh - 50rem);
+	}
+}
+@media (max-width: 899px) {
+	header .navbar a.navbar-brand img {
+		width: 90px;
+	}
+	header ul.navbar-nav {
+		width: calc(100% - 20px);
+	}
+	header .navbar .rightNav ul li a {
+		padding: 10px 15px;
+	}
+	.manyMoreWrap .dataWrap h2 {
+		font-size: 4.2rem;
+	}
+	.investWrap .titleWrap h2,
+	.becomeCurateWrap .secTitleWrap h2,
+	.manyMoreWrap .dataWrap.clrTxt h2 {
+		font-size: 6rem;
+	}
+	.becomeCurateWrap ul li .itemWrap .dataWrap {
+		max-width: 80%;
+	}
+	.reecoachDashboardWrap .padLtRt {
+		padding: 0 1rem;
+	}
+	.reecoachDashboardWrap .itemWrap {
+		margin: 0 0 2rem;
+	}
+	.reecoachDashboardWrap .itemWrap .imgWrap {
+		width: 35%;
+	}
+	.reecoachDashboardWrap .itemWrap .dataWrap {
+		width: 65%;
+		padding: 2rem 2rem;
+	}
+	.reecoachDashboardWrap .itemWrap .dataWrap h3 {
+		font-size: 3rem;
+		margin: 0 0 1rem;
+	}
+	.reecoachDashboardWrap .itemWrap .dataWrap h2 {
+		margin: 0 0 2rem;
+		font-size: 3rem;
+	}
+	.revenueSourcesWrap .itemWrap .dataWrap {
+		padding: 0 4rem 0 0;
+	}
+	.challengesWrap ul.challengesSlider li .itemWrap .dataWrap h3 {
+		min-height: 10rem;
+	}
+	.superChargeWrap .imgWrap:after {
+		top: 16rem;
+	}
+	.reeWorkCoachWrap .itemWrap h4 {
+		font-size: 9rem;
+	}
+	.teamWrap .itemWrap .imgWrap {
+		width: 140px;
+		height: 140px;
+	}
+}
+@media (max-width: 860px) {
+	html {
+		font-size: 40%;
+	}
+	.tetimonialsWrap:before {
+		width: 21rem;
+	}
+
+	.reeworkReeCoachWrap .leftItemWrap:before,
+	.reeworkReeCoachWrap .rightItemWrap:before {
+		top: 36px;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:after,
+	.reeworkReeCoachWrap .rightItemWrap:after {
+		top: 358px;
+	}
+	.modal.homePopup.show .modal-dialog {
+		max-width: 440px;
+	}
+	.modal.homePopup .modal-content .modal-body .dataWrap:after {
+		right: 9px;
+	}
+}
+@media (max-width: 815px) {
+	.becomeCurateWrap .secTitleWrap h2,
+	.clientAppoachAbWrap .dataWrap h2,
+	.reecoachCommuBtmWrap .dataWrap h2,
+	.reecoachPageBanner .dataWrap h2,
+	.reeworkBannerWrap .dataWrap h2,
+	.manyMoreWrap .dataWrap.clrTxt h2 {
+		font-size: 5.6rem;
+		line-height: 6.6rem;
+	}
+	.effiManageWrap {
+		height: calc(100vh - 50rem);
+	}
+	.nextStepWrap .dataWrap h3 {
+		font-size: 5rem;
+		line-height: 6rem;
+	}
+	.nextStepWrap .dataWrap h4 {
+		margin: 0 0 5rem;
+	}
+	.nextStepWrap .imgWrap a {
+		left: 17rem;
+		width: calc(100% - 25rem);
+	}
+	.reeworkReeCoachWrap .leftItemWrap:before,
+	.reeworkReeCoachWrap .rightItemWrap:before {
+		right: -12px;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:after,
+	.reeworkReeCoachWrap .rightItemWrap:after {
+		right: -12px;
+	}
+	.SigUpWrap.loginWrap .loginFormWrap:after {
+		top: 28px;
+		left: 16px;
+	}
+	.SigUpWrap.loginWrap .col-md-5.col-sm-4.pad0px {
+		display: none;
+	}
+}
+@media (max-width: 767px) {
+	header {
+		height: 60px;
+	}
+	#nav-icon {
+		outline: 0;
+		box-shadow: none;
+		position: absolute;
+		right: 15px;
+		display: flex;
+		align-items: center;
+	}
+	.navbar-collapse {
+		position: fixed;
+		max-width: 300px;
+		width: 100%;
+		background-color: #f5fcfa;
+		top: 0px;
+		height: 100vh;
+		z-index: 99;
+		box-shadow: 0px 0px 14px rgb(0 0 0 / 40%);
+		left: -100%;
+		margin: 0;
+		padding: 0;
+		overflow: auto;
+		transition: all ease-in-out 0.3s;
+		-webkit-transition: all ease-in-out 0.3s;
+		padding: 30px 0px;
+	}
+	.navbar-collapse.show {
+		left: 0px;
+	}
+	header ul.navbar-nav .nav-item {
+		margin: 0;
+	}
+	header ul.navbar-nav .nav-item .nav-link {
+		color: #1f6861;
+		font-size: 2rem;
+		padding: 20px 10px !important;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 {
+		display: none !important;
+		visibility: visible;
+		opacity: 1;
+		transform: none !important;
+		max-width: 100% !important;
+		width: 100% !important;
+		background-color: #b3e5d7 !important;
+		top: auto;
+		border-radius: 0;
+		-webkit-border-radius: 0;
+		box-shadow: none !important;
+		border-top: 0 !important;
+		padding: 0;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1.show,
+	.navbar-nav .dropdown-toggle.show {
+		display: block !important;
+	}
+	.navbar-nav {
+		padding: 0 0 10px;
+	}
+	.navbar-nav li.nav-item,
+	.navbar-nav .dropdown-menu li {
+		border-bottom: 1px solid #b3e5d7;
+		position: relative;
+		margin: 0;
+		width: 100%;
+	}
+	.navbar-nav .dropdown-menu li:last-child {
+		border: 0;
+	}
+	.navbar-nav li.nav-item a,
+	.navbar.sticky-top.nav-bg .nav-link,
+	.nav-bg .navbar-nav .nav-link.active {
+		padding: 12px 10px !important;
+		margin: 0 !important;
+		color: #204a62;
+	}
+	.navbar-nav .nav-link:focus,
+	.navbar-nav .nav-link:hover {
+		color: #204a62 !important;
+	}
+	.navbar-nav li .dropdown-toggle {
+		color: #204a62 !important;
+		display: inline-block;
+	}
+	.navbar-nav .dropdown-menu .dropdown-item {
+		padding: 10px 20px !important;
+	}
+	.navbar-nav .dropdown-menu .dropdown-item svg {
+		display: none;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap ul li .icoWrap {
+		width: 24px;
+		height: 24px;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap ul li .icoWrap svg {
+		width: 16px;
+		height: 16px;
+	}
+	.navbar-nav .dropdown-menu li {
+		padding: 0;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 .dropdown-submenu > a:after {
+		top: 33%;
+		transform: rotate(0deg) translateY(-50%);
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 li a:not(:last-child):before {
+		background-color: #22678b;
+	}
+	.navbar-nav li.dropdown:hover .dropdown-menu.menulevel-1:before,
+	.navbar-nav li.dropdown:hover .dropdown-menu.menulevel-1:after {
+		content: none;
+	}
+	.navbar-nav .dropdown span {
+		width: 40px;
+		height: 56px;
+		right: 0px;
+		text-align: center;
+		line-height: 56px;
+		top: 0;
+	}
+	.navbar-nav .dropdown-menu .dropdown-item {
+		font-size: 1.8rem;
+	}
+	.navbar .navbar-nav li:hover > .dropdown-menu {
+		visibility: visible;
+		opacity: 1;
+		top: auto;
+		left: auto;
+		transform: none;
+		transition: all 0.2s ease;
+		border-radius: 0;
+		background-color: #ffffff;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		border: 0;
+		width: 100% !important;
+	}
+	.dropdown-menu .row {
+		margin: 0;
+	}
+	.dropdown-menu .row .col-md-6 {
+		padding: 0;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap,
+	.navbar-nav .dropdown-menu.dropdownMegaMenu .submenuWrap {
+		padding: 0;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap h3,
+	.navbar-nav .dropdown-menu.dropdownMegaMenu .submenuWrap h3 {
+		font-size: 1.4rem;
+		padding: 10px;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap ul li:last-child {
+		border-bottom: 1px solid #dddddd;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap ul li .icoWrap svg {
+		display: inline-block;
+	}
+	.navbar-nav .dropdown-menu li .dropdown-item:after {
+		content: none;
+	}
+	.rightNav {
+		padding: 0 50px 0 0;
+	}
+	header .navbar a.navbar-brand img {
+		width: 120px;
+	}
+	.giftWrap .padRt0.col-md-5 {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.giftWrap {
+		padding: 40px 0 0 20px;
+		margin: 40px auto 0;
+	}
+	.giftWrap .imgWrap {
+		margin: 0;
+		text-align: right;
+	}
+	.giftWrap .imgWrap {
+		margin: -250px 0 0;
+		width: 360px;
+	}
+	.footerWrap .logWrap {
+		padding: 1rem 0 3rem 0;
+	}
+	.footerWrap .leftFooterWrap {
+		padding: 2rem 0 0;
+	}
+	.footerWrap .rightFooerWrap {
+		margin: 0;
+	}
+	.BecomeReecoachBannerWrap {
+		height: calc(100vh - 25rem);
+	}
+	.effiManageWrap {
+		height: calc(100vh - 27rem);
+	}
+	.BecomeReecoachBannerWrap .dataWrap,
+	.effiManageWrap .dataWrap {
+		max-width: 68%;
+	}
+	.applyReecoachWrap .imgWrap {
+		padding: 1rem 0 1rem 4rem;
+	}
+	.becomeCurateWrap .secTitleWrap,
+	.nextStepWrap .secTitleWrap {
+		margin: 0 auto 3rem;
+		padding: 0;
+		text-align: center;
+	}
+	.applyReecoachWrap .imgWrap:before {
+		left: 2.8rem;
+	}
+	.applyReecoachWrap ul li .itemWrap .dataWrap p {
+		max-width: 96%;
+	}
+	.becomeCurateWrap ul {
+		padding: 0;
+	}
+	.becomeCurateWrap ul:before {
+		content: none;
+	}
+	.applyReecoachWrap ul li .itemWrap .dataWrap h2 {
+		margin: 0 0 0.6rem;
+	}
+	.nextStepWrap .dataWrap h4,
+	.reecoachPartnerBenWrap .secTitleWrap {
+		margin: 0 0 3rem;
+	}
+	.nextStepWrap .dataWrap,
+	.reecoachBtmBannerWrap .dataWrap,
+	.AcademyBannerWrap .dataWrap {
+		max-width: 70%;
+	}
+	.nextStepWrap .col-md-5,
+	.reecoachBannerWrap .col-md-7 {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.nextStepWrap .imgWrap {
+		width: 100%;
+		max-width: 50%;
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-end;
+		flex-flow: row wrap;
+		margin: -30rem 0 0;
+	}
+	.nextStepWrap .imgWrap a {
+		left: 23rem;
+		width: calc(100% - 26rem);
+	}
+	.reecoachBannerWrap .dataWrap {
+		max-width: 68%;
+	}
+	.reecoachPartnerBenWrap .secTitleWrap h2 {
+		margin: 0;
+	}
+	.reecoachBtmBannerWrap {
+		padding: 8rem 4rem;
+	}
+	.freeHealthcareCampWrap .padLtRt {
+		padding: 0 1rem;
+		margin: 0 0 2rem;
+	}
+	.reecoachBtmBannerWrap .dataWrap:after {
+		bottom: -8rem;
+	}
+	.curatePackageWrap .itemWrap {
+		margin: 0 0 3rem;
+	}
+	.ourVissionWrap .itemWrap {
+		margin: 0 0 2rem;
+	}
+	.ourMissionwrap .secTitleWrap h2,
+	.ourVissionWrap .secTitleWrap h2 {
+		font-size: 6rem;
+	}
+	.missionVisonWrap .leftDataWrap p,
+	.missionVisonWrap .rightDataWrap p,
+	.missionVisonWrap .rightDataWrap p,
+	.ourMissionwrap .dataWrap p,
+	.ourVissionWrap .subDataWrap p,
+	.brandAffilWrap .dataWrap p,
+	.reeworkFramewrokWrap .itemWrap ul.itemlist li,
+	.reeworkFramewrokWrap .itemWrap ul.itemDataList li .rightData p {
+		font-size: 2rem;
+		line-height: 3.2rem;
+	}
+	.missionVisonWrap .rightDataWrap {
+		padding: 0;
+	}
+	.theReeworkerWrap .imgWrap {
+		max-width: 320px;
+		margin: 0 auto;
+	}
+	.theReeworkerWrap ul {
+		padding: 3rem 0 0 0;
+	}
+	.nutritionWrap .itemWrap.itemMarRt,
+	.nutritionWrap .itemWrap.itemMarLt {
+		margin: 0;
+	}
+	.nutritionWrap .itemWrap-container {
+		margin: 0 0 3rem;
+	}
+	.superChargeWrap .imgWrap {
+		display: none;
+	}
+	.superChargeWrap .dataWrap h2:after {
+		content: none;
+	}
+	.tetimonialsWrap .testiBtmVector:before,
+	.tetimonialsWrap .testiBtmVector:after,
+	.nextStepBannerWrap .dataWrap:after {
+		content: none;
+	}
+	.reeWorkCoachWrap .itemWrap h4 {
+		font-size: 7rem;
+	}
+	.nutritionWrap .itemWrap .dataWrap .hiddenDataWrap ul {
+		width: calc(100% - 0px);
+	}
+	.nutritionWrap .itemWrap-container.col-md-2 .itemWrap .icoWrap {
+		margin: 0;
+	}
+	.nutritionWrap .itemWrap.active .dataWrap,
+	.nutritionWrap .itemWrap-container.col-md-2 .itemWrap .dataWrap {
+		width: calc(100% - 0rem);
+	}
+	.contactPageWrap {
+		padding: 6rem 6rem 8rem 10rem;
+	}
+
+	.goDigitalWrap .dataWrap:after {
+		right: 0;
+	}
+	.reeworkReeCoachWrap .leftItemWrap:before,
+	.reeworkReeCoachWrap .rightItemWrap:before,
+	.reeworkReeCoachWrap .leftItemWrap:after,
+	.reeworkReeCoachWrap .rightItemWrap:after,
+	.reeworkReeCoachWrap .itemWrap .imgWrap:before,
+	.reeworkReeCoachWrap .itemWrap .imgWrap:after,
+	.reeworkReeCoachWrap .itemWrap .imgWrap .circlesWrap:before,
+	.reeworkReeCoachWrap .itemWrap .imgWrap .circlesWrap:after {
+		content: none;
+	}
+	.reeworkReeCoachWrap .itemWrap {
+		padding: 4rem 0 0;
+		display: flex;
+		flex-flow: row wrap;
+		align-items: flex-start;
+		justify-content: space-between;
+	}
+	.reeworkReeCoachWrap .itemWrap .imgWrap {
+		width: 180px;
+		height: 180px;
+		margin: 0 0 5rem;
+	}
+	.reeworkReeCoachWrap .itemWrap .imgWrap img {
+		width: 100px;
+	}
+	.reeworkReeCoachWrap .itemWrap .dataWrap {
+		width: calc(100% - 200px);
+	}
+	.reeworkReeCoachWrap .itemWrap .dataWrap h5 {
+		font-size: 2rem;
+	}
+	.reeworkReeCoachWrap .itemWrap .dataWrap p {
+		font-size: 2rem;
+	}
+	.reeworkReeCoachWrap .itemWrap .dataWrap ul li .item h4 {
+		font-size: 2.2rem;
+	}
+	.reeworkReeCoachWrap .itemWrap .dataWrap ul li .item p {
+		font-size: 2rem;
+	}
+	.reeworkReeCoachWrap .leftItemWrap {
+		padding: 4rem 0;
+	}
+	.reeworkReeCoachWrap .itemWrap.leftItemWrap .imgWrap {
+		position: relative;
+	}
+	.reeworkReeCoachWrap .itemWrap.leftItemWrap .imgWrap:after {
+		content: "";
+		background-image: url(../images/homeVector-12.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		background-color: transparent;
+		height: 40%;
+		width: 14px;
+		position: absolute;
+		bottom: -78px;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.goDigitalWrap .row {
+		flex-direction: column-reverse;
+	}
+	.goDigitalWrap .padRt0 {
+		padding: 0;
+	}
+	.theGiftTimeIntlWrap .titleWrap a {
+		display: none;
+	}
+	.mobDisDeskNone {
+		display: flex;
+	}
+	.theGiftTimeIntlWrap {
+		padding: 0;
+		overflow: hidden;
+	}
+	.theGiftTimeIntlWrap .col-md-4 {
+		padding: 0;
+	}
+	.theGiftTimeIntlWrap .titleWrap {
+		padding: 4rem;
+		background-color: #ffffff;
+	}
+	.theGiftTimeIntlWrap .titleWrap h2 strong {
+		display: inline-block;
+	}
+	.theGiftTimeIntlWrap .leftWrap:before {
+		background-image: url(../images/homeVector-11.png);
+		width: 22px;
+		height: 43rem;
+		top: 34rem;
+		left: 34rem;
+	}
+	.theGiftTimeIntlWrap .rightWrap:after {
+		background-image: url(../images/homeVector-10.png);
+		width: 70px;
+		height: 140px;
+		right: 26rem;
+		left: auto;
+		bottom: 22rem;
+	}
+	.theGiftTimeIntlWrap .leftWrap {
+		padding: 0;
+	}
+	/* .theGiftTimeIntlWrap .leftWrap .imgWrap{bottom:0;width:80%;margin:-5rem auto 0;} */
+	.theGiftTimeIntlWrap .rightWrap {
+		display: flex;
+		padding: 5rem 0 0;
+	}
+	.theGiftTimeIntlWrap .rightWrap .imgWrap {
+		width: 70%;
+		margin: 5rem -10rem 0 0;
+	}
+	.theGiftTimeIntlWrap .rightWrap .imgWrap:after {
+		width: 180px;
+		height: 130px;
+		right: 0;
+		bottom: 0;
+	}
+	.theGiftTimeIntlWrap .titleWrap h2 {
+		font-size: 4.8rem;
+		margin: 0;
+		letter-spacing: 0.6rem;
+		line-height: 5.8rem;
+	}
+	.theGiftTimeIntlWrap .leftWrap .dataWrap h3,
+	.theGiftTimeIntlWrap .rightWrap .dataWrap h3 {
+		font-size: 3.8rem;
+		font-weight: 800;
+		letter-spacing: 0.4rem;
+	}
+	.theGiftTimeIntlWrap .leftWrap .dataWrap p,
+	.theGiftTimeIntlWrap .rightWrap .dataWrap p {
+		font-size: 3rem;
+		line-height: 4rem;
+	}
+	.theGiftTimeIntlWrap .leftWrap .dataWrap p {
+		max-width: 90%;
+	}
+
+	.reeworkFramewrokWrap {
+		padding: 6rem 3rem 0 3rem;
+	}
+	.reeworkFramewrokWrap .imgWrap.imgLeftWrap:after {
+		width: 70%;
+		height: 50px;
+	}
+	.nextStepBannerWrap {
+		height: 80vh;
+	}
+	.knowledgeRepoWrap .itemWrap .dataWrap {
+		min-height: 80px;
+	}
+	.reeworkBannerWrap,
+	.reeworkBtmBannerWrap {
+		height: calc(100vh - 30rem);
+	}
+	.reeworkointroWrap:before {
+		right: 4rem;
+	}
+	.footerWrap {
+		padding: 0;
+		border-bottom: 0;
+		overflow: hidden;
+	}
+	.footerWrap .container-fluid .col-md-3,
+	.footerWrap .container-fluid .col-md-9,
+	.footerWrap .container-fluid .col-md-12 {
+		padding: 0;
+	}
+	.footerWrap .appDownloadWrap {
+		padding: 2rem 0 0;
+	}
+	.footerWrap .appDownloadWrap .btn {
+		display: inline-block;
+		margin: 0.6rem 0.4rem;
+	}
+	.deskNoDispNewsLeter {
+		display: none;
+	}
+	.mobDispNewsLeter {
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		text-align: center;
+		margin: 0 auto;
+		padding: 4rem 3rem 2rem;
+	}
+	.newsLetterWrap {
+		width: 100%;
+	}
+	.footerWrap .appDownloadWrap h3,
+	.footerWrap .newsLetterWrap p,
+	.footerWrap .footerNavlist ul li a {
+		font-size: 1.8rem;
+	}
+	.footerWrap .footerNavlist ul li a {
+		font-weight: 800;
+		letter-spacing: 0.1rem;
+	}
+	.footerWrap .newsLetterWrap .btn {
+		height: 5.4rem;
+	}
+	.footerWrap .footerNavlist ul li {
+		width: 50%;
+		margin: 0 0 1.6rem;
+	}
+	.footerWrap .footerNavlist:before,
+	.footerWrap .footerNavlist:after,
+	.copyrightWrap:after {
+		content: none;
+	}
+	.footerWrap .rightFooerWrap,
+	.copyrightWrap ul,
+	.footerWrap .footerNavlist {
+		border: 0;
+	}
+	.footerWrap .rightFooterBtm {
+		padding: 0;
+	}
+	.footerWrap .footerNavlist {
+		padding: 0 3rem 2rem;
+	}
+	.footerWrap ul.quickLinkList {
+		border-top: 2px solid #c1d6ca;
+		border-bottom: 2px solid #c1d6ca;
+		padding: 3rem 3.9rem;
+		position: relative;
+	}
+	.footerWrap ul.quickLinkList:before,
+	.footerWrap ul.quickLinkList:after {
+		content: "";
+		width: 20px;
+		height: 20px;
+		border-radius: 100%;
+		background-color: #c1d6ca;
+		position: absolute;
+	}
+	.footerWrap ul.quickLinkList:before {
+		top: -12px;
+		left: 50px;
+	}
+	.footerWrap ul.quickLinkList:after {
+		bottom: -12px;
+		right: 50px;
+	}
+	.footerWrap ul.quickLinkList li a {
+		font-size: 1.8rem;
+		letter-spacing: 0.18rem;
+	}
+	.footerWrap .socialFtrLinkWrap {
+		flex-flow: column;
+		padding: 3rem 3rem;
+	}
+	.footerWrap .socialFtrLinkWrap p {
+		margin: 0 auto;
+		font-size: 1.8rem;
+	}
+	.footerWrap .socialFtrLinkWrap ul {
+		margin: 0 auto;
+		padding: 1.6rem 0 0;
+	}
+	.footerWrap .socialFtrLinkWrap ul li {
+		margin: 0 1rem;
+	}
+	.footerWrap .contactInfo {
+		justify-content: center;
+		padding: 0 3rem;
+	}
+	.footerWrap .contactInfo a.phoneTxt {
+		font-size: 1.8rem;
+	}
+	.copyrightWrap ul {
+		justify-content: center;
+		padding: 3.2rem 3rem 3rem;
+	}
+	.copyrightWrap ul li {
+		margin: 0 auto 1rem;
+		width: 100%;
+		text-align: center;
+	}
+	.copyrightWrap ul li:last-child {
+		margin: 0 auto;
+	}
+	.copyrightWrap ul li p {
+		font-size: 1.6rem;
+	}
+	.copyrightWrap {
+		padding: 0;
+	}
+	.mobDisNone {
+		display: none;
+	}
+	.mobDis {
+		display: block;
+	}
+	.theGiftTimeIntlWrap .mobDisDeskNone {
+		display: block;
+	}
+	.theGiftTimeIntlWrap .mobDisDeskNone .titleWrap {
+		background-color: #e8f7f3;
+		display: flex;
+		justify-content: center;
+		padding: 0 4rem 6rem;
+		margin: -3rem auto 0;
+	}
+	.theGiftTimeIntlWrap .mobDisDeskNone .titleWrap a,
+	.reeworkReeCoachWrap .ctaWrap a,
+	.reeCoachGrowthWrap .dataWrap a,
+	.bannerWrap .dataWrap a,
+	.goDigitalWrap .dataWrap a,
+	.empowerClientWrap .dataWrap a,
+	.clientAppoachAbWrap .dataWrap a,
+	.reecoachPageBanner .dataWrap a,
+	.connectReecoachWrap .dataWrap a,
+	.reecoachCommuBtmWrap .dataWrap a,
+	.reecoachBtmBannerWrap .dataWrap a,
+	.BecomeReecoachBannerWrap .dataWrap a,
+	.effiManageWrap .dataWrap a,
+	.nextStepBannerWrap .dataWrap a,
+	.reeworkBtmBannerWrap .dataWrap a {
+		display: inline-block;
+		font-size: 1.8rem;
+		padding: 2rem 2rem 2rem 3rem;
+	}
+	.theGiftTimeIntlWrap .titleWrap a svg,
+	.reeworkReeCoachWrap .ctaWrap a svg,
+	.reeCoachGrowthWrap .dataWrap a svg,
+	.bannerWrap .dataWrap a svg,
+	.goDigitalWrap .dataWrap a svg,
+	.empowerClientWrap .dataWrap a svg,
+	.clientAppoachAbWrap .dataWrap a svg,
+	.reecoachPageBanner .dataWrap a svg,
+	.connectReecoachWrap .dataWrap a svg,
+	.reecoachCommuBtmWrap .dataWrap a svg,
+	.reecoachBtmBannerWrap .dataWrap a svg,
+	.BecomeReecoachBannerWrap .dataWrap a svg,
+	.effiManageWrap .dataWrap a svg,
+	.nextStepBannerWrap .dataWrap a svg,
+	.reeworkBtmBannerWrap .dataWrap a svg {
+		margin: 0 0 0 8rem;
+	}
+	.theGiftTimeIntlWrap .leftWrap {
+		display: flex;
+		flex-flow: row wrap;
+		align-items: flex-start;
+	}
+	.theGiftTimeIntlWrap .leftWrap .dataWrap {
+		width: 50%;
+		padding: 4rem 4rem 0 4rem;
+		margin: 0;
+		position: relative;
+		z-index: 9;
+	}
+	.theGiftTimeIntlWrap .leftWrap .imgWrap {
+		width: 50%;
+		margin: 0;
+		bottom: 0;
+		right: -40px;
+		z-index: 2;
+	}
+	/* .theGiftTimeIntlWrap .leftWrap .imgWrap:after {
+		content: "";
+		background-image: url(../images/vectorImg-21.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 220px;
+		height: 140px;
+		position: absolute;
+		right: -23px;
+		bottom: -32px;
+		z-index: -1;
+	} */
+	.theGiftTimeIntlWrap .rightWrap .imgWrap:after {
+		content: none;
+	}
+	.theGiftTimeIntlWrap .rightWrap .dataWrap {
+		position: relative;
+		z-index: 2;
+	}
+	.tetimonialsWrap:before {
+		top: 0;
+	}
+	.tetimonialsWrap:before {
+		width: 13rem;
+	}
+	.becomeCurateWrap ul li {
+		margin: 0 0 4rem;
+	}
+	.becomeCurateWrap ul li .itemWrap {
+		text-align: center;
+	}
+	.becomeCurateWrap ul li .itemWrap .icoWrap {
+		margin: 0 auto 1rem;
+	}
+	.becomeCurateWrap ul li .itemWrap .dataWrap {
+		max-width: 100%;
+	}
+	.becomeCurateWrap ul li .itemWrap .dataWrap h2 {
+		font-size: 2.2rem;
+	}
+	.AcademyBannerWrap {
+		height: calc(100vh - 43rem);
+	}
+}
+@media (max-width: 740px) {
+	.reecoachDashboardWrap .itemWrap .dataWrap {
+		width: 100%;
+		padding: 2rem 0 0;
+		min-height: 25rem;
+	}
+	.reecoachDashboardWrap .itemWrap .imgWrap {
+		width: 100%;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.reecoachDashboardWrap .itemWrap .imgWrap img {
+		max-width: 100px;
+	}
+	.reecoachDashboardWrap .itemWrap .imgWrap a {
+		width: calc(100% - 160px);
+	}
+}
+@media (max-width: 700px) {
+	.giftWrap .imgWrap {
+		margin: -16rem 0 0;
+	}
+	.footerWrap .footerNavlist ul {
+		justify-content: flex-start;
+	}
+	.revenueSourcesWrap .itemWrap .dataWrap {
+		padding: 0;
+	}
+	.AcademyBannerWrap {
+		background-position: center right;
+	}
+	.nutripreneurBannerWrap .dataWrap h2 {
+		font-size: 6rem;
+		margin: 1rem 0 2rem;
+	}
+	.nutripreneurBannerWrap .dataWrap {
+		padding: 0 3rem;
+	}
+	.reecoachPageBanner {
+		height: calc(100vh - 20rem);
+	}
+	.reecoachCountWrap .itemWrap .imgWrap {
+		margin: 0 auto -2rem;
+	}
+	.makeDifferenceWrap .dataWrap ul li:before {
+		width: 4px;
+		height: 4px;
+	}
+	.makeDifferenceWrap .dataWrap h2 {
+		font-size: 3rem;
+	}
+	.makeDifferenceWrap .imgWrap.imgContentWrap:after {
+		width: 60px;
+		height: 40px;
+		right: -74px;
+		top: 2rem;
+	}
+	.reecoachCommuBtmWrap {
+		height: 54vh;
+	}
+	.theGiftTimeIntlWrap .rightWrap:after {
+		width: 60px;
+		height: 120px;
+		bottom: 18rem;
+	}
+	.theGiftTimeIntlWrap .leftWrap:before {
+		height: 36rem;
+	}
+}
+@media (max-width: 680px) {
+	.nutritionWrap .itemWrap.active .dataWrap {
+		width: 100%;
+	}
+	.nutritionWrap .itemWrap.active .icoWrap {
+		width: 10rem;
+		margin: 0 auto 1rem;
+	}
+	.nutritionWrap .itemWrap .dataWrap .hiddenDataWrap ul {
+		margin: 0.8rem 0 0;
+	}
+	.nutritionWrap .itemWrap.active .dataWrap .btn {
+		margin: 0.4rem 0 0;
+	}
+	.bannerWrap {
+		background-position: center;
+	}
+	.reeWorkCoachWrap .BtmTxtWrap h2 {
+		font-size: 8rem;
+	}
+	.effiManageWrap {
+		height: calc(100vh - 34rem);
+		background-position: center right;
+	}
+	.reecoachDashboardWrap .itemWrap .imgWrap a {
+		width: calc(100% - 100px);
+	}
+	.aboutBannerWrap .dataWrap h2 {
+		font-size: 5.2rem;
+	}
+	.aboutBannerWrap .imgWrap {
+		height: 100%;
+	}
+	.aboutBannerWrap .imgWrap img {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.makeDifferenceWrap .itemWrap .dataWrap h2,
+	.reeworkointroWrap .dataWrap p {
+		font-size: 3.2rem;
+		line-height: 4.2rem;
+	}
+	/* .reeworkBannerWrap, 
+	.reeworkBtmBannerWrap,
+	.bannerWrap{height:calc(100vh - 60rem);} */
+	.challengesWrap ul.challengesSlider li {
+		width: 50%;
+	}
+	.ecoSyswrap .itemWrap {
+		padding: 0 1rem;
+	}
+	.contactPageWrap {
+		padding: 6rem 4rem 8rem 7rem;
+	}
+	.KnowledgeRepoBanner {
+		height: 80vh;
+	}
+	.modal.homePopup.show .modal-dialog {
+		max-width: 420px;
+	}
+	.reeworkReeCoachWrap .itemWrap.leftItemWrap .imgWrap:after {
+		bottom: -82px;
+	}
+}
+@media (max-width: 640px) {
+	html {
+		font-size: 38%;
+	}
+	ul.testimonialSlider {
+		margin: 0 0 0 -18px;
+	}
+	.secTitleWrap h2,
+	.secTitleWrap h2,
+	.BecomeReecoachBannerWrap .dataWrap h2,
+	.effiManageWrap .dataWrap h2,
+	.nextStepWrap .dataWrap h3,
+	.reeworkMemberWrap .secTitleWrap h2,
+	.reecoachBtmBannerWrap .dataWrap h2,
+	.AcademyBannerWrap .dataWrap h2,
+	.nutripreneurBannerWrap .dataWrap h2,
+	.ourMissionwrap .secTitleWrap h2,
+	.ourVissionWrap .secTitleWrap h2,
+	.clientAppoachAbWrap .dataWrap h2,
+	.aboutBannerWrap .dataWrap h2,
+	.reecoachCommuBtmWrap .dataWrap h2,
+	.reecoachPageBanner .dataWrap h2,
+	.reeworkBannerWrap .dataWrap h2,
+	.reeworkBtmBannerWrap .dataWrap h2,
+	.manyMoreWrap .dataWrap.clrTxt h2,
+	.empowerClientWrap .dataWrap h2,
+	.bannerWrap .dataWrap h2,
+	.reeWorkCoachWrap .titleWrap h2,
+	.goDigitalWrap .dataWrap h2 {
+		font-size: 5rem !important;
+		line-height: 6rem;
+	}
+	.reecoachDashboardWrap .secTitleWrap h2,
+	.revenueSourcesWrap .secTitleWrap h2,
+	.revenueSteamsWrap .secTitleWrap h2,
+	.witnessIntrWrap .dataWrap h3,
+	.reeworkointroWrap .dataWrap p {
+		font-size: 3rem !important;
+		line-height: 4rem !important;
+	}
+	.reecoachBannerWrap .dataWrap h4,
+	.connectReecoachWrap .dataWrap h2 {
+		font-size: 4.4rem;
+	}
+	.tetimonialsWrap:before {
+		width: 5rem;
+	}
+	.reeworkFramewrokWrap .imgWrap.imgLeftWrap:after {
+		content: none;
+	}
+}
+@media (max-width: 600px) {
+	.giftWrap:before,
+	.bannerWrap .dataWrap:after {
+		content: none;
+	}
+	.bannerWrap:before {
+		width: 100px;
+		height: 332px;
+		opacity: 0.3;
+	}
+	.BecomeReecoachBannerWrap,
+	.bannerWrap {
+		height: calc(100vh - 43rem);
+	}
+	.nextStepWrap .dataWrap,
+	.AcademyBannerWrap .dataWrap {
+		max-width: 67%;
+	}
+	.nextStepWrap .imgWrap {
+		width: 100%;
+		max-width: 68%;
+	}
+	.revenueSourcesWrap .padLtRt {
+		padding: 0 1rem;
+	}
+	.revenueSourcesWrap .itemWrap {
+		margin: 0 0 2rem;
+		padding: 1.6rem;
+	}
+	.KnowledgeRepoBanner {
+		height: 70vh;
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-start;
+		background-position: center;
+	}
+	.applyReecoachWrap .imgWrap {
+		padding: 1rem 0 1rem 2rem;
+	}
+	.applyReecoachWrap .imgWrap:before {
+		left: 1rem;
+	}
+	.applyReecoachWrap .row {
+		align-items: center;
+	}
+	.applyReecoachWrap ul li .itemWrap .dataWrap p {
+		max-width: 100%;
+		margin: 0 0 0.6rem;
+	}
+	.applyReecoachWrap ul li {
+		margin: 0 0 2rem;
+	}
+	.applyReecoachWrap ul li:last-child {
+		margin: 0;
+	}
+	.applyReecoachWrap ul li .itemWrap .numWrap {
+		width: 8rem;
+	}
+	.applyReecoachWrap ul li .itemWrap .dataWrap {
+		width: calc(100% - 9rem);
+	}
+	.reecoachPageBanner {
+		height: calc(100vh - 40rem);
+	}
+	.theGiftTimeIntlWrap .leftWrap .dataWrap {
+		padding: 4rem 0rem 0 4rem;
+	}
+	.theGiftTimeIntlWrap .leftWrap .dataWrap p {
+		max-width: 100%;
+	}
+	.theGiftTimeIntlWrap .leftWrap:before {
+		height: 28rem;
+		left: 26rem;
+	}
+	.theGiftTimeIntlWrap .rightWrap:after {
+		width: 42px;
+		height: 80px;
+		bottom: 16rem;
+	}
+	.theGiftTimeIntlWrap .mobDisDeskNone .titleWrap {
+		margin: 0 auto;
+	}
+}
+@media (max-width: 579px) {
+	.reeworkReeCoachWrap .itemWrap.leftItemWrap .imgWrap:after {
+		bottom: -92px;
+	}
+}
+@media (max-width: 575px) {
+	.challengesWrap:after {
+		width: 300px;
+		height: 100px;
+	}
+	.giftWrap:after {
+		width: 228px;
+		height: 83px;
+	}
+	ul.knowledgeBankSlider {
+		margin: 0 0 0 -38px;
+	}
+	.challengesWrap ul.challengesSlider:before {
+		width: 30px;
+	}
+	.challengesWrap ul.challengesSlider {
+		margin: 0;
+	}
+	.appSSWrap .imgWrap.active .btnIcoWrap {
+		right: 0px;
+		top: 0;
+	}
+	.appSSWrap .imgWrap .btnIcoWrap .btn {
+		width: 50px;
+		height: 50px;
+	}
+	.appSSWrap .imgWrap .btnIcoWrap .btn svg {
+		width: 12px;
+		height: 52px;
+		margin: 0;
+	}
+	.appSSWrap ul.appImgsSlider .slick-arrow.slick-prev {
+		left: 0;
+	}
+	.appSSWrap ul.appImgsSlider .slick-arrow.slick-next {
+		right: 0;
+	}
+	.contactPageWrap .leftDataWrap {
+		padding: 3rem 2rem;
+	}
+	.contactPageWrap .formWrap {
+		padding: 3rem 2rem;
+	}
+	.contactConnectWithWrap {
+		padding: 1rem 2rem 5rem;
+	}
+	.applyReecoachWrap .col-sm-5 {
+		display: none;
+	}
+	.applyReecoachWrap ul {
+		padding: 3rem 0 0;
+	}
+	.applyReecoachWrap ul li {
+		margin: 0 0 1.6rem;
+	}
+	.effiManageWrap {
+		height: calc(100vh - 44rem);
+	}
+	.BecomeReecoachBannerWrap .dataWrap,
+	.effiManageWrap .dataWrap {
+		max-width: 80%;
+	}
+	.applyReecoachWrap ul li .itemWrap .dataWrap p {
+		margin: 0;
+	}
+	.revenueSourcesWrap .padLtRt {
+		width: 50%;
+		margin: 0 0 2rem;
+	}
+	.revenueSourcesWrap .itemWrap {
+		flex-flow: column;
+		margin: 0;
+		height: 100%;
+	}
+	.revenueSourcesWrap .itemWrap .icoWrap:after,
+	.effiManageWrap:before {
+		content: none;
+	}
+	.effiManageWrap:after {
+		opacity: 0.1;
+	}
+	.revenueSourcesWrap .itemWrap .dataWrap {
+		text-align: center;
+		width: 100%;
+		margin: 2rem auto 0;
+		min-height: 6.8rem;
+	}
+	.reecoachDashboardWrap .itemWrap .imgWrap {
+		width: 100px;
+	}
+	.reecoachDashboardWrap .itemWrap .imgWrap img {
+		max-width: 100%;
+	}
+	.reecoachDashboardWrap .itemWrap .imgWrap a {
+		width: calc(100% + 30px);
+	}
+	.reecoachDashboardWrap .secTitleWrap span,
+	.revenueSourcesWrap .secTitleWrap span {
+		padding: 0;
+	}
+	.reecoachDashboardWrap .secTitleWrap span:after,
+	.revenueSourcesWrap .secTitleWrap span:after {
+		content: none;
+	}
+	.nutripreneurBannerWrap .imgWrap > img {
+		opacity: 0.4;
+		max-width: 280px;
+	}
+	.nutripreneurBannerWrap .imgWrap .btmIco {
+		right: 4rem;
+		bottom: 4rem;
+		left: auto;
+	}
+	.nutripreneurBannerWrap .pad0px.col-sm-7 {
+		position: absolute;
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.nutripreneurBannerWrap .dataWrap:after,
+	.nutripreneurBannerWrap:before {
+		content: none;
+	}
+	.curatePackageWrap .padLtRt {
+		padding: 0 6px;
+	}
+	.clientAppoachAbWrap:before {
+		content: none;
+	}
+	.aboutBannerWrap {
+		background-color: #1f6861;
+		padding: 0;
+	}
+	.aboutBannerWrap .col-sm-4.pad0 {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.aboutBannerWrap .imgWrap {
+		background-color: transparent;
+		max-width: 320px;
+	}
+	.aboutBannerWrap .imgWrap:after {
+		content: none;
+	}
+	.aboutBannerWrap .imgWrap img {
+		margin: 0;
+	}
+	.aboutBannerWrap .dataWrap {
+		padding: 0 4rem;
+	}
+	.missionVisonWrap .leftDataWrap p,
+	.missionVisonWrap .rightDataWrap p,
+	.missionVisonWrap .rightDataWrap p,
+	.ourMissionwrap .dataWrap p,
+	.ourVissionWrap .subDataWrap p {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+	.aboutReeWrokWrap .secTitleWrap span,
+	.ourVissionWrap .secTitleWrap span {
+		font-size: 3rem;
+	}
+	.aboutReeWrokWrap .secTitleWrap p {
+		font-size: 2rem;
+		line-height: 3rem;
+	}
+	.ourVissionWrap .subDataWrap {
+		padding: 0 0 8rem 0;
+	}
+	.advisoryPanelWrap .itemWrap {
+		margin: 0 0 3rem;
+	}
+	.manageTeamWrap .itemWrap:after {
+		background: linear-gradient(
+			180deg,
+			rgba(0, 0, 0, 0.64) 0%,
+			rgba(5, 5, 5, 0.14) 99.34%,
+			rgba(5, 5, 5, 0.08) 67.34%
+		);
+	}
+	.clientAppoachAbWrap .dataWrap a {
+		margin: 3rem 0 0;
+	}
+	.aboutBannerWrap .dataWrap:after {
+		opacity: 0.1;
+	}
+	.expertReeCoachWrap .padLtRt {
+		margin: 0 0 3rem;
+	}
+	.makeDifferenceWrap .itemWrap .dataWrap {
+		padding: 3rem;
+		min-height: 0.1rem;
+	}
+	.reeworkFramewrokWrap .itemWrap.leftItem:before,
+	.reeworkFramewrokWrap .itemWrap.rightItem:before,
+	.reeworkFramewrokWrap .itemWrap.rightItem:after,
+	.ecoSyswrap .itemWrap:after {
+		content: none;
+	}
+	/* .reeworkBannerWrap, .reeworkBtmBannerWrap{height:calc(100vh - 60rem);} */
+	.reeWorkCoachWrap .itemWrap.leftItemWrap,
+	.ecoSyswrap .itemWrap {
+		margin: 0 0 3rem;
+	}
+	.loginWrap,
+	.loginWrap .ht100 {
+		height: auto;
+	}
+	.loginFormWrap {
+		height: calc(100vh - 32rem);
+	}
+	.contactPageWrap {
+		padding: 4rem 3rem;
+	}
+	.theGiftTimeIntlWrap .leftWrap .imgWrap {
+		margin: 0 auto 1rem;
+	}
+	.teamWrap .itemWrap {
+		margin: 0 0.4rem 2.2rem;
+	}
+	.mobRevWrap,
+	.mobRevWrap767 {
+		flex-direction: column-reverse;
+	}
+	.reeworkFramewrokWrap .padBtm {
+		padding-bottom: 6rem;
+	}
+	.knowledgeRepoWrap .itemWrap .dataWrap {
+		min-height: 1px;
+	}
+	.makeDifferenceWrap .padRt,
+	.makeDifferenceWrap .padLt {
+		padding: 1rem 0 3rem;
+	}
+	.makeDifferenceWrap {
+		padding: 6rem 4rem 3rem;
+	}
+	.reeworkFramewrokWrap .dataWrap {
+		padding: 0;
+	}
+	.reeworkBannerWrap,
+	.reeworkBtmBannerWrap {
+		height: calc(100vh - 45rem);
+		background-position: center;
+		justify-content: flex-start;
+		align-items: flex-end;
+		display: flex;
+		flex-flow: row;
+	}
+	.reeworkBtmBannerWrap:before {
+		content: none;
+	}
+	.theReeworkerWrap ul li .itemWrap {
+		padding: 4rem 2rem 2rem;
+	}
+	.reeworkBtmBannerWrap .dataWrap a svg {
+		width: 14px;
+		height: 14px;
+	}
+	.nextStepBannerWrap {
+		height: 62vh;
+		background-position: center;
+	}
+	.nextStepBannerWrap .dataWrap h4 {
+		margin: 4rem 0;
+	}
+	.modal.homePopup.show .modal-dialog {
+		max-width: 390px;
+	}
+	.manyMoreWrap .dotWrap:before {
+		left: 10rem;
+		right: 0;
+	}
+	.bannerWrap .dataWrap h2 {
+		letter-spacing: 0.6rem;
+	}
+	.bannerWrap .dataWrap p {
+		font-size: 2.6rem;
+		line-height: 3.6rem;
+		margin: 0 0 4rem;
+	}
+	.bannerWrap .dataWrap a {
+		font-size: 1.8rem;
+	}
+	.challengesWrap .topTtlWrap {
+		padding: 0;
+	}
+	.challengesWrap ul.challengesSlider li .itemWrap .dataWrap h2 {
+		font-size: 2.2rem;
+		line-height: 3.2rem;
+	}
+	.challengesWrap ul.challengesSlider li .itemWrap .dataWrap h3 {
+		font-size: 2.2rem;
+		line-height: 3rem;
+	}
+	.reeworkReeCoachWrap .itemWrap .dataWrap ul li {
+		width: 100%;
+	}
+	.reeworkReeCoachWrap .itemWrap.leftItemWrap .imgWrap:after {
+		bottom: -168px;
+		height: 90%;
+		width: 20px;
+	}
+	.reeCoachGrowthWrap {
+		padding: 8rem 6rem;
+		display: flex;
+		align-items: flex-end;
+		justify-content: flex-start;
+	}
+	.reeCoachGrowthWrap .dataWrap .btmData {
+		padding: 0;
+	}
+	.reeCoachGrowthWrap .dataWrap h2 {
+		margin: 0 0 3rem;
+	}
+x */
+	.reeCoachGrowthWrap:before {
+		content: none;
+	}
+	.empowerClientWrap {
+		height: calc(100vh - 24rem);
+		background-position: bottom center;
+		align-items: flex-end;
+		padding: 4rem;
+	}
+	.ourMissionwrap .dataWrap ul li:before {
+		top: 6px;
+	}
+	.teamWrap.teamManageWrap .itemWrap .dataWrap p {
+		font-size: 1.8rem;
+	}
+	.elevatePracticeWrap .itemWrap {
+		padding: 0 1rem;
+	}
+	.reecoachBannerWrap {
+		height: calc(100vh - 40rem);
+		align-items: flex-end;
+		justify-content: flex-start;
+	}
+	.reecoachBannerWrap .dataWrap,
+	.AcademyBannerWrap .dataWrap {
+		max-width: 100%;
+	}
+	.reecoachPageBanner,
+	.AcademyBannerWrap {
+		justify-content: flex-start;
+		align-items: flex-end;
+	}
+	.reecoachPageBanner .dataWrap::before {
+		content: none;
+	}
+	.reecoachPageBanner {
+		background-position: right;
+	}
+	.reecoachBtmBannerWrap.AcademyBtmBannerWrap {
+		height: 52vh;
+		background-position: center;
+		justify-content: flex-start;
+		align-items: flex-end;
+		display: flex;
+	}
+	.reecoachBtmBannerWrap .dataWrap:after {
+		content: none;
+	}
+	.SigUpWrap.loginWrap .ht100 {
+		height: 100vh;
+	}
+}
+@media (max-width: 531px) {
+	.manyMoreWrap .dataWrap h2 {
+		font-size: 4rem;
+		position: relative;
+		z-index: 2;
+	}
+	.giftWrap .imgWrap {
+		width: 290px;
+	}
+	.reeWorkCoachWrap .BtmTxtWrap h2 {
+		font-size: 7rem;
+	}
+	.theGiftTimeIntlWrap .rightWrap:after {
+		bottom: 10rem;
+		right: 16rem;
+	}
+	.theGiftTimeIntlWrap .rightWrap .imgWrap {
+		width: 72%;
+		margin: 5rem 0rem 0 0;
+	}
+	.theGiftTimeIntlWrap .rightWrap .dataWrap {
+		margin: 0rem 0 0 -5rem;
+		width: 40%;
+	}
+	.theGiftTimeIntlWrap .leftWrap:before {
+		height: 28rem;
+		left: 26rem;
+	}
+	.reeworkReeCoachWrap .itemWrap .imgWrap {
+		width: 130px;
+		height: 130px;
+	}
+	.reeworkReeCoachWrap .itemWrap .imgWrap img {
+		width: 70px;
+	}
+	.reeworkReeCoachWrap .itemWrap .dataWrap {
+		width: calc(100% - 170px);
+	}
+	.reeworkReeCoachWrap .itemWrap.leftItemWrap .imgWrap:after {
+		bottom: -210%;
+		height: 126%;
+		width: 34px;
+		transform: translate(-50%, -50%);
+	}
+}
+@media (max-width: 499px) {
+	.secTitleWrap h2,
+	.secTitleWrap h2,
+	.BecomeReecoachBannerWrap .dataWrap h2,
+	.effiManageWrap .dataWrap h2,
+	.nextStepWrap .dataWrap h3,
+	.reecoachBtmBannerWrap .dataWrap h2 {
+		font-size: 4.6rem !important;
+		line-height: 5.6rem;
+	}
+	.reecoachBannerWrap .dataWrap h4 {
+		font-size: 4.2rem;
+	}
+	.ourMissionwrap .dataWrap {
+		padding: 0;
+	}
+	.ourMissionwrap .dataWrap:after,
+	.ourVissionWrap .subDataWrap:after,
+	.missionVisonWrap:after {
+		opacity: 0.1;
+	}
+	.ourVissionWrap .itemWrap .dataWrap {
+		padding: 2rem;
+	}
+	
+	.manyMoreWrap .dataWrap.clrTxt h2 {
+		letter-spacing: 0.3rem;
+	}
+	.theGiftTimeIntlWrap .leftWrap:before {
+		height: 20rem;
+		top: 38rem;
+	}
+	.theGiftTimeIntlWrap .rightWrap .dataWrap {
+		padding: 0 0 0 3rem;
+	}
+	.theGiftTimeIntlWrap .rightWrap:after {
+		width: 30px;
+		height: 60px;
+	}
+	ul.testimonialSlider li .itemWrap {
+		min-height: 52rem;
+	}
+	.reeworkReeCoachWrap .leftItemWrap {
+		padding: 4rem 0 0;
+	}
+}
+
+@media (max-width: 479px) {
+	.giftWrap .imgWrap {
+		width: 270px;
+		margin: -140px 0 0;
+	}
+	.giftWrap .imgWrap .posImgWrap {
+		width: 130px;
+	}
+	.bannerWrap .dataWrap h2,
+	.giftWrap .dataWrap h2,
+	.reeWorkCoachWrap .titleWrap h2,
+	.reecoachBtmBannerWrap .dataWrap h2,
+	.reeworkMemberWrap .secTitleWrap h2,
+	.AcademyBannerWrap .dataWrap h2,
+	.nutripreneurBannerWrap .dataWrap h2,
+	.ourMissionwrap .secTitleWrap h2,
+	.ourVissionWrap .secTitleWrap h2,
+	.clientAppoachAbWrap .dataWrap h2,
+	.aboutBannerWrap .dataWrap h2,
+	.reecoachCommuBtmWrap .dataWrap h2,
+	.reecoachPageBanner .dataWrap h2,
+	.reeworkBannerWrap .dataWrap h2,
+	.reeworkBtmBannerWrap .dataWrap h2,
+	.manyMoreWrap .dataWrap.clrTxt h2,
+	.empowerClientWrap .dataWrap h2,
+	.bannerWrap .dataWrap h2,
+	.reeWorkCoachWrap .titleWrap h2,
+	.reeworkointroWrap .dataWrap h2,
+	.reeworkFramewrokWrap .secTitleWrap h2,
+	.theReeworkerWrap .secTitleWrap h2,
+	.goDigitalWrap .dataWrap h2 {
+		font-size: 4rem !important;
+		line-height: 5rem;
+	}
+	.secTitleWrap h2,
+	.secTitleWrap h2,
+	.BecomeReecoachBannerWrap .dataWrap h2,
+	.effiManageWrap .dataWrap h2,
+	.nextStepWrap .dataWrap h3,
+	.reecoachBtmBannerWrap .dataWrap h2 {
+		font-size: 4rem !important;
+		line-height: 5rem;
+	}
+	.effiManageWrap {
+		height: calc(100vh - 57rem);
+	}
+	.BecomeReecoachBannerWrap .dataWrap,
+	.effiManageWrap .dataWrap,
+	.reecoachBannerWrap .dataWrap {
+		max-width: 94%;
+	}
+	.nextStepWrap .dataWrap,
+	.reecoachBtmBannerWrap .dataWrap,
+	.AcademyBannerWrap .dataWrap {
+		max-width: 80%;
+	}
+	.nextStepWrap .imgWrap {
+		max-width: 84%;
+		margin: -20rem 0 0;
+	}
+	.nutripreneurBannerWrap .pad0px.col-sm-7 {
+		top: 36%;
+	}
+	.manageTeamWrap .itemWrap.noOverlay:after {
+		content: "";
+	}
+	.manageTeamWrap .itemWrap .dataWrap h2 {
+		margin: 0 0 1rem;
+		font-size: 2.2rem;
+	}
+	.reecoachCountWrap .itemWrap h2 {
+		font-size: 6rem;
+		line-height: 6rem;
+	}
+	.challengesWrap ul.challengesSlider li .itemWrap {
+		padding: 0 2rem 0 0;
+	}
+	.challengesWrap ul.challengesSlider li .itemWrap .dataWrap h3 {
+		min-height: 0.1rem;
+	}
+	.manyMoreWrap:after {
+		bottom: 4rem;
+	}
+	.manyMoreWrap .dotWrap:before {
+		bottom: -4.9rem;
+	}
+	.reeworkFramewrokWrap .dataWrap h2 {
+		font-size: 3.8rem;
+	}
+	.modal.homePopup.show .modal-dialog {
+		max-width: 340px;
+	}
+	.theGiftTimeIntlWrap .leftWrap:before {
+		height: 14rem;
+		left: 20rem;
+	}
+	.theGiftTimeIntlWrap .rightWrap:after {
+		height: 46px;
+	}
+	.reeworkReeCoachWrap .itemWrap.leftItemWrap .imgWrap:after {
+		bottom: -244%;
+		height: 152%;
+	}
+	.reeworkReeCoachWrap .topTtlWrap {
+		padding: 0;
+	}
+	.SigUpWrap.loginWrap .loginFormWrap ul li.half {
+		width: 100%;
+	}
+	.SigUpWrap.loginWrap .ht100 {
+		height: auto;
+	}
+}
+@media (max-width: 459px) {
+	.giftWrap .imgWrap {
+		margin: 1rem 0 0;
+	}
+	.giftWrap .dataWrap h2 {
+		margin: 0 0 2rem;
+	}
+	.giftWrap .dataWrap h2,
+	.reeWorkCoachWrap .titleWrap h2 {
+		font-size: 4.4rem;
+		line-height: 5.4rem;
+	}
+	.reeWorkCoachWrap .BtmTxtWrap h2 {
+		font-size: 6rem;
+	}
+	.nutritionWrap .itemWrap .dataWrap .hiddenDataWrap ul:before,
+	.nutritionWrap .itemWrap .dataWrap .hiddenDataWrap ul:after,
+	.nutritionWrap .itemWrap .dataWrap .hiddenDataWrap ul li:nth-child(1) .item:before,
+	.nutritionWrap .itemWrap .dataWrap .hiddenDataWrap ul li:nth-child(5) .item:before,
+	.nutritionWrap .itemWrap.itemMarLt .dataWrap .hiddenDataWrap ul li:nth-child(4) .item:before,
+	.nutritionWrap .itemWrap .dataWrap .hiddenDataWrap ul li .item:after,
+	.nutritionWrap .itemWrap .dataWrap .hiddenDataWrap ul li:last-child:before,
+	.nutritionWrap .itemWrap .dataWrap .hiddenDataWrap ul li:last-child:after {
+		content: none;
+	}
+	.nutritionWrap .itemWrap .dataWrap .hiddenDataWrap ul {
+		justify-content: flex-start;
+	}
+	.nutritionWrap .itemWrap .dataWrap .hiddenDataWrap ul li,
+	.nutritionWrap .itemWrap.itemMarLt .dataWrap .hiddenDataWrap ul li {
+		padding: 0 4px 8px;
+		width: 33.33%;
+	}
+	.nutritionWrap .itemWrap .dataWrap .hiddenDataWrap ul li .item {
+		min-height: 106px;
+	}
+	.investWrap .titleWrap h2 {
+		font-size: 5rem;
+	}
+	.nextStepWrap .dataWrap,
+	.reecoachBtmBannerWrap .dataWrap,
+	.AcademyBannerWrap .dataWrap {
+		max-width: 100%;
+	}
+	.nextStepWrap .imgWrap {
+		max-width: 90%;
+		margin: -10rem 0 0;
+	}
+	.reecoachBtmBannerWrap:before,
+	.reecoachBtmBannerWrap .dataWrap:after.aboutBannerWrap,
+	.challengesWrap .topTtlWrap h3:after,
+	.nutritionWrap .titleWrap h3:after {
+		content: none;
+	}
+	.nutritionWrap .titleWrap h3 {
+		padding: 0;
+	}
+	.nextStepBannerWrap {
+		height: 56vh;
+		padding: 4rem 4rem;
+	}
+	.nextStepBannerWrap .dataWrap h4 {
+		margin: 2rem 0;
+	}
+	.nextStepBannerWrap .dataWrap p {
+		max-width: 100%;
+	}
+	.reecoachPageBanner {
+		height: calc(100vh - 50rem);
+	}
+	.reecoachPageBanner .dataWrap::before {
+		opacity: 0.2;
+	}
+	.reecoachCountWrap {
+		padding: 3.2rem 4rem 7rem 1rem;
+	}
+	.reecoachCountWrap .itemWrap .imgWrap {
+		margin: 0 auto -1rem;
+	}
+	.reecoachCommuBtmWrap {
+		height: 40vh;
+	}
+	.theGiftTimeIntlWrap .leftWrap .imgWrap {
+		right: -20px;
+	}
+	.reeworkReeCoachWrap .itemWrap.leftItemWrap .imgWrap:after {
+		bottom: -248%;
+	}
+}
+@media (max-width: 419px) {
+	.manyMoreWrap .dataWrap h2 {
+		font-size: 3.6rem;
+	}
+	.reeWorkCoachWrap .BtmTxtWrap h2 {
+		font-size: 5rem;
+		line-height: 6rem;
+	}
+	ul.testimonialSlider li .itemWrap .topSecWrap .dataWrap {
+		width: 100%;
+	}
+	ul.testimonialSlider li .itemWrap .topSecWrap {
+		justify-content: flex-end;
+	}
+	ul.testimonialSlider li .itemWrap .topSecWrap .dataWrap .ratingWrap ul li {
+		margin: 0 4px 0 0;
+		padding: 0;
+	}
+	.BecomeReecoachBannerWrap,
+	.reecoachBannerWrap,
+	.reecoachBtmBannerWrap {
+		padding: 4rem 2rem 6rem;
+	}
+	.applyReecoachWrap,
+	.applyReecoachWrap,
+	.effiManageWrap,
+	.reecoachBtmBannerWrap,
+	.reeworkMemberWrap,
+	.revenueSourcesWrap,
+	.reecoachPartnerBenWrap,
+	.AcademyBannerWrap,
+	.freeHealthcareCampWrap,
+	.witnessIntrWrap,
+	.curatePackageWrap,
+	.ourMissionwrap,
+	.advisoryPanelWrap,
+	.manageTeamWrap,
+	.missionVisonWrap,
+	.reecoachPageBanner,
+	.reecoachCountWrap,
+	.connectReecoachWrap,
+	.expertReeCoachWrap,
+	.makeDifferenceWrap,
+	.brandAffilWrap,
+	.reecoachCommuBtmWrap,
+	.reeworkBannerWrap,
+	.reeworkointroWrap,
+	.reeworkFramewrokWrap,
+	.reeworkBtmBannerWrap,
+	.bannerWrap,
+	.challengesWrap,
+	.reeWorkCoachWrap,
+	.knowledgeBankWrap,
+	.empowerClientWrap,
+	.ecoSyswrap,
+	.investWrap,
+	.superChargeWrap .dataWrap,
+	.goDigitalWrap .dataWrap,
+	.teamWrap.teamManageWrap,
+	.teamWrap,
+	.nextStepBannerWrap,
+	.reecoachCountWrap,
+	.elevatePracticeWrap,
+	.KnowledgeRepoBanner,
+	.knowledgeRepoWrap,
+	.makeDifferenceWrap,
+	.goDigitalWrap .dataWrap,
+	.reeworkReeCoachWrap {
+		padding: 4rem 2rem;
+	}
+	.nextStepWrap,
+	.becomeCurateWrap,
+	.reecoachDashboardWrap,
+	.revenueSteamsWrap,
+	.aboutReeWrokWrap,
+	.ourVissionWrap {
+		padding: 4rem 2rem 0;
+	}
+	.trainingIntroWrap,
+	.theReeworkerWrap {
+		padding: 6rem 2rem;
+	}
+	.trainingIntroWrap .secTitleWrap p {
+		padding: 0;
+	}
+	.aboutBannerWrap .dataWrap {
+		padding: 0 2rem;
+	}
+	.advisoryPanelWrap .padLtRt,
+	.manageTeamWrap .padLtRt,
+	.ourVissionWrap .padLtRt,
+	.expertReeCoachWrap .padLtRt,
+	.makeDifferenceWrap .padLtRt,
+	.reeworkFramewrokWrap .padLtRt,
+	.knowledgeBankWrap .padLtRt {
+		padding: 0 0.6rem;
+	}
+	.manageTeamWrap .itemWrap,
+	.makeDifferenceWrap .itemWrap {
+		margin: 0 0 1.2rem;
+	}
+	.clientAppoachAbWrap {
+		padding: 8rem 2rem;
+	}
+	.reecoachCountWrap:before,
+	.reecoachCountWrap:after {
+		opacity: 0.06;
+	}
+	.expertReeCoachWrap .padLtRt,
+	.reeworkFramewrokWrap .padLtRt,
+	.knowledgeBankWrap .itemWrap {
+		margin: 0 0 2rem;
+	}
+	.reeworkointroWrap:before {
+		right: 2rem;
+		bottom: 0.2rem;
+	}
+	.knowledgeBankWrap .itemWrap .dataWrap {
+		padding: 2rem;
+	}
+	.tetimonialsWrap {
+		padding: 4rem 0 4rem 3rem;
+	}
+	.superChargeWrap .dataWrap {
+		padding: 10rem 2rem 10rem 0;
+	}
+	.nutritionWrap {
+		padding: 0 2rem 4rem;
+	}
+	.theGiftTimeIntlWrap .leftWrap .dataWrap p,
+	.theGiftTimeIntlWrap .rightWrap .dataWrap p {
+		max-width: 100%;
+	}
+	.reeworkReeCoachWrap .topTtlWrap {
+		padding: 0;
+	}
+	.reeworkReeCoachWrap {
+		padding: 4rem 3rem;
+	}
+	.reeCoachGrowthWrap {
+		padding: 4rem 2rem;
+		background-position: 28% center;
+	}
+	.faqsWrap {
+		padding: 2rem 2rem 6rem;
+	}
+	.goDigitalWrap .dataWrap:before {
+		width: 280px;
+		opacity: 0.1;
+	}
+	.reeworkReeCoachWrap .topTtlWrap h3,
+	.knowledgeRepoWrap .topTtlWrap h3 {
+		padding: 0;
+	}
+	.reeworkReeCoachWrap .topTtlWrap h3:after,
+	.knowledgeRepoWrap .topTtlWrap h3:after {
+		content: none;
+	}
+	.KnowledgeRepoBanner {
+		height: 60vh;
+	}
+	.reeworkointroWrap .dataWrap:after {
+		bottom: -7.9rem;
+	}
+	.manyMoreWrap {
+		padding: 4rem 2rem 8rem;
+	}
+	.reeworkReeCoachWrap .itemWrap.leftItemWrap .imgWrap:after {
+		bottom: -250%;
+	}
+	ul.testimonialSlider li .itemWrap:after {
+		height: calc(100% - 4rem);
+	}
+}
+@media (max-width: 400px) {
+	.aboutBannerWrap .dataWrap h2 {
+		font-size: 4rem !important;
+		line-height: 5rem;
+	}
+	.reeworkBannerWrap,
+	.reeworkBtmBannerWrap {
+		height: calc(100vh - 60rem);
+	}
+	.bannerWrap .dataWrap h2,
+	.giftWrap .dataWrap h2,
+	.reeWorkCoachWrap .titleWrap h2,
+	.reecoachBtmBannerWrap .dataWrap h2,
+	.reeworkMemberWrap .secTitleWrap h2,
+	.AcademyBannerWrap .dataWrap h2,
+	.nutripreneurBannerWrap .dataWrap h2,
+	.ourMissionwrap .secTitleWrap h2,
+	.ourVissionWrap .secTitleWrap h2,
+	.clientAppoachAbWrap .dataWrap h2,
+	.aboutBannerWrap .dataWrap h2,
+	.reecoachCommuBtmWrap .dataWrap h2,
+	.reecoachPageBanner .dataWrap h2,
+	.reeworkBannerWrap .dataWrap h2,
+	.reeworkBtmBannerWrap .dataWrap h2,
+	.manyMoreWrap .dataWrap.clrTxt h2,
+	.empowerClientWrap .dataWrap h2,
+	.bannerWrap .dataWrap h2,
+	.reeWorkCoachWrap .titleWrap h2,
+	.reeworkointroWrap .dataWrap h2,
+	.reeworkFramewrokWrap .secTitleWrap h2,
+	.theReeworkerWrap .secTitleWrap h2 {
+		font-size: 3.4rem !important;
+		line-height: 4.4rem;
+	}
+	.reeworkBtmBannerWrap .dataWrap a {
+		margin: 0;
+	}
+	.reeworkFramewrokWrap .dataWrap h2 {
+		font-size: 3.2rem;
+	}
+	.secTitleWrap h2,
+	.secTitleWrap h2,
+	.BecomeReecoachBannerWrap .dataWrap h2,
+	.effiManageWrap .dataWrap h2,
+	.nextStepWrap .dataWrap h3,
+	.reecoachBtmBannerWrap .dataWrap h2 {
+		font-size: 3.4rem !important;
+		line-height: 4.4rem;
+	}
+	.theGiftTimeIntlWrap .leftWrap .dataWrap p,
+	.theGiftTimeIntlWrap .rightWrap .dataWrap p {
+		font-size: 2.4rem;
+		line-height: 3.4rem;
+	}
+	.theGiftTimeIntlWrap .leftWrap:before {
+		top: 32rem;
+	}
+	.theGiftTimeIntlWrap .leftWrap .dataWrap h3,
+	.theGiftTimeIntlWrap .rightWrap .dataWrap h3 {
+		font-size: 3rem;
+	}
+}
+@media (max-width: 379px) {
+	header .navbar a.navbar-brand img {
+		width: 100px;
+	}
+	header .navbar .rightNav ul li a {
+		padding: 1rem 1.2rem;
+	}
+	.rightNav {
+		padding: 0 38px 0 0;
+	}
+	.copyrightWrap ul li {
+		margin: 0 0 0 3rem;
+	}
+	.secTitleWrap h2,
+	.BecomeReecoachBannerWrap .dataWrap h2,
+	.effiManageWrap .dataWrap h2,
+	.nextStepWrap .dataWrap h3,
+	.reecoachBtmBannerWrap .dataWrap h2,
+	.reeworkMemberWrap .secTitleWrap h2,
+	.reecoachBtmBannerWrap .dataWrap h2,
+	.AcademyBannerWrap .dataWrap h2,
+	.nutripreneurBannerWrap .dataWrap h2,
+	.ourMissionwrap .secTitleWrap h2,
+	.ourVissionWrap .secTitleWrap h2,
+	.clientAppoachAbWrap .dataWrap h2,
+	.aboutBannerWrap .dataWrap h2,
+	.reecoachCommuBtmWrap .dataWrap h2,
+	.reecoachPageBanner .dataWrap h2,
+	.reeworkBannerWrap .dataWrap h2,
+	.reeworkBtmBannerWrap .dataWrap h2,
+	.investWrap .titleWrap h2,
+	.empowerClientWrap .dataWrap h2,
+	.bannerWrap .dataWrap h2,
+	.reeWorkCoachWrap .titleWrap h2,
+	.nextStepBannerWrap .dataWrap h2,
+	.reecoachBannerWrap .dataWrap h4,
+	.connectReecoachWrap .dataWrap h2,
+	.goDigitalWrap .dataWrap h2,
+	.theGiftTimeIntlWrap .titleWrap h2,
+	.tetimonialsWrap .titleWrap h2,
+	.teamWrap .titleWrap h2,
+	.becomeCurateWrap .titleWrap h2 {
+		font-size: 4.2rem !important;
+		line-height: 5.2rem;
+	}
+	.BecomeReecoachBannerWrap .dataWrap p {
+		font-size: 2.2rem;
+		line-height: 3.2rem;
+	}
+	.BecomeReecoachBannerWrap .dataWrap a {
+		margin: 5rem 0 0;
+	}
+	.becomeCurateWrap ul li {
+		width: 50%;
+	}
+	.becomeCurateWrap ul li .itemWrap {
+		text-align: center;
+		display: flex;
+		flex-flow: column;
+		justify-content: center;
+		align-items: center;
+		padding: 0 1rem;
+	}
+	.nextStepWrap .imgWrap {
+		margin: 0;
+		max-width: 100%;
+	}
+	.reecoachBannerWrap .dataWrap h4,
+	.connectReecoachWrap .dataWrap h2 {
+		font-size: 3.6rem;
+	}
+	.reeworkointroWrap .dataWrap p {
+		font-size: 2.8rem;
+		line-height: 3.8rem;
+	}
+	.knowledgeBankWrap .secTitleWrap span:after {
+		content: none;
+	}
+	.knowledgeBankWrap .secTitleWrap span {
+		padding: 0;
+	}
+	.reecoachCommuBtmWrap:before {
+		width: 100px;
+		height: 100px;
+	}
+	.theGiftTimeIntlWrap .rightWrap:after {
+		bottom: 6rem;
+		right: 10rem;
+	}
+	.reeworkReeCoachWrap .itemWrap .dataWrap {
+		width: calc(100% - 150px);
+	}
+	.reeworkReeCoachWrap .itemWrap.leftItemWrap .imgWrap:after {
+		bottom: -256%;
+	}
+}
+@media (max-width: 370px) {
+	.navbar-collapse {
+		max-width: 270px;
+	}
+	.reeCoachGrowthWrap .dataWrap h2 {
+		font-size: 3.6rem;
+		line-height: 4.6rem;
+		margin: 0 0 4rem;
+	}
+	.aboutBannerWrap .dataWrap h2 {
+		font-size: 3.6rem !important;
+		line-height: 4.6rem;
+	}
+	.freeHealthcareCampWrap .itemWrap .dataWrap .topData h2 {
+		font-size: 2rem;
+	}
+}
+@media (max-width: 359px) {
+	.BecomeReecoachBannerWrap {
+		height: calc(100vh - 58rem);
+	}
+	.BecomeReecoachBannerWrap .dataWrap,
+	.effiManageWrap .dataWrap {
+		max-width: 100%;
+	}
+	header .navbar a.navbar-brand img {
+		width: 100px;
+	}
+	header .navbar .rightNav ul li a {
+		padding: 1rem 1.2rem;
+	}
+	.rightNav {
+		padding: 0 38px 0 0;
+	}
+	.copyrightWrap ul li {
+		margin: 0 0 0 3rem;
+	}
+	.secTitleWrap h2,
+	.BecomeReecoachBannerWrap .dataWrap h2,
+	.effiManageWrap .dataWrap h2,
+	.nextStepWrap .dataWrap h3,
+	.reecoachBtmBannerWrap .dataWrap h2,
+	.reeworkMemberWrap .secTitleWrap h2,
+	.reecoachBtmBannerWrap .dataWrap h2,
+	.AcademyBannerWrap .dataWrap h2,
+	.nutripreneurBannerWrap .dataWrap h2,
+	.ourMissionwrap .secTitleWrap h2,
+	.ourVissionWrap .secTitleWrap h2,
+	.clientAppoachAbWrap .dataWrap h2,
+	.aboutBannerWrap .dataWrap h2,
+	.reecoachCommuBtmWrap .dataWrap h2,
+	.reecoachPageBanner .dataWrap h2,
+	.reeworkBannerWrap .dataWrap h2,
+	.reeworkBtmBannerWrap .dataWrap h2,
+	.investWrap .titleWrap h2,
+	.empowerClientWrap .dataWrap h2,
+	.bannerWrap .dataWrap h2,
+	.reeWorkCoachWrap .titleWrap h2,
+	.nextStepBannerWrap .dataWrap h2,
+	.reecoachBannerWrap .dataWrap h4,
+	.connectReecoachWrap .dataWrap h2,
+	.goDigitalWrap .dataWrap h2,
+	.tetimonialsWrap .titleWrap h2,
+	.teamWrap .titleWrap h2,
+	.becomeCurateWrap .titleWrap h2 {
+		font-size: 3.8rem !important;
+		line-height: 4.8rem !important;
+	}
+	.reecoachDashboardWrap .secTitleWrap h2,
+	.revenueSourcesWrap .secTitleWrap h2,
+	.revenueSteamsWrap .secTitleWrap h2,
+	.witnessIntrWrap .dataWrap h3,
+	.reeworkointroWrap .dataWrap p {
+		font-size: 2.4rem !important;
+		line-height: 3.4rem !important;
+	}
+	.nextStepBannerWrap .dataWrap h4 {
+		font-size: 2.8rem;
+		line-height: 3.8rem;
+	}
+	.nextStepBannerWrap .dataWrap p {
+		font-size: 2.6rem;
+		line-height: 3.6rem;
+	}
+	.makeDifferenceWrap .dataWrap h2 {
+		font-size: 2.6rem;
+		margin: 0;
+		line-height: 3.6rem;
+	}
+	.modal.homePopup.show .modal-dialog {
+		max-width: 300px;
+	}
+	.modal.homePopup .modal-content .modal-body .dataWrap h2 {
+		font-size: 2.4rem;
+		line-height: 3.4rem;
+	}
+	.modal.homePopup .modal-content .modal-body .ctaWrap {
+		padding: 3rem 4rem 6rem 2rem;
+	}
+	.goDigitalWrap .dataWrap h2 {
+		letter-spacing: 0.6rem;
+	}
+	.reeworkReeCoachWrap .itemWrap .imgWrap {
+		width: 100px;
+		height: 100px;
+	}
+	.reeworkReeCoachWrap .itemWrap .imgWrap img {
+		width: 60px;
+	}
+	.reeworkReeCoachWrap .itemWrap .dataWrap {
+		width: calc(100% - 120px);
+	}
+	.reeworkReeCoachWrap .itemWrap.leftItemWrap .imgWrap:after {
+		bottom: -386%;
+		height: 230%;
+	}
+}
+@media (max-width: 340px) {
+}
