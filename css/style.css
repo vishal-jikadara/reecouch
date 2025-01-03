@@ -2609,7 +2609,7 @@ ul.testimonialSlider .slick-arrow {
   position: relative;
   overflow: hidden;
 }
-.aboutBannerWrap:before {
+.aboutBannerWrap:before {  
   content: "";
   background-image: url(../images/vectorimg-4.png);
   background-repeat: no-repeat;
@@ -2670,8 +2670,8 @@ ul.testimonialSlider .slick-arrow {
     z-index:2;
     top:16rem;
     left:0;
-}
- */
+} */
+
 .aboutBannerWrap .imgWrap img {
   margin: 0;
   width: 100%;
@@ -3012,7 +3012,7 @@ ul.testimonialSlider .slick-arrow {
   font-weight: 400;
   font-family: "Roboto", sans-serif;
   letter-spacing: 0.09rem;
-  margin: 0 0 2.6rem;
+  /* margin: 0 0 2.6rem; */
   line-height: 2.8rem;
 }
 .missionVisonWrap .rightDataWrap {
