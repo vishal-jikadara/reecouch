@@ -2186,6 +2186,7 @@ ul.testimonialSlider .slick-arrow {
   font-weight: 800;
   letter-spacing: 0.4rem;
 }
+
 .reecoachPageBanner .dataWrap a {
   background-color: #00d4b7;
   color: #0f0101;
@@ -2372,6 +2373,7 @@ ul.testimonialSlider .slick-arrow {
   bottom: -6rem;
   opacity: 0.06;
   z-index: 5;
+  
 }
 .connectReecoachWrap .dataWrap h2 {
   color: #ffffff;
@@ -2609,7 +2611,7 @@ ul.testimonialSlider .slick-arrow {
   position: relative;
   overflow: hidden;
 }
-.aboutBannerWrap:before {  
+.aboutBannerWrap:before {
   content: "";
   background-image: url(../images/vectorimg-4.png);
   background-repeat: no-repeat;
@@ -6382,3 +6384,18 @@ body.modal-open .modal {
     transform: rotate(360deg);
   }
 } */
+
+/* about-reecoach css */
+.aboutBannerWrap {
+  width: 100%;
+  margin: 0 auto;
+  padding: 6rem 6rem 6rem 12rem;
+  background-image: url(../images/about-reecouch/Group\ 2000.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  height: 60rem;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
