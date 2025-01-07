@@ -1489,7 +1489,7 @@ header .navbar .rightNav ul li:nth-child(2) a {
 }
 .ecoSyswrap:after {
   content: "";
-  background-image: url(../images/vectorimg-7.png);
+  background-image: url(../images/vectorimmmg-7.png);
   background-repeat: no-repeat;
   background-size: contain;
   position: absolute;
@@ -2131,7 +2131,7 @@ ul.testimonialSlider .slick-arrow {
 }
 .secTitleWrap p {
   margin: 0 auto;
-  font-size: 1.8rem;
+  font-size: 2.8rem;
   color: #000000;
   font-weight: 400;
   letter-spacing: 0.03rem;
