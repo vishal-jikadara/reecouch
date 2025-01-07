@@ -6399,3 +6399,129 @@ body.modal-open .modal {
   align-items: center;
   justify-content: flex-start;
 }
+
+
+/* ///ad my new css */
+/*========
+BODY TEXT
+========*/
+
+/*HEADING*/
+.Community{
+  background-color: #E8F7F3;
+}
+.community-heading{
+
+}
+.custom-text--heading {
+  color:#1F6861;
+  font-size: 30px;
+  font-weight: 600;
+  margin-bottom: 18px;
+}
+
+/*BODY TEXT*/
+.custom-text--copy {
+  color: #2d2e31;
+  font-size: 22px;
+  line-height: 33px;
+  margin-bottom: 30px;
+}
+
+/*LINK OR BUTTON*/
+.custom-text--button {
+  background: #252528;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  padding: 10px 20px;
+  width: fit-content;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: UPPERCASE;
+}
+
+/*HOVER AND KEYBOARD FOCUS EFFECT*/
+.custom-text--button:hover, .custom-text--button:active, .custom-text--button:focus {
+  background: #32343a;
+  outline: 2px solid #425ccd;
+}
+
+/*====
+MEDIA 
+=====*/
+
+/*PICTURE OR IMAGE*/
+.custom-media--image {
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+
+.custom-container {
+  margin: auto;
+  max-width: 1140px;
+}
+
+.custom-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 80px;
+  padding:  16px 104px;
+}
+
+.custom-text {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.custom-media {
+display: flex;
+justify-content: center;
+}
+ul.a {
+  list-style-position: outside;
+}
+
+@media only screen and (max-width: 950px) {
+.custom-content {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 0px;
+  padding: 0px;
+}
+.custom-text {
+  padding: 60px;
+  margin: auto;
+  width: 90%;
+  text-align: center;
+  grid-row: 2;
+}
+.custom-text--heading {
+  text-align: center;
+}
+.custom-text--button {
+  display: flex;
+  margin: auto;
+}
+}
+
+@media screen and (max-width: 568px) {
+.custom-text {
+  padding: 60px 20px;
+}
+.custom-text--heading {
+  font-size: 25px;
+}
+.custom-text--copy,
+.custom-text--button {
+  font-size: 16px;
+}
+}
