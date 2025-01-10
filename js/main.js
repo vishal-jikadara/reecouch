@@ -124,8 +124,8 @@
     infinite: true,
     centerMode: true,
     centerPadding: '200px',
-    speed: 3000,
-    autoplaySpeed: 3000,
+    speed: 2000,
+    autoplaySpeed: 2000,
     cssEase: 'linear',
     slidesToShow: 2,
     slidesToScroll: 1,
@@ -143,15 +143,7 @@
         breakpoint: 992,
         settings: {
           slidesToShow: 1,
-          slidesToScroll: 1,
-        }
-      },
-      {
-        breakpoint: 768,
-        settings: {
-          slidesToShow: 1,
-          slidesToScroll: 1,
-          centerPadding: '160px',
+          slidesToScroll: 1
         }
       },
       {
@@ -208,6 +200,33 @@
     ]
   });
 
+  $('.reeWorkerMobSlider').slick({
+    autoplay: true,
+    slidesToScroll: 1,
+    slidesToShow: 1,
+    arrows: false,
+    autoplay: true,
+    infinite: true,
+    speed: 2000,
+    fade: true,
+    autoplaySpeed: 2000,
+    cssEase: 'linear',
+    dots: true,
+    asNavFor: '.reeWorkerMobThumbnailSlider',
+  });
+  
+  $('.reeWorkerMobThumbnailSlider').slick({
+    autoplay: true,
+    slidesToShow: 8,
+    slidesToScroll: 1,
+    asNavFor: '.reeWorkerMobSlider',
+    dots: false,
+    arrows: false,
+    focusOnSelect: true,
+    centerMode: false,
+  });
+
+  
 })(jQuery);
 
 
