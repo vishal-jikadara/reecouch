@@ -523,9 +523,9 @@ header .navbar .rightNav ul li:nth-child(1) a {
     background-color: #000000;
     border-radius: 8px;
     color: #ffffff;
-    padding: 1.2rem 3.2rem;
+    padding: 1.2rem 0.8rem;
     font-size: 1.5rem;
-    letter-spacing: 0.08rem;
+    /* letter-spacing: 0.08rem; */
 }
 
 .reeWorkMobSliderWrap .reeWorkMobSliderWrap {
@@ -2208,7 +2208,7 @@ ul.testimonialSlider li .itemWrap .botmSecWrap a {
     font-size: 1.5rem;
     font-weight: 400;
     letter-spacing: 0.04rem;
-    padding: 1rem 3.2rem;
+    padding: 1rem 2.2rem;
 }
 
 .ourAppBannerWrap {

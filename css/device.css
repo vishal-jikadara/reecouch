@@ -1,1085 +1,3272 @@
-
-@media (min-width:1800px){
-	html{font-size:82%;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:before{left:87px;top:4px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{left:87px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before{left:86px;top:11px;}
-	.whyReeWorkWrap ul li:nth-child(1):after{width:210px;right:-162px;bottom:123px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:79%;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{width:92px;height:26px;right:-26px;bottom:130px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(1):after{bottom:124px;right:-154px;}
-	.tetimonialsWrap:before{width:60px;}
+@media (min-width: 1800px) {
+	html {
+		font-size: 82%;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:before {
+		left: 87px;
+		top: 4px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		left: 87px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before {
+		left: 86px;
+		top: 11px;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after {
+		width: 210px;
+		right: -162px;
+		bottom: 123px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 79%;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		width: 92px;
+		height: 26px;
+		right: -26px;
+		bottom: 130px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(1):after {
+		bottom: 124px;
+		right: -154px;
+	}
+	.tetimonialsWrap:before {
+		width: 60px;
+	}
 }
-@media (min-width:1600px){
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{width:30%;left:82px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:after{top:12px;left:82px}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before{left:75px;top:5px;}
-	.whyReeWorkWrap ul li:nth-child(1):after{bottom:148px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{bottom:120px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(1):after{bottom:120px;}
-	.whyReeWorkWrap ul li .itemWrap .dataWrap{max-width:68%;}
+@media (min-width: 1600px) {
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 30%;
+		left: 82px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:after {
+		top: 12px;
+		left: 82px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before {
+		left: 75px;
+		top: 5px;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after {
+		bottom: 148px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		bottom: 120px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(1):after {
+		bottom: 120px;
+	}
+	.whyReeWorkWrap ul li .itemWrap .dataWrap {
+		max-width: 68%;
+	}
 }
-@media (min-width:2560px){
+@media (min-width: 2560px) {
 	.homeBannerWrap,
-	.homeBannerWrap .bannerWrap{height:80rem;}
-	.reeWorkerSliderWrap{height:82rem;}
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active .itemWrap .dataWrap{left:470px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:before{left:134px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{left:152px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before{left:134px;top:12px;}
+	.homeBannerWrap .bannerWrap {
+		height: 80rem;
+	}
+	.reeWorkerSliderWrap {
+		height: 82rem;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active .itemWrap .dataWrap {
+		left: 470px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:before {
+		left: 134px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		left: 152px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before {
+		left: 134px;
+		top: 12px;
+	}
 }
-@media(max-width:2400px){
+@media (max-width: 2400px) {
 }
-@media(max-width:1920px){
-	.blogListBanner .dataWrap h2{font-size:5rem;}
-	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightBtmWrap{width:300px;}
-	.whatReeCoachDoWrap ul li:after{right:-160px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{left:99px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before{left:94px;top:12px;}
-	.whyReeWorkWrap ul li:nth-child(1):after{bottom:124px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{bottom:128px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(1):after{bottom:128px;}
+@media (max-width: 1920px) {
+	.blogListBanner .dataWrap h2 {
+		font-size: 5rem;
+	}
+	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightBtmWrap {
+		width: 300px;
+	}
+	.whatReeCoachDoWrap ul li:after {
+		right: -160px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		left: 99px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before {
+		left: 94px;
+		top: 12px;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after {
+		bottom: 124px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		bottom: 128px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(1):after {
+		bottom: 128px;
+	}
 }
-@media(max-width:1800px){
-	.blogListBanner .dataWrap h2{font-size:4.6rem;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{left:90px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:before{left:83px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before{left:92px;top:9px;}
+@media (max-width: 1800px) {
+	.blogListBanner .dataWrap h2 {
+		font-size: 4.6rem;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		left: 90px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:before {
+		left: 83px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before {
+		left: 92px;
+		top: 9px;
+	}
 }
-@media(max-width:1799px){
-	html{font-size:76%;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{left:87px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before{left:86px;}
+@media (max-width: 1799px) {
+	html {
+		font-size: 76%;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		left: 87px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before {
+		left: 86px;
+	}
 }
-@media(max-width:1699px){
-    .whyReeWorkWrap ul li:nth-child(1):after{bottom:152px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(1):after{bottom:124px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{bottom:124px;}
+@media (max-width: 1699px) {
+	.whyReeWorkWrap ul li:nth-child(1):after {
+		bottom: 152px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(1):after {
+		bottom: 124px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		bottom: 124px;
+	}
 }
-@media(max-width:1640px){
-	html{font-size:72%;}
-	.whyReeWorkWrap ul li:nth-child(1):after{bottom:118px;}
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active .itemWrap .dataWrap{left:300px}
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active:nth-child(7) .itemWrap .dataWrap, 
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active:nth-child(8) .itemWrap .dataWrap, 
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active:nth-child(9) .itemWrap .dataWrap{left:-170px;}
+@media (max-width: 1640px) {
+	html {
+		font-size: 72%;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after {
+		bottom: 118px;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active .itemWrap .dataWrap {
+		left: 300px;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active:nth-child(7) .itemWrap .dataWrap,
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active:nth-child(8) .itemWrap .dataWrap,
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active:nth-child(9) .itemWrap .dataWrap {
+		left: -170px;
+	}
 }
-@media(max-width:1599px){
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{width:29%;left:81px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:before{left:78px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before{left:78px;top:6px;}
-	.whyReeWorkWrap ul li:nth-child(1):after{bottom:146px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(1):after{bottom:120px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{bottom:118px;}
+@media (max-width: 1599px) {
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 29%;
+		left: 81px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:before {
+		left: 78px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before {
+		left: 78px;
+		top: 6px;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after {
+		bottom: 146px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(1):after {
+		bottom: 120px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		bottom: 118px;
+	}
 }
-@media(max-width:1560px){
-	html{font-size:70%;}
+@media (max-width: 1560px) {
+	html {
+		font-size: 70%;
+	}
 }
-@media(max-width:1522px){
-	html{font-size:68%;}
+@media (max-width: 1522px) {
+	html {
+		font-size: 68%;
+	}
 }
-@media(max-width:1499px){
-	html{font-size:62%;}
-	.whyReeWorkWrap ul li:nth-child(1):after{bottom:112px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{bottom:115px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(1):after{bottom:115px;}
-	.tetimonialsWrap:before{top:0;}
+@media (max-width: 1499px) {
+	html {
+		font-size: 62%;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after {
+		bottom: 112px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		bottom: 115px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(1):after {
+		bottom: 115px;
+	}
+	.tetimonialsWrap:before {
+		top: 0;
+	}
 }
-@media(max-width:1440px){
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:after{bottom:8px;}
+@media (max-width: 1440px) {
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:after {
+		bottom: 8px;
+	}
 }
-@media(max-width:1413px){
-	html{font-size:58%;}
+@media (max-width: 1413px) {
+	html {
+		font-size: 58%;
+	}
 }
-@media(max-width:1400px){
-	
+@media (max-width: 1400px) {
 }
-@media(max-width:1399px){
-	.manyMoreWrap:before{left:156px;}
-	.tetimonialsWrap:before{width:12rem;}
-	.contactConnectWithWrap{padding:4rem 10rem 6rem;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{left:76px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:before{left:64px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before{top:2px;left:63px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{bottom:110px;}
-	.blogListBanner .dataWrap h2{font-size:4.9rem;}
-	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightBtmWrap{width:240px;}
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active .itemWrap .dataWrap{left:270px;}
-	.giftTimeWrap{padding:6rem 6rem 15rem 8rem;}
+@media (max-width: 1399px) {
+	.manyMoreWrap:before {
+		left: 156px;
+	}
+	.tetimonialsWrap:before {
+		width: 12rem;
+	}
+	.contactConnectWithWrap {
+		padding: 4rem 10rem 6rem;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		left: 76px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:before {
+		left: 64px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before {
+		top: 2px;
+		left: 63px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		bottom: 110px;
+	}
+	.blogListBanner .dataWrap h2 {
+		font-size: 4.9rem;
+	}
+	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightBtmWrap {
+		width: 240px;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active .itemWrap .dataWrap {
+		left: 270px;
+	}
+	.giftTimeWrap {
+		padding: 6rem 6rem 15rem 8rem;
+	}
 }
-@media(max-width:1370px){
-	.tetimonialsWrap:before{width:10rem;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before{top:6px;}
+@media (max-width: 1370px) {
+	.tetimonialsWrap:before {
+		width: 10rem;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before {
+		top: 6px;
+	}
 }
-@media(max-width:1300px){
-	html{font-size:54%;}
-	.slick-prev{right:6rem;}
-	ul.testimonialSlider li .itemWrap .botmSecWrap p{font-size:1.6rem;min-height:22rem;}
-	.whyReeWorkWrap ul li:nth-child(1):after{bottom:107px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:75%;}
-	.whyReeWorkWrap ul.sendList li:nth-child(1):after{bottom:107px;}
-	.communityBanner{height:60rem;}
-	.tetimonialsWrap:before{width:12rem;}
-	.PremierDietitiansWrap .itemWrap .imgWrap{width:180px;height:180px;}
-	.PremierDietitiansWrap{padding:4rem 6rem 6rem;}
+@media (max-width: 1300px) {
+	html {
+		font-size: 54%;
+	}
+	.slick-prev {
+		right: 6rem;
+	}
+	ul.testimonialSlider li .itemWrap .botmSecWrap p {
+		font-size: 1.6rem;
+		min-height: 22rem;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after {
+		bottom: 107px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 75%;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(1):after {
+		bottom: 107px;
+	}
+	.communityBanner {
+		height: 60rem;
+	}
+	.tetimonialsWrap:before {
+		width: 12rem;
+	}
+	.PremierDietitiansWrap .itemWrap .imgWrap {
+		width: 180px;
+		height: 180px;
+	}
+	.PremierDietitiansWrap {
+		padding: 4rem 6rem 6rem;
+	}
 }
-@media(max-width:1280px){
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{width:14.30rem;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{left:8.80rem;}
+@media (max-width: 1280px) {
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 14.3rem;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		left: 8.8rem;
+	}
 }
-@media(max-width:1260px){
-	html{font-size:52%;}
-	.tetimonialsWrap:before{width:17rem;}
+@media (max-width: 1260px) {
+	html {
+		font-size: 52%;
+	}
+	.tetimonialsWrap:before {
+		width: 17rem;
+	}
 }
-@media(max-width:1240px){
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:36.60rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{bottom:13rem;}
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li .itemWrap .dataWrap{right:-23rem;}
-	.healthGoalsStepsWrap ul li .itemWrap .dataWrap h3{font-size:4.2rem;}
+@media (max-width: 1240px) {
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 36.6rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		bottom: 13rem;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li .itemWrap .dataWrap {
+		right: -23rem;
+	}
+	.healthGoalsStepsWrap ul li .itemWrap .dataWrap h3 {
+		font-size: 4.2rem;
+	}
 }
-@media(max-width:1239px){
-    .whyReeWorkWrap ul.sendList li:nth-child(2):before{height:35.60rem;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{width:13.60rem;}
+@media (max-width: 1239px) {
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 35.6rem;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 13.6rem;
+	}
 }
-@media(max-width:1199px){
-	.contactPageWrap .leftDataWrap{padding:5rem 7rem;}
-	.contactConnectWithWrap{padding:4rem 7rem 6rem;}
-	.clientAppoachAbWrap .dataWrap a{margin:20rem 0 0 ;}
-	.reeWorkCoachWrap .itemWrap h4{font-size:10rem;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{width:13.20rem;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before{top:0.4rem;}
-	.whyReeWorkWrap ul li:nth-child(1):after{width:18rem;bottom:13rem;right:-13rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:40rem;width:4px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{bottom:13rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:35rem;width:4px;}
-	.tetimonialsWrap:before{width:13rem;}
-	.PremierDietitiansWrap .itemWrap .imgWrap{width:130px;height:130px;}
-	.aboutBtmWrap{background-position:center;}
-	.healthPriorityWrap{overflow:hidden;}
-	.healthPriorityWrap:after{height:60rem;}
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active .itemWrap .dataWrap{left:170px;bottom:33px;width:100%;}
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active:nth-child(7) .itemWrap .dataWrap, 
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active:nth-child(8) .itemWrap .dataWrap, 
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active:nth-child(9) .itemWrap .dataWrap{left:-140px;}
-	.homeBannerWrap .bannerWrap{padding:6rem;}
+@media (max-width: 1199px) {
+	.contactPageWrap .leftDataWrap {
+		padding: 5rem 7rem;
+	}
+	.contactConnectWithWrap {
+		padding: 4rem 7rem 6rem;
+	}
+	.clientAppoachAbWrap .dataWrap a {
+		margin: 20rem 0 0;
+	}
+	.reeWorkCoachWrap .itemWrap h4 {
+		font-size: 10rem;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 13.2rem;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before {
+		top: 0.4rem;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after {
+		width: 18rem;
+		bottom: 13rem;
+		right: -13rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 40rem;
+		width: 4px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		bottom: 13rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 35rem;
+		width: 4px;
+	}
+	.tetimonialsWrap:before {
+		width: 13rem;
+	}
+	.PremierDietitiansWrap .itemWrap .imgWrap {
+		width: 130px;
+		height: 130px;
+	}
+	.aboutBtmWrap {
+		background-position: center;
+	}
+	.healthPriorityWrap {
+		overflow: hidden;
+	}
+	.healthPriorityWrap:after {
+		height: 60rem;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active .itemWrap .dataWrap {
+		left: 170px;
+		bottom: 33px;
+		width: 100%;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active:nth-child(7) .itemWrap .dataWrap,
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active:nth-child(8) .itemWrap .dataWrap,
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li.active:nth-child(9) .itemWrap .dataWrap {
+		left: -140px;
+	}
+	.homeBannerWrap .bannerWrap {
+		padding: 6rem;
+	}
 }
-@media(max-width:1160px){
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{width:12.30rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:39rem;}
-	.healthGoalsStepsWrap ul li.oddWrap .itemWrap .dataWrap{padding:0 0 0 3rem;}
-	.healthGoalsStepsWrap ul li.evenWrap .itemWrap .dataWrap{padding:0 4rem 0 0;}
-	.whyReeWorkWrap ul li:nth-child(1):after{bottom:15rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:34rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(1):after{bottom:112px;right:-12rem;}
+@media (max-width: 1160px) {
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 12.3rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 39rem;
+	}
+	.healthGoalsStepsWrap ul li.oddWrap .itemWrap .dataWrap {
+		padding: 0 0 0 3rem;
+	}
+	.healthGoalsStepsWrap ul li.evenWrap .itemWrap .dataWrap {
+		padding: 0 4rem 0 0;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after {
+		bottom: 15rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 34rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(1):after {
+		bottom: 112px;
+		right: -12rem;
+	}
 }
-@media(max-width:1100px){
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:before{left:52px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before{left:52px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{left:7.20rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:32rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{width:48px;height:24px;}
+@media (max-width: 1100px) {
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:before {
+		left: 52px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before {
+		left: 52px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		left: 7.2rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 32rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		width: 48px;
+		height: 24px;
+	}
 	.aboutUsBannerWrap,
 	.aboutReeWorkWrap,
-	.visionMissionWrap{padding:4rem 4rem;}
-	.aboutUsBannerWrap .dataWrap h2{font-size:6rem;}
-	.visionMissionWrap .dataWrap h2{margin:4rem 0 4.2rem;font-size:4rem;}
-	.reeworkFrameWork .imgWrap .imgDataWrap h3{font-size:3rem;}
-	.teamWrap.teamManageWrap{padding:4rem 4rem 4rem;}
-	.teamWrap{padding:0 4rem 4rem;}
-	.aboutShamrockWrap{padding:4rem 4rem 6rem;}
-	.aboutShamrockWrap .dataContentAfter:after{width:190px;height:12px;}
-	.reeworkFrameWork{padding:4rem 0rem 6rem 8rem;}
-	.blogListBanner .dataWrap{padding:0;}
-	.ourAppBannerWrap .dataWrap h2{font-size:4.4rem;}
-	.whatReeCoachDoWrap ul li:last-child:after{right:-130px;}
-	.whatReeCoachDoWrap ul li:last-child:before{right:-130px;}
+	.visionMissionWrap {
+		padding: 4rem 4rem;
+	}
+	.aboutUsBannerWrap .dataWrap h2 {
+		font-size: 6rem;
+	}
+	.visionMissionWrap .dataWrap h2 {
+		margin: 4rem 0 4.2rem;
+		font-size: 4rem;
+	}
+	.reeworkFrameWork .imgWrap .imgDataWrap h3 {
+		font-size: 3rem;
+	}
+	.teamWrap.teamManageWrap {
+		padding: 4rem 4rem 4rem;
+	}
+	.teamWrap {
+		padding: 0 4rem 4rem;
+	}
+	.aboutShamrockWrap {
+		padding: 4rem 4rem 6rem;
+	}
+	.aboutShamrockWrap .dataContentAfter:after {
+		width: 190px;
+		height: 12px;
+	}
+	.reeworkFrameWork {
+		padding: 4rem 0rem 6rem 8rem;
+	}
+	.blogListBanner .dataWrap {
+		padding: 0;
+	}
+	.ourAppBannerWrap .dataWrap h2 {
+		font-size: 4.4rem;
+	}
+	.whatReeCoachDoWrap ul li:last-child:after {
+		right: -130px;
+	}
+	.whatReeCoachDoWrap ul li:last-child:before {
+		right: -130px;
+	}
 }
-@media(max-width:1060px){
-	.footerWrap .socialFtrLinkWrap ul li{margin:0 0.9rem 0 0;}
-	.PremierDietitiansWrap .itemWrap:after{width:80px;height:80px;right:-48px;bottom:-32px;}
-	.PremierDietitiansWrap .rightWrap:after{width:50px;height:50px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{width:11.60rem;}
-	.whyReeWorkWrap ul li:nth-child(1):after{width:14rem;bottom:15rem;right:-10rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(1):after{bottom:14rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{width:44px;bottom:13rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:31rem;}
-	.testimonalBtmReviewWrap .dataWrap{padding:0 0 0 4rem;}
-	.testimonalBtmReviewWrap .padtop .dataWrap{padding:0 4rem 0 0;}
-	.healthGoalsStepsWrap ul li .itemWrap .dataWrap h3{font-size:4rem;}
-	.firstStepsWrap .dataWrap{padding:0;}
-	.firstStepsWrap .dataWrap p{margin:2rem 0;}
+@media (max-width: 1060px) {
+	.footerWrap .socialFtrLinkWrap ul li {
+		margin: 0 0.9rem 0 0;
+	}
+	.PremierDietitiansWrap .itemWrap:after {
+		width: 80px;
+		height: 80px;
+		right: -48px;
+		bottom: -32px;
+	}
+	.PremierDietitiansWrap .rightWrap:after {
+		width: 50px;
+		height: 50px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 11.6rem;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after {
+		width: 14rem;
+		bottom: 15rem;
+		right: -10rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(1):after {
+		bottom: 14rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		width: 44px;
+		bottom: 13rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 31rem;
+	}
+	.testimonalBtmReviewWrap .dataWrap {
+		padding: 0 0 0 4rem;
+	}
+	.testimonalBtmReviewWrap .padtop .dataWrap {
+		padding: 0 4rem 0 0;
+	}
+	.healthGoalsStepsWrap ul li .itemWrap .dataWrap h3 {
+		font-size: 4rem;
+	}
+	.firstStepsWrap .dataWrap {
+		padding: 0;
+	}
+	.firstStepsWrap .dataWrap p {
+		margin: 2rem 0;
+	}
 }
-@media(max-width:1023px){
-	.manyMoreWrap .dataWrap h2{font-size:4.8rem;}
-	.copyrightWrap{padding:0 2rem;}
-	.copyrightWrap:after{right:2rem;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{width:10rem;left:7.80rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:29.80rem;width:3px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{bottom:13rem;}
-	.healthGoalsStepsWrap ul li.oddWrap .itemWrap .dataWrap{padding:0;}
-	.healthGoalsStepsWrap ul li.evenWrap .itemWrap .dataWrap{padding:0 2rem 0 0;}
+@media (max-width: 1023px) {
+	.manyMoreWrap .dataWrap h2 {
+		font-size: 4.8rem;
+	}
+	.copyrightWrap {
+		padding: 0 2rem;
+	}
+	.copyrightWrap:after {
+		right: 2rem;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 10rem;
+		left: 7.8rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 29.8rem;
+		width: 3px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		bottom: 13rem;
+	}
+	.healthGoalsStepsWrap ul li.oddWrap .itemWrap .dataWrap {
+		padding: 0;
+	}
+	.healthGoalsStepsWrap ul li.evenWrap .itemWrap .dataWrap {
+		padding: 0 2rem 0 0;
+	}
 }
-@media(max-width:1000px){
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{width:9rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:28.90rem;}
+@media (max-width: 1000px) {
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 9rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 28.9rem;
+	}
 }
-@media(max-width:991px){
-	.contactPageWrap .leftDataWrap{padding:3rem;}
-	.contactPageWrap .formWrap{padding:3rem;}
-	.contactConnectWithWrap{padding:3rem 3rem;}
-	.tetimonialsWrap:before{width:13rem;}
-	ul.testimonialSlider li .itemWrap .botmSecWrap p{font-size:1.8rem;min-height:16rem;line-height:2.8rem;}
-	.slick-prev{right:7rem;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{width:9rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(1):after{bottom:11rem;}
-	.whyReeWorkWrap ul li:nth-child(1):after{bottom:12rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:30rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{bottom:10rem;}
-	.aboutUsBannerWrap .dataWrap h2{font-size:5rem;}
-	.aboutUsBannerWrap .dataWrap h2:after{width:450px;height:60px;}
-	.visionMissionWrap .dataWrap h2{margin:4rem 0 3rem;}
-	header ul.navbar-nav{width:calc(100% - 60px);}
-	.reeworkFrameWork .dataWrap ul{padding:0 5rem 0 0;}
-	.footerWrap .rightFooerWrap{padding:3rem 2rem 0 0rem;}
-	.footerWrap .rightFooterBtm{padding:3rem 1rem;}
-	.testimonalBtmReviewWrap .dataWrap p{font-size:4rem;}
-	.contactFaqsWrap{padding:2rem 3rem 8rem;}
-	.latestBlogWrap.blogListSortWrap ul li{width:50%;}
-	.blogListSortWrap ul.sortList li{margin:0 1.2rem;}
-	.blogListSortWrap ul.sortList li .btn{padding:0.6rem 3rem;}
-	.blogBanner .blogBannerData .topData{padding:0 3rem 3rem 0;}
-	.blogInfoWrap ul li{padding:3rem 2rem;}
-	.comtyReWorkWitnesWrap{padding:8rem 4rem 6rem;}
-	.comtyReWorkWitnesWrap .itemWrap .imgWrap{width:180px;height:180px;}
-	.communityEventsWebWrap{padding:6rem 4rem 0;}
-	.bottomSectionWrap .dataWrap h2{font-size:4.6rem;}
-	.communityBanner{padding:6rem 5rem;}
-	.communityBanner .dataWrap h2{font-size:4.6rem;}
-	.ourAppBannerWrap{padding:2rem 4rem 4rem;}
-	.healthGoalsStepsWrap ul li.evenWrap{padding:0 0 0 5rem;}
-	.healthGoalsStepsWrap ul li.evenWrap .itemWrap .imgWrap{padding:0;}
-	.healthGoalsStepsWrap ul li.evenWrap:after{left:0;}
-	.healthPriorityWrap .dataWrap h2{font-size:5.2rem;}
-	.healthPriorityWrap{padding:4rem 4rem 0 8rem;}
-	.ourAppPriceTblWrap{padding:6rem 4rem;}
-	.ourAppGetStartedWrap{padding:6rem 4rem;}
-	.GetAReecoachBannerWrap{padding:6rem 4rem;}
-	.whoReeCoachWrap{padding:6rem 4rem;}
-	.whatReeCoachDoWrap{padding:6rem 4rem;}
-	.whyReeCoachWrap{padding:0rem 4rem 10rem;}
-	.findReeCoachWrap{padding:0 1rem 0 4rem;}
-	.howGetReeCoachWrap{padding:1.6rem 4rem 0;}
-	.howGetReeCoachWrap .dataWrap{padding:0;}
-	.knowReecoachWrap{padding:6rem 4rem 4rem;}
-	.bookYourConsoultWrap{padding:6rem 4rem;}
-	.homeBannerWrap .dataWrap h2{font-size:5rem;}
-	.lifestyleChangeWrap{padding:6rem 4rem;}
-	.reeWorkerSliderWrap{padding:6rem 6rem 6rem 0;}
-	.PremierDietitiansWrap{padding:6rem 4rem;}
-	.PremierDietitiansWrap .itemWrap{padding:4rem 1rem 3rem;}
-	.reeCoachReeWorkWrap .dataWrap .topData h3{font-size:3rem;}
-	.reeCoachReeWorkWrap .dataWrap .topData h2{font-size:4.8rem;line-height:5.8rem;}
-	.giftTimeWrap .titleWrap h2{font-size:3.4rem;}
-	.whyReeWorkWrap .leftDataWrap h2{font-size:4rem;}
-	.whyReeWorkWrap ul li .itemWrap .dataWrap .noWrap{width:70px;height:70px;}
-	.firstStepsWrap .dataWrap h2{font-size:4.8rem;line-height:5.8rem;}
-	.reeCoachReeWorkWrap{padding:6rem 3rem 6rem 4rem;}
-	.giftTimeWrap{padding:6rem 4rem 6rem 4rem;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{left:8.9rem;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:before{left:60px;}
-	.reeCoachReeWorkWrap .imgWrap:after{bottom:-16px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before{left:60px;}
-	.whyReeWorkWrap{padding:6rem 4rem;}
-	.firstStepsWrap{padding:6rem 0 0 4rem;}
-	.knowledgeBankWrap{padding:6rem 4rem;}
-	.knowledgeBankWrap .dataWrap h2{font-size:4.8rem;}
-	.bottomSectionWrap{padding:6rem 4rem;}
-	.giftTimeWrap .rightPannelWrap .topArrow{left:-130%;top:-60px;}
-	.giftTimeWrap .rightPannelWrap .topArrow:after{height:50px;right:-10px;}
-	.giftTimeWrap .rightPannelWrap .bottomArrow{left:-170%;bottom:-46px;}
-	.giftTimeWrap .rightPannelWrap .bottomArrow:before{height:50px;top:-48px;left:-6px;}
-	.giftTimeWrap .rightPannelWrap .bottomArrow:after{top:-35px;height:36px;}
-	.reeWorkerSliderWrap ul.reeWorkerSlider li.active .itemWrap .dataWrap{left:196px;}
-	.reeWorkerSliderWrap ul.reeWorkerSlider li.active:nth-child(7) .itemWrap .dataWrap, 
-	.reeWorkerSliderWrap ul.reeWorkerSlider li.active:nth-child(8) .itemWrap .dataWrap, 
-	.reeWorkerSliderWrap ul.reeWorkerSlider li.active:nth-child(9) .itemWrap .dataWrap{left:-148px;}
+@media (max-width: 991px) {
+	.contactPageWrap .leftDataWrap {
+		padding: 3rem;
+	}
+	.contactPageWrap .formWrap {
+		padding: 3rem;
+	}
+	.contactConnectWithWrap {
+		padding: 3rem 3rem;
+	}
+	.tetimonialsWrap:before {
+		width: 13rem;
+	}
+	ul.testimonialSlider li .itemWrap .botmSecWrap p {
+		font-size: 1.8rem;
+		min-height: 16rem;
+		line-height: 2.8rem;
+	}
+	.slick-prev {
+		right: 7rem;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 9rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(1):after {
+		bottom: 11rem;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after {
+		bottom: 12rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 30rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		bottom: 10rem;
+	}
+	.aboutUsBannerWrap .dataWrap h2 {
+		font-size: 5rem;
+	}
+	.aboutUsBannerWrap .dataWrap h2:after {
+		width: 450px;
+		height: 60px;
+	}
+	.visionMissionWrap .dataWrap h2 {
+		margin: 4rem 0 3rem;
+	}
+	header ul.navbar-nav {
+		width: calc(100% - 60px);
+	}
+	.reeworkFrameWork .dataWrap ul {
+		padding: 0 5rem 0 0;
+	}
+	.footerWrap .rightFooerWrap {
+		padding: 3rem 2rem 0 0rem;
+	}
+	.footerWrap .rightFooterBtm {
+		padding: 3rem 1rem;
+	}
+	.testimonalBtmReviewWrap .dataWrap p {
+		font-size: 4rem;
+	}
+	.contactFaqsWrap {
+		padding: 2rem 3rem 8rem;
+	}
+	.latestBlogWrap.blogListSortWrap ul li {
+		width: 50%;
+	}
+	.blogListSortWrap ul.sortList li {
+		margin: 0 1.2rem;
+	}
+	.blogListSortWrap ul.sortList li .btn {
+		padding: 0.6rem 3rem;
+	}
+	.blogBanner .blogBannerData .topData {
+		padding: 0 3rem 3rem 0;
+	}
+	.blogInfoWrap ul li {
+		padding: 3rem 2rem;
+	}
+	.comtyReWorkWitnesWrap {
+		padding: 8rem 4rem 6rem;
+	}
+	.comtyReWorkWitnesWrap .itemWrap .imgWrap {
+		width: 180px;
+		height: 180px;
+	}
+	.communityEventsWebWrap {
+		padding: 6rem 4rem 0;
+	}
+	.bottomSectionWrap .dataWrap h2 {
+		font-size: 4.6rem;
+	}
+	.communityBanner {
+		padding: 6rem 5rem;
+	}
+	.communityBanner .dataWrap h2 {
+		font-size: 4.6rem;
+	}
+	.ourAppBannerWrap {
+		padding: 2rem 4rem 4rem;
+	}
+	.healthGoalsStepsWrap ul li.evenWrap {
+		padding: 0 0 0 5rem;
+	}
+	.healthGoalsStepsWrap ul li.evenWrap .itemWrap .imgWrap {
+		padding: 0;
+	}
+	.healthGoalsStepsWrap ul li.evenWrap:after {
+		left: 0;
+	}
+	.healthPriorityWrap .dataWrap h2 {
+		font-size: 5.2rem;
+	}
+	.healthPriorityWrap {
+		padding: 4rem 4rem 0 8rem;
+	}
+	.ourAppPriceTblWrap {
+		padding: 6rem 4rem;
+	}
+	.ourAppGetStartedWrap {
+		padding: 6rem 4rem;
+	}
+	.GetAReecoachBannerWrap {
+		padding: 6rem 4rem;
+	}
+	.whoReeCoachWrap {
+		padding: 6rem 4rem;
+	}
+	.whatReeCoachDoWrap {
+		padding: 6rem 4rem;
+	}
+	.whyReeCoachWrap {
+		padding: 0rem 4rem 10rem;
+	}
+	.findReeCoachWrap {
+		padding: 0 1rem 0 4rem;
+	}
+	.howGetReeCoachWrap {
+		padding: 1.6rem 4rem 0;
+	}
+	.howGetReeCoachWrap .dataWrap {
+		padding: 0;
+	}
+	.knowReecoachWrap {
+		padding: 6rem 4rem 4rem;
+	}
+	.bookYourConsoultWrap {
+		padding: 6rem 4rem;
+	}
+	.homeBannerWrap .dataWrap h2 {
+		font-size: 5rem;
+	}
+	.lifestyleChangeWrap {
+		padding: 6rem 4rem;
+	}
+	.reeWorkerSliderWrap {
+		padding: 6rem 6rem 6rem 0;
+	}
+	.PremierDietitiansWrap {
+		padding: 6rem 4rem;
+	}
+	.PremierDietitiansWrap .itemWrap {
+		padding: 4rem 1rem 3rem;
+	}
+	.reeCoachReeWorkWrap .dataWrap .topData h3 {
+		font-size: 3rem;
+	}
+	.reeCoachReeWorkWrap .dataWrap .topData h2 {
+		font-size: 4.8rem;
+		line-height: 5.8rem;
+	}
+	.giftTimeWrap .titleWrap h2 {
+		font-size: 3.4rem;
+	}
+	.whyReeWorkWrap .leftDataWrap h2 {
+		font-size: 4rem;
+	}
+	.whyReeWorkWrap ul li .itemWrap .dataWrap .noWrap {
+		width: 70px;
+		height: 70px;
+	}
+	.firstStepsWrap .dataWrap h2 {
+		font-size: 4.8rem;
+		line-height: 5.8rem;
+	}
+	.reeCoachReeWorkWrap {
+		padding: 6rem 3rem 6rem 4rem;
+	}
+	.giftTimeWrap {
+		padding: 6rem 4rem 6rem 4rem;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		left: 8.9rem;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:before {
+		left: 60px;
+	}
+	.reeCoachReeWorkWrap .imgWrap:after {
+		bottom: -16px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before {
+		left: 60px;
+	}
+	.whyReeWorkWrap {
+		padding: 6rem 4rem;
+	}
+	.firstStepsWrap {
+		padding: 6rem 0 0 4rem;
+	}
+	.knowledgeBankWrap {
+		padding: 6rem 4rem;
+	}
+	.knowledgeBankWrap .dataWrap h2 {
+		font-size: 4.8rem;
+	}
+	.bottomSectionWrap {
+		padding: 6rem 4rem;
+	}
+	.giftTimeWrap .rightPannelWrap .topArrow {
+		left: -130%;
+		top: -60px;
+	}
+	.giftTimeWrap .rightPannelWrap .topArrow:after {
+		height: 50px;
+		right: -10px;
+	}
+	.giftTimeWrap .rightPannelWrap .bottomArrow {
+		left: -170%;
+		bottom: -46px;
+	}
+	.giftTimeWrap .rightPannelWrap .bottomArrow:before {
+		height: 50px;
+		top: -48px;
+		left: -6px;
+	}
+	.giftTimeWrap .rightPannelWrap .bottomArrow:after {
+		top: -35px;
+		height: 36px;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerSlider li.active .itemWrap .dataWrap {
+		left: 196px;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerSlider li.active:nth-child(7) .itemWrap .dataWrap,
+	.reeWorkerSliderWrap ul.reeWorkerSlider li.active:nth-child(8) .itemWrap .dataWrap,
+	.reeWorkerSliderWrap ul.reeWorkerSlider li.active:nth-child(9) .itemWrap .dataWrap {
+		left: -148px;
+	}
 }
-@media(max-width:960px){
-	.tetimonialsWrap .titleWrap h2{font-size:5rem;}
-	.footerWrap .footerNavlist{padding:0 1rem 3rem 1rem;}
-	.ourAppBannerWrap .dataWrap h2{font-size:4.2rem;}
-	.whatReeCoachDoWrap ul li .itemWrap .imgWrap{width:140px;height:140px;}
-	.whatReeCoachDoWrap ul li:after{top:70px;}
-	.whatReeCoachDoWrap ul li:last-child:before{height:112px;}
-	.giftTimeWrap .itemWrap .dataWrap p{max-width:100%;}
-	.giftTimeWrap .itemWrap .dataWrap{padding:0;}
+@media (max-width: 960px) {
+	.tetimonialsWrap .titleWrap h2 {
+		font-size: 5rem;
+	}
+	.footerWrap .footerNavlist {
+		padding: 0 1rem 3rem 1rem;
+	}
+	.ourAppBannerWrap .dataWrap h2 {
+		font-size: 4.2rem;
+	}
+	.whatReeCoachDoWrap ul li .itemWrap .imgWrap {
+		width: 140px;
+		height: 140px;
+	}
+	.whatReeCoachDoWrap ul li:after {
+		top: 70px;
+	}
+	.whatReeCoachDoWrap ul li:last-child:before {
+		height: 112px;
+	}
+	.giftTimeWrap .itemWrap .dataWrap p {
+		max-width: 100%;
+	}
+	.giftTimeWrap .itemWrap .dataWrap {
+		padding: 0;
+	}
 }
-@media(max-width:940px){
-	.lifestyleChangeWrap ul li .itemWrap .dataWrap .vectorImg{width:28px;height:28px;}
-	.reeWorkerSliderWrap ul.reeWorkerSlider li .itemWrap .dataWrap{right:-20rem;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{width:11rem;}
-	.whyReeWorkWrap ul li .itemWrap .dataWrap .noWrap{width:70px;height:70px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:28.50rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{bottom:10rem;width:37px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(1):after{bottom:11.20rem;right:-11rem;}
-	.lifestyleChangeWrap{padding:8rem 4rem;}
-    .reeWorkerSliderWrap{padding:6rem 4rem 6rem 0;}
-	.PremierDietitiansWrap{padding:6rem 4rem;}
-	.reeCoachReeWorkWrap{padding:6rem 3rem 6rem 4rem;}
-	.giftTimeWrap{padding:6rem 4rem 6rem 4rem;}
-	.whyReeWorkWrap{padding:6rem 4rem;}
-	.firstStepsWrap{padding:6rem 0 0 4rem;}
-	.knowledgeBankWrap{padding:6rem 4rem;}
-	.bottomSectionWrap{padding:6rem 4rem;}
-	.testimonialsTabsWrap ul.nav{padding:0 4rem;}
-	.testimonialsTabsWrap .topReviewsWrap{padding:4rem 2rem 0 4rem;}
-	.testimonialVideoWrap{padding:4rem 4rem;}
-	.btmReviewsWrap{padding:4rem 4rem;}
-	.testimonalBtmReviewWrap{padding:4rem 4rem;}
-	.blogListBanner{padding:4rem 4rem;}
-	.latestBlogWrap.blogListSortWrap{padding:4rem 4rem;}
-	.blogListSortWrap{padding:4rem 4rem;}
-	.blogListSubscripWrap{padding:4rem 4rem;}
-	.blogBanner{padding:3rem 3rem 3rem 3rem;}
-	.blogInfoTxtWrap{padding:4rem 4rem;}
-	.blogRecommendWrap{padding:4rem 4rem 6rem;}
-	.healthGoalsStepsWrap{padding:6rem 4rem 8rem;}
-	.ourAppBannerWrap .dataWrap h2{font-size:4rem;}
-	.ourAppGetStartedWrap .dataWrap h2{font-size:4.4rem;}
-	.GetAReecoachBannerWrap .dataWrap h2{font-size:5rem;}
-	.findReeCoachWrap .dataWrap h2{font-size:4.6rem;}
-	.howGetReeCoachWrap .dataWrap h2{font-size:3.6rem;}
-	.howGetReeCoachWrap .ctaWrap{margin:5rem 0 0;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{width:7.7rem;}
-	.whyReeWorkWrap ul li:nth-child(1):after{bottom:12.40rem;}
+@media (max-width: 940px) {
+	.lifestyleChangeWrap ul li .itemWrap .dataWrap .vectorImg {
+		width: 28px;
+		height: 28px;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerSlider li .itemWrap .dataWrap {
+		right: -20rem;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 11rem;
+	}
+	.whyReeWorkWrap ul li .itemWrap .dataWrap .noWrap {
+		width: 70px;
+		height: 70px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 28.5rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		bottom: 10rem;
+		width: 37px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(1):after {
+		bottom: 11.2rem;
+		right: -11rem;
+	}
+	.lifestyleChangeWrap {
+		padding: 8rem 4rem;
+	}
+	.reeWorkerSliderWrap {
+		padding: 6rem 4rem 6rem 0;
+	}
+	.PremierDietitiansWrap {
+		padding: 6rem 4rem;
+	}
+	.reeCoachReeWorkWrap {
+		padding: 6rem 3rem 6rem 4rem;
+	}
+	.giftTimeWrap {
+		padding: 6rem 4rem 6rem 4rem;
+	}
+	.whyReeWorkWrap {
+		padding: 6rem 4rem;
+	}
+	.firstStepsWrap {
+		padding: 6rem 0 0 4rem;
+	}
+	.knowledgeBankWrap {
+		padding: 6rem 4rem;
+	}
+	.bottomSectionWrap {
+		padding: 6rem 4rem;
+	}
+	.testimonialsTabsWrap ul.nav {
+		padding: 0 4rem;
+	}
+	.testimonialsTabsWrap .topReviewsWrap {
+		padding: 4rem 2rem 0 4rem;
+	}
+	.testimonialVideoWrap {
+		padding: 4rem 4rem;
+	}
+	.btmReviewsWrap {
+		padding: 4rem 4rem;
+	}
+	.testimonalBtmReviewWrap {
+		padding: 4rem 4rem;
+	}
+	.blogListBanner {
+		padding: 4rem 4rem;
+	}
+	.latestBlogWrap.blogListSortWrap {
+		padding: 4rem 4rem;
+	}
+	.blogListSortWrap {
+		padding: 4rem 4rem;
+	}
+	.blogListSubscripWrap {
+		padding: 4rem 4rem;
+	}
+	.blogBanner {
+		padding: 3rem 3rem 3rem 3rem;
+	}
+	.blogInfoTxtWrap {
+		padding: 4rem 4rem;
+	}
+	.blogRecommendWrap {
+		padding: 4rem 4rem 6rem;
+	}
+	.healthGoalsStepsWrap {
+		padding: 6rem 4rem 8rem;
+	}
+	.ourAppBannerWrap .dataWrap h2 {
+		font-size: 4rem;
+	}
+	.ourAppGetStartedWrap .dataWrap h2 {
+		font-size: 4.4rem;
+	}
+	.GetAReecoachBannerWrap .dataWrap h2 {
+		font-size: 5rem;
+	}
+	.findReeCoachWrap .dataWrap h2 {
+		font-size: 4.6rem;
+	}
+	.howGetReeCoachWrap .dataWrap h2 {
+		font-size: 3.6rem;
+	}
+	.howGetReeCoachWrap .ctaWrap {
+		margin: 5rem 0 0;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 7.7rem;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after {
+		bottom: 12.4rem;
+	}
 }
-@media(max-width:899px){
-	header .navbar a.navbar-brand img{width:90px;}
-	header ul.navbar-nav{width:calc(100% - 20px);}
-	header .navbar .rightNav ul li a{padding:10px 15px;}
-	.reeworkFrameWork .imgWrap .imgDataWrap h3{font-size:2.8rem;}
-	.aboutBtmWrap .dataWrap h2{font-size:4.6rem;}
-	.testimonalBtmReviewWrap .dataWrap p{font-size:3.2rem;line-height:4.2rem;margin:0;}
-	.testimonalBtmReviewWrap .padtop .dataWrap{padding:0 2rem 0 0;}
-	.testimonalBtmReviewWrap .dataWrap ul{margin:3rem 0 0.4rem;}
-	.ourAppBannerWrap .dataWrap .ctaWrap a{width:150px;}
-	.healthPriorityWrap .dataWrap h2{font-size:5rem;}
-	.howGetReeCoachWrap .ctaWrap{display:flex;flex-flow:row wrap;align-items:center;justify-content:flex-start;}
-	.howGetReeCoachWrap .ctaWrap a{margin:1rem 1rem 0 0;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{width:56px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{bottom:10rem;width:26px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:27rem;}
-	.firstStepsWrap .dataWrap .ctaWrap a{width:120px;}
-	.knowledgeBankWrap .dataWrap h2{padding:0 0 4rem;}
+@media (max-width: 899px) {
+	header .navbar a.navbar-brand img {
+		width: 90px;
+	}
+	header ul.navbar-nav {
+		width: calc(100% - 20px);
+	}
+	header .navbar .rightNav ul li a {
+		padding: 10px 15px;
+	}
+	.reeworkFrameWork .imgWrap .imgDataWrap h3 {
+		font-size: 2.8rem;
+	}
+	.aboutBtmWrap .dataWrap h2 {
+		font-size: 4.6rem;
+	}
+	.testimonalBtmReviewWrap .dataWrap p {
+		font-size: 3.2rem;
+		line-height: 4.2rem;
+		margin: 0;
+	}
+	.testimonalBtmReviewWrap .padtop .dataWrap {
+		padding: 0 2rem 0 0;
+	}
+	.testimonalBtmReviewWrap .dataWrap ul {
+		margin: 3rem 0 0.4rem;
+	}
+	.ourAppBannerWrap .dataWrap .ctaWrap a {
+		width: 150px;
+	}
+	.healthPriorityWrap .dataWrap h2 {
+		font-size: 5rem;
+	}
+	.howGetReeCoachWrap .ctaWrap {
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: flex-start;
+	}
+	.howGetReeCoachWrap .ctaWrap a {
+		margin: 1rem 1rem 0 0;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 56px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		bottom: 10rem;
+		width: 26px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 27rem;
+	}
+	.firstStepsWrap .dataWrap .ctaWrap a {
+		width: 120px;
+	}
+	.knowledgeBankWrap .dataWrap h2 {
+		padding: 0 0 4rem;
+	}
 }
-@media(max-width:860px){
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{width:47px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:25.97rem;}
-	.firstStepsWrap .dataWrap{padding:0;}
-	.reeworkFrameWork .imgWrap img{width:70%;height:340px;}
-	.reeworkFrameWork{padding:4rem 0rem 6rem 4rem;}
-	.reeworkFrameWork .dataWrap ul{padding:0 4rem 0 0;}
-	.reeworkFrameWork .imgWrap .imgDataWrap h3{font-size:2.6rem;}
-	.teamWrap .itemWrap{padding:3.6rem 1rem;}
-	.teamWrap .itemWrap .imgWrap{width:170px;height:170px;}
-	.aboutBtmWrap{padding:4rem 0 4rem 4rem;}
-	.visionMissionWrap .dataWrap h2{font-size:3.4rem;}
-	.footerWrap .newsLetterWrap .btn{padding:1rem 3rem;}
-	.blogListSortWrap ul.sortList li{margin:0 0.6rem;}
-	.blogBanner .blogBannerData .topData{padding:0 0rem 3rem 0;}
-	.blogWhatisitWrap .dataWrap{padding:0;}
-	.knowReecoachWrap .itemWrap{padding:3.4rem 3rem;}
-	.bookYourConsoultWrap .dataWrap h2{font-size:5rem;}
-	.homeBannerWrap .dataWrap h2{font-size:4.8rem;}
-	.homeBannerWrap .dataWrap h3{font-size:2.8rem;}
-	.reeCoachReeWorkWrap .dataWrap .topData h2{font-size:4.6rem;line-height:5rem;}
-	.firstStepsWrap .dataWrap h2{font-size:4.6rem;line-height:5rem;}
-	.firstStepsWrap .dataWrap p{font-size:2.6rem;line-height:3.6rem;}
-	.knowledgeBankWrap .dataWrap h2{font-size:4.6rem;line-height:5.4rem;}
-	.bottomSectionWrap{background-position:66%;}
+@media (max-width: 860px) {
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 47px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 25.97rem;
+	}
+	.firstStepsWrap .dataWrap {
+		padding: 0;
+	}
+	.reeworkFrameWork .imgWrap img {
+		width: 70%;
+		height: 340px;
+	}
+	.reeworkFrameWork {
+		padding: 4rem 0rem 6rem 4rem;
+	}
+	.reeworkFrameWork .dataWrap ul {
+		padding: 0 4rem 0 0;
+	}
+	.reeworkFrameWork .imgWrap .imgDataWrap h3 {
+		font-size: 2.6rem;
+	}
+	.teamWrap .itemWrap {
+		padding: 3.6rem 1rem;
+	}
+	.teamWrap .itemWrap .imgWrap {
+		width: 170px;
+		height: 170px;
+	}
+	.aboutBtmWrap {
+		padding: 4rem 0 4rem 4rem;
+	}
+	.visionMissionWrap .dataWrap h2 {
+		font-size: 3.4rem;
+	}
+	.footerWrap .newsLetterWrap .btn {
+		padding: 1rem 3rem;
+	}
+	.blogListSortWrap ul.sortList li {
+		margin: 0 0.6rem;
+	}
+	.blogBanner .blogBannerData .topData {
+		padding: 0 0rem 3rem 0;
+	}
+	.blogWhatisitWrap .dataWrap {
+		padding: 0;
+	}
+	.knowReecoachWrap .itemWrap {
+		padding: 3.4rem 3rem;
+	}
+	.bookYourConsoultWrap .dataWrap h2 {
+		font-size: 5rem;
+	}
+	.homeBannerWrap .dataWrap h2 {
+		font-size: 4.8rem;
+	}
+	.homeBannerWrap .dataWrap h3 {
+		font-size: 2.8rem;
+	}
+	.reeCoachReeWorkWrap .dataWrap .topData h2 {
+		font-size: 4.6rem;
+		line-height: 5rem;
+	}
+	.firstStepsWrap .dataWrap h2 {
+		font-size: 4.6rem;
+		line-height: 5rem;
+	}
+	.firstStepsWrap .dataWrap p {
+		font-size: 2.6rem;
+		line-height: 3.6rem;
+	}
+	.knowledgeBankWrap .dataWrap h2 {
+		font-size: 4.6rem;
+		line-height: 5.4rem;
+	}
+	.bottomSectionWrap {
+		background-position: 66%;
+	}
 }
-@media(max-width:820px){
-	.reeWorkerSliderWrap ul.reeWorkerSlider li .itemWrap .dataWrap{right:-15rem;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{width:39px;}
-	.whyReeWorkWrap ul li .itemWrap .dataWrap .noWrap{width:60px;height:60px;}
-	.whyReeWorkWrap ul li:nth-child(1):after{bottom:11rem;width:10rem;right:-7rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(1):after{bottom:13rem;right:-9rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:24rem;width:2px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{bottom:12rem;width:18px;}
-	.firstStepsWrap .dataWrap .ctaWrap{display:flex;flex-flow:row wrap;align-items:center;justify-content:flex-start;}
-	.firstStepsWrap .dataWrap .ctaWrap a{margin:0 1rem 0 0;}
+@media (max-width: 820px) {
+	.reeWorkerSliderWrap ul.reeWorkerSlider li .itemWrap .dataWrap {
+		right: -15rem;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 39px;
+	}
+	.whyReeWorkWrap ul li .itemWrap .dataWrap .noWrap {
+		width: 60px;
+		height: 60px;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after {
+		bottom: 11rem;
+		width: 10rem;
+		right: -7rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(1):after {
+		bottom: 13rem;
+		right: -9rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 24rem;
+		width: 2px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		bottom: 12rem;
+		width: 18px;
+	}
+	.firstStepsWrap .dataWrap .ctaWrap {
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: flex-start;
+	}
+	.firstStepsWrap .dataWrap .ctaWrap a {
+		margin: 0 1rem 0 0;
+	}
 }
-@media(max-width:810px){
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{width:35px;}
-	.firstStepsWrap .dataWrap h2{font-size:5rem;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{height:23rem;}
-	.reeworkFrameWork .imgWrap .imgDataWrap h3{font-size:2.4rem;}
-	.ourAppBannerWrap .dataWrap h2{font-size:3.8rem;}
-	.healthGoalsStepsWrap .titleWrap h2{font-size:3.4rem;}
-	.healthGoalsStepsWrap ul li .itemWrap .dataWrap h3{font-size:3.8rem;}
-	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightWrap table tr td{line-height:2rem;}
-	.ourAppGetStartedWrap .dataWrap h2{font-size:4.2rem;}
-	.tetimonialsWrap .titleWrap h2{font-size:4.8rem;}
-	.whatReeCoachDoWrap ul li .itemWrap .dataWrap h2{min-height:80px;}
-	.whyReeCoachWrap .itemWrap .dataWrap{padding:2rem 1rem;}
-	.knowReecoachWrap .itemWrap .imgWrap{width:160px;height:160px;}
-	.howGetReeCoachWrap .dataWrap h4{margin:0 0 2rem;}
-	.howGetReeCoachWrap .ctaWrap{margin:1rem 0 0;}
-	.whyReeWorkWrap ul li:nth-child(1):after{bottom:13rem;}
+@media (max-width: 810px) {
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 35px;
+	}
+	.firstStepsWrap .dataWrap h2 {
+		font-size: 5rem;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		height: 23rem;
+	}
+	.reeworkFrameWork .imgWrap .imgDataWrap h3 {
+		font-size: 2.4rem;
+	}
+	.ourAppBannerWrap .dataWrap h2 {
+		font-size: 3.8rem;
+	}
+	.healthGoalsStepsWrap .titleWrap h2 {
+		font-size: 3.4rem;
+	}
+	.healthGoalsStepsWrap ul li .itemWrap .dataWrap h3 {
+		font-size: 3.8rem;
+	}
+	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightWrap table tr td {
+		line-height: 2rem;
+	}
+	.ourAppGetStartedWrap .dataWrap h2 {
+		font-size: 4.2rem;
+	}
+	.tetimonialsWrap .titleWrap h2 {
+		font-size: 4.8rem;
+	}
+	.whatReeCoachDoWrap ul li .itemWrap .dataWrap h2 {
+		min-height: 80px;
+	}
+	.whyReeCoachWrap .itemWrap .dataWrap {
+		padding: 2rem 1rem;
+	}
+	.knowReecoachWrap .itemWrap .imgWrap {
+		width: 160px;
+		height: 160px;
+	}
+	.howGetReeCoachWrap .dataWrap h4 {
+		margin: 0 0 2rem;
+	}
+	.howGetReeCoachWrap .ctaWrap {
+		margin: 1rem 0 0;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after {
+		bottom: 13rem;
+	}
 }
-@media(max-width:800px){
-    .reeCoachReeWorkWrap .imgWrap .imgData:after{width:28px;}
+@media (max-width: 800px) {
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		width: 28px;
+	}
 }
-@media(max-width:767px){
-	header{height:66px;}
-	#nav-icon{position:absolute;right:2rem;outline:0!important;box-shadow:none!important;}
-	.navbar-collapse{position:fixed;max-width:300px;width:100%;background-color:#F5FCFA;top:0px;height:100vh;z-index:99;box-shadow:0px 0px 14px rgb(0 0 0 / 40%);left:-100%;margin:0;padding:0;overflow:auto;transition:all ease-in-out 0.3s; -webkit-transition:all ease-in-out 0.3s;padding:30px 0px;}
-	.navbar-collapse.show{left:0px;}
-	header ul.navbar-nav .nav-item{margin:0;}
-	header ul.navbar-nav .nav-item .nav-link{color:#1F6861;font-size:2rem;padding:20px 10px!important;}
-	.navbar-nav .dropdown-menu.menulevel-1{display:none!important;visibility:visible;opacity:1;transform:none!important;max-width:100%!important;width:100%!important;background-color:#B3E5D7!important;top:auto;border-radius:0;-webkit-border-radius:0;box-shadow:none!important;border-top:0!important;padding:0;}
+@media (max-width: 767px) {
+	header {
+		height: 66px;
+	}
+	#nav-icon {
+		position: absolute;
+		right: 2rem;
+		outline: 0 !important;
+		box-shadow: none !important;
+	}
+	.navbar-collapse {
+		position: fixed;
+		max-width: 300px;
+		width: 100%;
+		background-color: #f5fcfa;
+		top: 0px;
+		height: 100vh;
+		z-index: 99;
+		box-shadow: 0px 0px 14px rgb(0 0 0 / 40%);
+		left: -100%;
+		margin: 0;
+		padding: 0;
+		overflow: auto;
+		transition: all ease-in-out 0.3s;
+		-webkit-transition: all ease-in-out 0.3s;
+		padding: 30px 0px;
+	}
+	.navbar-collapse.show {
+		left: 0px;
+	}
+	header ul.navbar-nav .nav-item {
+		margin: 0;
+	}
+	header ul.navbar-nav .nav-item .nav-link {
+		color: #1f6861;
+		font-size: 2rem;
+		padding: 20px 10px !important;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 {
+		display: none !important;
+		visibility: visible;
+		opacity: 1;
+		transform: none !important;
+		max-width: 100% !important;
+		width: 100% !important;
+		background-color: #b3e5d7 !important;
+		top: auto;
+		border-radius: 0;
+		-webkit-border-radius: 0;
+		box-shadow: none !important;
+		border-top: 0 !important;
+		padding: 0;
+	}
 	.navbar-nav .dropdown-menu.menulevel-1.show,
-	.navbar-nav .dropdown-toggle.show{display:block!important;}
-	.navbar-nav{padding:0 0 10px}
+	.navbar-nav .dropdown-toggle.show {
+		display: block !important;
+	}
+	.navbar-nav {
+		padding: 0 0 10px;
+	}
 	.navbar-nav li.nav-item,
-	.navbar-nav .dropdown-menu li{border-bottom:1px solid #B3E5D7;position:relative;margin:0;width:100%;}
-	.navbar-nav .dropdown-menu li:last-child{border:0;}
+	.navbar-nav .dropdown-menu li {
+		border-bottom: 1px solid #b3e5d7;
+		position: relative;
+		margin: 0;
+		width: 100%;
+	}
+	.navbar-nav .dropdown-menu li:last-child {
+		border: 0;
+	}
 	.navbar-nav li.nav-item a,
 	.navbar.sticky-top.nav-bg .nav-link,
-	.nav-bg .navbar-nav .nav-link.active{padding:12px 10px!important;margin:0!important;color:#204A62;}
-	.navbar-nav .nav-link:focus, .navbar-nav .nav-link:hover{color:#204A62!important;}
-	.navbar-nav li .dropdown-toggle{color:#204A62!important;display:inline-block;}
-	.navbar-nav .dropdown-menu .dropdown-item{padding:10px 20px!important;}
-	.navbar-nav .dropdown-menu .dropdown-item svg{display:none;}
-	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap ul li .icoWrap{width:24px;height:24px;}
-	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap ul li .icoWrap svg{width:16px;height:16px;}
-	.navbar-nav .dropdown-menu li{padding:0;}
-	.navbar-nav .dropdown-menu.menulevel-1 .dropdown-submenu>a:after{top:33%;transform:rotate(0deg) translateY(-50%);}
-	.navbar-nav .dropdown-menu.menulevel-1 li a:not(:last-child):before{background-color:#22678B;}
-	.navbar-nav li.dropdown:hover .dropdown-menu.menulevel-1:before, 
-	.navbar-nav li.dropdown:hover .dropdown-menu.menulevel-1:after{content:none;}
-	.navbar-nav .dropdown span{width:40px;height:56px;right:0px;text-align:center;line-height:56px;top:0;}
-	.navbar-nav .dropdown-menu .dropdown-item{font-size:1.8rem;}
-	.navbar .navbar-nav li:hover>.dropdown-menu{visibility:visible;opacity:1;top:auto;left:auto;transform:none;transition:all .2s ease;border-radius:0;background-color:#ffffff;-webkit-box-shadow:none;box-shadow:none;border:0;width:100%!important;}
-	.dropdown-menu .row{margin:0;}
-	.dropdown-menu .row .col-md-6{padding:0;}
-	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap, 
-	.navbar-nav .dropdown-menu.dropdownMegaMenu .submenuWrap{padding:0;}
-	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap h3, 
-	.navbar-nav .dropdown-menu.dropdownMegaMenu .submenuWrap h3{font-size:1.4rem;padding:10px;}
-	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap ul li:last-child{border-bottom:1px solid #dddddd;}
-	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap ul li .icoWrap svg{display:inline-block;}
-	.navbar-nav .dropdown-menu li .dropdown-item:after{content:none;}
-	.rightNav{padding:0 50px 0 0;}
-	header .navbar a.navbar-brand img{width:120px;}
-	.tetimonialsWrap .testiBtmVector:before, 
-	.tetimonialsWrap .testiBtmVector:after{content:none;}
-	.reeCoachReeWorkWrap .imgWrap{padding:0;max-width:60%;margin:0 auto;}
-	.reeCoachReeWorkWrap .imgWrap .imgData{text-align:center;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:after{content:none;}
-	.reeCoachReeWorkWrap .imgWrap:before, 
-	.reeCoachReeWorkWrap .imgWrap:after{height:32px;}
-	.reeCoachReeWorkWrap .imgWrap:after{bottom:4px;height:52px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData:before{left:50%!important;transform:translateX(-50%)!important;width:12px;height:12px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:before{top:18px;}
-	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before{top:-18px;}
-	.homeBannerWrap .dataWrap{max-width:80%;}
-	.homeBannerWrap .dataWrap h2{font-size:4.6rem;}
-	.lifestyleChangeWrap{padding:6rem 2rem;}
-	.reeWorkerSliderWrap{padding:4rem 2rem 4rem 0;}
-	.reeWorkerSliderWrap ul.reeWorkerSlider li .itemWrap .dataWrap{right:-15rem;}
-	.reeCoachReeWorkWrap .dataWrap .topData h2{font-size:5rem;}
-	.reeCoachReeWorkWrap .ctaWrap{padding:3rem 0 0;}
-	.giftTimeWrap{padding:0rem 2rem 4rem 2rem;}
-	.whyReeWorkWrap{padding:6rem 4rem;overflow:hidden;}
-	.whyReeWorkWrap .leftDataWrap{padding:0 0 4rem;}
-	.whyReeWorkWrap ul li{width:100%;}
-	.whyReeWorkWrap ul.sendList{flex-flow:column-reverse;}
+	.nav-bg .navbar-nav .nav-link.active {
+		padding: 12px 10px !important;
+		margin: 0 !important;
+		color: #204a62;
+	}
+	.navbar-nav .nav-link:focus,
+	.navbar-nav .nav-link:hover {
+		color: #204a62 !important;
+	}
+	.navbar-nav li .dropdown-toggle {
+		color: #204a62 !important;
+		display: inline-block;
+	}
+	.navbar-nav .dropdown-menu .dropdown-item {
+		padding: 10px 20px !important;
+	}
+	.navbar-nav .dropdown-menu .dropdown-item svg {
+		display: none;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap ul li .icoWrap {
+		width: 24px;
+		height: 24px;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap ul li .icoWrap svg {
+		width: 16px;
+		height: 16px;
+	}
+	.navbar-nav .dropdown-menu li {
+		padding: 0;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 .dropdown-submenu > a:after {
+		top: 33%;
+		transform: rotate(0deg) translateY(-50%);
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 li a:not(:last-child):before {
+		background-color: #22678b;
+	}
+	.navbar-nav li.dropdown:hover .dropdown-menu.menulevel-1:before,
+	.navbar-nav li.dropdown:hover .dropdown-menu.menulevel-1:after {
+		content: none;
+	}
+	.navbar-nav .dropdown span {
+		width: 40px;
+		height: 56px;
+		right: 0px;
+		text-align: center;
+		line-height: 56px;
+		top: 0;
+	}
+	.navbar-nav .dropdown-menu .dropdown-item {
+		font-size: 1.8rem;
+	}
+	.navbar .navbar-nav li:hover > .dropdown-menu {
+		visibility: visible;
+		opacity: 1;
+		top: auto;
+		left: auto;
+		transform: none;
+		transition: all 0.2s ease;
+		border-radius: 0;
+		background-color: #ffffff;
+		-webkit-box-shadow: none;
+		box-shadow: none;
+		border: 0;
+		width: 100% !important;
+	}
+	.dropdown-menu .row {
+		margin: 0;
+	}
+	.dropdown-menu .row .col-md-6 {
+		padding: 0;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap,
+	.navbar-nav .dropdown-menu.dropdownMegaMenu .submenuWrap {
+		padding: 0;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap h3,
+	.navbar-nav .dropdown-menu.dropdownMegaMenu .submenuWrap h3 {
+		font-size: 1.4rem;
+		padding: 10px;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap ul li:last-child {
+		border-bottom: 1px solid #dddddd;
+	}
+	.navbar-nav .dropdown-menu.menulevel-1 .submenuWrap ul li .icoWrap svg {
+		display: inline-block;
+	}
+	.navbar-nav .dropdown-menu li .dropdown-item:after {
+		content: none;
+	}
+	.rightNav {
+		padding: 0 50px 0 0;
+	}
+	header .navbar a.navbar-brand img {
+		width: 120px;
+	}
+	.tetimonialsWrap .testiBtmVector:before,
+	.tetimonialsWrap .testiBtmVector:after {
+		content: none;
+	}
+	.reeCoachReeWorkWrap .imgWrap {
+		padding: 0;
+		max-width: 60%;
+		margin: 0 auto;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData {
+		text-align: center;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:after {
+		content: none;
+	}
+	.reeCoachReeWorkWrap .imgWrap:before,
+	.reeCoachReeWorkWrap .imgWrap:after {
+		height: 32px;
+	}
+	.reeCoachReeWorkWrap .imgWrap:after {
+		bottom: 4px;
+		height: 52px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData:before {
+		left: 50% !important;
+		transform: translateX(-50%) !important;
+		width: 12px;
+		height: 12px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataTop:before {
+		top: 18px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .imgData.imgDataBtm:before {
+		top: -18px;
+	}
+	.homeBannerWrap .dataWrap {
+		max-width: 80%;
+	}
+	.homeBannerWrap .dataWrap h2 {
+		font-size: 4.6rem;
+	}
+	.lifestyleChangeWrap {
+		padding: 6rem 2rem;
+	}
+	.reeWorkerSliderWrap {
+		padding: 4rem 2rem 4rem 0;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerSlider li .itemWrap .dataWrap {
+		right: -15rem;
+	}
+	.reeCoachReeWorkWrap .dataWrap .topData h2 {
+		font-size: 5rem;
+	}
+	.reeCoachReeWorkWrap .ctaWrap {
+		padding: 3rem 0 0;
+	}
+	.giftTimeWrap {
+		padding: 0rem 2rem 4rem 2rem;
+	}
+	.whyReeWorkWrap {
+		padding: 6rem 4rem;
+		overflow: hidden;
+	}
+	.whyReeWorkWrap .leftDataWrap {
+		padding: 0 0 4rem;
+	}
+	.whyReeWorkWrap ul li {
+		width: 100%;
+	}
+	.whyReeWorkWrap ul.sendList {
+		flex-flow: column-reverse;
+	}
 	.whyReeWorkWrap ul li:nth-child(2),
-	.whyReeWorkWrap ul.sendList li:nth-child(1){display:flex;justify-content:flex-end;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2){display:flex;justify-content:flex-start;}
-	.whyReeWorkWrap ul li .itemWrap{width:54%;}
+	.whyReeWorkWrap ul.sendList li:nth-child(1) {
+		display: flex;
+		justify-content: flex-end;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2) {
+		display: flex;
+		justify-content: flex-start;
+	}
+	.whyReeWorkWrap ul li .itemWrap {
+		width: 54%;
+	}
 	.whyReeWorkWrap ul li:nth-child(2) .itemWrap,
-	.whyReeWorkWrap ul.sendList li:nth-child(1) .itemWrap{margin:0 -8rem 0 0;}
-	.whyReeWorkWrap ul li .itemWrap .dataWrap{margin:-4rem 0 0 3rem;}
-	.whyReeWorkWrap ul.sendList li .itemWrap .dataWrap{margin:-4rem 0 0 3rem;}
+	.whyReeWorkWrap ul.sendList li:nth-child(1) .itemWrap {
+		margin: 0 -8rem 0 0;
+	}
+	.whyReeWorkWrap ul li .itemWrap .dataWrap {
+		margin: -4rem 0 0 3rem;
+	}
+	.whyReeWorkWrap ul.sendList li .itemWrap .dataWrap {
+		margin: -4rem 0 0 3rem;
+	}
 	.whyReeWorkWrap ul li:nth-child(1):after,
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{content:"";background-image:url(../images/VectorImg-12.png);background-repeat:no-repeat;background-size:contain;right:132px;width:190px;height:150px;bottom:-40px;left:auto;}
-	.whyReeWorkWrap ul li:nth-child(2):after{content:"";background-image:url(../images/VectorImg-13.png);background-repeat:no-repeat;background-size:contain;width:190px;height:150px;position:absolute;bottom:-40px;left:132px;}
-	.whyReeWorkWrap ul.sendList li:nth-child(1):after{content:none;}
-	.whyReeWorkWrap ul.sendList li:nth-child(2):before{content:none;}
-	.whyReeWorkWrap .ctaWrap{display:none;}
-	.firstStepsWrap .imgWrap{padding:0;}
-	.firstStepsWrap{padding:2rem 0 0 2rem;}
-	.firstStepsWrap .dataWrap p{margin:1rem 0 2rem;}
-	.firstStepsWrap .dataWrap h2{font-size: 4.6rem;}
-	.tetimonialsWrap:before{width:13rem;}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		content: "";
+		background-image: url(../images/VectorImg-12.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		right: 132px;
+		width: 190px;
+		height: 150px;
+		bottom: -40px;
+		left: auto;
+	}
+	.whyReeWorkWrap ul li:nth-child(2):after {
+		content: "";
+		background-image: url(../images/VectorImg-13.png);
+		background-repeat: no-repeat;
+		background-size: contain;
+		width: 190px;
+		height: 150px;
+		position: absolute;
+		bottom: -40px;
+		left: 132px;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(1):after {
+		content: none;
+	}
+	.whyReeWorkWrap ul.sendList li:nth-child(2):before {
+		content: none;
+	}
+	.whyReeWorkWrap .ctaWrap {
+		display: none;
+	}
+	.firstStepsWrap .imgWrap {
+		padding: 0;
+	}
+	.firstStepsWrap {
+		padding: 2rem 0 0 2rem;
+	}
+	.firstStepsWrap .dataWrap p {
+		margin: 1rem 0 2rem;
+	}
+	.firstStepsWrap .dataWrap h2 {
+		font-size: 4.6rem;
+	}
+	.tetimonialsWrap:before {
+		width: 13rem;
+	}
 	.homeBannerWrap,
 	.homeBannerWrap .bannerWrap,
 	.knowledgeBankWrap,
-	.bottomSectionWrap{height:50rem;}
-	.footerWrap .leftFooterWrap{background-color:#FFFFFF;padding:3rem 3rem 3rem 2rem;}
-	.footerWrap .logWrap{padding:0 0 3rem 0;}
-	.footerWrap .appDownloadWrap a{display:inline-block;width:auto;}
-	.footerWrap .appDownloadWrap a img{width:100px;}
-	.footerWrap .rightFooerWrap{margin:0;padding:3rem 1rem 1rem;}
-	.footerWrap .footerNavlist{padding:0 1rem 1rem 1rem;}
-	.footerWrap .rightFooterBtm{padding:2rem 0;}
+	.bottomSectionWrap {
+		height: 50rem;
+	}
+	.footerWrap .leftFooterWrap {
+		background-color: #ffffff;
+		padding: 3rem 3rem 3rem 2rem;
+	}
+	.footerWrap .logWrap {
+		padding: 0 0 3rem 0;
+	}
+	.footerWrap .appDownloadWrap a {
+		display: inline-block;
+		width: auto;
+	}
+	.footerWrap .appDownloadWrap a img {
+		width: 100px;
+	}
+	.footerWrap .rightFooerWrap {
+		margin: 0;
+		padding: 3rem 1rem 1rem;
+	}
+	.footerWrap .footerNavlist {
+		padding: 0 1rem 1rem 1rem;
+	}
+	.footerWrap .rightFooterBtm {
+		padding: 2rem 0;
+	}
 
-	.aboutUsBannerWrap .dataWrap h2:after{width:250px;height:40px;right:0;}
-	.aboutUsBannerWrap, 
-	.aboutReeWorkWrap, 
-	.visionMissionWrap{padding:4rem 2rem;}
-	.visionMissionWrap .row.mobRowOrder{flex-flow:column-reverse;}
-	.visionMissionWrap .imgWrap{padding:0 0 2rem!important;}
-	.visionMissionWrap .dataWrap h2{margin:2rem 0 2rem;padding:0 0 2rem;}
-	.reeworkFrameWork{padding:4rem 2rem 6rem 2rem;}
-	.reeworkFrameWork .imgWrap img{width:58%;height:480px;}
-	.reeworkFrameWork .imgWrap .imgDataWrap{margin:0 0 -1rem -21rem;}
-	.reeworkFrameWork .imgWrap .imgDataWrap h3{font-size:3rem;}
+	.aboutUsBannerWrap .dataWrap h2:after {
+		width: 250px;
+		height: 40px;
+		right: 0;
+	}
+	.aboutUsBannerWrap,
+	.aboutReeWorkWrap,
+	.visionMissionWrap {
+		padding: 4rem 2rem;
+	}
+	.visionMissionWrap .row.mobRowOrder {
+		flex-flow: column-reverse;
+	}
+	.visionMissionWrap .imgWrap {
+		padding: 0 0 2rem !important;
+	}
+	.visionMissionWrap .dataWrap h2 {
+		margin: 2rem 0 2rem;
+		padding: 0 0 2rem;
+	}
+	.reeworkFrameWork {
+		padding: 4rem 2rem 6rem 2rem;
+	}
+	.reeworkFrameWork .imgWrap img {
+		width: 58%;
+		height: 480px;
+	}
+	.reeworkFrameWork .imgWrap .imgDataWrap {
+		margin: 0 0 -1rem -21rem;
+	}
+	.reeworkFrameWork .imgWrap .imgDataWrap h3 {
+		font-size: 3rem;
+	}
 	/* .reeworkFrameWork  .row.evenRowWrap{flex-flow:column-reverse;}
 	.reeworkFrameWork .evenRowWrap .imgWrap{flex-flow:row-reverse;} */
-	.reeworkFrameWork .evenRowWrap{flex-flow:column-reverse;}
-	.reeworkFrameWork .evenRowWrap .imgWrap .imgDataWrap{flex-flow:row wrap;margin:0 0 -1rem -21rem;}
-	.reeworkFrameWork .dataWrap ul li{margin:0 0 1.6rem;}
-	.reeworkFrameWork .dataWrap ul li p{font-size:2rem;}
-	.reeworkFrameWork .evenRowWrap .imgWrap img{margin:0;}
-	.reeworkFrameWork .dataWrap{padding:4rem 1.4rem 0;}
-	.aboutShamrockWrap .dataContentAfter{padding:0 1.6rem 3.4rem;}
-	.aboutShamrockWrap .dataContentAfter:after{bottom:8px;}
-	.aboutBtmWrap .dataWrap{max-width:58%;}
-	.aboutBtmWrap .dataWrap h2{font-size:4rem;}
-	.testimonialsTabsWrap .topReviewsWrap .itemWrap{padding:0 3rem 0 0;}
-	.btmReviewsWrap .titleNameWrap{padding:0 0 0 10rem;}
-	.testimonalBtmReviewWrap{padding:4rem 3rem;}
-	.testimonalBtmReviewWrap .dataWrap p{font-size:3rem;line-height:4rem;}
+	.reeworkFrameWork .evenRowWrap {
+		flex-flow: column-reverse;
+	}
+	.reeworkFrameWork .evenRowWrap .imgWrap .imgDataWrap {
+		flex-flow: row wrap;
+		margin: 0 0 -1rem -21rem;
+	}
+	.reeworkFrameWork .dataWrap ul li {
+		margin: 0 0 1.6rem;
+	}
+	.reeworkFrameWork .dataWrap ul li p {
+		font-size: 2rem;
+	}
+	.reeworkFrameWork .evenRowWrap .imgWrap img {
+		margin: 0;
+	}
+	.reeworkFrameWork .dataWrap {
+		padding: 4rem 1.4rem 0;
+	}
+	.aboutShamrockWrap .dataContentAfter {
+		padding: 0 1.6rem 3.4rem;
+	}
+	.aboutShamrockWrap .dataContentAfter:after {
+		bottom: 8px;
+	}
+	.aboutBtmWrap .dataWrap {
+		max-width: 58%;
+	}
+	.aboutBtmWrap .dataWrap h2 {
+		font-size: 4rem;
+	}
+	.testimonialsTabsWrap .topReviewsWrap .itemWrap {
+		padding: 0 3rem 0 0;
+	}
+	.btmReviewsWrap .titleNameWrap {
+		padding: 0 0 0 10rem;
+	}
+	.testimonalBtmReviewWrap {
+		padding: 4rem 3rem;
+	}
+	.testimonalBtmReviewWrap .dataWrap p {
+		font-size: 3rem;
+		line-height: 4rem;
+	}
 	.dipMobNone,
-	.footerNavlistDeskOnly{display:none!important;}
-	.dispOnlyMob{display:flex!important;align-items:center;justify-content:center;padding:4rem 2rem 0;text-align:center;}
-	.footerNavlistMobOnly{display:flex!important;flex-flow:row wrap;align-items:center;justify-content:space-between;}
-	.footerNavlistMobOnly li{width:33.33%;padding:2rem 0;}
+	.footerNavlistDeskOnly {
+		display: none !important;
+	}
+	.dispOnlyMob {
+		display: flex !important;
+		align-items: center;
+		justify-content: center;
+		padding: 4rem 2rem 0;
+		text-align: center;
+	}
+	.footerNavlistMobOnly {
+		display: flex !important;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.footerNavlistMobOnly li {
+		width: 33.33%;
+		padding: 2rem 0;
+	}
 	.footerNavlistMobOnly li:nth-child(1),
-	.footerNavlistMobOnly li:nth-child(4){text-align:left;}
-	.footerNavlistMobOnly li:nth-child(2){text-align:center;}
+	.footerNavlistMobOnly li:nth-child(4) {
+		text-align: left;
+	}
+	.footerNavlistMobOnly li:nth-child(2) {
+		text-align: center;
+	}
 	.footerNavlistMobOnly li:nth-child(3),
-	.footerNavlistMobOnly li:nth-child(5){text-align:right;}
-	.footerWrap{overflow:hidden;}
-	.footerWrap .container-fluid{padding:0;}
-	.footerWrap .rightFooerWrap{padding:3rem 0 1rem;}
-	.footerWrap .footerNavlist{border:0;}
-	.footerWrap .footerNavlist ul{padding:0 2rem;position:relative;}
+	.footerNavlistMobOnly li:nth-child(5) {
+		text-align: right;
+	}
+	.footerWrap {
+		overflow: hidden;
+	}
+	.footerWrap .container-fluid {
+		padding: 0;
+	}
+	.footerWrap .rightFooerWrap {
+		padding: 3rem 0 1rem;
+	}
+	.footerWrap .footerNavlist {
+		border: 0;
+	}
+	.footerWrap .footerNavlist ul {
+		padding: 0 2rem;
+		position: relative;
+	}
 	.footerWrap .footerNavlist ul:before,
-	.footerWrap .footerNavlist ul:after{content:"";width:calc(100% + 2rem);height:2px;background-color:#000000;position:absolute;left:-1rem;}
-	.footerWrap .footerNavlist ul:before{top:50%;transform:translateY(-50%);}
-	.footerWrap .footerNavlist ul:after{bottom:0;}
-	.footerWrap .footerNavlist ul li a{font-size:1.6rem;}
-	.rightFooterBtm .col-md-8{border-top:2px solid #000000;padding:3rem 3.8rem 0;}
-	.footerWrap ul.quickLinkList{padding:0 3rem 1rem;}
-	.footerWrap .socialFtrLinkWrap{margin:0 0 1rem;}
-	.copyrightWrap ul{justify-content:center;}
-	.copyrightWrap{padding:0 3rem;}
-	.blogListBanner .dataWrap{max-width:70%;}
-	.blogListSubscripWrap .formWrap{padding:0 0 3.2rem;}
-	.blogBanner{padding:3rem 2rem 3rem 2rem;}
-	.blogBanner .row{flex-flow:column-reverse;}
-	.blogBanner .imgWrap .img1, 
-	.blogBanner .imgWrap .img2{padding:0 1rem;}
-	.blogBanner .blogBannerData{padding:2rem 1rem 0}
-	.blogWhatisitWrap .row{flex-flow:column-reverse;}
-	.blogWhatisitWrap .dataWrap{padding:3rem 0 0;}
-	.blogWhatisitWrap .dataWrap h4{margin:0 0 1.2rem;}
-	.blogAcidityWrap .titleWrap{padding:0 0 3rem;}
-	.blogAcidityWrap .titleWrap h2{margin:0 0 1rem;}
-	.blogCausedWrap .titleWrap h2{font-size:3.6rem;}
-	.blogAcidityWrap ul li{padding:0 2rem;}
-	.blogAcidityWrap ul li:before{left:0;}
-	.deskDisOnly{display:none!important;}
-	.modDisOnly{display:flex!important;}
-	.communityBanner .dataWrap{max-width:64%;}
-	.comtyReWorkWitnesWrap{padding:4rem 2rem 4rem;}
-	.comtyReWorkWitnesWrap .itemWrap .dataWrap{max-width:80%;}
-	.bottomSectionWrap .dataWrap{max-width:66%;}
-	.communityEventsWebWrap{padding:6rem 3rem 0;}
-	.communityEventsWebWrap .itemWrap{margin:0 0.6rem 3.6rem;}
-	.brandAffiliationWrap{padding:5rem 4rem;}
-	.ourAppBannerWrap .dataWrap h2{max-width:80%;}
-	.healthGoalsStepsWrap ul li .itemWrap .dataWrap .noWrap{width:80px;height:80px;}
-	.healthGoalsStepsWrap ul li .itemWrap .dataWrap h3{font-size:3.6rem;}
-	.healthPriorityWrap .dataWrap .ctaWrap a{width:160px;}
-	.ourAppGetStartedWrap .dataWrap h2{max-width:70%;}
-	.tetimonialsWrap .titleWrap{position:relative;z-index:4;}
-	.whyReeCoachWrap .itemWrap{margin:0 0 2rem;}
-	.GetAReecoachBannerWrap{background-position:80%;align-items:flex-end;}
-	.GetAReecoachBannerWrap .dataWrap{max-width:90%;padding:0;}
-	.GetAReecoachBannerWrap .dataWrap h2{font-size:4.8rem;}
-	.whatReeCoachDoWrap ul li .itemWrap .imgWrap{width:130px;height:130px;}
-	.whatReeCoachDoWrap ul li .itemWrap .imgWrap svg{width:70px;height:70px;}
-	.whatReeCoachDoWrap ul li:after{right:-120px;top:66px;}
-	.whatReeCoachDoWrap ul li:last-child:before{right:-100px;top:-44px;}
-	.whatReeCoachDoWrap ul li:last-child:after{right:-100px;}
-	.findReeCoachWrap{padding:4rem 1rem 0 4rem;height:auto;}
-	.findReeCoachWrap .dataWrap{max-width:80%;}
-	.findReeCoachWrap .imgWrap{width:32%;padding:0;}
-	.howGetReeCoachWrap{padding:4rem 4rem 0;}
-	.howGetReeCoachWrap .row{flex-flow:column-reverse;}
-	.howGetReeCoachWrap .imgWrap{padding:2rem 0 0;max-width:50%;}
-	.whyReeCoachWrap{padding:0 4rem 6rem;}
-	.bookYourConsoultWrap .dataWrap h2{font-size:4.8rem;max-width:76%;}
-	.tetimonialsWrap{padding:3rem 0 4rem 3rem;}
-	.PremierDietitiansWrap{background:#FFFFFF;}
-	.PremierDietitiansWrap:after{content:none;}
-	.PremierDietitiansWrap .rightWrap{box-shadow:none;border-radius:0;background-color:transparent;padding:8rem 0 2rem;}
-	.PremierDietitiansWrap .itemWrap:after{width:80px;height:80px;right:32px;bottom:-40px;}
-	.PremierDietitiansWrap .rightWrap:after{top:10px;left:60px;}
-	.PremierDietitiansWrap .rightWrap .dataWrap.rightContentVector:after{bottom:-28px;right:auto;left:50%;transform:translateX(-50%);}
-	.PremierDietitiansWrap .ctaWrap{text-align:center;}
-	.reeCoachReeWorkWrap{padding:0rem 3rem 6rem 4rem;}
-	.reeCoachReeWorkWrap .row{flex-flow:column-reverse;}
+	.footerWrap .footerNavlist ul:after {
+		content: "";
+		width: calc(100% + 2rem);
+		height: 2px;
+		background-color: #000000;
+		position: absolute;
+		left: -1rem;
+	}
+	.footerWrap .footerNavlist ul:before {
+		top: 50%;
+		transform: translateY(-50%);
+	}
+	.footerWrap .footerNavlist ul:after {
+		bottom: 0;
+	}
+	.footerWrap .footerNavlist ul li a {
+		font-size: 1.6rem;
+	}
+	.rightFooterBtm .col-md-8 {
+		border-top: 2px solid #000000;
+		padding: 3rem 3.8rem 0;
+	}
+	.footerWrap ul.quickLinkList {
+		padding: 0 3rem 1rem;
+	}
+	.footerWrap .socialFtrLinkWrap {
+		margin: 0 0 1rem;
+	}
+	.copyrightWrap ul {
+		justify-content: center;
+	}
+	.copyrightWrap {
+		padding: 0 3rem;
+	}
+	.blogListBanner .dataWrap {
+		max-width: 70%;
+	}
+	.blogListSubscripWrap .formWrap {
+		padding: 0 0 3.2rem;
+	}
+	.blogBanner {
+		padding: 3rem 2rem 3rem 2rem;
+	}
+	.blogBanner .row {
+		flex-flow: column-reverse;
+	}
+	.blogBanner .imgWrap .img1,
+	.blogBanner .imgWrap .img2 {
+		padding: 0 1rem;
+	}
+	.blogBanner .blogBannerData {
+		padding: 2rem 1rem 0;
+	}
+	.blogWhatisitWrap .row {
+		flex-flow: column-reverse;
+	}
+	.blogWhatisitWrap .dataWrap {
+		padding: 3rem 0 0;
+	}
+	.blogWhatisitWrap .dataWrap h4 {
+		margin: 0 0 1.2rem;
+	}
+	.blogAcidityWrap .titleWrap {
+		padding: 0 0 3rem;
+	}
+	.blogAcidityWrap .titleWrap h2 {
+		margin: 0 0 1rem;
+	}
+	.blogCausedWrap .titleWrap h2 {
+		font-size: 3.6rem;
+	}
+	.blogAcidityWrap ul li {
+		padding: 0 2rem;
+	}
+	.blogAcidityWrap ul li:before {
+		left: 0;
+	}
+	.deskDisOnly {
+		display: none !important;
+	}
+	.modDisOnly {
+		display: flex !important;
+	}
+	.communityBanner .dataWrap {
+		max-width: 64%;
+	}
+	.comtyReWorkWitnesWrap {
+		padding: 4rem 2rem 4rem;
+	}
+	.comtyReWorkWitnesWrap .itemWrap .dataWrap {
+		max-width: 80%;
+	}
+	.bottomSectionWrap .dataWrap {
+		max-width: 66%;
+	}
+	.communityEventsWebWrap {
+		padding: 6rem 3rem 0;
+	}
+	.communityEventsWebWrap .itemWrap {
+		margin: 0 0.6rem 3.6rem;
+	}
+	.brandAffiliationWrap {
+		padding: 5rem 4rem;
+	}
+	.ourAppBannerWrap .dataWrap h2 {
+		max-width: 80%;
+	}
+	.healthGoalsStepsWrap ul li .itemWrap .dataWrap .noWrap {
+		width: 80px;
+		height: 80px;
+	}
+	.healthGoalsStepsWrap ul li .itemWrap .dataWrap h3 {
+		font-size: 3.6rem;
+	}
+	.healthPriorityWrap .dataWrap .ctaWrap a {
+		width: 160px;
+	}
+	.ourAppGetStartedWrap .dataWrap h2 {
+		max-width: 70%;
+	}
+	.tetimonialsWrap .titleWrap {
+		position: relative;
+		z-index: 4;
+	}
+	.whyReeCoachWrap .itemWrap {
+		margin: 0 0 2rem;
+	}
+	.GetAReecoachBannerWrap {
+		background-position: 80%;
+		align-items: flex-end;
+	}
+	.GetAReecoachBannerWrap .dataWrap {
+		max-width: 90%;
+		padding: 0;
+	}
+	.GetAReecoachBannerWrap .dataWrap h2 {
+		font-size: 4.8rem;
+	}
+	.whatReeCoachDoWrap ul li .itemWrap .imgWrap {
+		width: 130px;
+		height: 130px;
+	}
+	.whatReeCoachDoWrap ul li .itemWrap .imgWrap svg {
+		width: 70px;
+		height: 70px;
+	}
+	.whatReeCoachDoWrap ul li:after {
+		right: -120px;
+		top: 66px;
+	}
+	.whatReeCoachDoWrap ul li:last-child:before {
+		right: -100px;
+		top: -44px;
+	}
+	.whatReeCoachDoWrap ul li:last-child:after {
+		right: -100px;
+	}
+	.findReeCoachWrap {
+		padding: 4rem 1rem 0 4rem;
+		height: auto;
+	}
+	.findReeCoachWrap .dataWrap {
+		max-width: 80%;
+	}
+	.findReeCoachWrap .imgWrap {
+		width: 32%;
+		padding: 0;
+	}
+	.howGetReeCoachWrap {
+		padding: 4rem 4rem 0;
+	}
+	.howGetReeCoachWrap .row {
+		flex-flow: column-reverse;
+	}
+	.howGetReeCoachWrap .imgWrap {
+		padding: 2rem 0 0;
+		max-width: 50%;
+	}
+	.whyReeCoachWrap {
+		padding: 0 4rem 6rem;
+	}
+	.bookYourConsoultWrap .dataWrap h2 {
+		font-size: 4.8rem;
+		max-width: 76%;
+	}
+	.tetimonialsWrap {
+		padding: 3rem 0 4rem 3rem;
+	}
+	.PremierDietitiansWrap {
+		background: #ffffff;
+	}
+	.PremierDietitiansWrap:after {
+		content: none;
+	}
+	.PremierDietitiansWrap .rightWrap {
+		box-shadow: none;
+		border-radius: 0;
+		background-color: transparent;
+		padding: 8rem 0 2rem;
+	}
+	.PremierDietitiansWrap .itemWrap:after {
+		width: 80px;
+		height: 80px;
+		right: 32px;
+		bottom: -40px;
+	}
+	.PremierDietitiansWrap .rightWrap:after {
+		top: 10px;
+		left: 60px;
+	}
+	.PremierDietitiansWrap .rightWrap .dataWrap.rightContentVector:after {
+		bottom: -28px;
+		right: auto;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+	.PremierDietitiansWrap .ctaWrap {
+		text-align: center;
+	}
+	.reeCoachReeWorkWrap {
+		padding: 0rem 3rem 6rem 4rem;
+	}
+	.reeCoachReeWorkWrap .row {
+		flex-flow: column-reverse;
+	}
 	.reeCoachReeWorkWrap .imgWrap .imgDataTop,
-	.reeCoachReeWorkWrap .imgWrap .imgDataBtm{display:none!important;} 
+	.reeCoachReeWorkWrap .imgWrap .imgDataBtm {
+		display: none !important;
+	}
 	.reeCoachReeWorkWrap .imgWrap:before,
-	.reeCoachReeWorkWrap .imgWrap:after{height:2px;width:130px;top:auto;bottom:110px;}
-	.reeCoachReeWorkWrap .imgWrap:before{left:24px;}
-	.reeCoachReeWorkWrap .imgWrap:after{right:24px;left:auto;transform:none;}
-	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap{display:flex!important;flex-flow:row wrap;align-items:center;justify-content:space-between;position:relative;}
+	.reeCoachReeWorkWrap .imgWrap:after {
+		height: 2px;
+		width: 130px;
+		top: auto;
+		bottom: 110px;
+	}
+	.reeCoachReeWorkWrap .imgWrap:before {
+		left: 24px;
+	}
+	.reeCoachReeWorkWrap .imgWrap:after {
+		right: 24px;
+		left: auto;
+		transform: none;
+	}
+	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap {
+		display: flex !important;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: space-between;
+		position: relative;
+	}
 	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap:before,
-	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap:after{content:"";width:2px;height:80px;background-color:#B3E5D7;position:absolute;top:-91px;}
-	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap:before{left:22px;}
-	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap:after{right:22px;}
-	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap .DataBox{text-align:center;position:relative;}
-	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap .DataBox:before{content:"";background-color:#B3E5D7;width:10px;height:10px;border-radius:100%;position:absolute;top:-15px;}
-	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap .DataBox p{color:#B3E5D7;font-weight:700;font-size:2rem;margin:0;}
-	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap .DataBox.leftData:before{left:18px;}
-	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap .DataBox.rightData:before{left:36px;}
-	.reeCoachReeWorkWrap .dataWrap{padding:3rem 0 0;}
-	.homeBannerWrap .dataWrap h2{font-size:4.4rem;}
-	.homeBannerWrap .dataWrap h3{font-size:2.6rem;}
-	.lifestyleChangeWrap .titleWrap h2{font-size:3.4rem;}
-	.reeWorkerSliderWrap .titleWrap h2{font-size:3.4rem;}
-	.PremierDietitiansWrap .titleWrap h2{font-size:3.4rem;}
-	.reeCoachReeWorkWrap .dataWrap .topData h3{font-size:2.8rem;}
-	.reeCoachReeWorkWrap .dataWrap .topData h2{font-size:4.6rem;line-height:4.8rem;}
-	.giftTimeWrap .titleWrap h2{font-size:3.2rem;}
-	.whyReeWorkWrap .leftDataWrap h2{font-size:3.8rem;}
-	.firstStepsWrap .dataWrap h2{font-size:4.4rem;}
-	.knowledgeBankWrap .dataWrap{max-width:66%;}
-	.knowledgeBankWrap .dataWrap h2{font-size:4.4rem;line-height:5.2rem;}
-	.tetimonialsWrap .titleWrap h2{font-size:4.6rem;}
-	.tetimonialsWrap .titleWrap h4{font-size:2.8rem;}
-	ul.testimonialSlider li .itemWrap .topSecWrap .dataWrap h2{font-size:2.8rem;}
-	.bottomSectionWrap .dataWrap h2{font-size:4.4rem;line-height:5.2rem;}
-	.reeWorkerSliderWrap{height:auto;}
-	.reeWorkerSliderWrap .reeWorkMobSliderWrap.mobDisOnly{display:block!important;}
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider{width:100%;}
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li .itemWrap{padding:0 0 8rem;margin:0 auto 3rem;}
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li .itemWrap .imgWrap{margin:-5rem auto 0;}
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li .itemWrap .dataWrap{right:auto;left:50%;transform:translateX(-50%);text-align:center;bottom:0px;width:100%;}
-	.reeWorkerSliderWrap ul.reeWorkerMobThumbnailSlider{width:100%;margin:0 auto;padding:0 0 0 1rem;}
-	.reeWorkerSliderWrap ul.reeWorkerMobThumbnailSlider li{margin:0;}
-	.reeWorkerSliderWrap ul.reeWorkerMobThumbnailSlider li .imgWrap img{opacity:1;}
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li .itemWrap .dataWrap h3{font-size:2.8rem;}
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li .itemWrap .dataWrap p{font-size:2.2rem;line-height:3.2rem;}
-	.reeWorkerSliderWrap{padding:4rem 2rem;}
-	.PremierDietitiansWrap .rightWrap:before{left:auto;right:22px;top:-52px;}
-	.giftTimeWrap .itemWrap .dataWrap p{max-width:90%;color:#51817C;}
-	.giftTimeWrap .rightPannelWrap{margin:0 auto;}
-	.giftTimeWrap .itemWrap .imgWrap{margin:21rem auto 0rem;}
-	.giftTimeWrap .itemWrap .dataWrap h3{margin:0 0 2rem;}
-	.giftTimeWrap .rightPannelWrap .topArrow{width:100%;height:1.4px;left:-50%;top:-52px;}
-	.giftTimeWrap .rightPannelWrap .topArrow:after{height:39px;right:-12px;}
-	.giftTimeWrap .rightPannelWrap .bottomArrow{width:100%;left:-60%;bottom:-56px;}
-	.giftTimeWrap .rightPannelWrap .imgWrap img.deskDisOnly{display:none!important;}
-	.giftTimeWrap .rightPannelWrap .imgWrap img.mobDisOnly{display:block!important;}
-	.homeBannerWrap .bannerWrap{padding:3rem;}
-	
+	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap:after {
+		content: "";
+		width: 2px;
+		height: 80px;
+		background-color: #b3e5d7;
+		position: absolute;
+		top: -91px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap:before {
+		left: 22px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap:after {
+		right: 22px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap .DataBox {
+		text-align: center;
+		position: relative;
+	}
+	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap .DataBox:before {
+		content: "";
+		background-color: #b3e5d7;
+		width: 10px;
+		height: 10px;
+		border-radius: 100%;
+		position: absolute;
+		top: -15px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap .DataBox p {
+		color: #b3e5d7;
+		font-weight: 700;
+		font-size: 2rem;
+		margin: 0;
+	}
+	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap .DataBox.leftData:before {
+		left: 18px;
+	}
+	.reeCoachReeWorkWrap .imgWrap .mobImgDataWrap .DataBox.rightData:before {
+		left: 36px;
+	}
+	.reeCoachReeWorkWrap .dataWrap {
+		padding: 3rem 0 0;
+	}
+	.homeBannerWrap .dataWrap h2 {
+		font-size: 4.4rem;
+	}
+	.homeBannerWrap .dataWrap h3 {
+		font-size: 2.6rem;
+	}
+	.lifestyleChangeWrap .titleWrap h2 {
+		font-size: 3.4rem;
+	}
+	.reeWorkerSliderWrap .titleWrap h2 {
+		font-size: 3.4rem;
+	}
+	.PremierDietitiansWrap .titleWrap h2 {
+		font-size: 3.4rem;
+	}
+	.reeCoachReeWorkWrap .dataWrap .topData h3 {
+		font-size: 2.8rem;
+	}
+	.reeCoachReeWorkWrap .dataWrap .topData h2 {
+		font-size: 4.6rem;
+		line-height: 4.8rem;
+	}
+	.giftTimeWrap .titleWrap h2 {
+		font-size: 3.2rem;
+	}
+	.whyReeWorkWrap .leftDataWrap h2 {
+		font-size: 3.8rem;
+	}
+	.firstStepsWrap .dataWrap h2 {
+		font-size: 4.4rem;
+	}
+	.knowledgeBankWrap .dataWrap {
+		max-width: 66%;
+	}
+	.knowledgeBankWrap .dataWrap h2 {
+		font-size: 4.4rem;
+		line-height: 5.2rem;
+	}
+	.tetimonialsWrap .titleWrap h2 {
+		font-size: 4.6rem;
+	}
+	.tetimonialsWrap .titleWrap h4 {
+		font-size: 2.8rem;
+	}
+	ul.testimonialSlider li .itemWrap .topSecWrap .dataWrap h2 {
+		font-size: 2.8rem;
+	}
+	.bottomSectionWrap .dataWrap h2 {
+		font-size: 4.4rem;
+		line-height: 5.2rem;
+	}
+	.reeWorkerSliderWrap {
+		height: auto;
+	}
+	.reeWorkerSliderWrap .reeWorkMobSliderWrap.mobDisOnly {
+		display: block !important;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider {
+		width: 100%;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li .itemWrap {
+		padding: 0 0 8rem;
+		margin: 0 auto 3rem;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li .itemWrap .imgWrap {
+		margin: -5rem auto 0;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li .itemWrap .dataWrap {
+		right: auto;
+		left: 50%;
+		transform: translateX(-50%);
+		text-align: center;
+		bottom: 0px;
+		width: 100%;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobThumbnailSlider {
+		width: 100%;
+		margin: 0 auto;
+		padding: 0 0 0 1rem;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobThumbnailSlider li {
+		margin: 0;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobThumbnailSlider li .imgWrap img {
+		opacity: 1;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li .itemWrap .dataWrap h3 {
+		font-size: 2.8rem;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li .itemWrap .dataWrap p {
+		font-size: 2.2rem;
+		/* line-height: 3.2rem; */
+	}
+	.reeWorkerSliderWrap {
+		padding: 4rem 2rem;
+	}
+	.PremierDietitiansWrap .rightWrap:before {
+		left: auto;
+		right: 22px;
+		top: -52px;
+	}
+	.giftTimeWrap .itemWrap .dataWrap p {
+		max-width: 90%;
+		color: #51817c;
+	}
+	.giftTimeWrap .rightPannelWrap {
+		margin: 0 auto;
+	}
+	.giftTimeWrap .itemWrap .imgWrap {
+		margin: 21rem auto 0rem;
+	}
+	.giftTimeWrap .itemWrap .dataWrap h3 {
+		margin: 0 0 2rem;
+	}
+	.giftTimeWrap .rightPannelWrap .topArrow {
+		width: 100%;
+		height: 1.4px;
+		left: -50%;
+		top: -52px;
+	}
+	.giftTimeWrap .rightPannelWrap .topArrow:after {
+		height: 39px;
+		right: -12px;
+	}
+	.giftTimeWrap .rightPannelWrap .bottomArrow {
+		width: 100%;
+		left: -60%;
+		bottom: -56px;
+	}
+	.giftTimeWrap .rightPannelWrap .imgWrap img.deskDisOnly {
+		display: none !important;
+	}
+	.giftTimeWrap .rightPannelWrap .imgWrap img.mobDisOnly {
+		display: block !important;
+	}
+	.homeBannerWrap .bannerWrap {
+		padding: 3rem;
+	}
 }
-@media(max-width:740px){
-	.aboutBtmWrap:after{width:100%;height:100%;background-position:center;}
-	.aboutBtmWrap .dataWrap{max-width:54%;}
-	.healthGoalsStepsWrap ul li.evenWrap{padding:0;}
-	.healthPriorityWrap .dataWrap .ctaWrap a{width:150px;}
-	.healthGoalsStepsWrap ul li .itemWrap .dataWrap .noWrap{margin:0 0 1rem;}
-	ul.testimonialSlider li .itemWrap .botmSecWrap p{min-height:24rem;}
-	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightTopCtaWrap .btn{width:120px;}
-	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightWrap table tr td:nth-child(2), 
-	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightWrap table tr td:nth-child(3){width:120px;}
-	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightBtmWrap{width:210px;}
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li .itemWrap .dataWrap{right:-25rem;max-width:100%;}
-	.firstStepsWrap .dataWrap p{font-size:2.4rem;line-height:3.4rem;}
+@media (max-width: 740px) {
+	.aboutBtmWrap:after {
+		width: 100%;
+		height: 100%;
+		background-position: center;
+	}
+	.aboutBtmWrap .dataWrap {
+		max-width: 54%;
+	}
+	.healthGoalsStepsWrap ul li.evenWrap {
+		padding: 0;
+	}
+	.healthPriorityWrap .dataWrap .ctaWrap a {
+		width: 150px;
+	}
+	.healthGoalsStepsWrap ul li .itemWrap .dataWrap .noWrap {
+		margin: 0 0 1rem;
+	}
+	ul.testimonialSlider li .itemWrap .botmSecWrap p {
+		min-height: 24rem;
+	}
+	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightTopCtaWrap .btn {
+		width: 120px;
+	}
+	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightWrap table tr td:nth-child(2),
+	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightWrap table tr td:nth-child(3) {
+		width: 120px;
+	}
+	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightBtmWrap {
+		width: 210px;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li .itemWrap .dataWrap {
+		right: -25rem;
+		max-width: 100%;
+	}
+	.firstStepsWrap .dataWrap p {
+		font-size: 2.4rem;
+		line-height: 3.4rem;
+	}
 }
-@media(max-width:700px){
-    .blogInfoWrap ul li{padding:3rem 1.2rem;}
-	.blogInfoWrap ul li .dataWrap h4{font-size:1.8rem;}
-	.communityEventsWebWrap .itemWrap .imgWrap{height:200px;}
+@media (max-width: 700px) {
+	.blogInfoWrap ul li {
+		padding: 3rem 1.2rem;
+	}
+	.blogInfoWrap ul li .dataWrap h4 {
+		font-size: 1.8rem;
+	}
+	.communityEventsWebWrap .itemWrap .imgWrap {
+		height: 200px;
+	}
 }
-@media(max-width:680px){
-	.testimonialsTabsWrap ul.nav li{margin:0 3rem 0 0;}
-	.testimonialsTabsWrap ul.nav li .nav-link{padding:1rem 3rem;}
-	.blogListSortWrap ul.sortList li{margin:0 0.6rem 1rem;}
-	.blogListBanner .dataWrap h2{font-size:4rem;line-height:5rem;}
-	.whatReeCoachDoWrap ul li:last-child:before{right:-78px;}
-	.whatReeCoachDoWrap ul li:last-child:after{right:-78px;}
-	.giftTimeWrap{padding:0rem 2rem 6rem 2rem;}
-	.giftTimeWrap .rightPannelWrap .bottomArrow{bottom:-74px;}
+@media (max-width: 680px) {
+	.testimonialsTabsWrap ul.nav li {
+		margin: 0 3rem 0 0;
+	}
+	.testimonialsTabsWrap ul.nav li .nav-link {
+		padding: 1rem 3rem;
+	}
+	.blogListSortWrap ul.sortList li {
+		margin: 0 0.6rem 1rem;
+	}
+	.blogListBanner .dataWrap h2 {
+		font-size: 4rem;
+		line-height: 5rem;
+	}
+	.whatReeCoachDoWrap ul li:last-child:before {
+		right: -78px;
+	}
+	.whatReeCoachDoWrap ul li:last-child:after {
+		right: -78px;
+	}
+	.giftTimeWrap {
+		padding: 0rem 2rem 6rem 2rem;
+	}
+	.giftTimeWrap .rightPannelWrap .bottomArrow {
+		bottom: -74px;
+	}
 }
-@media(max-width:640px){
-	ul.testimonialSlider{margin:0 0 0 -18px;}	
-	.tetimonialsWrap:before{width:5rem;}
-	.testimonialsTabsWrap ul.nav li{margin:0 2.4rem 0 0;}
-	.reeworkFrameWork .imgWrap .imgDataWrap{margin:0 0 -1rem -18rem;}
-	.reeworkFrameWork .evenRowWrap .imgWrap .imgDataWrap{margin:0 0 -1rem -18rem;}
-	.comtyReWorkWitnesWrap .itemWrap .imgWrap{width:160px;height:160px;}
-	.comtyReWorkWitnesWrap .itemWrap .dataWrap{max-width:100%;}
-	.bottomSectionWrap .dataWrap h2{font-size:4rem;}
-	.ourAppBannerWrap .dataWrap h2{max-width:93%;}
-	.healthGoalsStepsWrap ul li .itemWrap .dataWrap h3{font-size:3.2rem;line-height:3.6rem;}
-	.healthGoalsStepsWrap ul li .itemWrap .dataWrap .noWrap{width:60px;height:60px;}
-	.healthGoalsStepsWrap ul li .itemWrap .dataWrap .noWrap h2{font-size:3.4rem;}
-	.healthPriorityWrap .dataWrap .ctaWrap{margin:2rem 0 0;}
-	.healthPriorityWrap .dataWrap .ctaWrap a{width:120px;}
-	.healthPriorityWrap .dataWrap p{font-size:2.4rem;margin:3rem 0 0;}
-	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .leftWrap h2{font-size:2rem;}
-	.whatReeCoachDoWrap ul li .itemWrap .imgWrap{width:110px;height:110px;}
-	.whatReeCoachDoWrap ul li:after{top:56px;}
-	.whatReeCoachDoWrap ul li:last-child:before{right:-72px;top:-54px;}
-	.whatReeCoachDoWrap ul li:last-child:after{right:-72px;}
-	.lifestyleChangeWrap ul li{width:50%;margin:0 0 2rem;}
-	.firstStepsWrap .imgWrap{margin:0 0 0 -4rem;}
-}   
-@media(max-width:600px){
-	.testimonialsTabsWrap .topReviewsWrap ul li{width:50%;margin:0 0 3rem;}
-	.testimonialsTabsWrap .topReviewsWrap .itemWrap .topDataWrap ul li{margin:0;}
-	.testimonialsTabsWrap .topReviewsWrap .itemWrap .dataWrap{padding:1.4rem 0 0;}
-	.testimonalBtmReviewWrap .dataWrap{padding:0 0 0 2rem;}
-	.testimonalBtmReviewWrap .dataWrap p{font-size:2.6rem;line-height:3.6rem;}
-	.testimonialsTabsWrap ul.nav li{margin:0 1.4rem 0 0;}
-	.btmReviewsWrap .titleNameWrap{padding:0 0 0 5rem;}
-	.reeworkFrameWork .dataWrap ul{padding:0 2rem 0 0;}
-	.ourAppBannerWrap{background-position:58%;}
-	.giftTimeWrap .itemWrap .imgWrap{margin:15rem auto 0rem;}
-}    
-@media(max-width:579px){
-
-}  
-@media(max-width:575px){
-	.testimonialsTabsWrap ul.nav{padding:0 3rem;}
-	.testimonialsTabsWrap .topReviewsWrap{padding:4rem 2rem 0 3rem;}
-	.testimonialVideoWrap{padding:4rem 2rem;position:relative;}
-	.testimonialVideoWrap .ht100{height:auto;}
-	.testimonialVideoWrap .ctaWrap{position:absolute;right:2rem;bottom:4rem;}
-	.testimonialVideoWrap .itemWrap .dataWrap{max-width:60%;}
-	.btmReviewsWrap{padding:4rem 3rem;}
-	.copyrightWrap ul{padding:3rem 0 2rem 0;}
-	.copyrightWrap ul li{width:100%;margin:0 auto 0.6rem;}
-	.copyrightWrap ul li:last-child{margin:0 auto;}
-	.copyrightWrap ul li p{font-size:1.6rem;margin:0 auto;text-align:center;}
-	.testimonalBtmReviewWrap .padtop{flex-flow:column-reverse;padding-top:4rem;}
+@media (max-width: 640px) {
+	ul.testimonialSlider {
+		margin: 0 0 0 -18px;
+	}
+	.tetimonialsWrap:before {
+		width: 5rem;
+	}
+	.testimonialsTabsWrap ul.nav li {
+		margin: 0 2.4rem 0 0;
+	}
+	.reeworkFrameWork .imgWrap .imgDataWrap {
+		margin: 0 0 -1rem -18rem;
+	}
+	.reeworkFrameWork .evenRowWrap .imgWrap .imgDataWrap {
+		margin: 0 0 -1rem -18rem;
+	}
+	.comtyReWorkWitnesWrap .itemWrap .imgWrap {
+		width: 160px;
+		height: 160px;
+	}
+	.comtyReWorkWitnesWrap .itemWrap .dataWrap {
+		max-width: 100%;
+	}
+	.bottomSectionWrap .dataWrap h2 {
+		font-size: 4rem;
+	}
+	.ourAppBannerWrap .dataWrap h2 {
+		max-width: 93%;
+	}
+	.healthGoalsStepsWrap ul li .itemWrap .dataWrap h3 {
+		font-size: 3.2rem;
+		line-height: 3.6rem;
+	}
+	.healthGoalsStepsWrap ul li .itemWrap .dataWrap .noWrap {
+		width: 60px;
+		height: 60px;
+	}
+	.healthGoalsStepsWrap ul li .itemWrap .dataWrap .noWrap h2 {
+		font-size: 3.4rem;
+	}
+	.healthPriorityWrap .dataWrap .ctaWrap {
+		margin: 2rem 0 0;
+	}
+	.healthPriorityWrap .dataWrap .ctaWrap a {
+		width: 120px;
+	}
+	.healthPriorityWrap .dataWrap p {
+		font-size: 2.4rem;
+		margin: 3rem 0 0;
+	}
+	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .leftWrap h2 {
+		font-size: 2rem;
+	}
+	.whatReeCoachDoWrap ul li .itemWrap .imgWrap {
+		width: 110px;
+		height: 110px;
+	}
+	.whatReeCoachDoWrap ul li:after {
+		top: 56px;
+	}
+	.whatReeCoachDoWrap ul li:last-child:before {
+		right: -72px;
+		top: -54px;
+	}
+	.whatReeCoachDoWrap ul li:last-child:after {
+		right: -72px;
+	}
+	.lifestyleChangeWrap ul li {
+		width: 50%;
+		margin: 0 0 2rem;
+	}
+	.firstStepsWrap .imgWrap {
+		margin: 0 0 0 -4rem;
+	}
+}
+@media (max-width: 600px) {
+	.testimonialsTabsWrap .topReviewsWrap ul li {
+		width: 50%;
+		margin: 0 0 3rem;
+	}
+	.testimonialsTabsWrap .topReviewsWrap .itemWrap .topDataWrap ul li {
+		margin: 0;
+	}
+	.testimonialsTabsWrap .topReviewsWrap .itemWrap .dataWrap {
+		padding: 1.4rem 0 0;
+	}
+	.testimonalBtmReviewWrap .dataWrap {
+		padding: 0 0 0 2rem;
+	}
+	.testimonalBtmReviewWrap .dataWrap p {
+		font-size: 2.6rem;
+		line-height: 3.6rem;
+	}
+	.testimonialsTabsWrap ul.nav li {
+		margin: 0 1.4rem 0 0;
+	}
+	.btmReviewsWrap .titleNameWrap {
+		padding: 0 0 0 5rem;
+	}
+	.reeworkFrameWork .dataWrap ul {
+		padding: 0 2rem 0 0;
+	}
+	.ourAppBannerWrap {
+		background-position: 58%;
+	}
+	.giftTimeWrap .itemWrap .imgWrap {
+		margin: 15rem auto 0rem;
+	}
+}
+@media (max-width: 579px) {
+}
+@media (max-width: 575px) {
+	.testimonialsTabsWrap ul.nav {
+		padding: 0 3rem;
+	}
+	.testimonialsTabsWrap .topReviewsWrap {
+		padding: 4rem 2rem 0 3rem;
+	}
+	.testimonialVideoWrap {
+		padding: 4rem 2rem;
+		position: relative;
+	}
+	.testimonialVideoWrap .ht100 {
+		height: auto;
+	}
+	.testimonialVideoWrap .ctaWrap {
+		position: absolute;
+		right: 2rem;
+		bottom: 4rem;
+	}
+	.testimonialVideoWrap .itemWrap .dataWrap {
+		max-width: 60%;
+	}
+	.btmReviewsWrap {
+		padding: 4rem 3rem;
+	}
+	.copyrightWrap ul {
+		padding: 3rem 0 2rem 0;
+	}
+	.copyrightWrap ul li {
+		width: 100%;
+		margin: 0 auto 0.6rem;
+	}
+	.copyrightWrap ul li:last-child {
+		margin: 0 auto;
+	}
+	.copyrightWrap ul li p {
+		font-size: 1.6rem;
+		margin: 0 auto;
+		text-align: center;
+	}
+	.testimonalBtmReviewWrap .padtop {
+		flex-flow: column-reverse;
+		padding-top: 4rem;
+	}
 	.testimonalBtmReviewWrap .dataWrap,
-	.testimonalBtmReviewWrap .padtop .dataWrap{padding:2rem 0 0;}
-	.testimonalBtmReviewWrap{padding:4rem 2rem;}
-	.btmReviewsWrap .titleNameWrap{padding:2rem 0 0;}
-	.contactFaqsWrap{padding:2rem 2rem 8rem;}
+	.testimonalBtmReviewWrap .padtop .dataWrap {
+		padding: 2rem 0 0;
+	}
+	.testimonalBtmReviewWrap {
+		padding: 4rem 2rem;
+	}
+	.btmReviewsWrap .titleNameWrap {
+		padding: 2rem 0 0;
+	}
+	.contactFaqsWrap {
+		padding: 2rem 2rem 8rem;
+	}
 	.contactPageWrap .leftDataWrap,
-	.contactPageWrap .formWrap{padding:3rem 2rem;}
-	.blogListBanner{padding:4rem 2rem;}
+	.contactPageWrap .formWrap {
+		padding: 3rem 2rem;
+	}
+	.blogListBanner {
+		padding: 4rem 2rem;
+	}
 	.latestBlogWrap.blogListSortWrap ul li,
-	.blogListSortWrap ul li{width:100%;padding:0;}
-	.blogListSortWrap{padding:4rem 2rem;}
-	.blogListSubscripWrap{padding:4rem 2rem;}
-	.blogListBanner{background-position:60%;}
-	.blogBanner{padding:3rem 1rem 3rem 1rem;}
-	.blogBanner .blogBannerData .topData h2{font-size:4rem;line-height:5rem;}
-	.blogInfoTxtWrap{padding:4rem 2rem;}
-	.blogInfoTxtWrap h2{font-size:3.2rem;line-height:4.2rem;}
-	.blogWhatisitWrap{padding:4rem 2rem;}
-	.blogWhatisitWrap .dataWrap h4{font-size:3.2rem;}
-	.blogWhatisitWrap .dataWrap p{font-size:3rem;}
-	.blogCausedWrap{padding:4rem 2rem;}
-	.blogCausedWrap .titleWrap h2{font-size:3.2rem;}
-	.blogCausedWrap .dataWrap h3{font-size:3rem;}
-	.blogRecommendWrap{padding:4rem 2.2rem 6rem;}
-	.blogRecommendWrap ul li{width:100%;padding:0;margin:0 0 2.2rem;}
-	.blogInfoWrap ul{padding:2.2rem 0;}
-	.blogInfoWrap ul li{width:100%;padding:1rem 3rem 1rem 4rem;}
-	.blogInfoWrap ul li .dataWrap{min-height:1px;}
-	.blogInfoWrap ul li:after{width:4px;height:4px;border-radius:100%;left:2.2rem;top:1.8rem;}
-	.blogInfoWrap ul li:last-child:after{content:"";}
-	.blogAcidityWrap ul li{width:50%;margin:0 0 2rem;}
-	.blogAcidityWrap ul li:last-child:before{content:none;}
-	.blogCausedWrap .dataWrap{padding:0;}
-	.teamWrap.teamManageWrap{padding:4rem 2rem 4rem;}
-	.teamWrap{padding:0 2rem 4rem;}
-	.aboutUsBannerWrap{background-position:66%;}
-	.reeworkFrameWork .imgWrap img{width:70%;height:442px;}
-	.teamWrap .titleWrap h2{font-size:3.2rem;}
-	.aboutBtmWrap{padding:2rem 0 2rem 2rem;}
-	.aboutShamrockWrap .dataWrap{padding:0;}
-	.aboutShamrockWrap .dataContentAfter{padding:0 0 3.4rem;}
-	.aboutShamrockWrap{padding:4rem 2rem 6rem;}
-	.aboutShamrockWrap .titleWrap h2{font-size:3.6rem;}
-	.aboutBtmWrap .dataWrap h2{font-size:3.6rem;}
-	.aboutReeWorkWrap .titleWrap h2{font-size:4rem;}
-	.aboutUsBannerWrap .dataWrap h2{font-size:4.6rem;}
-	.aboutReeWorkWrap .dataWrap{padding:0;}
-	.aboutReeWorkWrap .dataWrap.dataContentAfter{padding:0 0 6rem;}
-	.communityBanner{padding:6rem 2rem;background-position:66%;}
-	.comtyReWorkWitnesWrap{padding:4rem 2rem 0;}
-	.comtyReWorkWitnesWrap .itemWrap{margin:0 auto 4.6rem;}
-	.comtyReWorkWitnesWrap .itemWrap .dataWrap h3{font-size:2.4rem;}
-	.communityEventsWebWrap{padding:6rem 2rem 0;}
-	.brandAffiliationWrap{padding:5rem 2rem;}
-	.bottomSectionWrap .dataWrap{max-width:80%;}
-	.bottomSectionWrap .dataWrap h2{font-size:3.8rem;}
-	.communityBanner .dataWrap h2{font-size:4rem;}
-	.communityBtmWrap{background-position:40%;padding:6rem 2rem;}
-	.communityEventsWebWrap .itemWrap{margin:0 0 3.6rem;}
-	.communityEventsWebWrap{margin:0 auto 2rem;}
-	.ourAppBannerWrap{padding:2rem 3rem 4rem;}
-	.ourAppBannerWrap .imgWrap{display:none;}
-	.ourAppBannerWrap .dataWrap{width:94%;}
-	.ourAppBannerWrap{display:flex;align-items:flex-end;}
-	.healthGoalsStepsWrap{padding:5rem 3rem 8rem;}
-	.healthGoalsStepsWrap ul li.evenWrap .itemWrap .row{flex-flow:column-reverse;}
-	.healthGoalsStepsWrap ul li:after{content:none;}
-	.healthGoalsStepsWrap ul li .itemWrap .imgWrap{padding:0;margin:-3rem 0 3rem;max-width:70%;}
-	.healthGoalsStepsWrap ul li .itemWrap .dataWrap{display:flex;flex-flow:row wrap;align-items:center;justify-content:flex-start;}
-	.healthGoalsStepsWrap ul li .itemWrap .dataWrap h3{width:calc(100% - 60px);padding:0 0 0 2rem;}
-	.healthPriorityWrap{padding:4rem 0 0 3rem;}
-	.healthPriorityWrap .row{flex-flow:column-reverse;}
-	.healthPriorityWrap .imgWrap{display:flex;flex-flow:column;text-align:right;align-items:flex-end;}
-	.healthPriorityWrap .imgWrap img{width:50%;text-align:right;margin:-8rem -5rem 0 0;}
-	.ourAppPriceTblWrap{padding:6rem 2.2rem;}
-	.ourAppGetStartedWrap{padding:6rem 2rem;}
-	.ourAppGetStartedWrap .dataWrap h2{font-size:4rem;}
-	.GetAReecoachBannerWrap{padding:6rem 3rem;}
-	.GetAReecoachBannerWrap .dataWrap h2{font-size:4.2rem;}
-	.whoReeCoachWrap{padding:4rem 2.2rem;}
-	.whatReeCoachDoWrap{padding:4rem 2.2rem;}
-	.whyReeCoachWrap{padding:0 2rem 5rem;}
-	.findReeCoachWrap .dataWrap h2{font-size:4rem;line-height:5rem;}
-	.bookYourConsoultWrap .dataWrap h2{font-size:4.2rem;}
-	.whatReeCoachDoWrap ul li .itemWrap .dataWrap h2{min-height:92px;}
-	.findReeCoachWrap{padding:4rem 1rem 0 3rem;}
-	.howGetReeCoachWrap{padding:4rem 2.6rem 0;}
-	.knowReecoachWrap{padding:6rem 2.2rem 4rem;}
-	.bookYourConsoultWrap{padding:6rem 3rem;}
-	.tetimonialsWrap .titleWrap h2{font-size:4.2rem;}
-	.homeBannerWrap .dataWrap h2{font-size:4.2rem;}
-	.lifestyleChangeWrap{padding:5rem 2rem;}
-	.reeWorkerSliderWrap{padding:4rem 2rem;}
-	.PremierDietitiansWrap{padding:4rem 2rem;}
-	.reeCoachReeWorkWrap{padding:0rem 2rem 6rem 2rem;}
-	.reeCoachReeWorkWrap .dataWrap .topData h3{font-size:2.6rem;}
-	.reeCoachReeWorkWrap .dataWrap .topData h2{font-size:4.2rem;}
-	.giftTimeWrap .itemWrap .imgWrap img{width:100%;}
-	.giftTimeWrap .titleWrap{margin:0 auto 2rem;}
-	.whyReeWorkWrap{padding:4rem 2rem;}
-	.whyReeWorkWrap .leftDataWrap h2{font-size:3.6rem;margin:0 0 0.4rem;}
-	.firstStepsWrap .dataWrap{max-width:64%;}
-	.firstStepsWrap .imgWrap{margin:-27rem 0 0;max-width:100%;display:flex;flex-flow:row wrap;justify-content:flex-end;}
-	.firstStepsWrap .imgWrap img{max-width:40%;}
-	.firstStepsWrap .dataWrap h2{font-size:4rem;line-height:4.6rem;}
-	.knowledgeBankWrap .dataWrap{max-width:80%;}
-	.knowledgeBankWrap .dataWrap h2{font-size:4rem;line-height:5rem;}
-	.knowledgeBankWrap{padding:6rem 2rem;}
-	.bottomSectionWrap{padding:6rem 2rem;}
-	.bottomSectionWrap .dataWrap h2{font-size:3.6rem;}
+	.blogListSortWrap ul li {
+		width: 100%;
+		padding: 0;
+	}
+	.blogListSortWrap {
+		padding: 4rem 2rem;
+	}
+	.blogListSubscripWrap {
+		padding: 4rem 2rem;
+	}
+	.blogListBanner {
+		background-position: 60%;
+	}
+	.blogBanner {
+		padding: 3rem 1rem 3rem 1rem;
+	}
+	.blogBanner .blogBannerData .topData h2 {
+		font-size: 4rem;
+		line-height: 5rem;
+	}
+	.blogInfoTxtWrap {
+		padding: 4rem 2rem;
+	}
+	.blogInfoTxtWrap h2 {
+		font-size: 3.2rem;
+		line-height: 4.2rem;
+	}
+	.blogWhatisitWrap {
+		padding: 4rem 2rem;
+	}
+	.blogWhatisitWrap .dataWrap h4 {
+		font-size: 3.2rem;
+	}
+	.blogWhatisitWrap .dataWrap p {
+		font-size: 3rem;
+	}
+	.blogCausedWrap {
+		padding: 4rem 2rem;
+	}
+	.blogCausedWrap .titleWrap h2 {
+		font-size: 3.2rem;
+	}
+	.blogCausedWrap .dataWrap h3 {
+		font-size: 3rem;
+	}
+	.blogRecommendWrap {
+		padding: 4rem 2.2rem 6rem;
+	}
+	.blogRecommendWrap ul li {
+		width: 100%;
+		padding: 0;
+		margin: 0 0 2.2rem;
+	}
+	.blogInfoWrap ul {
+		padding: 2.2rem 0;
+	}
+	.blogInfoWrap ul li {
+		width: 100%;
+		padding: 1rem 3rem 1rem 4rem;
+	}
+	.blogInfoWrap ul li .dataWrap {
+		min-height: 1px;
+	}
+	.blogInfoWrap ul li:after {
+		width: 4px;
+		height: 4px;
+		border-radius: 100%;
+		left: 2.2rem;
+		top: 1.8rem;
+	}
+	.blogInfoWrap ul li:last-child:after {
+		content: "";
+	}
+	.blogAcidityWrap ul li {
+		width: 50%;
+		margin: 0 0 2rem;
+	}
+	.blogAcidityWrap ul li:last-child:before {
+		content: none;
+	}
+	.blogCausedWrap .dataWrap {
+		padding: 0;
+	}
+	.teamWrap.teamManageWrap {
+		padding: 4rem 2rem 4rem;
+	}
+	.teamWrap {
+		padding: 0 2rem 4rem;
+	}
+	.aboutUsBannerWrap {
+		background-position: 66%;
+	}
+	.reeworkFrameWork .imgWrap img {
+		width: 70%;
+		height: 442px;
+	}
+	.teamWrap .titleWrap h2 {
+		font-size: 3.2rem;
+	}
+	.aboutBtmWrap {
+		padding: 2rem 0 2rem 2rem;
+	}
+	.aboutShamrockWrap .dataWrap {
+		padding: 0;
+	}
+	.aboutShamrockWrap .dataContentAfter {
+		padding: 0 0 3.4rem;
+	}
+	.aboutShamrockWrap {
+		padding: 4rem 2rem 6rem;
+	}
+	.aboutShamrockWrap .titleWrap h2 {
+		font-size: 3.6rem;
+	}
+	.aboutBtmWrap .dataWrap h2 {
+		font-size: 3.6rem;
+	}
+	.aboutReeWorkWrap .titleWrap h2 {
+		font-size: 4rem;
+	}
+	.aboutUsBannerWrap .dataWrap h2 {
+		font-size: 4.6rem;
+	}
+	.aboutReeWorkWrap .dataWrap {
+		padding: 0;
+	}
+	.aboutReeWorkWrap .dataWrap.dataContentAfter {
+		padding: 0 0 6rem;
+	}
+	.communityBanner {
+		padding: 6rem 2rem;
+		background-position: 66%;
+	}
+	.comtyReWorkWitnesWrap {
+		padding: 4rem 2rem 0;
+	}
+	.comtyReWorkWitnesWrap .itemWrap {
+		margin: 0 auto 4.6rem;
+	}
+	.comtyReWorkWitnesWrap .itemWrap .dataWrap h3 {
+		font-size: 2.4rem;
+	}
+	.communityEventsWebWrap {
+		padding: 6rem 2rem 0;
+	}
+	.brandAffiliationWrap {
+		padding: 5rem 2rem;
+	}
+	.bottomSectionWrap .dataWrap {
+		max-width: 80%;
+	}
+	.bottomSectionWrap .dataWrap h2 {
+		font-size: 3.8rem;
+	}
+	.communityBanner .dataWrap h2 {
+		font-size: 4rem;
+	}
+	.communityBtmWrap {
+		background-position: 40%;
+		padding: 6rem 2rem;
+	}
+	.communityEventsWebWrap .itemWrap {
+		margin: 0 0 3.6rem;
+	}
+	.communityEventsWebWrap {
+		margin: 0 auto 2rem;
+	}
+	.ourAppBannerWrap {
+		padding: 2rem 3rem 4rem;
+	}
+	.ourAppBannerWrap .imgWrap {
+		display: none;
+	}
+	.ourAppBannerWrap .dataWrap {
+		width: 94%;
+	}
+	.ourAppBannerWrap {
+		display: flex;
+		align-items: flex-end;
+	}
+	.healthGoalsStepsWrap {
+		padding: 5rem 3rem 8rem;
+	}
+	.healthGoalsStepsWrap ul li.evenWrap .itemWrap .row {
+		flex-flow: column-reverse;
+	}
+	.healthGoalsStepsWrap ul li:after {
+		content: none;
+	}
+	.healthGoalsStepsWrap ul li .itemWrap .imgWrap {
+		padding: 0;
+		margin: -3rem 0 3rem;
+		max-width: 70%;
+	}
+	.healthGoalsStepsWrap ul li .itemWrap .dataWrap {
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: flex-start;
+	}
+	.healthGoalsStepsWrap ul li .itemWrap .dataWrap h3 {
+		width: calc(100% - 60px);
+		padding: 0 0 0 2rem;
+	}
+	.healthPriorityWrap {
+		padding: 4rem 0 0 3rem;
+	}
+	.healthPriorityWrap .row {
+		flex-flow: column-reverse;
+	}
+	.healthPriorityWrap .imgWrap {
+		display: flex;
+		flex-flow: column;
+		text-align: right;
+		align-items: flex-end;
+	}
+	.healthPriorityWrap .imgWrap img {
+		width: 50%;
+		text-align: right;
+		margin: -8rem -5rem 0 0;
+	}
+	.ourAppPriceTblWrap {
+		padding: 6rem 2.2rem;
+	}
+	.ourAppGetStartedWrap {
+		padding: 6rem 2rem;
+	}
+	.ourAppGetStartedWrap .dataWrap h2 {
+		font-size: 4rem;
+	}
+	.GetAReecoachBannerWrap {
+		padding: 6rem 3rem;
+	}
+	.GetAReecoachBannerWrap .dataWrap h2 {
+		font-size: 4.2rem;
+	}
+	.whoReeCoachWrap {
+		padding: 4rem 2.2rem;
+	}
+	.whatReeCoachDoWrap {
+		padding: 4rem 2.2rem;
+	}
+	.whyReeCoachWrap {
+		padding: 0 2rem 5rem;
+	}
+	.findReeCoachWrap .dataWrap h2 {
+		font-size: 4rem;
+		line-height: 5rem;
+	}
+	.bookYourConsoultWrap .dataWrap h2 {
+		font-size: 4.2rem;
+	}
+	.whatReeCoachDoWrap ul li .itemWrap .dataWrap h2 {
+		min-height: 92px;
+	}
+	.findReeCoachWrap {
+		padding: 4rem 1rem 0 3rem;
+	}
+	.howGetReeCoachWrap {
+		padding: 4rem 2.6rem 0;
+	}
+	.knowReecoachWrap {
+		padding: 6rem 2.2rem 4rem;
+	}
+	.bookYourConsoultWrap {
+		padding: 6rem 3rem;
+	}
+	.tetimonialsWrap .titleWrap h2 {
+		font-size: 4.2rem;
+	}
+	.homeBannerWrap .dataWrap h2 {
+		font-size: 4.2rem;
+	}
+	.lifestyleChangeWrap {
+		padding: 5rem 2rem;
+	}
+	.reeWorkerSliderWrap {
+		padding: 4rem 2rem;
+	}
+	.PremierDietitiansWrap {
+		padding: 4rem 2rem;
+	}
+	.reeCoachReeWorkWrap {
+		padding: 0rem 2rem 6rem 2rem;
+	}
+	.reeCoachReeWorkWrap .dataWrap .topData h3 {
+		font-size: 2.6rem;
+	}
+	.reeCoachReeWorkWrap .dataWrap .topData h2 {
+		font-size: 4.2rem;
+	}
+	.giftTimeWrap .itemWrap .imgWrap img {
+		width: 100%;
+	}
+	.giftTimeWrap .titleWrap {
+		margin: 0 auto 2rem;
+	}
+	.whyReeWorkWrap {
+		padding: 4rem 2rem;
+	}
+	.whyReeWorkWrap .leftDataWrap h2 {
+		font-size: 3.6rem;
+		margin: 0 0 0.4rem;
+	}
+	.firstStepsWrap .dataWrap {
+		max-width: 64%;
+	}
+	.firstStepsWrap .imgWrap {
+		margin: -27rem 0 0;
+		max-width: 100%;
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: flex-end;
+	}
+	.firstStepsWrap .imgWrap img {
+		max-width: 40%;
+	}
+	.firstStepsWrap .dataWrap h2 {
+		font-size: 4rem;
+		line-height: 4.6rem;
+	}
+	.knowledgeBankWrap .dataWrap {
+		max-width: 80%;
+	}
+	.knowledgeBankWrap .dataWrap h2 {
+		font-size: 4rem;
+		line-height: 5rem;
+	}
+	.knowledgeBankWrap {
+		padding: 6rem 2rem;
+	}
+	.bottomSectionWrap {
+		padding: 6rem 2rem;
+	}
+	.bottomSectionWrap .dataWrap h2 {
+		font-size: 3.6rem;
+	}
 	.homeBannerWrap,
-	.homeBannerWrap .bannerWrap{background-position:66%;}
-	.knowledgeBankWrap .dataWrap h2:after{width:100%;left:0;}
-}  
-@media(max-width:531px){
-    .testimonialsTabsWrap ul.nav li{margin:0 1rem 0 0;}
-	.testimonialsTabsWrap ul.nav li:last-child{margin:0;}
-	.testimonialsTabsWrap ul.nav li .nav-link{padding:1rem 1.8rem;}
-	.testimonialsTabsWrap .titleWrap h2{font-size:3rem;}
-	.testimonialVideoWrap{background-position:66%;}
-	.teamWrap .itemWrap .imgWrap{width:140px;height:140px;}
-	.teamWrap .itemWrap .dataWrap{min-height:110px;}
-	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .leftWrap{width:100%;margin:0 0 1.4rem;}
-	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightWrap{width:100%;}
-	.ourAppPriceTblWrap .priceTblWrap ul.mainList li:nth-child(1){margin:0;}
-	.ourAppPriceTblWrap .priceTblWrap ul.mainList li{margin:0 0 3.2rem;}
-	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightBtmWrap{margin:0;}
-	.whatReeCoachDoWrap ul li:after{right:-112px;}
-	.whyReeWorkWrap ul li:nth-child(2) .itemWrap, 
-	.whyReeWorkWrap ul.sendList li:nth-child(1) .itemWrap{margin:0 -4rem 0 0;}
-	.whyReeWorkWrap ul li:nth-child(1):after, 
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{right:112px;width:161px;height:130px;bottom:-24px;}
-	.whyReeWorkWrap ul li:nth-child(2):after{width:161px;height:130px;left:80px;}
+	.homeBannerWrap .bannerWrap {
+		background-position: 66%;
+	}
+	.knowledgeBankWrap .dataWrap h2:after {
+		width: 100%;
+		left: 0;
+	}
 }
-@media(max-width:499px){
-    .blogListBanner .dataWrap h2{font-size:3.2rem;line-height:4.2rem;}
-	.communityBanner .dataWrap{max-width:80%;}
-	.ourAppBannerWrap{background-position:66%;}
-	.healthGoalsStepsWrap ul li .itemWrap .dataWrap h3{font-size:3rem;line-height:3.2rem;}
-	.whatReeCoachDoWrap ul li{width:100%;padding:0 0 3rem;position:relative;}
-	.whatReeCoachDoWrap ul li:before{content:"";width:1px;height:100%;background-color:#05D3BE;position:absolute;bottom:-5rem;left:5.3rem;}
-	.whatReeCoachDoWrap ul li:after{content:none;}
-	.whatReeCoachDoWrap ul li .itemWrap{text-align:left;display:flex;flex-flow:row wrap;align-items:center;justify-content:space-between;}
-	.whatReeCoachDoWrap ul li .itemWrap .imgWrap{margin:0;width:90px;height:90px;}
-	.whatReeCoachDoWrap ul li .itemWrap .dataWrap{width:calc(100% - 110px);max-width:100%;text-align:left;margin:0;}
-	.whatReeCoachDoWrap ul li .itemWrap .dataWrap h2{min-height:1px;text-align:left;font-size:2.2rem;}
-	.whatReeCoachDoWrap ul li .itemWrap .imgWrap svg{width:50px;height:50px;}
-	.homeBannerWrap .dataWrap h2{font-size:3.8rem;}
+@media (max-width: 531px) {
+	.testimonialsTabsWrap ul.nav li {
+		margin: 0 1rem 0 0;
+	}
+	.testimonialsTabsWrap ul.nav li:last-child {
+		margin: 0;
+	}
+	.testimonialsTabsWrap ul.nav li .nav-link {
+		padding: 1rem 1.8rem;
+	}
+	.testimonialsTabsWrap .titleWrap h2 {
+		font-size: 3rem;
+	}
+	.testimonialVideoWrap {
+		background-position: 66%;
+	}
+	.teamWrap .itemWrap .imgWrap {
+		width: 140px;
+		height: 140px;
+	}
+	.teamWrap .itemWrap .dataWrap {
+		min-height: 110px;
+	}
+	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .leftWrap {
+		width: 100%;
+		margin: 0 0 1.4rem;
+	}
+	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightWrap {
+		width: 100%;
+	}
+	.ourAppPriceTblWrap .priceTblWrap ul.mainList li:nth-child(1) {
+		margin: 0;
+	}
+	.ourAppPriceTblWrap .priceTblWrap ul.mainList li {
+		margin: 0 0 3.2rem;
+	}
+	.ourAppPriceTblWrap .priceTblWrap ul.mainList li .rightBtmWrap {
+		margin: 0;
+	}
+	.whatReeCoachDoWrap ul li:after {
+		right: -112px;
+	}
+	.whyReeWorkWrap ul li:nth-child(2) .itemWrap,
+	.whyReeWorkWrap ul.sendList li:nth-child(1) .itemWrap {
+		margin: 0 -4rem 0 0;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after,
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		right: 112px;
+		width: 161px;
+		height: 130px;
+		bottom: -24px;
+	}
+	.whyReeWorkWrap ul li:nth-child(2):after {
+		width: 161px;
+		height: 130px;
+		left: 80px;
+	}
+}
+@media (max-width: 499px) {
+	.blogListBanner .dataWrap h2 {
+		font-size: 3.2rem;
+		line-height: 4.2rem;
+	}
+	.communityBanner .dataWrap {
+		max-width: 80%;
+	}
+	.ourAppBannerWrap {
+		background-position: 66%;
+	}
+	.healthGoalsStepsWrap ul li .itemWrap .dataWrap h3 {
+		font-size: 3rem;
+		line-height: 3.2rem;
+	}
+	.whatReeCoachDoWrap ul li {
+		width: 100%;
+		padding: 0 0 3rem;
+		position: relative;
+	}
+	.whatReeCoachDoWrap ul li:before {
+		content: "";
+		width: 1px;
+		height: 100%;
+		background-color: #05d3be;
+		position: absolute;
+		bottom: -5rem;
+		left: 5.3rem;
+	}
+	.whatReeCoachDoWrap ul li:after {
+		content: none;
+	}
+	.whatReeCoachDoWrap ul li .itemWrap {
+		text-align: left;
+		display: flex;
+		flex-flow: row wrap;
+		align-items: center;
+		justify-content: space-between;
+	}
+	.whatReeCoachDoWrap ul li .itemWrap .imgWrap {
+		margin: 0;
+		width: 90px;
+		height: 90px;
+	}
+	.whatReeCoachDoWrap ul li .itemWrap .dataWrap {
+		width: calc(100% - 110px);
+		max-width: 100%;
+		text-align: left;
+		margin: 0;
+	}
+	.whatReeCoachDoWrap ul li .itemWrap .dataWrap h2 {
+		min-height: 1px;
+		text-align: left;
+		font-size: 2.2rem;
+	}
+	.whatReeCoachDoWrap ul li .itemWrap .imgWrap svg {
+		width: 50px;
+		height: 50px;
+	}
+	.homeBannerWrap .dataWrap h2 {
+		font-size: 3.8rem;
+	}
 	.lifestyleChangeWrap .titleWrap h2,
 	.reeWorkerSliderWrap .titleWrap h2,
 	.PremierDietitiansWrap .titleWrap h2,
-	.whyReeWorkWrap .leftDataWrap h2{font-size:3.2rem;}
-	.reeCoachReeWorkWrap .imgWrap{max-width:76%;}
-	.reeCoachReeWorkWrap .dataWrap .topData h3{font-size:2.4rem;}
-	.reeCoachReeWorkWrap .dataWrap .topData h2{font-size:3.8rem;}
-	.giftTimeWrap .titleWrap h2{font-size:3rem;}
-	.firstStepsWrap .dataWrap h2{font-size:3.8rem;line-height:4rem;}
-	.firstStepsWrap .dataWrap p{font-size:2.2rem;line-height:3.2rem;}
-	.knowledgeBankWrap .dataWrap h2 {font-size:3.8rem;line-height:4.8rem;}
-	.tetimonialsWrap .titleWrap h2{font-size:4rem;}
-	.bottomSectionWrap .dataWrap h2{font-size:3.4rem;line-height:4.4rem;}
-	.giftTimeWrap .itemWrap .imgWrap{margin:7rem auto 0rem;}
-	.giftTimeWrap .rightPannelWrap .topArrow{top:-36px;}
-} 
-@media(max-width:480px){
-
+	.whyReeWorkWrap .leftDataWrap h2 {
+		font-size: 3.2rem;
+	}
+	.reeCoachReeWorkWrap .imgWrap {
+		max-width: 76%;
+	}
+	.reeCoachReeWorkWrap .dataWrap .topData h3 {
+		font-size: 2.4rem;
+	}
+	.reeCoachReeWorkWrap .dataWrap .topData h2 {
+		font-size: 3.8rem;
+	}
+	.giftTimeWrap .titleWrap h2 {
+		font-size: 3rem;
+	}
+	.firstStepsWrap .dataWrap h2 {
+		font-size: 3.8rem;
+		line-height: 4rem;
+	}
+	.firstStepsWrap .dataWrap p {
+		font-size: 2.2rem;
+		line-height: 3.2rem;
+	}
+	.knowledgeBankWrap .dataWrap h2 {
+		font-size: 3.8rem;
+		line-height: 4.8rem;
+	}
+	.tetimonialsWrap .titleWrap h2 {
+		font-size: 4rem;
+	}
+	.bottomSectionWrap .dataWrap h2 {
+		font-size: 3.4rem;
+		line-height: 4.4rem;
+	}
+	.giftTimeWrap .itemWrap .imgWrap {
+		margin: 7rem auto 0rem;
+	}
+	.giftTimeWrap .rightPannelWrap .topArrow {
+		top: -36px;
+	}
 }
-@media(max-width:479px){
-	.testimonialsTabsWrap ul.nav li{margin:0 1.2rem 1.2rem 0;}
-	.testimonialsTabsWrap .topReviewsWrap ul li{width:100%;}
-	.testimonialsTabsWrap .topReviewsWrap .itemWrap{padding:0;}
-	.contactPageWrap .formWrap ul.formlist li.half{width:100%;}
-	.aboutUsBannerWrap .dataWrap h2{font-size:4.2rem;}
-	.reeworkFrameWork .imgWrap .imgDataWrap:after{content:none;}
+@media (max-width: 480px) {
+}
+@media (max-width: 479px) {
+	.testimonialsTabsWrap ul.nav li {
+		margin: 0 1.2rem 1.2rem 0;
+	}
+	.testimonialsTabsWrap .topReviewsWrap ul li {
+		width: 100%;
+	}
+	.testimonialsTabsWrap .topReviewsWrap .itemWrap {
+		padding: 0;
+	}
+	.contactPageWrap .formWrap ul.formlist li.half {
+		width: 100%;
+	}
+	.aboutUsBannerWrap .dataWrap h2 {
+		font-size: 4.2rem;
+	}
+	.reeworkFrameWork .imgWrap .imgDataWrap:after {
+		content: none;
+	}
 	.reeworkFrameWork .imgWrap .imgDataWrap,
-	.reeworkFrameWork .evenRowWrap .imgWrap .imgDataWrap{margin:2rem 0 0;}
-	.reeworkFrameWork .imgWrap .imgDataWrap h3{margin:0;padding:0;}
-	.reeworkFrameWork .imgWrap{justify-content:center;}
-	.reeworkFrameWork .imgWrap .imgDataWrap{width:100%;justify-content:flex-start;}
-	.reeworkFrameWork .imgWrap .imgDataWrap .noWrap{margin:0 1.4rem 0 0;}
-	.reeworkFrameWork .dataWrap{padding:1rem 0 0;}
-	.reeworkFrameWork .dataWrap ul{width:100%;padding:0;}
-	.teamWrap .col-6{max-width:100%;width:100%;}
-	.teamWrap .itemWrap .dataWrap{min-height:1px;}
-	.teamWrap .itemWrap{margin:0 0 2.2rem;}
-	.communityBanner .dataWrap h2{font-size:3.6rem;line-height:4.6rem;}
-	.communityEventsWebWrap{padding:4rem 1.2rem 0;}
-	.communityEventsWebWrap .titleWrap h2{font-size:3rem;}
-	.brandAffiliationWrap .titleWrap h2{font-size:3rem;}
-	.comtyReWorkWitnesWrap .titleWrap h2{font-size:3rem;}
-	.brandAffiliationWrap{padding:5rem 1.4rem;}
-	.ourAppGetStartedWrap .dataWrap h2{font-size:3.8rem;}
-	.findReeCoachWrap .dataWrap{max-width:100%;}
-	.GetAReecoachBannerWrap{background-position:60%;}
-	.findReeCoachWrap .dataWrap h2{font-size:3.8rem;line-height:4.8rem;}
-	.howGetReeCoachWrap .dataWrap h2{font-size:3.4rem;}
-	.bookYourConsoultWrap .dataWrap h2{font-size:3.8rem;}
-	.GetAReecoachBannerWrap .dataWrap h2{font-size:3.8rem;}
-	.homeBannerWrap .dataWrap h2{font-size:3.6rem;}
-	.homeBannerWrap .dataWrap h3{font-size:2.4rem;}
-	.lifestyleChangeWrap .titleWrap h2, 
-	.reeWorkerSliderWrap .titleWrap h2, 
-	.PremierDietitiansWrap .titleWrap h2, 
-	.whyReeWorkWrap .leftDataWrap h2{font-size:3rem;}
-	.lifestyleChangeWrap .titleWrap p{font-size:1.8rem;}
-	.reeWorkerSliderWrap .titleWrap h4{font-size:2.2rem;}
-	.reeCoachReeWorkWrap .dataWrap .topData h2{font-size:3.6rem;line-height:4rem;}
-	.reeCoachReeWorkWrap .dataWrap .topData h3{font-size:2.2rem;}
-	.whyReeWorkWrap ul li .itemWrap .dataWrap{max-width:80%;}
-	.whyReeWorkWrap ul li .itemWrap .dataWrap{margin:-4rem 0 0 0;}
-	.whyReeWorkWrap ul.sendList li .itemWrap .dataWrap{margin:-4rem 0 0 0;}
-	.whyReeWorkWrap ul li:nth-child(1):after, 
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{right:78px;}
-	.whyReeWorkWrap ul li:nth-child(2):after{left:58px;}
-	.firstStepsWrap .dataWrap h2{font-size:3.6rem;line-height:3.8rem;}
-	.firstStepsWrap .dataWrap p{font-size:2rem;line-height:2.8rem;}
-	.knowledgeBankWrap .dataWrap h2{font-size:3.6rem;line-height:4.6rem;}
-	.bottomSectionWrap .dataWrap h2{font-size:3.2rem;line-height:4.2rem;}
+	.reeworkFrameWork .evenRowWrap .imgWrap .imgDataWrap {
+		margin: 2rem 0 0;
+	}
+	.reeworkFrameWork .imgWrap .imgDataWrap h3 {
+		margin: 0;
+		padding: 0;
+	}
+	.reeworkFrameWork .imgWrap {
+		justify-content: center;
+	}
+	.reeworkFrameWork .imgWrap .imgDataWrap {
+		width: 100%;
+		justify-content: flex-start;
+	}
+	.reeworkFrameWork .imgWrap .imgDataWrap .noWrap {
+		margin: 0 1.4rem 0 0;
+	}
+	.reeworkFrameWork .dataWrap {
+		padding: 1rem 0 0;
+	}
+	.reeworkFrameWork .dataWrap ul {
+		width: 100%;
+		padding: 0;
+	}
+	.teamWrap .col-6 {
+		max-width: 100%;
+		width: 100%;
+	}
+	.teamWrap .itemWrap .dataWrap {
+		min-height: 1px;
+	}
+	.teamWrap .itemWrap {
+		margin: 0 0 2.2rem;
+	}
+	.communityBanner .dataWrap h2 {
+		font-size: 3.6rem;
+		line-height: 4.6rem;
+	}
+	.communityEventsWebWrap {
+		padding: 4rem 1.2rem 0;
+	}
+	.communityEventsWebWrap .titleWrap h2 {
+		font-size: 3rem;
+	}
+	.brandAffiliationWrap .titleWrap h2 {
+		font-size: 3rem;
+	}
+	.comtyReWorkWitnesWrap .titleWrap h2 {
+		font-size: 3rem;
+	}
+	.brandAffiliationWrap {
+		padding: 5rem 1.4rem;
+	}
+	.ourAppGetStartedWrap .dataWrap h2 {
+		font-size: 3.8rem;
+	}
+	.findReeCoachWrap .dataWrap {
+		max-width: 100%;
+	}
+	.GetAReecoachBannerWrap {
+		background-position: 60%;
+	}
+	.findReeCoachWrap .dataWrap h2 {
+		font-size: 3.8rem;
+		line-height: 4.8rem;
+	}
+	.howGetReeCoachWrap .dataWrap h2 {
+		font-size: 3.4rem;
+	}
+	.bookYourConsoultWrap .dataWrap h2 {
+		font-size: 3.8rem;
+	}
+	.GetAReecoachBannerWrap .dataWrap h2 {
+		font-size: 3.8rem;
+	}
+	.homeBannerWrap .dataWrap h2 {
+		font-size: 3.6rem;
+	}
+	.homeBannerWrap .dataWrap h3 {
+		font-size: 2.4rem;
+	}
+	.lifestyleChangeWrap .titleWrap h2,
+	.reeWorkerSliderWrap .titleWrap h2,
+	.PremierDietitiansWrap .titleWrap h2,
+	.whyReeWorkWrap .leftDataWrap h2 {
+		font-size: 3rem;
+	}
+	.lifestyleChangeWrap .titleWrap p {
+		font-size: 1.8rem;
+	}
+	.reeWorkerSliderWrap .titleWrap h4 {
+		font-size: 2.2rem;
+	}
+	.reeCoachReeWorkWrap .dataWrap .topData h2 {
+		font-size: 3.6rem;
+		line-height: 4rem;
+	}
+	.reeCoachReeWorkWrap .dataWrap .topData h3 {
+		font-size: 2.2rem;
+	}
+	.whyReeWorkWrap ul li .itemWrap .dataWrap {
+		max-width: 80%;
+	}
+	.whyReeWorkWrap ul li .itemWrap .dataWrap {
+		margin: -4rem 0 0 0;
+	}
+	.whyReeWorkWrap ul.sendList li .itemWrap .dataWrap {
+		margin: -4rem 0 0 0;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after,
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		right: 78px;
+	}
+	.whyReeWorkWrap ul li:nth-child(2):after {
+		left: 58px;
+	}
+	.firstStepsWrap .dataWrap h2 {
+		font-size: 3.6rem;
+		line-height: 3.8rem;
+	}
+	.firstStepsWrap .dataWrap p {
+		font-size: 2rem;
+		line-height: 2.8rem;
+	}
+	.knowledgeBankWrap .dataWrap h2 {
+		font-size: 3.6rem;
+		line-height: 4.6rem;
+	}
+	.bottomSectionWrap .dataWrap h2 {
+		font-size: 3.2rem;
+		line-height: 4.2rem;
+	}
 }
-@media(max-width:459px){
-	.reeworkFrameWork .imgWrap img{width:100%;height:auto;}
-	.homeBannerWrap .dataWrap h3{margin:2rem 0 4rem;}
-	.homeBannerWrap .dataWrap h2{font-size:3.4rem;}
-	.lifestyleChangeWrap .titleWrap h2, 
-	.reeWorkerSliderWrap .titleWrap h2, 
-	.PremierDietitiansWrap .titleWrap h2, 
-	.whyReeWorkWrap .leftDataWrap h2{font-size:2.8rem;}
-	.reeWorkerSliderWrap ul.reeWorkerMobSlider li .itemWrap .imgWrap{margin:-2rem auto 0;}
-	.reeCoachReeWorkWrap .dataWrap .topData h2{font-size:3.4rem;line-height:3.8rem;}
-	.reeCoachReeWorkWrap .imgWrap{max-width:96%;}
-	.giftTimeWrap .titleWrap h2{font-size:2.8rem;}
+@media (max-width: 459px) {
+	.reeworkFrameWork .imgWrap img {
+		width: 100%;
+		height: auto;
+	}
+	.homeBannerWrap .dataWrap h3 {
+		margin: 2rem 0 4rem;
+	}
+	.homeBannerWrap .dataWrap h2 {
+		font-size: 3.4rem;
+	}
+	.lifestyleChangeWrap .titleWrap h2,
+	.reeWorkerSliderWrap .titleWrap h2,
+	.PremierDietitiansWrap .titleWrap h2,
+	.whyReeWorkWrap .leftDataWrap h2 {
+		font-size: 2.8rem;
+	}
+	.reeWorkerSliderWrap ul.reeWorkerMobSlider li .itemWrap .imgWrap {
+		margin: -2rem auto 0;
+	}
+	.reeCoachReeWorkWrap .dataWrap .topData h2 {
+		font-size: 3.4rem;
+		line-height: 3.8rem;
+	}
+	.reeCoachReeWorkWrap .imgWrap {
+		max-width: 96%;
+	}
+	.giftTimeWrap .titleWrap h2 {
+		font-size: 2.8rem;
+	}
 }
-@media(max-width:419px){
-	.manyMoreWrap .dataWrap h2{font-size:3.6rem;}
-	ul.testimonialSlider li .itemWrap .topSecWrap .dataWrap{width:100%;}
-	ul.testimonialSlider li .itemWrap .topSecWrap{justify-content:flex-end;}
-	ul.testimonialSlider li .itemWrap .topSecWrap .dataWrap .ratingWrap ul li{margin:0 4px 0 0;padding:0;}
-	.testimonalBtmReviewWrap .dataWrap p{font-size:2.2rem;line-height:3.2rem;}
-	.blogBanner .blogBannerData .topData h2{font-size:3.6rem;line-height:4.6rem;}
-	.blogInfoTxtWrap h2{font-size:3rem;line-height:4rem;}
-	.blogWhatisitWrap .dataWrap h4{font-size:3rem;line-height:4rem;}
-	.blogWhatisitWrap .dataWrap p{font-size:2.8rem;line-height:3.8rem;}
-	.blogAcidityWrap ul li{width:100%;padding:0;margin:0 0 3rem;}
-	.blogAcidityWrap ul li:before{content:none;}
-	.blogInferenceWrap .blogLikeShareWrap ul li{margin:0 2.2rem 0 0;}
-	.blogInferenceWrap .blogLikeShareWrap ul.rightList li{margin:0 0 0 3rem;}
-	.ourAppGetStartedWrap .dataWrap h2{font-size:3.6rem;}
-	.ourAppBannerWrap .dataWrap h2{font-size:3.6rem;padding:0 0 8rem;}
-	.ourAppBannerWrap .dataWrap h2:after{width:130px;height:10px;bottom:4rem;}
-	.ourAppBannerWrap .dataWrap .ctaWrap a{width:110px;}
-	.ourAppBannerWrap .dataWrap .ctaWrap{margin:1rem 0 0;}
-	.healthGoalsStepsWrap .titleWrap h2{font-size:3.2rem;line-height:3.8rem;}
-	.healthGoalsStepsWrap ul li .itemWrap .imgWrap{margin:0 0 3rem;}
-	.healthGoalsStepsWrap ul li .itemWrap .dataWrap h3{font-size:2.6rem;line-height:3rem;}
-	.healthPriorityWrap .imgWrap img{margin:1rem -5rem 0 0;}
+@media (max-width: 419px) {
+	.manyMoreWrap .dataWrap h2 {
+		font-size: 3.6rem;
+	}
+	ul.testimonialSlider li .itemWrap .topSecWrap .dataWrap {
+		width: 100%;
+	}
+	ul.testimonialSlider li .itemWrap .topSecWrap {
+		justify-content: flex-end;
+	}
+	ul.testimonialSlider li .itemWrap .topSecWrap .dataWrap .ratingWrap ul li {
+		margin: 0 4px 0 0;
+		padding: 0;
+	}
+	.testimonalBtmReviewWrap .dataWrap p {
+		font-size: 2.2rem;
+		line-height: 3.2rem;
+	}
+	.blogBanner .blogBannerData .topData h2 {
+		font-size: 3.6rem;
+		line-height: 4.6rem;
+	}
+	.blogInfoTxtWrap h2 {
+		font-size: 3rem;
+		line-height: 4rem;
+	}
+	.blogWhatisitWrap .dataWrap h4 {
+		font-size: 3rem;
+		line-height: 4rem;
+	}
+	.blogWhatisitWrap .dataWrap p {
+		font-size: 2.8rem;
+		line-height: 3.8rem;
+	}
+	.blogAcidityWrap ul li {
+		width: 100%;
+		padding: 0;
+		margin: 0 0 3rem;
+	}
+	.blogAcidityWrap ul li:before {
+		content: none;
+	}
+	.blogInferenceWrap .blogLikeShareWrap ul li {
+		margin: 0 2.2rem 0 0;
+	}
+	.blogInferenceWrap .blogLikeShareWrap ul.rightList li {
+		margin: 0 0 0 3rem;
+	}
+	.ourAppGetStartedWrap .dataWrap h2 {
+		font-size: 3.6rem;
+	}
+	.ourAppBannerWrap .dataWrap h2 {
+		font-size: 3.6rem;
+		padding: 0 0 8rem;
+	}
+	.ourAppBannerWrap .dataWrap h2:after {
+		width: 130px;
+		height: 10px;
+		bottom: 4rem;
+	}
+	.ourAppBannerWrap .dataWrap .ctaWrap a {
+		width: 110px;
+	}
+	.ourAppBannerWrap .dataWrap .ctaWrap {
+		margin: 1rem 0 0;
+	}
+	.healthGoalsStepsWrap .titleWrap h2 {
+		font-size: 3.2rem;
+		line-height: 3.8rem;
+	}
+	.healthGoalsStepsWrap ul li .itemWrap .imgWrap {
+		margin: 0 0 3rem;
+	}
+	.healthGoalsStepsWrap ul li .itemWrap .dataWrap h3 {
+		font-size: 2.6rem;
+		line-height: 3rem;
+	}
+	.healthPriorityWrap .imgWrap img {
+		margin: 1rem -5rem 0 0;
+	}
 	.healthPriorityWrap .dataWrap h2,
-	.tetimonialsWrap .titleWrap h2{font-size:4.6rem;}
-	.tetimonialsWrap .titleWrap{padding:0 2rem;}
-	.whyReeCoachWrap .row .col-6{width:100%;max-width:100%;}
+	.tetimonialsWrap .titleWrap h2 {
+		font-size: 4.6rem;
+	}
+	.tetimonialsWrap .titleWrap {
+		padding: 0 2rem;
+	}
+	.whyReeCoachWrap .row .col-6 {
+		width: 100%;
+		max-width: 100%;
+	}
 	.findReeCoachWrap .dataWrap h2,
-	.howGetReeCoachWrap .dataWrap h2{font-size:3.2rem;line-height:4.2rem;}
-	.bookYourConsoultWrap .dataWrap h2{font-size:3.2rem;line-height:4.2rem;max-width:100%;}
-	.whyReeWorkWrap ul li .itemWrap{width:62%;}
-	.whyReeWorkWrap ul li .itemWrap .dataWrap .noWrap{width:50px;height:50px;}
-	.whyReeWorkWrap ul li:nth-child(1):after, 
-	.whyReeWorkWrap ul.sendList li:nth-child(2):after{right:76px;width:120px;bottom:-30px;}
-	.whyReeWorkWrap ul li:nth-child(2):after{width:120px;}
-	.firstStepsWrap .dataWrap{max-width:100%;}
-	.firstStepsWrap .imgWrap{margin:-10rem 0 0;}
-	.firstStepsWrap .dataWrap .ctaWrap{flex-flow:column;justify-content:flex-start;align-items:flex-start;}
-	.firstStepsWrap .dataWrap .ctaWrap a{margin:0 0 1rem 0;}
-	.giftTimeWrap{padding:0rem 2rem 10rem 2rem;}
-	.giftTimeWrap .rightPannelWrap{margin:4rem auto 0;}
-	.giftTimeWrap .rightPannelWrap .topArrow{top:-56px;top:-56px;left:-30%;}
-	.giftTimeWrap .rightPannelWrap .bottomArrow{bottom:-70px;}
+	.howGetReeCoachWrap .dataWrap h2 {
+		font-size: 3.2rem;
+		line-height: 4.2rem;
+	}
+	.bookYourConsoultWrap .dataWrap h2 {
+		font-size: 3.2rem;
+		line-height: 4.2rem;
+		max-width: 100%;
+	}
+	.whyReeWorkWrap ul li .itemWrap {
+		width: 62%;
+	}
+	.whyReeWorkWrap ul li .itemWrap .dataWrap .noWrap {
+		width: 50px;
+		height: 50px;
+	}
+	.whyReeWorkWrap ul li:nth-child(1):after,
+	.whyReeWorkWrap ul.sendList li:nth-child(2):after {
+		right: 76px;
+		width: 120px;
+		bottom: -30px;
+	}
+	.whyReeWorkWrap ul li:nth-child(2):after {
+		width: 120px;
+	}
+	.firstStepsWrap .dataWrap {
+		max-width: 100%;
+	}
+	.firstStepsWrap .imgWrap {
+		margin: -10rem 0 0;
+	}
+	.firstStepsWrap .dataWrap .ctaWrap {
+		flex-flow: column;
+		justify-content: flex-start;
+		align-items: flex-start;
+	}
+	.firstStepsWrap .dataWrap .ctaWrap a {
+		margin: 0 0 1rem 0;
+	}
+	.giftTimeWrap {
+		padding: 0rem 2rem 10rem 2rem;
+	}
+	.giftTimeWrap .rightPannelWrap {
+		margin: 4rem auto 0;
+	}
+	.giftTimeWrap .rightPannelWrap .topArrow {
+		top: -56px;
+		top: -56px;
+		left: -30%;
+	}
+	.giftTimeWrap .rightPannelWrap .bottomArrow {
+		bottom: -70px;
+	}
 }
-@media(max-width:400px){
-
+@media (max-width: 400px) {
 }
-@media(max-width:379px){
-	header .navbar a.navbar-brand img{width:100px;}
-	header .navbar .rightNav ul li a{padding:1rem 1.2rem;}
-	.rightNav{padding:0 38px 0 0;}
-	.copyrightWrap ul li{margin:0 0 0 3rem;}
+@media (max-width: 379px) {
+	header .navbar a.navbar-brand img {
+		width: 100px;
+	}
+	header .navbar .rightNav ul li a {
+		padding: 1rem 1.2rem;
+	}
+	.rightNav {
+		padding: 0 38px 0 0;
+	}
+	.copyrightWrap ul li {
+		margin: 0 0 0 3rem;
+	}
 	.footerNavlistMobOnly li:nth-child(4),
-	.footerNavlistMobOnly li:nth-child(5){width:50%;}
-	.communityBanner .dataWrap h2{font-size:3.2rem;line-height:4.2rem;}
-	.communityBanner .dataWrap{max-width:90%;}
-	.bottomSectionWrap .dataWrap h2{font-size:3.2rem;}
-	.communityBtmWrap.bottomSectionWrap .dataWrap p{font-size:2.6rem;}
-	.communityBtmWrap.bottomSectionWrap .dataWrap a img{width:160px;}
-	.ourAppGetStartedWrap .dataWrap h2{font-size:3.2rem;max-width:96%;}
-	.ourAppGetStartedWrap .dataWrap .ctaBtms .ctas a img{width:120px;}
-	.healthPriorityWrap .dataWrap h2, 
-	.tetimonialsWrap .titleWrap h2{font-size:4rem;}
-	.ourAppPriceTblWrap .titleWrap h2{font-size:3.2rem;}
-	.lifestyleChangeWrap{padding:5rem 0rem;}
+	.footerNavlistMobOnly li:nth-child(5) {
+		width: 50%;
+	}
+	.communityBanner .dataWrap h2 {
+		font-size: 3.2rem;
+		line-height: 4.2rem;
+	}
+	.communityBanner .dataWrap {
+		max-width: 90%;
+	}
+	.bottomSectionWrap .dataWrap h2 {
+		font-size: 3.2rem;
+	}
+	.communityBtmWrap.bottomSectionWrap .dataWrap p {
+		font-size: 2.6rem;
+	}
+	.communityBtmWrap.bottomSectionWrap .dataWrap a img {
+		width: 160px;
+	}
+	.ourAppGetStartedWrap .dataWrap h2 {
+		font-size: 3.2rem;
+		max-width: 96%;
+	}
+	.ourAppGetStartedWrap .dataWrap .ctaBtms .ctas a img {
+		width: 120px;
+	}
+	.healthPriorityWrap .dataWrap h2,
+	.tetimonialsWrap .titleWrap h2 {
+		font-size: 4rem;
+	}
+	.ourAppPriceTblWrap .titleWrap h2 {
+		font-size: 3.2rem;
+	}
+	.lifestyleChangeWrap {
+		padding: 5rem 0rem;
+	}
 }
-@media(max-width:370px){
-	.navbar-collapse{max-width:270px;}
-	.bottomSectionWrap .dataWrap{max-width:100%;}
+@media (max-width: 370px) {
+	.navbar-collapse {
+		max-width: 270px;
+	}
+	.bottomSectionWrap .dataWrap {
+		max-width: 100%;
+	}
 }
-@media(max-width:359px){
-    .blogInferenceWrap .blogLikeShareWrap ul li{margin:0 2rem 0 0;}
-	.ourAppBannerWrap .dataWrap{width:100%;}
+@media (max-width: 359px) {
+	.blogInferenceWrap .blogLikeShareWrap ul li {
+		margin: 0 2rem 0 0;
+	}
+	.ourAppBannerWrap .dataWrap {
+		width: 100%;
+	}
 }
-@media(max-width:340px){
-
+@media (max-width: 340px) {
 }
