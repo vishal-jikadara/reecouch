@@ -4305,6 +4305,21 @@ ul.testimonialSlider li .itemWrap .botmSecWrap a {
 .contactFaqsWrap .accordion-button:not(.collapsed)::after {
     filter: invert(0%) sepia(0%) saturate(0%) brightness(0%) contrast(100%);
 }
+/* testmonials  css start*/
+.ourclients .titleWrap {
+    text-align: center;
+    margin: 0 auto 3rem;
+}
+.ourclients .titleWrap h2 {
+    color: #000000;
+    font-size: 4.6rem;
+    letter-spacing: 0.14rem;
+    font-weight: 700;
+}
+/* testmonials  css end*/
+
+
+
 
 .footerWrap {
     background-color: #f0faf7;
