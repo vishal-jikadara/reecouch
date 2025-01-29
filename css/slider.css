@@ -20,6 +20,7 @@
 }
 
 .card {
+  Transition:all easy 0.5s;
  justify-items: center;
   background: #f5f5f5;
   padding: 20px;
